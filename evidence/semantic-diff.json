@@ -1,0 +1,132 @@
+{
+  "changes": [
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:5306c6fd-77ce-544a-b766-0b8a144e35eb",
+      "path": "KERO.kicad_pcb",
+      "kind": "footprint",
+      "label": "R1",
+      "status": "modified",
+      "before": {
+        "uuid": "5306c6fd-77ce-544a-b766-0b8a144e35eb",
+        "position": {
+          "x": 91.44,
+          "y": 73.66
+        },
+        "properties": {
+          "Reference": "R1",
+          "Value": "1M",
+          "Datasheet": "",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "layer": "F.Cu",
+          "Source fingerprint": "c36a61e5"
+        }
+      },
+      "after": {
+        "uuid": "5306c6fd-77ce-544a-b766-0b8a144e35eb",
+        "position": {
+          "x": 91.44,
+          "y": 73.66
+        },
+        "properties": {
+          "Reference": "R1",
+          "Value": "470k",
+          "Datasheet": "",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "layer": "F.Cu",
+          "Source fingerprint": "2353e9f7"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/symbol:uuid:063f3bc2-acd0-591a-b7fa-a41fd3c68d7c",
+      "path": "KERO.kicad_sch",
+      "kind": "symbol",
+      "label": "R1",
+      "status": "modified",
+      "before": {
+        "uuid": "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c",
+        "position": {
+          "x": 144.78,
+          "y": 106.68
+        },
+        "properties": {
+          "Reference": "R1",
+          "Value": "1M",
+          "Footprint": "Demo:R_0603_1608Metric",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "lib_id": "Demo:Device_R",
+          "unit": "1",
+          "Angle": "90",
+          "Source fingerprint": "a59d9dbb"
+        }
+      },
+      "after": {
+        "uuid": "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c",
+        "position": {
+          "x": 144.78,
+          "y": 106.68
+        },
+        "properties": {
+          "Reference": "R1",
+          "Value": "470k",
+          "Footprint": "Demo:R_0603_1608Metric",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "lib_id": "Demo:Device_R",
+          "unit": "1",
+          "Angle": "90",
+          "Source fingerprint": "8ed555e5"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/text:uuid:488b113e-af76-594c-8fa2-e152858d0363",
+      "path": "KERO.kicad_sch",
+      "kind": "text",
+      "label": "Calculated f = 2.18 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%",
+      "status": "modified",
+      "before": {
+        "uuid": "488b113e-af76-594c-8fa2-e152858d0363",
+        "position": {
+          "x": 144.78,
+          "y": 137.16
+        },
+        "properties": {
+          "Angle": "0",
+          "Text": "Calculated f = 1.02 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%",
+          "Source fingerprint": "f592cb2a"
+        }
+      },
+      "after": {
+        "uuid": "488b113e-af76-594c-8fa2-e152858d0363",
+        "position": {
+          "x": 144.78,
+          "y": 137.16
+        },
+        "properties": {
+          "Angle": "0",
+          "Text": "Calculated f = 2.18 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%",
+          "Source fingerprint": "be1520fe"
+        }
+      }
+    }
+  ],
+  "counts": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  }
+}

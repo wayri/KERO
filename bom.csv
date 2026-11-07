@@ -1,6 +1,6 @@
 Reference,Quantity,Value,Footprint,Manufacturer,MPN,Rating,Datasheet
 U1,1,LMV358ADR,Demo:SOIC-8_3.9x4.9mm_P1.27mm,Texas Instruments,LMV358ADR,"TI LMV358ADR, SOIC-8; 2.5 to 5.5 V",https://www.ti.com/lit/ds/symlink/lmv358a.pdf
-R1,1,1M,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 0603",
+R1,1,470k,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 0603",
 R2,1,402k,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 0603",
 R3,1,100k,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 0603",
 R4,1,300k,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 0603",

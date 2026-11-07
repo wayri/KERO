@@ -110,8 +110,8 @@
     }
   ],
   "source_sha256": {
-    "KERO.kicad_sch": "f7c6482d6a3126f406daea0e7970d6e49f978598d5ec38451ee18a8dca1ac564",
-    "KERO.kicad_pcb": "5e72e551b5608c41da9490328f732252edfc4fa94dc1cca18da83cd77c665e7a",
+    "KERO.kicad_sch": "8db561e134fdde0f9cc0fcd6a1821a4c7cddb5e614e5dc80accda7930da8ed1c",
+    "KERO.kicad_pcb": "4868e42f23fc98c3c212fb58a859286783b0eb3796fe3a3854ff939d34ae8ab0",
     "KERO.kicad_pro": "a342616543b3e1d1e265dd4a028d3bf1c06607048dbca35b7dfcb8e594322b70",
     "Demo.kicad_sym": "c5da32f4b58df83c60d31ab2a76cdb40565e14d7edbf33ae5088b9460cc6d5f6",
     "fp-lib-table": "ac64be31241bd9efba0d46a7406cc5019676bdf414bf61bde343c65c6e43aa59",

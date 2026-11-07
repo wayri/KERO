@@ -3,7 +3,7 @@
   (generator "eeschema")
   (uuid "a9ee34e0-3058-59fb-8c06-cfd5be2176d6")
   (paper "A4")
-  (title_block (title "KERO - coin-cell red / green relaxation oscillator") (date "2026-11-07") (rev "baseline"))
+  (title_block (title "KERO - coin-cell red / green relaxation oscillator") (date "2026-11-07") (rev "timing"))
   (lib_symbols
     (symbol
       "Demo:Amplifier_Operational_LMV358"
@@ -496,7 +496,7 @@
     (dnp no)
     (uuid "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c")
     (property "Reference" "R1" (at 144.78 101.60000000000001 90) (effects (font (size 1.27 1.27))))
-    (property "Value" "1M" (at 144.78 104.14 90) (effects (font (size 1.27 1.27))))
+    (property "Value" "470k" (at 144.78 104.14 90) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Demo:R_0603_1608Metric" (at 144.78 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (property "Datasheet" "" (at 144.78 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (property "Manufacturer" "Generic" (at 144.78 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1145,7 +1145,7 @@
   (text "ALTERNATING LEDs" (at 204.47 35.56 0) (effects (font (size 1.65 1.65))) (uuid "a0d91fc3-a53d-5fa9-bbef-c97fbe6934cb"))
   (text "VREF = VBAT / 4" (at 86.36 111.76 0) (effects (font (size 1.27 1.27))) (uuid "54dce346-f2cd-5db0-84ae-5f7798ec1e70"))
   (text
-    "Calculated f = 1.02 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%"
+    "Calculated f = 2.18 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%"
     (at 144.78 137.16 0)
     (effects (font (size 1.27 1.27)))
     (uuid "488b113e-af76-594c-8fa2-e152858d0363")
