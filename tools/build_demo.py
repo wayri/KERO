@@ -56,7 +56,7 @@ def parts(variant):
  if variant=='timing':next(p for p in ps if p['ref']=='R1')['value']='470k'
  if variant=='layout':
   next(p for p in ps if p['ref']=='D1')['pcb']=(104.14,58.42,270)
-  next(p for p in ps if p['ref']=='R6')['pcb']=(101.6,63.5,0)
+  next(p for p in ps if p['ref']=='R6')['pcb']=(101.6,66.04,0)
  return ps
 def schematic(ps,variant):
  libs={p['symbol']:sym(*p['symbol'].split(':')) for p in ps};libs['power:PWR_FLAG']=sym('power','PWR_FLAG')

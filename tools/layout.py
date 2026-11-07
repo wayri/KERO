@@ -20,14 +20,14 @@ def build_board(ps,variant):
   f.Reference().SetUuid(pcb.KIID(uid(p['ref']+'-reference')));f.Value().SetUuid(pcb.KIID(uid(p['ref']+'-value')))
   for key,value in [('Manufacturer','Texas Instruments' if p['ref']=='U1' else 'Keystone' if p['ref']=='BT1' else 'Generic'),('MPN','LMV358ADR' if p['ref']=='U1' else '1058' if p['ref']=='BT1' else 'Select to specification'),('Rating',p['rating']),('Datasheet','https://www.ti.com/lit/ds/symlink/lmv358a.pdf' if p['ref']=='U1' else '')]:
    field=pcb.PCB_FIELD(f,pcb.FIELD_T_USER);field.SetUuid(pcb.KIID(uid(p['ref']+'-field-'+key)));field.SetName(key);field.SetText(value);field.SetVisible(False);f.Add(field)
-  f.Reference().SetTextSize(V(1,1));f.Reference().SetTextThickness(pcb.FromMM(.15));f.Reference().SetPosition(V(*{'U1':(99.06,67),'R1':(91.44,71.5),'R2':(96.52,62.8),'R3':(91.44,66.6),'R4':(87.63,81.28),'R5':(87.63,85.09),'C1':(88.9,79.4),'C2':(105.41,76.2),'R6':(107.95,66.04),'R7':(104.14,81.5),'D1':(106.68,55.4),'D2':(104.14,94),'BT1':(69.85,60)}[p['ref']]));f.Reference().SetTextAngle(pcb.EDA_ANGLE(0,pcb.DEGREES_T));f.Value().SetVisible(False);stable_fields(f);b.Add(f)
+  f.Reference().SetTextSize(V(1,1));f.Reference().SetTextThickness(pcb.FromMM(.15));f.Reference().SetPosition(V(*{'U1':(99.06,67),'R1':(91.44,71.5),'R2':(96.52,62.8),'R3':(91.44,66.6),'R4':(87.63,81.28),'R5':(87.63,85.09),'C1':(88.9,79.4),'C2':(105.41,76.2),'R6':(101.6,64.77) if variant=='layout' else (107.95,66.04),'R7':(104.14,81.5),'D1':(104.14 if variant=='layout' else 106.68,55.4),'D2':(104.14,94),'BT1':(69.85,60)}[p['ref']]));f.Reference().SetTextAngle(pcb.EDA_ANGLE(0,pcb.DEGREES_T));f.Value().SetVisible(False);stable_fields(f);b.Add(f)
  for i,(x,y) in enumerate([(53.34,53.34),(111.76,53.34),(53.34,93.98),(111.76,93.98)],1):
   f=pcb.FootprintLoad(str(LIB/'footprints/MountingHole.pretty'),'MountingHole_2.2mm_M2');f.SetReference('H'+str(i));f.SetPosition(V(x,y));f.SetAttributes(pcb.FP_EXCLUDE_FROM_BOM|pcb.FP_EXCLUDE_FROM_POS_FILES|pcb.FP_BOARD_ONLY);f.Reference().SetVisible(False);f.Value().SetVisible(False);f.SetUuid(pcb.KIID(uid('H'+str(i))));
   for j,g in enumerate(list(f.Pads())+list(f.GraphicalItems())+[f.Reference(),f.Value()]):g.SetUuid(pcb.KIID(uid('H'+str(i)+'-item-'+str(j))))
   stable_fields(f);b.Add(f)
  for i,(a,z) in enumerate([((50.8,50.8),(114.3,50.8)),((114.3,50.8),(114.3,96.52)),((114.3,96.52),(50.8,96.52)),((50.8,96.52),(50.8,50.8))]):
   s=pcb.PCB_SHAPE();s.SetShape(pcb.SHAPE_T_SEGMENT);s.SetStart(V(*a));s.SetEnd(V(*z));s.SetLayer(pcb.Edge_Cuts);s.SetWidth(pcb.FromMM(.05));s.SetUuid(pcb.KIID(uid('edge'+str(i))));b.Add(s)
- for s,x,y,size in [('KERO / LED RELAX',75,53.3,1.2),('RED',106.68,63.5,.9),('GREEN',104.14,86,.9),('CR2032 / 3V',70,91.44,1)]:
+ for s,x,y,size in [('KERO / LED RELAX',75,53.3,1.2),('RED',104.14 if variant=='layout' else 106.68,63.5,.9),('GREEN',104.14,86,.9),('CR2032 / 3V',70,91.44,1)]:
   t=pcb.PCB_TEXT(b);t.SetText(s);t.SetPosition(V(x,y));t.SetTextSize(V(size,size));t.SetTextThickness(pcb.FromMM(.15));t.SetLayer(pcb.F_SilkS);t.SetUuid(pcb.KIID(uid('text'+s)));b.Add(t)
  route(b)
  b.BuildConnectivity();pcb.SaveBoard(str(ROOT/'KERO.kicad_pcb'),b)
