@@ -6,6 +6,11 @@ stages; neither a generated board nor a router exit substitutes for native DRC.
 from pathlib import Path
 import argparse, collections, hashlib, heapq, json, math, shutil
 import subprocess, xml.etree.ElementTree as ET
+import os
+_native_scratch=Path(__file__).resolve().parents[1]/'encoder'/'.scratch'
+_native_scratch.mkdir(parents=True,exist_ok=True)
+os.environ['TEMP']=str(_native_scratch)
+os.environ['TMP']=str(_native_scratch)
 import pcbnew as pcb
 from build_demo import ROOT, LIB, Q, parse, dump, kids, one, uid, write
 
@@ -246,7 +251,7 @@ def route():
 
 def verify():
     evidence=DEST/'evidence';previews=DEST/'previews';previews.mkdir(exist_ok=True)
-    sources=list(DEST.glob('*.kicad_*'))+list((DEST/'Encoder.pretty').glob('*.kicad_mod'))+list((DEST/'models').glob('*'))+[DEST/'design-intent.json',DEST/'fp-lib-table',DEST/'sym-lib-table']
+    sources=[p for p in DEST.glob('*.kicad_*') if p.suffix!='.kicad_prl']+list((DEST/'Encoder.pretty').glob('*.kicad_mod'))+list((DEST/'models').glob('*'))+[DEST/'design-intent.json',DEST/'fp-lib-table',DEST/'sym-lib-table']
     hashes=lambda:{p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sources}
     before=hashes();logs=[];cli=LIB.parents[1]/'bin/kicad-cli.exe'
     def run(args):

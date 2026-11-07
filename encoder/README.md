@@ -8,11 +8,13 @@ Open [Encoder.kicad_pro](Encoder.kicad_pro) in KiCad 10. The [six-sheet schemati
 | Components / pad assignments | 79 / 194; exact intent and schematic parity |
 | Board size | 40 × 40 mm; 44.9% less area than the original blinker |
 | Placement | Front circuit, bottom coin-cell holder |
-| Native routing status | **Incomplete: 13 open connections across 9 nets** |
-| Other native DRC findings | 15 dangling-track warnings; no shorts, clearance or courtyard findings |
+| Native routing status | **Complete: 0 open connections; all 40 nets connected** |
+| Native DRC / schematic parity | 0 reported findings / 0 mismatches |
 | Models | All 79 fitted parts resolve local standard package models; nominal cell is illustrative |
 
-This is a review candidate, not a fabrication release. [Board validation](evidence/board-validation.json) lists the exact disconnected pad partitions and check settings; [native DRC](evidence/board-drc.json) retains all reported findings. Source hashes were checked against the files being published. KiCad local preference files and tool scratch are excluded from Git; the original native command receipt retains the local preference-file hash as incidental execution context.
+The routing repair removed dangling terminal stubs and negotiated alternate copper paths without moving components or changing the circuit or rules. [Revision comparison](evidence/routing-change.json) records only track/via changes; [circuit equivalence](evidence/circuit-equivalence.json) independently checks all 79 parts and 194 assignments against the simulated design. The native ERC, DRC, parity and connectivity checks pass. Five pre-existing default ignored DRC checks remain listed in the report; no severities or exclusions were changed.
+
+This is a review candidate, not a fabrication release. [Board validation](evidence/board-validation.json) lists the connected pad partitions and check settings; [native DRC](evidence/board-drc.json) retains all reported findings. Source hashes were checked against the files being published. KiCad local preference files and tool scratch are excluded from Git; the original native command receipt retains the local preference-file hash as incidental execution context.
 
 The [BoM](bom.csv) contains values, packages, manufacturer/MPN fields and ratings. Exact passive and LED order codes remain unverified and are marked `Select to specification`; no procurement closure is claimed. The CR2032 cell is a separate assembly consumable from BT1, the Keystone holder. Local KiCad libraries and package models follow the repository [asset provenance](../ASSETS.md) and [KiCad library license](../LICENSE.KiCad.md).
 

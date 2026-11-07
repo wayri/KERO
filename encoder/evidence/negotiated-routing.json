@@ -1,0 +1,2679 @@
+{
+  "schema": "kero.negotiated-routing/v1",
+  "source_before_sha256": "b752bb35a04e4df18ac552769db9305f298190dcb6e6511ae68f9d79c80108bc",
+  "source_after_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "grid_mm": 0.1,
+  "track_mm": 0.15,
+  "via_mm": [
+    0.6,
+    0.3
+  ],
+  "initial_native_open_edges": 13,
+  "candidate_native_open_edges": 0,
+  "saved": true,
+  "estimated_complete": true,
+  "pending": [],
+  "records": [
+    {
+      "step": 1,
+      "net": "/decoder/MIDREF",
+      "ripped": [
+        "/VBAT",
+        "ENCODED_OUT"
+      ],
+      "pending": [
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST03_OUT",
+        "/ST06_OUT",
+        "/ST07_OUT",
+        "/ST10_OUT",
+        "/bank1/ST02_TH",
+        "/bank2/ST08_TH",
+        "/VBAT",
+        "ENCODED_OUT"
+      ],
+      "segments": 54,
+      "vias": 4,
+      "expanded": 49031
+    },
+    {
+      "step": 2,
+      "net": "/ST01_OUT",
+      "ripped": [
+        "/bank1/ST03_TH"
+      ],
+      "pending": [
+        "/ST02_OUT",
+        "/ST03_OUT",
+        "/ST06_OUT",
+        "/ST07_OUT",
+        "/ST10_OUT",
+        "/bank1/ST02_TH",
+        "/bank2/ST08_TH",
+        "/VBAT",
+        "ENCODED_OUT",
+        "/bank1/ST03_TH"
+      ],
+      "segments": 54,
+      "vias": 2,
+      "expanded": 32896
+    },
+    {
+      "step": 3,
+      "net": "/ST02_OUT",
+      "ripped": [
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING"
+      ],
+      "pending": [
+        "/ST03_OUT",
+        "/ST06_OUT",
+        "/ST07_OUT",
+        "/ST10_OUT",
+        "/bank1/ST02_TH",
+        "/bank2/ST08_TH",
+        "/VBAT",
+        "ENCODED_OUT",
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING"
+      ],
+      "segments": 63,
+      "vias": 3,
+      "expanded": 38415
+    },
+    {
+      "step": 4,
+      "net": "/ST03_OUT",
+      "ripped": [
+        "/bank1/ST03_TIMING"
+      ],
+      "pending": [
+        "/ST06_OUT",
+        "/ST07_OUT",
+        "/ST10_OUT",
+        "/bank1/ST02_TH",
+        "/bank2/ST08_TH",
+        "/VBAT",
+        "ENCODED_OUT",
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 123,
+      "vias": 4,
+      "expanded": 25568
+    },
+    {
+      "step": 5,
+      "net": "/ST06_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST07_OUT",
+        "/ST10_OUT",
+        "/bank1/ST02_TH",
+        "/bank2/ST08_TH",
+        "/VBAT",
+        "ENCODED_OUT",
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 37,
+      "vias": 0,
+      "expanded": 5480
+    },
+    {
+      "step": 6,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST10_OUT",
+        "/bank1/ST02_TH",
+        "/bank2/ST08_TH",
+        "/VBAT",
+        "ENCODED_OUT",
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 54,
+      "vias": 2,
+      "expanded": 11946
+    },
+    {
+      "step": 7,
+      "net": "/ST10_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank1/ST02_TH",
+        "/bank2/ST08_TH",
+        "/VBAT",
+        "ENCODED_OUT",
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 43,
+      "vias": 3,
+      "expanded": 18690
+    },
+    {
+      "step": 8,
+      "net": "/bank1/ST02_TH",
+      "ripped": [],
+      "pending": [
+        "/bank2/ST08_TH",
+        "/VBAT",
+        "ENCODED_OUT",
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 34,
+      "vias": 0,
+      "expanded": 2073
+    },
+    {
+      "step": 9,
+      "net": "/bank2/ST08_TH",
+      "ripped": [],
+      "pending": [
+        "/VBAT",
+        "ENCODED_OUT",
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 37,
+      "vias": 2,
+      "expanded": 2505
+    },
+    {
+      "step": 10,
+      "net": "/VBAT",
+      "ripped": [
+        "/ST10_OUT",
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF"
+      ],
+      "pending": [
+        "ENCODED_OUT",
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING",
+        "/ST10_OUT",
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF"
+      ],
+      "segments": 365,
+      "vias": 10,
+      "expanded": 39305
+    },
+    {
+      "step": 11,
+      "net": "ENCODED_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank1/ST03_TH",
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING",
+        "/ST10_OUT",
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF"
+      ],
+      "segments": 44,
+      "vias": 4,
+      "expanded": 41449
+    },
+    {
+      "step": 12,
+      "net": "/bank1/ST03_TH",
+      "ripped": [],
+      "pending": [
+        "/GND",
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING",
+        "/ST10_OUT",
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF"
+      ],
+      "segments": 34,
+      "vias": 2,
+      "expanded": 2615
+    },
+    {
+      "step": 13,
+      "net": "/GND",
+      "ripped": [
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING"
+      ],
+      "pending": [
+        "/ST01_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING",
+        "/ST10_OUT",
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF",
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING"
+      ],
+      "segments": 269,
+      "vias": 18,
+      "expanded": 103125
+    },
+    {
+      "step": 14,
+      "net": "/ST01_OUT",
+      "ripped": [
+        "/GND",
+        "/bank1/ST03_TH"
+      ],
+      "pending": [
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TIMING",
+        "/ST10_OUT",
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF",
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH"
+      ],
+      "segments": 78,
+      "vias": 2,
+      "expanded": 49177
+    },
+    {
+      "step": 15,
+      "net": "/bank1/ST02_TIMING",
+      "ripped": [
+        "/ST02_OUT"
+      ],
+      "pending": [
+        "/bank1/ST03_TIMING",
+        "/ST10_OUT",
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF",
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT"
+      ],
+      "segments": 26,
+      "vias": 0,
+      "expanded": 604
+    },
+    {
+      "step": 16,
+      "net": "/bank1/ST03_TIMING",
+      "ripped": [],
+      "pending": [
+        "/ST10_OUT",
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF",
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT"
+      ],
+      "segments": 18,
+      "vias": 2,
+      "expanded": 5591
+    },
+    {
+      "step": 17,
+      "net": "/ST10_OUT",
+      "ripped": [
+        "/bank3/ST11_TIMING"
+      ],
+      "pending": [
+        "/bank2/ST05_TH",
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF",
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING"
+      ],
+      "segments": 48,
+      "vias": 3,
+      "expanded": 16748
+    },
+    {
+      "step": 18,
+      "net": "/bank2/ST05_TH",
+      "ripped": [],
+      "pending": [
+        "/bank2/ST08_TH",
+        "/decoder/MIDREF",
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING"
+      ],
+      "segments": 24,
+      "vias": 0,
+      "expanded": 174
+    },
+    {
+      "step": 19,
+      "net": "/bank2/ST08_TH",
+      "ripped": [],
+      "pending": [
+        "/decoder/MIDREF",
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING"
+      ],
+      "segments": 37,
+      "vias": 2,
+      "expanded": 2631
+    },
+    {
+      "step": 20,
+      "net": "/decoder/MIDREF",
+      "ripped": [
+        "ENCODED_OUT"
+      ],
+      "pending": [
+        "/ST06_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT"
+      ],
+      "segments": 29,
+      "vias": 0,
+      "expanded": 4129
+    },
+    {
+      "step": 21,
+      "net": "/ST06_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST08_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT"
+      ],
+      "segments": 31,
+      "vias": 0,
+      "expanded": 4351
+    },
+    {
+      "step": 22,
+      "net": "/ST08_OUT",
+      "ripped": [
+        "/ST07_OUT"
+      ],
+      "pending": [
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 38,
+      "vias": 2,
+      "expanded": 41804
+    },
+    {
+      "step": 23,
+      "net": "/VBAT",
+      "ripped": [
+        "/bank2/ST06_TIMING"
+      ],
+      "pending": [
+        "/bank2/ST06_TH",
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT",
+        "/ST07_OUT",
+        "/bank2/ST06_TIMING"
+      ],
+      "segments": 335,
+      "vias": 9,
+      "expanded": 49780
+    },
+    {
+      "step": 24,
+      "net": "/bank2/ST06_TH",
+      "ripped": [],
+      "pending": [
+        "/bank2/ST07_TIMING",
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT",
+        "/ST07_OUT",
+        "/bank2/ST06_TIMING"
+      ],
+      "segments": 36,
+      "vias": 0,
+      "expanded": 1264
+    },
+    {
+      "step": 25,
+      "net": "/bank2/ST07_TIMING",
+      "ripped": [
+        "/ST06_OUT",
+        "/VBAT"
+      ],
+      "pending": [
+        "/GND",
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT",
+        "/ST07_OUT",
+        "/bank2/ST06_TIMING",
+        "/ST06_OUT",
+        "/VBAT"
+      ],
+      "segments": 17,
+      "vias": 0,
+      "expanded": 6676
+    },
+    {
+      "step": 26,
+      "net": "/GND",
+      "ripped": [
+        "/bank2/ST06_TH"
+      ],
+      "pending": [
+        "/bank1/ST03_TH",
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT",
+        "/ST07_OUT",
+        "/bank2/ST06_TIMING",
+        "/ST06_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH"
+      ],
+      "segments": 366,
+      "vias": 10,
+      "expanded": 51965
+    },
+    {
+      "step": 27,
+      "net": "/bank1/ST03_TH",
+      "ripped": [
+        "/GND"
+      ],
+      "pending": [
+        "/ST02_OUT",
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT",
+        "/ST07_OUT",
+        "/bank2/ST06_TIMING",
+        "/ST06_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/GND"
+      ],
+      "segments": 42,
+      "vias": 2,
+      "expanded": 5633
+    },
+    {
+      "step": 28,
+      "net": "/ST02_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank3/ST11_TIMING",
+        "ENCODED_OUT",
+        "/ST07_OUT",
+        "/bank2/ST06_TIMING",
+        "/ST06_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/GND"
+      ],
+      "segments": 58,
+      "vias": 3,
+      "expanded": 24618
+    },
+    {
+      "step": 29,
+      "net": "/bank3/ST11_TIMING",
+      "ripped": [
+        "/decoder/MIDREF"
+      ],
+      "pending": [
+        "ENCODED_OUT",
+        "/ST07_OUT",
+        "/bank2/ST06_TIMING",
+        "/ST06_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/GND",
+        "/decoder/MIDREF"
+      ],
+      "segments": 20,
+      "vias": 0,
+      "expanded": 2855
+    },
+    {
+      "step": 30,
+      "net": "ENCODED_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST07_OUT",
+        "/bank2/ST06_TIMING",
+        "/ST06_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/GND",
+        "/decoder/MIDREF"
+      ],
+      "segments": 34,
+      "vias": 0,
+      "expanded": 9999
+    },
+    {
+      "step": 31,
+      "net": "/ST07_OUT",
+      "ripped": [
+        "/bank2/ST08_TIMING"
+      ],
+      "pending": [
+        "/bank2/ST06_TIMING",
+        "/ST06_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/GND",
+        "/decoder/MIDREF",
+        "/bank2/ST08_TIMING"
+      ],
+      "segments": 94,
+      "vias": 0,
+      "expanded": 31394
+    },
+    {
+      "step": 32,
+      "net": "/bank2/ST06_TIMING",
+      "ripped": [],
+      "pending": [
+        "/ST06_OUT",
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/GND",
+        "/decoder/MIDREF",
+        "/bank2/ST08_TIMING"
+      ],
+      "segments": 28,
+      "vias": 0,
+      "expanded": 333
+    },
+    {
+      "step": 33,
+      "net": "/ST06_OUT",
+      "ripped": [
+        "/ST05_OUT"
+      ],
+      "pending": [
+        "/VBAT",
+        "/bank2/ST06_TH",
+        "/GND",
+        "/decoder/MIDREF",
+        "/bank2/ST08_TIMING",
+        "/ST05_OUT"
+      ],
+      "segments": 59,
+      "vias": 2,
+      "expanded": 9379
+    },
+    {
+      "step": 34,
+      "net": "/VBAT",
+      "ripped": [
+        "/ST07_OUT",
+        "/ST09_OUT",
+        "/ST11_OUT"
+      ],
+      "pending": [
+        "/bank2/ST06_TH",
+        "/GND",
+        "/decoder/MIDREF",
+        "/bank2/ST08_TIMING",
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/ST09_OUT",
+        "/ST11_OUT"
+      ],
+      "segments": 374,
+      "vias": 11,
+      "expanded": 67514
+    },
+    {
+      "step": 35,
+      "net": "/bank2/ST06_TH",
+      "ripped": [
+        "/ST06_OUT"
+      ],
+      "pending": [
+        "/GND",
+        "/decoder/MIDREF",
+        "/bank2/ST08_TIMING",
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/ST09_OUT",
+        "/ST11_OUT",
+        "/ST06_OUT"
+      ],
+      "segments": 38,
+      "vias": 0,
+      "expanded": 3743
+    },
+    {
+      "step": 36,
+      "net": "/GND",
+      "ripped": [
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT"
+      ],
+      "pending": [
+        "/decoder/MIDREF",
+        "/bank2/ST08_TIMING",
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/ST09_OUT",
+        "/ST11_OUT",
+        "/ST06_OUT",
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT"
+      ],
+      "segments": 355,
+      "vias": 16,
+      "expanded": 70589
+    },
+    {
+      "step": 37,
+      "net": "/decoder/MIDREF",
+      "ripped": [],
+      "pending": [
+        "/bank2/ST08_TIMING",
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/ST09_OUT",
+        "/ST11_OUT",
+        "/ST06_OUT",
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT"
+      ],
+      "segments": 36,
+      "vias": 2,
+      "expanded": 20400
+    },
+    {
+      "step": 38,
+      "net": "/bank2/ST08_TIMING",
+      "ripped": [
+        "/GND"
+      ],
+      "pending": [
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/ST09_OUT",
+        "/ST11_OUT",
+        "/ST06_OUT",
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/GND"
+      ],
+      "segments": 21,
+      "vias": 0,
+      "expanded": 1336
+    },
+    {
+      "step": 39,
+      "net": "/ST05_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST07_OUT",
+        "/ST09_OUT",
+        "/ST11_OUT",
+        "/ST06_OUT",
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/GND"
+      ],
+      "segments": 58,
+      "vias": 0,
+      "expanded": 7604
+    },
+    {
+      "step": 40,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST09_OUT",
+        "/ST11_OUT",
+        "/ST06_OUT",
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/GND"
+      ],
+      "segments": 92,
+      "vias": 0,
+      "expanded": 11585
+    },
+    {
+      "step": 41,
+      "net": "/ST09_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST11_OUT",
+        "/ST06_OUT",
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/GND"
+      ],
+      "segments": 36,
+      "vias": 0,
+      "expanded": 3773
+    },
+    {
+      "step": 42,
+      "net": "/ST11_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST06_OUT",
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/GND"
+      ],
+      "segments": 65,
+      "vias": 4,
+      "expanded": 60196
+    },
+    {
+      "step": 43,
+      "net": "/ST06_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/GND"
+      ],
+      "segments": 58,
+      "vias": 2,
+      "expanded": 11827
+    },
+    {
+      "step": 44,
+      "net": "/ST01_OUT",
+      "ripped": [
+        "/bank1/ST01_TIMING"
+      ],
+      "pending": [
+        "/ST02_OUT",
+        "/ST08_OUT",
+        "/VBAT",
+        "/GND",
+        "/bank1/ST01_TIMING"
+      ],
+      "segments": 51,
+      "vias": 2,
+      "expanded": 69388
+    },
+    {
+      "step": 45,
+      "net": "/ST02_OUT",
+      "ripped": [
+        "/ST03_OUT"
+      ],
+      "pending": [
+        "/ST08_OUT",
+        "/VBAT",
+        "/GND",
+        "/bank1/ST01_TIMING",
+        "/ST03_OUT"
+      ],
+      "segments": 59,
+      "vias": 2,
+      "expanded": 32118
+    },
+    {
+      "step": 46,
+      "net": "/ST08_OUT",
+      "ripped": [],
+      "pending": [
+        "/VBAT",
+        "/GND",
+        "/bank1/ST01_TIMING",
+        "/ST03_OUT"
+      ],
+      "segments": 42,
+      "vias": 3,
+      "expanded": 28323
+    },
+    {
+      "step": 47,
+      "net": "/VBAT",
+      "ripped": [
+        "/ST05_OUT",
+        "/bank2/ST07_TH",
+        "/bank3/ST09_TH"
+      ],
+      "pending": [
+        "/GND",
+        "/bank1/ST01_TIMING",
+        "/ST03_OUT",
+        "/ST05_OUT",
+        "/bank2/ST07_TH",
+        "/bank3/ST09_TH"
+      ],
+      "segments": 374,
+      "vias": 11,
+      "expanded": 79996
+    },
+    {
+      "step": 48,
+      "net": "/GND",
+      "ripped": [
+        "/ST10_OUT"
+      ],
+      "pending": [
+        "/bank1/ST01_TIMING",
+        "/ST03_OUT",
+        "/ST05_OUT",
+        "/bank2/ST07_TH",
+        "/bank3/ST09_TH",
+        "/ST10_OUT"
+      ],
+      "segments": 331,
+      "vias": 24,
+      "expanded": 75351
+    },
+    {
+      "step": 49,
+      "net": "/bank1/ST01_TIMING",
+      "ripped": [
+        "/ST01_OUT"
+      ],
+      "pending": [
+        "/ST03_OUT",
+        "/ST05_OUT",
+        "/bank2/ST07_TH",
+        "/bank3/ST09_TH",
+        "/ST10_OUT",
+        "/ST01_OUT"
+      ],
+      "segments": 16,
+      "vias": 0,
+      "expanded": 1187
+    },
+    {
+      "step": 50,
+      "net": "/ST03_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST05_OUT",
+        "/bank2/ST07_TH",
+        "/bank3/ST09_TH",
+        "/ST10_OUT",
+        "/ST01_OUT"
+      ],
+      "segments": 126,
+      "vias": 4,
+      "expanded": 16905
+    },
+    {
+      "step": 51,
+      "net": "/ST05_OUT",
+      "ripped": [
+        "/GND",
+        "/VBAT"
+      ],
+      "pending": [
+        "/bank2/ST07_TH",
+        "/bank3/ST09_TH",
+        "/ST10_OUT",
+        "/ST01_OUT",
+        "/GND",
+        "/VBAT"
+      ],
+      "segments": 65,
+      "vias": 2,
+      "expanded": 18366
+    },
+    {
+      "step": 52,
+      "net": "/bank2/ST07_TH",
+      "ripped": [],
+      "pending": [
+        "/bank3/ST09_TH",
+        "/ST10_OUT",
+        "/ST01_OUT",
+        "/GND",
+        "/VBAT"
+      ],
+      "segments": 30,
+      "vias": 2,
+      "expanded": 6229
+    },
+    {
+      "step": 53,
+      "net": "/bank3/ST09_TH",
+      "ripped": [],
+      "pending": [
+        "/ST10_OUT",
+        "/ST01_OUT",
+        "/GND",
+        "/VBAT"
+      ],
+      "segments": 17,
+      "vias": 2,
+      "expanded": 3226
+    },
+    {
+      "step": 54,
+      "net": "/ST10_OUT",
+      "ripped": [
+        "ENCODED_OUT"
+      ],
+      "pending": [
+        "/ST01_OUT",
+        "/GND",
+        "/VBAT",
+        "ENCODED_OUT"
+      ],
+      "segments": 62,
+      "vias": 3,
+      "expanded": 26840
+    },
+    {
+      "step": 55,
+      "net": "/ST01_OUT",
+      "ripped": [],
+      "pending": [
+        "/GND",
+        "/VBAT",
+        "ENCODED_OUT"
+      ],
+      "segments": 71,
+      "vias": 4,
+      "expanded": 66961
+    },
+    {
+      "step": 56,
+      "net": "/GND",
+      "ripped": [
+        "/ST02_OUT",
+        "/ST04_OUT",
+        "/ST05_OUT",
+        "/ST09_OUT"
+      ],
+      "pending": [
+        "/VBAT",
+        "ENCODED_OUT",
+        "/ST02_OUT",
+        "/ST04_OUT",
+        "/ST05_OUT",
+        "/ST09_OUT"
+      ],
+      "segments": 359,
+      "vias": 14,
+      "expanded": 53170
+    },
+    {
+      "step": 57,
+      "net": "/VBAT",
+      "ripped": [
+        "/GND",
+        "/ST01_OUT",
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH"
+      ],
+      "pending": [
+        "ENCODED_OUT",
+        "/ST02_OUT",
+        "/ST04_OUT",
+        "/ST05_OUT",
+        "/ST09_OUT",
+        "/GND",
+        "/ST01_OUT",
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH"
+      ],
+      "segments": 399,
+      "vias": 13,
+      "expanded": 75792
+    },
+    {
+      "step": 58,
+      "net": "ENCODED_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST02_OUT",
+        "/ST04_OUT",
+        "/ST05_OUT",
+        "/ST09_OUT",
+        "/GND",
+        "/ST01_OUT",
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH"
+      ],
+      "segments": 63,
+      "vias": 2,
+      "expanded": 30145
+    },
+    {
+      "step": 59,
+      "net": "/ST02_OUT",
+      "ripped": [
+        "/VBAT",
+        "/bank1/ST03_TIMING"
+      ],
+      "pending": [
+        "/ST04_OUT",
+        "/ST05_OUT",
+        "/ST09_OUT",
+        "/GND",
+        "/ST01_OUT",
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH",
+        "/VBAT",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 77,
+      "vias": 0,
+      "expanded": 36921
+    },
+    {
+      "step": 60,
+      "net": "/ST04_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST05_OUT",
+        "/ST09_OUT",
+        "/GND",
+        "/ST01_OUT",
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH",
+        "/VBAT",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 40,
+      "vias": 2,
+      "expanded": 22582
+    },
+    {
+      "step": 61,
+      "net": "/ST05_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST09_OUT",
+        "/GND",
+        "/ST01_OUT",
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH",
+        "/VBAT",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 56,
+      "vias": 2,
+      "expanded": 20149
+    },
+    {
+      "step": 62,
+      "net": "/ST09_OUT",
+      "ripped": [],
+      "pending": [
+        "/GND",
+        "/ST01_OUT",
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH",
+        "/VBAT",
+        "/bank1/ST03_TIMING"
+      ],
+      "segments": 42,
+      "vias": 0,
+      "expanded": 3036
+    },
+    {
+      "step": 63,
+      "net": "/GND",
+      "ripped": [
+        "/ST09_OUT"
+      ],
+      "pending": [
+        "/ST01_OUT",
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH",
+        "/VBAT",
+        "/bank1/ST03_TIMING",
+        "/ST09_OUT"
+      ],
+      "segments": 338,
+      "vias": 16,
+      "expanded": 58084
+    },
+    {
+      "step": 64,
+      "net": "/ST01_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST10_OUT",
+        "/ST11_OUT",
+        "/bank2/ST07_TH",
+        "/VBAT",
+        "/bank1/ST03_TIMING",
+        "/ST09_OUT"
+      ],
+      "segments": 53,
+      "vias": 2,
+      "expanded": 54951
+    },
+    {
+      "step": 65,
+      "net": "/ST10_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST11_OUT",
+        "/bank2/ST07_TH",
+        "/VBAT",
+        "/bank1/ST03_TIMING",
+        "/ST09_OUT"
+      ],
+      "segments": 83,
+      "vias": 3,
+      "expanded": 19510
+    },
+    {
+      "step": 66,
+      "net": "/ST11_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank2/ST07_TH",
+        "/VBAT",
+        "/bank1/ST03_TIMING",
+        "/ST09_OUT"
+      ],
+      "segments": 95,
+      "vias": 5,
+      "expanded": 119071
+    },
+    {
+      "step": 67,
+      "net": "/bank2/ST07_TH",
+      "ripped": [
+        "/GND",
+        "/ST06_OUT"
+      ],
+      "pending": [
+        "/VBAT",
+        "/bank1/ST03_TIMING",
+        "/ST09_OUT",
+        "/GND",
+        "/ST06_OUT"
+      ],
+      "segments": 27,
+      "vias": 0,
+      "expanded": 3173
+    },
+    {
+      "step": 68,
+      "net": "/VBAT",
+      "ripped": [
+        "/ST02_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT"
+      ],
+      "pending": [
+        "/bank1/ST03_TIMING",
+        "/ST09_OUT",
+        "/GND",
+        "/ST06_OUT",
+        "/ST02_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 379,
+      "vias": 11,
+      "expanded": 67398
+    },
+    {
+      "step": 69,
+      "net": "/bank1/ST03_TIMING",
+      "ripped": [
+        "/VBAT"
+      ],
+      "pending": [
+        "/ST09_OUT",
+        "/GND",
+        "/ST06_OUT",
+        "/ST02_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 14,
+      "vias": 0,
+      "expanded": 2830
+    },
+    {
+      "step": 70,
+      "net": "/ST09_OUT",
+      "ripped": [],
+      "pending": [
+        "/GND",
+        "/ST06_OUT",
+        "/ST02_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 48,
+      "vias": 2,
+      "expanded": 5911
+    },
+    {
+      "step": 71,
+      "net": "/GND",
+      "ripped": [
+        "/ST09_OUT",
+        "/bank1/ST02_TH",
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH"
+      ],
+      "pending": [
+        "/ST06_OUT",
+        "/ST02_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TH",
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH"
+      ],
+      "segments": 369,
+      "vias": 10,
+      "expanded": 52223
+    },
+    {
+      "step": 72,
+      "net": "/ST06_OUT",
+      "ripped": [
+        "/bank2/ST07_TIMING"
+      ],
+      "pending": [
+        "/ST02_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TH",
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH",
+        "/bank2/ST07_TIMING"
+      ],
+      "segments": 77,
+      "vias": 5,
+      "expanded": 18446
+    },
+    {
+      "step": 73,
+      "net": "/ST02_OUT",
+      "ripped": [
+        "/ST03_OUT"
+      ],
+      "pending": [
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TH",
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH",
+        "/bank2/ST07_TIMING",
+        "/ST03_OUT"
+      ],
+      "segments": 81,
+      "vias": 5,
+      "expanded": 45856
+    },
+    {
+      "step": 74,
+      "net": "/ST05_OUT",
+      "ripped": [
+        "/bank2/ST05_TH"
+      ],
+      "pending": [
+        "/ST07_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TH",
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH",
+        "/bank2/ST07_TIMING",
+        "/ST03_OUT",
+        "/bank2/ST05_TH"
+      ],
+      "segments": 47,
+      "vias": 0,
+      "expanded": 23742
+    },
+    {
+      "step": 75,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TH",
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH",
+        "/bank2/ST07_TIMING",
+        "/ST03_OUT",
+        "/bank2/ST05_TH"
+      ],
+      "segments": 98,
+      "vias": 2,
+      "expanded": 31184
+    },
+    {
+      "step": 76,
+      "net": "/VBAT",
+      "ripped": [
+        "/GND",
+        "/ST10_OUT"
+      ],
+      "pending": [
+        "/ST09_OUT",
+        "/bank1/ST02_TH",
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH",
+        "/bank2/ST07_TIMING",
+        "/ST03_OUT",
+        "/bank2/ST05_TH",
+        "/GND",
+        "/ST10_OUT"
+      ],
+      "segments": 355,
+      "vias": 19,
+      "expanded": 78889
+    },
+    {
+      "step": 77,
+      "net": "/ST09_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank1/ST02_TH",
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH",
+        "/bank2/ST07_TIMING",
+        "/ST03_OUT",
+        "/bank2/ST05_TH",
+        "/GND",
+        "/ST10_OUT"
+      ],
+      "segments": 57,
+      "vias": 2,
+      "expanded": 10132
+    },
+    {
+      "step": 78,
+      "net": "/bank1/ST02_TH",
+      "ripped": [],
+      "pending": [
+        "/bank1/ST03_TH",
+        "/bank3/ST11_TH",
+        "/bank2/ST07_TIMING",
+        "/ST03_OUT",
+        "/bank2/ST05_TH",
+        "/GND",
+        "/ST10_OUT"
+      ],
+      "segments": 34,
+      "vias": 3,
+      "expanded": 3642
+    },
+    {
+      "step": 79,
+      "net": "/bank1/ST03_TH",
+      "ripped": [
+        "/ST05_OUT",
+        "/VBAT"
+      ],
+      "pending": [
+        "/bank3/ST11_TH",
+        "/bank2/ST07_TIMING",
+        "/ST03_OUT",
+        "/bank2/ST05_TH",
+        "/GND",
+        "/ST10_OUT",
+        "/ST05_OUT",
+        "/VBAT"
+      ],
+      "segments": 51,
+      "vias": 0,
+      "expanded": 4046
+    },
+    {
+      "step": 80,
+      "net": "/bank3/ST11_TH",
+      "ripped": [],
+      "pending": [
+        "/bank2/ST07_TIMING",
+        "/ST03_OUT",
+        "/bank2/ST05_TH",
+        "/GND",
+        "/ST10_OUT",
+        "/ST05_OUT",
+        "/VBAT"
+      ],
+      "segments": 30,
+      "vias": 0,
+      "expanded": 1389
+    },
+    {
+      "step": 81,
+      "net": "/bank2/ST07_TIMING",
+      "ripped": [],
+      "pending": [
+        "/ST03_OUT",
+        "/bank2/ST05_TH",
+        "/GND",
+        "/ST10_OUT",
+        "/ST05_OUT",
+        "/VBAT"
+      ],
+      "segments": 20,
+      "vias": 0,
+      "expanded": 392
+    },
+    {
+      "step": 82,
+      "net": "/ST03_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank2/ST05_TH",
+        "/GND",
+        "/ST10_OUT",
+        "/ST05_OUT",
+        "/VBAT"
+      ],
+      "segments": 123,
+      "vias": 4,
+      "expanded": 49042
+    },
+    {
+      "step": 83,
+      "net": "/bank2/ST05_TH",
+      "ripped": [],
+      "pending": [
+        "/GND",
+        "/ST10_OUT",
+        "/ST05_OUT",
+        "/VBAT"
+      ],
+      "segments": 21,
+      "vias": 0,
+      "expanded": 165
+    },
+    {
+      "step": 84,
+      "net": "/GND",
+      "ripped": [
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank3/ST11_TH"
+      ],
+      "pending": [
+        "/ST10_OUT",
+        "/ST05_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank3/ST11_TH"
+      ],
+      "segments": 372,
+      "vias": 7,
+      "expanded": 61311
+    },
+    {
+      "step": 85,
+      "net": "/ST10_OUT",
+      "ripped": [
+        "/bank3/ST10_TIMING"
+      ],
+      "pending": [
+        "/ST05_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank3/ST11_TH",
+        "/bank3/ST10_TIMING"
+      ],
+      "segments": 48,
+      "vias": 4,
+      "expanded": 24830
+    },
+    {
+      "step": 86,
+      "net": "/ST05_OUT",
+      "ripped": [
+        "/GND"
+      ],
+      "pending": [
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank3/ST11_TH",
+        "/bank3/ST10_TIMING",
+        "/GND"
+      ],
+      "segments": 48,
+      "vias": 3,
+      "expanded": 9987
+    },
+    {
+      "step": 87,
+      "net": "/VBAT",
+      "ripped": [
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH"
+      ],
+      "pending": [
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING",
+        "/bank3/ST11_TH",
+        "/bank3/ST10_TIMING",
+        "/GND",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH"
+      ],
+      "segments": 392,
+      "vias": 11,
+      "expanded": 72936
+    },
+    {
+      "step": 88,
+      "net": "/ST09_OUT",
+      "ripped": [
+        "/ST11_OUT"
+      ],
+      "pending": [
+        "/bank1/ST02_TIMING",
+        "/bank3/ST11_TH",
+        "/bank3/ST10_TIMING",
+        "/GND",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH",
+        "/ST11_OUT"
+      ],
+      "segments": 52,
+      "vias": 0,
+      "expanded": 8975
+    },
+    {
+      "step": 89,
+      "net": "/bank1/ST02_TIMING",
+      "ripped": [
+        "/VBAT"
+      ],
+      "pending": [
+        "/bank3/ST11_TH",
+        "/bank3/ST10_TIMING",
+        "/GND",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH",
+        "/ST11_OUT",
+        "/VBAT"
+      ],
+      "segments": 21,
+      "vias": 0,
+      "expanded": 5293
+    },
+    {
+      "step": 90,
+      "net": "/bank3/ST11_TH",
+      "ripped": [],
+      "pending": [
+        "/bank3/ST10_TIMING",
+        "/GND",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH",
+        "/ST11_OUT",
+        "/VBAT"
+      ],
+      "segments": 44,
+      "vias": 0,
+      "expanded": 1063
+    },
+    {
+      "step": 91,
+      "net": "/bank3/ST10_TIMING",
+      "ripped": [],
+      "pending": [
+        "/GND",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH",
+        "/ST11_OUT",
+        "/VBAT"
+      ],
+      "segments": 28,
+      "vias": 0,
+      "expanded": 331
+    },
+    {
+      "step": 92,
+      "net": "/GND",
+      "ripped": [
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH"
+      ],
+      "pending": [
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH",
+        "/ST11_OUT",
+        "/VBAT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH"
+      ],
+      "segments": 411,
+      "vias": 10,
+      "expanded": 53092
+    },
+    {
+      "step": 93,
+      "net": "/ST03_OUT",
+      "ripped": [
+        "/GND",
+        "/ST02_OUT"
+      ],
+      "pending": [
+        "/ST07_OUT",
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH",
+        "/ST11_OUT",
+        "/VBAT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH",
+        "/GND",
+        "/ST02_OUT"
+      ],
+      "segments": 148,
+      "vias": 4,
+      "expanded": 47982
+    },
+    {
+      "step": 94,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank3/ST09_TH",
+        "/bank3/ST10_TH",
+        "/ST11_OUT",
+        "/VBAT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH",
+        "/GND",
+        "/ST02_OUT"
+      ],
+      "segments": 70,
+      "vias": 0,
+      "expanded": 8065
+    },
+    {
+      "step": 95,
+      "net": "/bank3/ST09_TH",
+      "ripped": [],
+      "pending": [
+        "/bank3/ST10_TH",
+        "/ST11_OUT",
+        "/VBAT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH",
+        "/GND",
+        "/ST02_OUT"
+      ],
+      "segments": 27,
+      "vias": 2,
+      "expanded": 3392
+    },
+    {
+      "step": 96,
+      "net": "/bank3/ST10_TH",
+      "ripped": [],
+      "pending": [
+        "/ST11_OUT",
+        "/VBAT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH",
+        "/GND",
+        "/ST02_OUT"
+      ],
+      "segments": 38,
+      "vias": 2,
+      "expanded": 6489
+    },
+    {
+      "step": 97,
+      "net": "/ST11_OUT",
+      "ripped": [],
+      "pending": [
+        "/VBAT",
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH",
+        "/GND",
+        "/ST02_OUT"
+      ],
+      "segments": 93,
+      "vias": 2,
+      "expanded": 126870
+    },
+    {
+      "step": 98,
+      "net": "/VBAT",
+      "ripped": [
+        "/ST03_OUT",
+        "/ST07_OUT"
+      ],
+      "pending": [
+        "/bank1/ST02_TIMING",
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH",
+        "/GND",
+        "/ST02_OUT",
+        "/ST03_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 388,
+      "vias": 10,
+      "expanded": 71036
+    },
+    {
+      "step": 99,
+      "net": "/bank1/ST02_TIMING",
+      "ripped": [
+        "/VBAT"
+      ],
+      "pending": [
+        "/bank1/ST03_TH",
+        "/bank2/ST07_TH",
+        "/GND",
+        "/ST02_OUT",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 26,
+      "vias": 0,
+      "expanded": 5237
+    },
+    {
+      "step": 100,
+      "net": "/bank1/ST03_TH",
+      "ripped": [],
+      "pending": [
+        "/bank2/ST07_TH",
+        "/GND",
+        "/ST02_OUT",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 33,
+      "vias": 0,
+      "expanded": 1286
+    },
+    {
+      "step": 101,
+      "net": "/bank2/ST07_TH",
+      "ripped": [],
+      "pending": [
+        "/GND",
+        "/ST02_OUT",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 43,
+      "vias": 0,
+      "expanded": 1549
+    },
+    {
+      "step": 102,
+      "net": "/GND",
+      "ripped": [
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING"
+      ],
+      "pending": [
+        "/ST02_OUT",
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING"
+      ],
+      "segments": 422,
+      "vias": 8,
+      "expanded": 58164
+    },
+    {
+      "step": 103,
+      "net": "/ST02_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST03_OUT",
+        "/ST07_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING"
+      ],
+      "segments": 96,
+      "vias": 5,
+      "expanded": 32074
+    },
+    {
+      "step": 104,
+      "net": "/ST03_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST07_OUT",
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING"
+      ],
+      "segments": 73,
+      "vias": 4,
+      "expanded": 43307
+    },
+    {
+      "step": 105,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [
+        "/VBAT",
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING"
+      ],
+      "segments": 56,
+      "vias": 3,
+      "expanded": 36031
+    },
+    {
+      "step": 106,
+      "net": "/VBAT",
+      "ripped": [
+        "/GND",
+        "/ST01_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT"
+      ],
+      "pending": [
+        "/ST09_OUT",
+        "/bank1/ST02_TIMING",
+        "/GND",
+        "/ST01_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 358,
+      "vias": 16,
+      "expanded": 83643
+    },
+    {
+      "step": 107,
+      "net": "/ST09_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank1/ST02_TIMING",
+        "/GND",
+        "/ST01_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 38,
+      "vias": 3,
+      "expanded": 6290
+    },
+    {
+      "step": 108,
+      "net": "/bank1/ST02_TIMING",
+      "ripped": [],
+      "pending": [
+        "/GND",
+        "/ST01_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 24,
+      "vias": 0,
+      "expanded": 530
+    },
+    {
+      "step": 109,
+      "net": "/GND",
+      "ripped": [],
+      "pending": [
+        "/ST01_OUT",
+        "/ST05_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 403,
+      "vias": 11,
+      "expanded": 72856
+    },
+    {
+      "step": 110,
+      "net": "/ST01_OUT",
+      "ripped": [
+        "/VBAT"
+      ],
+      "pending": [
+        "/ST05_OUT",
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 69,
+      "vias": 2,
+      "expanded": 49329
+    },
+    {
+      "step": 111,
+      "net": "/ST05_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 64,
+      "vias": 7,
+      "expanded": 27665
+    },
+    {
+      "step": 112,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [
+        "/VBAT"
+      ],
+      "segments": 56,
+      "vias": 3,
+      "expanded": 35948
+    },
+    {
+      "step": 113,
+      "net": "/VBAT",
+      "ripped": [
+        "/GND",
+        "/ST02_OUT",
+        "/ST07_OUT",
+        "/bank1/ST02_TH"
+      ],
+      "pending": [
+        "/GND",
+        "/ST02_OUT",
+        "/ST07_OUT",
+        "/bank1/ST02_TH"
+      ],
+      "segments": 370,
+      "vias": 15,
+      "expanded": 82647
+    },
+    {
+      "step": 114,
+      "net": "/GND",
+      "ripped": [
+        "/VBAT"
+      ],
+      "pending": [
+        "/ST02_OUT",
+        "/ST07_OUT",
+        "/bank1/ST02_TH",
+        "/VBAT"
+      ],
+      "segments": 406,
+      "vias": 11,
+      "expanded": 78024
+    },
+    {
+      "step": 115,
+      "net": "/ST02_OUT",
+      "ripped": [
+        "/ST11_OUT"
+      ],
+      "pending": [
+        "/ST07_OUT",
+        "/bank1/ST02_TH",
+        "/VBAT",
+        "/ST11_OUT"
+      ],
+      "segments": 53,
+      "vias": 5,
+      "expanded": 36052
+    },
+    {
+      "step": 116,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [
+        "/bank1/ST02_TH",
+        "/VBAT",
+        "/ST11_OUT"
+      ],
+      "segments": 56,
+      "vias": 3,
+      "expanded": 35938
+    },
+    {
+      "step": 117,
+      "net": "/bank1/ST02_TH",
+      "ripped": [],
+      "pending": [
+        "/VBAT",
+        "/ST11_OUT"
+      ],
+      "segments": 38,
+      "vias": 0,
+      "expanded": 3486
+    },
+    {
+      "step": 118,
+      "net": "/VBAT",
+      "ripped": [
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST06_OUT",
+        "/ST07_OUT"
+      ],
+      "pending": [
+        "/ST11_OUT",
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST06_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 439,
+      "vias": 14,
+      "expanded": 82295
+    },
+    {
+      "step": 119,
+      "net": "/ST11_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST01_OUT",
+        "/ST02_OUT",
+        "/ST06_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 105,
+      "vias": 6,
+      "expanded": 142180
+    },
+    {
+      "step": 120,
+      "net": "/ST01_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST02_OUT",
+        "/ST06_OUT",
+        "/ST07_OUT"
+      ],
+      "segments": 54,
+      "vias": 2,
+      "expanded": 39105
+    },
+    {
+      "step": 121,
+      "net": "/ST02_OUT",
+      "ripped": [
+        "/VBAT"
+      ],
+      "pending": [
+        "/ST06_OUT",
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 75,
+      "vias": 5,
+      "expanded": 25460
+    },
+    {
+      "step": 122,
+      "net": "/ST06_OUT",
+      "ripped": [],
+      "pending": [
+        "/ST07_OUT",
+        "/VBAT"
+      ],
+      "segments": 77,
+      "vias": 5,
+      "expanded": 14538
+    },
+    {
+      "step": 123,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [
+        "/VBAT"
+      ],
+      "segments": 56,
+      "vias": 3,
+      "expanded": 35693
+    },
+    {
+      "step": 124,
+      "net": "/VBAT",
+      "ripped": [
+        "/ST07_OUT"
+      ],
+      "pending": [
+        "/ST07_OUT"
+      ],
+      "segments": 421,
+      "vias": 13,
+      "expanded": 81308
+    },
+    {
+      "step": 125,
+      "net": "/ST07_OUT",
+      "ripped": [],
+      "pending": [],
+      "segments": 58,
+      "vias": 3,
+      "expanded": 34267
+    }
+  ],
+  "failures": [],
+  "native_pad_partitions": {
+    "/GND": [
+      [
+        "BT1.2",
+        "C10.2",
+        "C12.2",
+        "C13.2",
+        "C14.2",
+        "C2.2",
+        "C4.2",
+        "C6.2",
+        "C8.2",
+        "D1.1",
+        "R12.2",
+        "R16.2",
+        "R20.2",
+        "R24.2",
+        "R28.2",
+        "R32.2",
+        "R36.2",
+        "R4.2",
+        "R40.2",
+        "R44.2",
+        "R57.2",
+        "R8.2",
+        "U1.11",
+        "U2.11",
+        "U3.11"
+      ]
+    ],
+    "/ST01_OUT": [
+      [
+        "R3.2",
+        "R45.1",
+        "R5.1",
+        "U1.1"
+      ]
+    ],
+    "/ST02_OUT": [
+      [
+        "R46.1",
+        "R7.2",
+        "R9.1",
+        "U1.7"
+      ]
+    ],
+    "/ST03_OUT": [
+      [
+        "R11.2",
+        "R13.1",
+        "R47.1",
+        "U1.8"
+      ]
+    ],
+    "/ST04_OUT": [
+      [
+        "R15.2",
+        "R17.1",
+        "R48.1",
+        "U1.14"
+      ]
+    ],
+    "/ST05_OUT": [
+      [
+        "R19.2",
+        "R21.1",
+        "R49.1",
+        "U2.1"
+      ]
+    ],
+    "/ST06_OUT": [
+      [
+        "R23.2",
+        "R25.1",
+        "R50.1",
+        "U2.7"
+      ]
+    ],
+    "/ST07_OUT": [
+      [
+        "R27.2",
+        "R29.1",
+        "R51.1",
+        "U2.8"
+      ]
+    ],
+    "/ST08_OUT": [
+      [
+        "R31.2",
+        "R33.1",
+        "R52.1",
+        "U2.14"
+      ]
+    ],
+    "/ST09_OUT": [
+      [
+        "R35.2",
+        "R37.1",
+        "R53.1",
+        "U3.1"
+      ]
+    ],
+    "/ST10_OUT": [
+      [
+        "R39.2",
+        "R41.1",
+        "R54.1",
+        "U3.7"
+      ]
+    ],
+    "/ST11_OUT": [
+      [
+        "R1.1",
+        "R43.2",
+        "R55.1",
+        "U3.8"
+      ]
+    ],
+    "/VBAT": [
+      [
+        "BT1.1",
+        "C1.2",
+        "C11.2",
+        "C12.1",
+        "C13.1",
+        "C14.1",
+        "C3.2",
+        "C5.2",
+        "C7.2",
+        "C9.2",
+        "R10.1",
+        "R14.1",
+        "R18.1",
+        "R2.1",
+        "R22.1",
+        "R26.1",
+        "R30.1",
+        "R34.1",
+        "R38.1",
+        "R42.1",
+        "R56.1",
+        "R59.1",
+        "R6.1",
+        "U1.4",
+        "U2.4",
+        "U3.4"
+      ]
+    ],
+    "/bank1/ST01_TH": [
+      [
+        "R2.2",
+        "R3.1",
+        "R4.1",
+        "U1.3"
+      ]
+    ],
+    "/bank1/ST01_TIMING": [
+      [
+        "C1.1",
+        "R1.2",
+        "U1.2"
+      ]
+    ],
+    "/bank1/ST02_TH": [
+      [
+        "R6.2",
+        "R7.1",
+        "R8.1",
+        "U1.5"
+      ]
+    ],
+    "/bank1/ST02_TIMING": [
+      [
+        "C2.1",
+        "R5.2",
+        "U1.6"
+      ]
+    ],
+    "/bank1/ST03_TH": [
+      [
+        "R10.2",
+        "R11.1",
+        "R12.1",
+        "U1.10"
+      ]
+    ],
+    "/bank1/ST03_TIMING": [
+      [
+        "C3.1",
+        "R9.2",
+        "U1.9"
+      ]
+    ],
+    "/bank1/ST04_TH": [
+      [
+        "R14.2",
+        "R15.1",
+        "R16.1",
+        "U1.12"
+      ]
+    ],
+    "/bank1/ST04_TIMING": [
+      [
+        "C4.1",
+        "R13.2",
+        "U1.13"
+      ]
+    ],
+    "/bank2/ST05_TH": [
+      [
+        "R18.2",
+        "R19.1",
+        "R20.1",
+        "U2.3"
+      ]
+    ],
+    "/bank2/ST05_TIMING": [
+      [
+        "C5.1",
+        "R17.2",
+        "U2.2"
+      ]
+    ],
+    "/bank2/ST06_TH": [
+      [
+        "R22.2",
+        "R23.1",
+        "R24.1",
+        "U2.5"
+      ]
+    ],
+    "/bank2/ST06_TIMING": [
+      [
+        "C6.1",
+        "R21.2",
+        "U2.6"
+      ]
+    ],
+    "/bank2/ST07_TH": [
+      [
+        "R26.2",
+        "R27.1",
+        "R28.1",
+        "U2.10"
+      ]
+    ],
+    "/bank2/ST07_TIMING": [
+      [
+        "C7.1",
+        "R25.2",
+        "U2.9"
+      ]
+    ],
+    "/bank2/ST08_TH": [
+      [
+        "R30.2",
+        "R31.1",
+        "R32.1",
+        "U2.12"
+      ]
+    ],
+    "/bank2/ST08_TIMING": [
+      [
+        "C8.1",
+        "R29.2",
+        "U2.13"
+      ]
+    ],
+    "/bank3/ST09_TH": [
+      [
+        "R34.2",
+        "R35.1",
+        "R36.1",
+        "U3.3"
+      ]
+    ],
+    "/bank3/ST09_TIMING": [
+      [
+        "C9.1",
+        "R33.2",
+        "U3.2"
+      ]
+    ],
+    "/bank3/ST10_TH": [
+      [
+        "R38.2",
+        "R39.1",
+        "R40.1",
+        "U3.5"
+      ]
+    ],
+    "/bank3/ST10_TIMING": [
+      [
+        "C10.1",
+        "R37.2",
+        "U3.6"
+      ]
+    ],
+    "/bank3/ST11_TH": [
+      [
+        "R42.2",
+        "R43.1",
+        "R44.1",
+        "U3.10"
+      ]
+    ],
+    "/bank3/ST11_TIMING": [
+      [
+        "C11.1",
+        "R41.2",
+        "U3.9"
+      ]
+    ],
+    "/decoder/GREEN_A": [
+      [
+        "D2.2",
+        "R59.2"
+      ]
+    ],
+    "/decoder/MAJORITY_SUM": [
+      [
+        "R45.2",
+        "R46.2",
+        "R47.2",
+        "R48.2",
+        "R49.2",
+        "R50.2",
+        "R51.2",
+        "R52.2",
+        "R53.2",
+        "R54.2",
+        "R55.2",
+        "U3.12"
+      ]
+    ],
+    "/decoder/MIDREF": [
+      [
+        "R56.2",
+        "R57.1",
+        "U3.13"
+      ]
+    ],
+    "/decoder/RED_A": [
+      [
+        "D1.2",
+        "R58.2"
+      ]
+    ],
+    "ENCODED_OUT": [
+      [
+        "D2.1",
+        "R58.1",
+        "U3.14"
+      ]
+    ]
+  },
+  "acceptance": "Native DRC and schematic parity pending; this receipt alone is not a pass.",
+  "producer_sha256": "b0f71717cdf4f493c7898902f32b755d4188de74aac0fb8bb84704bbdfcdb910",
+  "native_validation": {
+    "path": "evidence/board-validation.json",
+    "sha256": "202ab9a49c124bb9befb8f4d4fad93a23279a9da7b39587c1925b75f78ab1fec",
+    "status": "PASS",
+    "board_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109"
+  }
+}

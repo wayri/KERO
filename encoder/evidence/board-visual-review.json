@@ -1,21 +1,23 @@
 {
   "schema": "kero.encoder-board-visual-review/v1",
-  "board_sha256": "eaacb294ad8db8dc1bded975edc3e3b9434c02e23717e1305bcb9ecb963980c4",
+  "board_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
   "previews": [
     {
       "path": "previews/board-3d.png",
-      "sha256": "17477716db27be17ff3fe7eaade67a728d0bc8957d8cf74ff72d3aa51957c6bb"
+      "sha256": "57952f8d8fd2a9e1699c942e3ab3f090cbf769bdff84bf4a80eb74c7f8da465a"
     },
     {
       "path": "previews/board-3d-bottom.png",
-      "sha256": "3f0f61c9c0cb8d77df6d406e0db55874f61bf6d6d8f3b90c3b9706100a088447"
+      "sha256": "123def2cc12a88b397b1a029291eb113ae5d8b31a8ff7618c8e6633cb0e705af"
     }
   ],
   "observations": [
-    "Native top and bottom 3D renders inspected: all 79 fitted parts have local models. The holder and nominal CR2032 are on the bottom and stay inside the 40 mm outline.",
-    "Front functional clusters show three quad op amps with local RC banks and a decoder resistor array. No obvious model body overlap was observed.",
-    "Part references are on fabrication layers; silkscreen is reserved for polarity and product identification.",
-    "Mechanical fit is an envelope preview. Vendor height and tolerance qualification and factory assembly approval remain open.",
-    "Routing remains incomplete per board-validation.json. Images do not override the 13 native open connections."
+    "Native top and bottom 3D renders inspected after routing closure. All 79 fitted components resolve local package models; the holder and nominal CR2032 remain on the bottom inside the 40 mm outline.",
+    "No component placement or body geometry changed during routing repair. The front RC banks and decoder array remain readable in the assembly view.",
+    "Part references are on fabrication layers. Product identification and polarity are on silkscreen.",
+    "The saved-source native gate reports zero DRC findings, zero unconnected items and zero schematic parity findings. All 40 nets have one connected pad partition.",
+    "Mechanical views remain package-envelope evidence; vendor dimensional tolerances, sourcing, fabrication and bench qualification remain open.",
+    "Final native F.Cu preview and top/bottom 3D renders inspected after routing closure; frame includes the complete board.",
+    "Native DRC, schematic parity and all 40 connected-pad partitions pass separately; images do not establish electrical correctness."
   ]
 }

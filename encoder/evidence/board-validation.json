@@ -1,13 +1,12 @@
 {
   "schema": "kero.encoder-board-validation/v1",
-  "status": "INCOMPLETE",
+  "status": "PASS",
   "source_sha256": {
     "encoder/bank1.kicad_sch": "f810c0e654ed2c0e514641a30d0615ee6d94b068b1d6a444891e92edc9b664e4",
     "encoder/bank2.kicad_sch": "66709dfe3f674b9388b96f932c32dd997e28426cfd0d431340ae855de3da0600",
     "encoder/bank3.kicad_sch": "00372ade10aaf8aa68b33aee8660868a83b4fb1656f6b0bbce3c37fdfc097056",
     "encoder/decoder.kicad_sch": "cee1e80dc3f17177ef4850e5dcf0f244e89684c27955da5f65a9f9c8457737c9",
-    "encoder/Encoder.kicad_pcb": "eaacb294ad8db8dc1bded975edc3e3b9434c02e23717e1305bcb9ecb963980c4",
-    "encoder/Encoder.kicad_prl": "507fa475f35e785ed06741c36dcad3b6ec93075a88359d0cbe1124caa30e84fc",
+    "encoder/Encoder.kicad_pcb": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
     "encoder/Encoder.kicad_pro": "c96b309cf244bcbdaa540fb43f93ef31a521204d19c428e4547de6a6f989e049",
     "encoder/Encoder.kicad_sch": "c8170889000416e7d5da67348e48b579efc1122663ecbd89017244313ada52bb",
     "encoder/Encoder.kicad_sym": "7af727b99fe1340c29f0d02ef1394e6754ae41907e3005fbab4b3c1e6219d5e8",
@@ -42,11 +41,11 @@
   "parts": 79,
   "pads": 194,
   "nets": 40,
-  "native_drc_findings": 15,
-  "native_unconnected_items": 13,
+  "native_drc_findings": 0,
+  "native_unconnected_items": 0,
   "native_schematic_parity_findings": 0,
   "explicit_pad_net_differences": [],
-  "native_graph_unconnected_count": 13,
+  "native_graph_unconnected_count": 0,
   "native_connected_pad_partitions": {
     "/GND": [
       [
@@ -79,9 +78,7 @@
     ],
     "/ST01_OUT": [
       [
-        "R3.2"
-      ],
-      [
+        "R3.2",
         "R45.1",
         "R5.1",
         "U1.1"
@@ -91,19 +88,15 @@
       [
         "R46.1",
         "R7.2",
+        "R9.1",
         "U1.7"
-      ],
-      [
-        "R9.1"
       ]
     ],
     "/ST03_OUT": [
       [
         "R11.2",
         "R13.1",
-        "R47.1"
-      ],
-      [
+        "R47.1",
         "U1.8"
       ]
     ],
@@ -125,21 +118,15 @@
     ],
     "/ST06_OUT": [
       [
-        "R23.2"
-      ],
-      [
-        "R25.1"
-      ],
-      [
+        "R23.2",
+        "R25.1",
         "R50.1",
         "U2.7"
       ]
     ],
     "/ST07_OUT": [
       [
-        "R27.2"
-      ],
-      [
+        "R27.2",
         "R29.1",
         "R51.1",
         "U2.8"
@@ -163,15 +150,9 @@
     ],
     "/ST10_OUT": [
       [
-        "R39.2"
-      ],
-      [
-        "R41.1"
-      ],
-      [
-        "R54.1"
-      ],
-      [
+        "R39.2",
+        "R41.1",
+        "R54.1",
         "U3.7"
       ]
     ],
@@ -232,9 +213,7 @@
       [
         "R6.2",
         "R7.1",
-        "R8.1"
-      ],
-      [
+        "R8.1",
         "U1.5"
       ]
     ],
@@ -323,11 +302,9 @@
     "/bank2/ST08_TH": [
       [
         "R30.2",
+        "R31.1",
         "R32.1",
         "U2.12"
-      ],
-      [
-        "R31.1"
       ]
     ],
     "/bank2/ST08_TIMING": [
@@ -406,12 +383,8 @@
     ],
     "/decoder/MIDREF": [
       [
-        "R56.2"
-      ],
-      [
-        "R57.1"
-      ],
-      [
+        "R56.2",
+        "R57.1",
         "U3.13"
       ]
     ],
@@ -429,105 +402,7 @@
       ]
     ]
   },
-  "incomplete_nets": {
-    "/ST01_OUT": [
-      [
-        "R3.2"
-      ],
-      [
-        "R45.1",
-        "R5.1",
-        "U1.1"
-      ]
-    ],
-    "/ST02_OUT": [
-      [
-        "R46.1",
-        "R7.2",
-        "U1.7"
-      ],
-      [
-        "R9.1"
-      ]
-    ],
-    "/ST03_OUT": [
-      [
-        "R11.2",
-        "R13.1",
-        "R47.1"
-      ],
-      [
-        "U1.8"
-      ]
-    ],
-    "/ST06_OUT": [
-      [
-        "R23.2"
-      ],
-      [
-        "R25.1"
-      ],
-      [
-        "R50.1",
-        "U2.7"
-      ]
-    ],
-    "/ST07_OUT": [
-      [
-        "R27.2"
-      ],
-      [
-        "R29.1",
-        "R51.1",
-        "U2.8"
-      ]
-    ],
-    "/ST10_OUT": [
-      [
-        "R39.2"
-      ],
-      [
-        "R41.1"
-      ],
-      [
-        "R54.1"
-      ],
-      [
-        "U3.7"
-      ]
-    ],
-    "/bank1/ST02_TH": [
-      [
-        "R6.2",
-        "R7.1",
-        "R8.1"
-      ],
-      [
-        "U1.5"
-      ]
-    ],
-    "/bank2/ST08_TH": [
-      [
-        "R30.2",
-        "R32.1",
-        "U2.12"
-      ],
-      [
-        "R31.1"
-      ]
-    ],
-    "/decoder/MIDREF": [
-      [
-        "R56.2"
-      ],
-      [
-        "R57.1"
-      ],
-      [
-        "U3.13"
-      ]
-    ]
-  },
+  "incomplete_nets": {},
   "models": [
     {
       "reference": "R49",
@@ -1039,5 +914,6 @@
     "No copper zones are present; tracks and vias provide all connections.",
     "Native CLI registry-access warnings are retained in the command receipt."
   ],
-  "producer_sha256": "f3a4d1a756cc5a1c44010f91dc38f5d5ce2f5643f15af18318ba1d9cc232eba5"
+  "producer_sha256": "5db7875a9610040396cc885daca03edad81a176572e27a20dece97a6a14b38b8",
+  "repair_producer_sha256": "b0f71717cdf4f493c7898902f32b755d4188de74aac0fb8bb84704bbdfcdb910"
 }

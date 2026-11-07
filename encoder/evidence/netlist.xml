@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\encoder\Encoder.kicad_sch</source>
-    <date>2026-11-07T22:02:38</date>
+    <date>2026-11-07T22:17:53</date>
     <tool>Eeschema 10.0.6</tool>
     <textvar name="BYPASS_C">100n</textvar>
     <textvar name="CAP_TOL">1%</textvar>
