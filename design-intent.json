@@ -216,7 +216,10 @@
         "1": "OUT",
         "2": "RED_A"
       },
-      "rating": "1%, 0.1 W, 0603"
+      "rating": "4.7 kohm, 1%, >=0.1 W, 0603, thick film",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06034K70FKEA",
+      "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
     },
     {
       "ref": "D1",
@@ -258,7 +261,10 @@
         "1": "VBAT",
         "2": "GREEN_A"
       },
-      "rating": "1%, 0.1 W, 0603"
+      "rating": "4.7 kohm, 1%, >=0.1 W, 0603, thick film",
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06034K70FKEA",
+      "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
     },
     {
       "ref": "D2",
@@ -282,5 +288,5 @@
       "rating": "5 mm diffused yellow-green LED; Vf <=2.1 V; avoid blue/InGaN green"
     }
   ],
-  "review_scenario": "bom-values"
+  "review_scenario": "bom-mpn"
 }

@@ -644,10 +644,15 @@
     (property "Reference" "R6" (at 196.85 90.17 0) (effects (font (size 1.27 1.27))))
     (property "Value" "4.7k" (at 196.85 92.71 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Demo:R_0603_1608Metric" (at 190.5 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Datasheet" "" (at 190.5 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Manufacturer" "Generic" (at 190.5 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "MPN" "Select to specification" (at 190.5 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Rating" "1%, 0.1 W, 0603" (at 190.5 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+      (at 190.5 91.44 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Vishay" (at 190.5 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "CRCW06034K70FKEA" (at 190.5 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "4.7 kohm, 1%, >=0.1 W, 0603, thick film" (at 190.5 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R6") (unit 1))))
   )
   (symbol
@@ -683,10 +688,15 @@
     (property "Reference" "R7" (at 224.79 62.23 0) (effects (font (size 1.27 1.27))))
     (property "Value" "4.7k" (at 224.79 64.77 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Demo:R_0603_1608Metric" (at 218.44 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Datasheet" "" (at 218.44 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Manufacturer" "Generic" (at 218.44 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "MPN" "Select to specification" (at 218.44 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    (property "Rating" "1%, 0.1 W, 0603" (at 218.44 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+      (at 218.44 63.5 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Vishay" (at 218.44 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "CRCW06034K70FKEA" (at 218.44 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "4.7 kohm, 1%, >=0.1 W, 0603, thick film" (at 218.44 63.5 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R7") (unit 1))))
   )
   (symbol

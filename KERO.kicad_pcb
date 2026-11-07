@@ -1914,7 +1914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1948,7 +1948,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Generic"
+		(property "Manufacturer" "Vishay"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1960,7 +1960,7 @@
 				)
 			)
 		)
-		(property "MPN" "Select to specification"
+		(property "MPN" "CRCW06034K70FKEA"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1972,7 +1972,7 @@
 				)
 			)
 		)
-		(property "Rating" "1%, 0.1 W, 0603"
+		(property "Rating" "4.7 kohm, 1%, >=0.1 W, 0603, thick film"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2334,7 +2334,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2368,7 +2368,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Generic"
+		(property "Manufacturer" "Vishay"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2380,7 +2380,7 @@
 				)
 			)
 		)
-		(property "MPN" "Select to specification"
+		(property "MPN" "CRCW06034K70FKEA"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2392,7 +2392,7 @@
 				)
 			)
 		)
-		(property "Rating" "1%, 0.1 W, 0603"
+		(property "Rating" "4.7 kohm, 1%, >=0.1 W, 0603, thick film"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
