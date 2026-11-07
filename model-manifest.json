@@ -2,8 +2,8 @@
   {
     "reference": "D2",
     "model": "models\\LED_D5.0mm_green.step",
-    "bytes": 23785,
-    "sha256": "da2ad32a5233e96a0bebd669545150bb7a542cabf3d9e4fa2d2cdad824fe57d7",
+    "bytes": 23205,
+    "sha256": "5e0cc678ad60895519595f1233de5e66db8cef83f7f6c4600085492eba328601",
     "origin": "KiCad LED colour derivative"
   },
   {
@@ -51,8 +51,8 @@
   {
     "reference": "D1",
     "model": "models\\LED_D5.0mm.step",
-    "bytes": 23819,
-    "sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+    "bytes": 23239,
+    "sha256": "1ddce37d9fdbd2bcd7b2dbbe1ce0785aa691b0ececd3d047aa91e8028cdd99fc",
     "origin": "Installed KiCad 10.0.6 standard library"
   },
   {
@@ -79,8 +79,8 @@
   {
     "reference": "BT1",
     "model": "models\\BatteryHolder_Keystone_1058_1x2032.step",
-    "bytes": 196119,
-    "sha256": "bfe25e361483fb1350eca3a79dfde5a35766b9210d5ce48235baba3f37bc2579",
+    "bytes": 191663,
+    "sha256": "8eceb549a685bb714d9163595ddaecd0fd95b52ebee1e9b0ef75b8b77b3c5234",
     "origin": "Installed KiCad 10.0.6 standard library"
   },
   {

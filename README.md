@@ -6,6 +6,14 @@ An original, small KiCad project for demonstrating **schematic, PCB, BoM, 3D, co
 
 One CR2032 cell powers an LMV358A dual op-amp and alternating red / yellow-green LEDs. The baseline is approximately **1.02 Hz**, calculated with ideal output swings; red is on for about **29%** of each cycle. The timing PR changes R1 from 1 MΩ to 470 kΩ, giving approximately **2.18 Hz**. This is a design/review demonstration; hardware has not been built or bench tested.
 
+## Try the comparison demos
+
+- [PR #1 — timing resistor / blink-rate change](https://github.com/wayri/KERO/pull/1)
+- [PR #2 — LED placement and routing change](https://github.com/wayri/KERO/pull/2)
+- [Baseline commit history](https://github.com/wayri/KERO/commits/main/)
+
+Both PRs are intentionally open and unmerged. Each contains a design commit followed by a verification commit. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
+
 ## Open the project
 
 Open [KERO.kicad_pro](KERO.kicad_pro) in **KiCad 10** (verified with 10.0.6). The editable schematic, routed two-layer PCB, local symbol/footprint libraries, and all component 3D assets are included. Board dimensions are **63.50 × 45.72 mm**, nominal thickness 1.6 mm. Four M2 clearance holes are mechanical board-only items.

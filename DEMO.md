@@ -10,3 +10,12 @@ Keep the comparison pull requests open and unmerged so the original baseline rem
 6. Check each branch's native evidence and semantic comparison receipt. These receipts describe saved source changes; the live PR browser/UI still needs an installed Pocket KiView edition to demonstrate interaction.
 
 Suggested 90-second recording: 15 s introduction; 20 s schematic/BoM; 15 s PCB/3D; 20 s timing PR; 20 s layout PR. Keep hardware behavior labelled as calculated until a physical board has been tested.
+
+## Published references
+
+- [Introduction: 232f023](https://github.com/wayri/KERO/commit/232f023)
+- [Schematic and BoM: 635a9a3](https://github.com/wayri/KERO/commit/635a9a3)
+- [PCB and models: 54ecd3c](https://github.com/wayri/KERO/commit/54ecd3c)
+- [Verified baseline: db7a709](https://github.com/wayri/KERO/commit/db7a709)
+- [Timing comparison PR #1](https://github.com/wayri/KERO/pull/1)
+- [Layout comparison PR #2](https://github.com/wayri/KERO/pull/2)
