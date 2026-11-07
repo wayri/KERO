@@ -1,0 +1,9 @@
+{
+  "surface": "Local headless Edge with the actual Pocket KiView shared renderer sources; not an installed GitHub extension check",
+  "wirePrimitives": 51,
+  "minWidth": 0.2032,
+  "warnings": [
+    "Custom .kicad_wks layouts are not rendered; the KiCad default drawing sheet is shown."
+  ],
+  "primitives": 264
+}
