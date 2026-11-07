@@ -1,0 +1,1092 @@
+{
+  "model": "Analytical finite-output-rail relaxation oscillator; energy-conserving steady cycle",
+  "source_sha256": {
+    "KERO.kicad_pcb": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+    "KERO.kicad_sch": "1b7049141da6ba6fa7413dc043ed129c30528bff330965dc43b04ea2e6a74372",
+    "KERO.kicad_pro": "a342616543b3e1d1e265dd4a028d3bf1c06607048dbca35b7dfcb8e594322b70",
+    "design-intent.json": "66c0d986cf0ee62a9a9233014411e701b8cb12aeb076a4fffd1f7cb072635a14",
+    "bom.csv": "d7b69135de8a2bd12c42557ed0fd32b26ae6c8954afe89841e25056eeca61973"
+  },
+  "nominal": {
+    "inputs": {
+      "supply_V": 3.0,
+      "Iq_package_A": 0.00014,
+      "red_Vf_V": 1.8,
+      "green_Vf_V": 2.0,
+      "assumed_high_headroom_V": 0.02,
+      "assumed_low_output_V": 0.02
+    },
+    "frequency_Hz": 1.0175160038985291,
+    "high_duty": 0.29031767145414944,
+    "threshold_low_V": 0.6045816733067728,
+    "threshold_high_V": 1.194223107569721,
+    "red_on_current_A": 0.00025106382978723403,
+    "green_on_current_A": 0.00020851063829787234,
+    "cell_average_A": 0.00037128621770889716,
+    "cell_peak_A": 0.00040538147918962446,
+    "cell_low_state_A": 0.00035746482156480457,
+    "cell_rms_A": 0.00037191455958685677,
+    "cell_internal_loss_W_per_ohm": 1.3832043963268564e-07,
+    "battery_terminal_power_W": 0.0011138586531266915,
+    "losses": {
+      "R1_W": 1.7759100039357274e-06,
+      "R2_W": 2.9063348416099832e-06,
+      "R3_W": 7.229688660721352e-07,
+      "R4_W": 1.6875e-05,
+      "R5_W": 5.625e-06,
+      "R6_W": 8.600815441122504e-05,
+      "R7_W": 0.00014501678900753935,
+      "U1A_W": 0.00021448772374609641,
+      "U1B_W": 0.00021328926201223826,
+      "D1_electrical_W": 0.0001311988796103433,
+      "D2_electrical_W": 0.0002959526306276313,
+      "ideal_C3_average_loss_W": 0,
+      "ideal_C2_steady_loss_W": 0
+    },
+    "energy_residual_W": 2.168404344971009e-19,
+    "high_VBAT_loads_A": {
+      "U1.8": 0.0003975726577494352,
+      "R4.1": 7.5e-06
+    },
+    "low_VBAT_loads_A": {
+      "U1.8": 0.00014145418326693226,
+      "R4.1": 7.5e-06,
+      "R7.1": 0.00020851063829787234
+    },
+    "high_GND_injections_A": {
+      "U1.4": 0.0001444422310756972,
+      "D1.1": 0.00025106382978723403,
+      "R5.2": 7.5e-06,
+      "C3.2": 2.0665968865039856e-06
+    }
+  },
+  "voltage_and_iq_scenarios": [
+    {
+      "inputs": {
+        "supply_V": 2.5,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0163009399922462,
+      "high_duty": 0.2897412403844467,
+      "threshold_low_V": 0.5044820717131474,
+      "threshold_high_V": 0.9945219123505975,
+      "red_on_current_A": 0.00014468085106382977,
+      "green_on_current_A": 0.00010212765957446809,
+      "cell_average_A": 0.0002631317485244876,
+      "cell_peak_A": 0.00029660158811562257,
+      "cell_low_state_A": 0.0002495828388573366,
+      "cell_rms_A": 0.0002639854644206,
+      "cell_internal_loss_W_per_ohm": 6.968832542535986e-08,
+      "battery_terminal_power_W": 0.000657829371311219,
+      "losses": {
+        "R1_W": 1.2251487586567878e-06,
+        "R2_W": 2.005149459140465e-06,
+        "R3_W": 4.987933977961357e-07,
+        "R4_W": 1.171875e-05,
+        "R5_W": 3.90625e-06,
+        "R6_W": 2.8505606288035766e-05,
+        "R7_W": 3.481779110966457e-05,
+        "U1A_W": 0.0001773475955295032,
+        "U1B_W": 0.00017727414050001914,
+        "D1_electrical_W": 7.545601664480057e-05,
+        "D2_electrical_W": 0.00014507412962360238,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": -1.0842021724855044e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0002900949416535194,
+        "R4.1": 6.25e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.0001412051792828685,
+        "R4.1": 6.25e-06,
+        "R7.1": 0.00010212765957446809
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.00014369521912350596,
+        "D1.1": 0.00014468085106382977,
+        "R5.2": 6.25e-06,
+        "C3.2": 1.7188714661836768e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 2.5,
+        "Iq_package_A": 0.00025,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0163009399922462,
+      "high_duty": 0.2897412403844467,
+      "threshold_low_V": 0.5044820717131474,
+      "threshold_high_V": 0.9945219123505975,
+      "red_on_current_A": 0.00014468085106382977,
+      "green_on_current_A": 0.00010212765957446809,
+      "cell_average_A": 0.00037313174852448763,
+      "cell_peak_A": 0.0004066015881156226,
+      "cell_low_state_A": 0.0003595828388573367,
+      "cell_rms_A": 0.00037373427739604935,
+      "cell_internal_loss_W_per_ohm": 1.3967731010074716e-07,
+      "battery_terminal_power_W": 0.0009328293713112191,
+      "losses": {
+        "R1_W": 1.2251487586567878e-06,
+        "R2_W": 2.005149459140465e-06,
+        "R3_W": 4.987933977961357e-07,
+        "R4_W": 1.171875e-05,
+        "R5_W": 3.90625e-06,
+        "R6_W": 2.8505606288035766e-05,
+        "R7_W": 3.481779110966457e-05,
+        "U1A_W": 0.00031484759552950325,
+        "U1B_W": 0.00031477414050001915,
+        "D1_electrical_W": 7.545601664480057e-05,
+        "D2_electrical_W": 0.00014507412962360238,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": -1.0842021724855044e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0004000949416535194,
+        "R4.1": 6.25e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00025120517928286856,
+        "R4.1": 6.25e-06,
+        "R7.1": 0.00010212765957446809
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.000253695219123506,
+        "D1.1": 0.00014468085106382977,
+        "R5.2": 6.25e-06,
+        "C3.2": 1.7188714661836768e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 2.5,
+        "Iq_package_A": 0.0003,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0163009399922462,
+      "high_duty": 0.2897412403844467,
+      "threshold_low_V": 0.5044820717131474,
+      "threshold_high_V": 0.9945219123505975,
+      "red_on_current_A": 0.00014468085106382977,
+      "green_on_current_A": 0.00010212765957446809,
+      "cell_average_A": 0.0004231317485244876,
+      "cell_peak_A": 0.00045660158811562256,
+      "cell_low_state_A": 0.00040958283885733664,
+      "cell_rms_A": 0.00042366317394033193,
+      "cell_internal_loss_W_per_ohm": 1.7949048495319594e-07,
+      "battery_terminal_power_W": 0.001057829371311219,
+      "losses": {
+        "R1_W": 1.2251487586567878e-06,
+        "R2_W": 2.005149459140465e-06,
+        "R3_W": 4.987933977961357e-07,
+        "R4_W": 1.171875e-05,
+        "R5_W": 3.90625e-06,
+        "R6_W": 2.8505606288035766e-05,
+        "R7_W": 3.481779110966457e-05,
+        "U1A_W": 0.0003773475955295032,
+        "U1B_W": 0.0003772741405000191,
+        "D1_electrical_W": 7.545601664480057e-05,
+        "D2_electrical_W": 0.00014507412962360238,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0004500949416535194,
+        "R4.1": 6.25e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.0003012051792828685,
+        "R4.1": 6.25e-06,
+        "R7.1": 0.00010212765957446809
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.00030369521912350595,
+        "D1.1": 0.00014468085106382977,
+        "R5.2": 6.25e-06,
+        "C3.2": 1.7188714661836768e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 2.7,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.01684221501209,
+      "high_duty": 0.28999782800356816,
+      "threshold_low_V": 0.5445219123505977,
+      "threshold_high_V": 1.0744023904382471,
+      "red_on_current_A": 0.0001872340425531915,
+      "green_on_current_A": 0.00014468085106382982,
+      "cell_average_A": 0.0003063946445229503,
+      "cell_peak_A": 0.0003401135445452234,
+      "cell_low_state_A": 0.0002927356319403239,
+      "cell_rms_A": 0.00030713915616124946,
+      "cell_internal_loss_W_per_ohm": 9.433446124744438e-08,
+      "battery_terminal_power_W": 0.0008272655402119659,
+      "losses": {
+        "R1_W": 1.4332208718206268e-06,
+        "R2_W": 2.345612349585906e-06,
+        "R3_W": 5.834856591009717e-07,
+        "R4_W": 1.3668750000000004e-05,
+        "R5_W": 4.5562500000000015e-06,
+        "R6_W": 4.7781769788502814e-05,
+        "R7_W": 6.985212858109578e-05,
+        "U1A_W": 0.00019220366898723958,
+        "U1B_W": 0.0001916577787676416,
+        "D1_electrical_W": 9.773543820375575e-05,
+        "D2_electrical_W": 0.00020544743700322285,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0003330860280938373,
+        "R4.1": 6.750000000000001e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.000141304780876494,
+        "R4.1": 6.750000000000001e-06,
+        "R7.1": 0.00014468085106382982
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.00014399402390438245,
+        "D1.1": 0.0001872340425531915,
+        "R5.2": 6.750000000000001e-06,
+        "C3.2": 1.857961636263294e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 2.7,
+        "Iq_package_A": 0.00025,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.01684221501209,
+      "high_duty": 0.28999782800356816,
+      "threshold_low_V": 0.5445219123505977,
+      "threshold_high_V": 1.0744023904382471,
+      "red_on_current_A": 0.0001872340425531915,
+      "green_on_current_A": 0.00014468085106382982,
+      "cell_average_A": 0.0004163946445229503,
+      "cell_peak_A": 0.00045011354454522334,
+      "cell_low_state_A": 0.00040273563194032384,
+      "cell_rms_A": 0.00041694278149704596,
+      "cell_internal_loss_W_per_ohm": 1.7384128304249342e-07,
+      "battery_terminal_power_W": 0.0011242655402119658,
+      "losses": {
+        "R1_W": 1.4332208718206268e-06,
+        "R2_W": 2.345612349585906e-06,
+        "R3_W": 5.834856591009717e-07,
+        "R4_W": 1.3668750000000004e-05,
+        "R5_W": 4.5562500000000015e-06,
+        "R6_W": 4.7781769788502814e-05,
+        "R7_W": 6.985212858109578e-05,
+        "U1A_W": 0.00034070366898723966,
+        "U1B_W": 0.00034015777876764163,
+        "D1_electrical_W": 9.773543820375575e-05,
+        "D2_electrical_W": 0.00020544743700322285,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 2.168404344971009e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.00044308602809383735,
+        "R4.1": 6.750000000000001e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00025130478087649405,
+        "R4.1": 6.750000000000001e-06,
+        "R7.1": 0.00014468085106382982
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0002539940239043825,
+        "D1.1": 0.0001872340425531915,
+        "R5.2": 6.750000000000001e-06,
+        "C3.2": 1.857961636263294e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 2.7,
+        "Iq_package_A": 0.0003,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.01684221501209,
+      "high_duty": 0.28999782800356816,
+      "threshold_low_V": 0.5445219123505977,
+      "threshold_high_V": 1.0744023904382471,
+      "red_on_current_A": 0.0001872340425531915,
+      "green_on_current_A": 0.00014468085106382982,
+      "cell_average_A": 0.0004663946445229503,
+      "cell_peak_A": 0.0005001135445452234,
+      "cell_low_state_A": 0.0004527356319403238,
+      "cell_rms_A": 0.0004668840835740585,
+      "cell_internal_loss_W_per_ohm": 2.1798074749478845e-07,
+      "battery_terminal_power_W": 0.0012592655402119657,
+      "losses": {
+        "R1_W": 1.4332208718206268e-06,
+        "R2_W": 2.345612349585906e-06,
+        "R3_W": 5.834856591009717e-07,
+        "R4_W": 1.3668750000000004e-05,
+        "R5_W": 4.5562500000000015e-06,
+        "R6_W": 4.7781769788502814e-05,
+        "R7_W": 6.985212858109578e-05,
+        "U1A_W": 0.0004082036689872396,
+        "U1B_W": 0.0004076577787676416,
+        "D1_electrical_W": 9.773543820375575e-05,
+        "D2_electrical_W": 0.00020544743700322285,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0004930860280938373,
+        "R4.1": 6.750000000000001e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.000301304780876494,
+        "R4.1": 6.750000000000001e-06,
+        "R7.1": 0.00014468085106382982
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.00030399402390438246,
+        "D1.1": 0.0001872340425531915,
+        "R5.2": 6.750000000000001e-06,
+        "C3.2": 1.857961636263294e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.0,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0175160038985291,
+      "high_duty": 0.29031767145414944,
+      "threshold_low_V": 0.6045816733067728,
+      "threshold_high_V": 1.194223107569721,
+      "red_on_current_A": 0.00025106382978723403,
+      "green_on_current_A": 0.00020851063829787234,
+      "cell_average_A": 0.00037128621770889716,
+      "cell_peak_A": 0.00040538147918962446,
+      "cell_low_state_A": 0.00035746482156480457,
+      "cell_rms_A": 0.00037191455958685677,
+      "cell_internal_loss_W_per_ohm": 1.3832043963268564e-07,
+      "battery_terminal_power_W": 0.0011138586531266915,
+      "losses": {
+        "R1_W": 1.7759100039357274e-06,
+        "R2_W": 2.9063348416099832e-06,
+        "R3_W": 7.229688660721352e-07,
+        "R4_W": 1.6875e-05,
+        "R5_W": 5.625e-06,
+        "R6_W": 8.600815441122504e-05,
+        "R7_W": 0.00014501678900753935,
+        "U1A_W": 0.00021448772374609641,
+        "U1B_W": 0.00021328926201223826,
+        "D1_electrical_W": 0.0001311988796103433,
+        "D2_electrical_W": 0.0002959526306276313,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 2.168404344971009e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0003975726577494352,
+        "R4.1": 7.5e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00014145418326693226,
+        "R4.1": 7.5e-06,
+        "R7.1": 0.00020851063829787234
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0001444422310756972,
+        "D1.1": 0.00025106382978723403,
+        "R5.2": 7.5e-06,
+        "C3.2": 2.0665968865039856e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.0,
+        "Iq_package_A": 0.00025,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0175160038985291,
+      "high_duty": 0.29031767145414944,
+      "threshold_low_V": 0.6045816733067728,
+      "threshold_high_V": 1.194223107569721,
+      "red_on_current_A": 0.00025106382978723403,
+      "green_on_current_A": 0.00020851063829787234,
+      "cell_average_A": 0.0004812862177088972,
+      "cell_peak_A": 0.0005153814791896245,
+      "cell_low_state_A": 0.0004674648215648046,
+      "cell_rms_A": 0.00048177111529090554,
+      "cell_internal_loss_W_per_ohm": 2.32103407528643e-07,
+      "battery_terminal_power_W": 0.0014438586531266915,
+      "losses": {
+        "R1_W": 1.7759100039357274e-06,
+        "R2_W": 2.9063348416099832e-06,
+        "R3_W": 7.229688660721352e-07,
+        "R4_W": 1.6875e-05,
+        "R5_W": 5.625e-06,
+        "R6_W": 8.600815441122504e-05,
+        "R7_W": 0.00014501678900753935,
+        "U1A_W": 0.00037948772374609644,
+        "U1B_W": 0.0003782892620122383,
+        "D1_electrical_W": 0.0001311988796103433,
+        "D2_electrical_W": 0.0002959526306276313,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 2.168404344971009e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0005075726577494353,
+        "R4.1": 7.5e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00025145418326693225,
+        "R4.1": 7.5e-06,
+        "R7.1": 0.00020851063829787234
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0002544422310756972,
+        "D1.1": 0.00025106382978723403,
+        "R5.2": 7.5e-06,
+        "C3.2": 2.0665968865039856e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.0,
+        "Iq_package_A": 0.0003,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0175160038985291,
+      "high_duty": 0.29031767145414944,
+      "threshold_low_V": 0.6045816733067728,
+      "threshold_high_V": 1.194223107569721,
+      "red_on_current_A": 0.00025106382978723403,
+      "green_on_current_A": 0.00020851063829787234,
+      "cell_average_A": 0.0005312862177088972,
+      "cell_peak_A": 0.0005653814791896245,
+      "cell_low_state_A": 0.0005174648215648046,
+      "cell_rms_A": 0.0005317255206396743,
+      "cell_internal_loss_W_per_ohm": 2.8273202929953276e-07,
+      "battery_terminal_power_W": 0.0015938586531266917,
+      "losses": {
+        "R1_W": 1.7759100039357274e-06,
+        "R2_W": 2.9063348416099832e-06,
+        "R3_W": 7.229688660721352e-07,
+        "R4_W": 1.6875e-05,
+        "R5_W": 5.625e-06,
+        "R6_W": 8.600815441122504e-05,
+        "R7_W": 0.00014501678900753935,
+        "U1A_W": 0.0004544877237460964,
+        "U1B_W": 0.0004532892620122383,
+        "D1_electrical_W": 0.0001311988796103433,
+        "D2_electrical_W": 0.0002959526306276313,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0005575726577494352,
+        "R4.1": 7.5e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.0003014541832669322,
+        "R4.1": 7.5e-06,
+        "R7.1": 0.00020851063829787234
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0003044422310756972,
+        "D1.1": 0.00025106382978723403,
+        "R5.2": 7.5e-06,
+        "C3.2": 2.0665968865039856e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.2,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0178936472783249,
+      "high_duty": 0.29049714992026776,
+      "threshold_low_V": 0.6446215139442231,
+      "threshold_high_V": 1.2741035856573704,
+      "red_on_current_A": 0.00029361702127659575,
+      "green_on_current_A": 0.0002510638297872341,
+      "cell_average_A": 0.00041454582862775836,
+      "cell_peak_A": 0.0004488934356192252,
+      "cell_low_state_A": 0.0004006176146477919,
+      "cell_rms_A": 0.00041511692620164233,
+      "cell_internal_loss_W_per_ohm": 1.7232206241909977e-07,
+      "battery_terminal_power_W": 0.0013265466516088269,
+      "losses": {
+        "R1_W": 2.024756733916821e-06,
+        "R2_W": 3.313501941154678e-06,
+        "R3_W": 8.242542142175815e-07,
+        "R4_W": 1.92e-05,
+        "R5_W": 6.4e-06,
+        "R6_W": 0.00011770697283152297,
+        "R7_W": 0.00021019399328745095,
+        "U1A_W": 0.00022934373148859264,
+        "U1B_W": 0.0002277476014119471,
+        "D1_electrical_W": 0.00015353083412807345,
+        "D2_electrical_W": 0.0003562610055719507,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.00044056374418396585,
+        "R4.1": 8e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00014155378486055775,
+        "R4.1": 8e-06,
+        "R7.1": 0.0002510638297872341
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0001447410358565737,
+        "D1.1": 0.00029361702127659575,
+        "R5.2": 8e-06,
+        "C3.2": 2.2056870507964568e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.2,
+        "Iq_package_A": 0.00025,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0178936472783249,
+      "high_duty": 0.29049714992026776,
+      "threshold_low_V": 0.6446215139442231,
+      "threshold_high_V": 1.2741035856573704,
+      "red_on_current_A": 0.00029361702127659575,
+      "green_on_current_A": 0.0002510638297872341,
+      "cell_average_A": 0.0005245458286277584,
+      "cell_peak_A": 0.0005588934356192252,
+      "cell_low_state_A": 0.0005106176146477919,
+      "cell_rms_A": 0.0005249972806760113,
+      "cell_internal_loss_W_per_ohm": 2.756221447172066e-07,
+      "battery_terminal_power_W": 0.001678546651608827,
+      "losses": {
+        "R1_W": 2.024756733916821e-06,
+        "R2_W": 3.313501941154678e-06,
+        "R3_W": 8.242542142175815e-07,
+        "R4_W": 1.92e-05,
+        "R5_W": 6.4e-06,
+        "R6_W": 0.00011770697283152297,
+        "R7_W": 0.00021019399328745095,
+        "U1A_W": 0.00040534373148859264,
+        "U1B_W": 0.0004037476014119471,
+        "D1_electrical_W": 0.00015353083412807345,
+        "D2_electrical_W": 0.0003562610055719507,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.000550563744183966,
+        "R4.1": 8e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.0002515537848605578,
+        "R4.1": 8e-06,
+        "R7.1": 0.0002510638297872341
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0002547410358565737,
+        "D1.1": 0.00029361702127659575,
+        "R5.2": 8e-06,
+        "C3.2": 2.2056870507964568e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.2,
+        "Iq_package_A": 0.0003,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0178936472783249,
+      "high_duty": 0.29049714992026776,
+      "threshold_low_V": 0.6446215139442231,
+      "threshold_high_V": 1.2741035856573704,
+      "red_on_current_A": 0.00029361702127659575,
+      "green_on_current_A": 0.0002510638297872341,
+      "cell_average_A": 0.0005745458286277583,
+      "cell_peak_A": 0.0006088934356192253,
+      "cell_low_state_A": 0.0005606176146477918,
+      "cell_rms_A": 0.0005749580224503198,
+      "cell_internal_loss_W_per_ohm": 3.305767275799824e-07,
+      "battery_terminal_power_W": 0.0018385466516088267,
+      "losses": {
+        "R1_W": 2.024756733916821e-06,
+        "R2_W": 3.313501941154678e-06,
+        "R3_W": 8.242542142175815e-07,
+        "R4_W": 1.92e-05,
+        "R5_W": 6.4e-06,
+        "R6_W": 0.00011770697283152297,
+        "R7_W": 0.00021019399328745095,
+        "U1A_W": 0.0004853437314885926,
+        "U1B_W": 0.000483747601411947,
+        "D1_electrical_W": 0.00015353083412807345,
+        "D2_electrical_W": 0.0003562610055719507,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.000600563744183966,
+        "R4.1": 8e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00030155378486055776,
+        "R4.1": 8e-06,
+        "R7.1": 0.0002510638297872341
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.00030474103585657365,
+        "D1.1": 0.00029361702127659575,
+        "R5.2": 8e-06,
+        "C3.2": 2.2056870507964568e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.3,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0180649801966866,
+      "high_duty": 0.29057862816245694,
+      "threshold_low_V": 0.6646414342629481,
+      "threshold_high_V": 1.3140438247011952,
+      "red_on_current_A": 0.00031489361702127653,
+      "green_on_current_A": 0.00027234042553191487,
+      "cell_average_A": 0.00043617528214442985,
+      "cell_peak_A": 0.0004706494138340255,
+      "cell_low_state_A": 0.00042219401118928537,
+      "cell_rms_A": 0.0004367220211166261,
+      "cell_internal_loss_W_per_ohm": 1.907261237281908e-07,
+      "battery_terminal_power_W": 0.0014393784310766185,
+      "losses": {
+        "R1_W": 2.1552962915414956e-06,
+        "R2_W": 3.5270911225064442e-06,
+        "R3_W": 8.773858513697624e-07,
+        "R4_W": 2.0418749999999995e-05,
+        "R5_W": 6.806249999999998e-06,
+        "R6_W": 0.0001354220057717118,
+        "R7_W": 0.0002473012714082192,
+        "U1A_W": 0.0002367717283195238,
+        "U1B_W": 0.0002349879762843214,
+        "D1_electrical_W": 0.00016470243945208195,
+        "D2_electrical_W": 0.00038640823657534257,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0004620592874006102,
+        "R4.1": 8.249999999999999e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.0001416035856573705,
+        "R4.1": 8.249999999999999e-06,
+        "R7.1": 0.00027234042553191487
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.00014489043824701195,
+        "D1.1": 0.00031489361702127653,
+        "R5.2": 8.249999999999999e-06,
+        "C3.2": 2.2752321323217467e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.3,
+        "Iq_package_A": 0.00025,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0180649801966866,
+      "high_duty": 0.29057862816245694,
+      "threshold_low_V": 0.6646414342629481,
+      "threshold_high_V": 1.3140438247011952,
+      "red_on_current_A": 0.00031489361702127653,
+      "green_on_current_A": 0.00027234042553191487,
+      "cell_average_A": 0.00054617528214443,
+      "cell_peak_A": 0.0005806494138340256,
+      "cell_low_state_A": 0.0005321940111892854,
+      "cell_rms_A": 0.0005466120066372174,
+      "cell_internal_loss_W_per_ohm": 2.987846857999654e-07,
+      "battery_terminal_power_W": 0.001802378431076619,
+      "losses": {
+        "R1_W": 2.1552962915414956e-06,
+        "R2_W": 3.5270911225064442e-06,
+        "R3_W": 8.773858513697624e-07,
+        "R4_W": 2.0418749999999995e-05,
+        "R5_W": 6.806249999999998e-06,
+        "R6_W": 0.0001354220057717118,
+        "R7_W": 0.0002473012714082192,
+        "U1A_W": 0.00041827172831952384,
+        "U1B_W": 0.00041648797628432145,
+        "D1_electrical_W": 0.00016470243945208195,
+        "D2_electrical_W": 0.00038640823657534257,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": -2.168404344971009e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0005720592874006102,
+        "R4.1": 8.249999999999999e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.0002516035856573705,
+        "R4.1": 8.249999999999999e-06,
+        "R7.1": 0.00027234042553191487
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.00025489043824701194,
+        "D1.1": 0.00031489361702127653,
+        "R5.2": 8.249999999999999e-06,
+        "C3.2": 2.2752321323217467e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.3,
+        "Iq_package_A": 0.0003,
+        "red_Vf_V": 1.8,
+        "green_Vf_V": 2.0,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0180649801966866,
+      "high_duty": 0.29057862816245694,
+      "threshold_low_V": 0.6646414342629481,
+      "threshold_high_V": 1.3140438247011952,
+      "red_on_current_A": 0.00031489361702127653,
+      "green_on_current_A": 0.00027234042553191487,
+      "cell_average_A": 0.0005961752821444299,
+      "cell_peak_A": 0.0006306494138340256,
+      "cell_low_state_A": 0.0005821940111892854,
+      "cell_rms_A": 0.0005965754051370273,
+      "cell_internal_loss_W_per_ohm": 3.5590221401440834e-07,
+      "battery_terminal_power_W": 0.0019673784310766185,
+      "losses": {
+        "R1_W": 2.1552962915414956e-06,
+        "R2_W": 3.5270911225064442e-06,
+        "R3_W": 8.773858513697624e-07,
+        "R4_W": 2.0418749999999995e-05,
+        "R5_W": 6.806249999999998e-06,
+        "R6_W": 0.0001354220057717118,
+        "R7_W": 0.0002473012714082192,
+        "U1A_W": 0.0005007717283195236,
+        "U1B_W": 0.0004989879762843214,
+        "D1_electrical_W": 0.00016470243945208195,
+        "D2_electrical_W": 0.00038640823657534257,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": -4.336808689942018e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0006220592874006103,
+        "R4.1": 8.249999999999999e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.0003016035856573705,
+        "R4.1": 8.249999999999999e-06,
+        "R7.1": 0.00027234042553191487
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0003048904382470119,
+        "D1.1": 0.00031489361702127653,
+        "R5.2": 8.249999999999999e-06,
+        "C3.2": 2.2752321323217467e-06
+      }
+    }
+  ],
+  "assumed_Vf_scenarios": [
+    {
+      "inputs": {
+        "supply_V": 3.0,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 1.6,
+        "green_Vf_V": 1.8,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0175160038985291,
+      "high_duty": 0.29031767145414944,
+      "threshold_low_V": 0.6045816733067728,
+      "threshold_high_V": 1.194223107569721,
+      "red_on_current_A": 0.0002936170212765957,
+      "green_on_current_A": 0.00025106382978723403,
+      "cell_average_A": 0.0004138394091982588,
+      "cell_peak_A": 0.00044793467067898613,
+      "cell_low_state_A": 0.0004000180130541663,
+      "cell_rms_A": 0.00041440323451642,
+      "cell_internal_loss_W_per_ohm": 1.7173004077767098e-07,
+      "battery_terminal_power_W": 0.0012415182275947764,
+      "losses": {
+        "R1_W": 1.7759100039357274e-06,
+        "R2_W": 2.9063348416099832e-06,
+        "R3_W": 7.229688660721352e-07,
+        "R4_W": 1.6875e-05,
+        "R5_W": 5.625e-06,
+        "R6_W": 0.00011763424968452808,
+        "R7_W": 0.00021024716473771112,
+        "U1A_W": 0.00021533878757588364,
+        "U1B_W": 0.00021328926201223826,
+        "D1_electrical_W": 0.00013638753586611954,
+        "D2_electrical_W": 0.000320716014006678,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 2.168404344971009e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0004401258492387969,
+        "R4.1": 7.5e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00014145418326693226,
+        "R4.1": 7.5e-06,
+        "R7.1": 0.00025106382978723403
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0001444422310756972,
+        "D1.1": 0.0002936170212765957,
+        "R5.2": 7.5e-06,
+        "C3.2": 2.0665968865039856e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.0,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 1.6,
+        "green_Vf_V": 2.2,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0175160038985291,
+      "high_duty": 0.29031767145414944,
+      "threshold_low_V": 0.6045816733067728,
+      "threshold_high_V": 1.194223107569721,
+      "red_on_current_A": 0.0002936170212765957,
+      "green_on_current_A": 0.0001659574468085106,
+      "cell_average_A": 0.0003534409131518034,
+      "cell_peak_A": 0.00044793467067898613,
+      "cell_low_state_A": 0.00031491163007544285,
+      "cell_rms_A": 0.00035853781607190826,
+      "cell_internal_loss_W_per_ohm": 1.2854936555361353e-07,
+      "battery_terminal_power_W": 0.0010603227394554104,
+      "losses": {
+        "R1_W": 1.7759100039357274e-06,
+        "R2_W": 2.9063348416099832e-06,
+        "R3_W": 7.229688660721352e-07,
+        "R4_W": 1.6875e-05,
+        "R5_W": 5.625e-06,
+        "R6_W": 0.00011763424968452808,
+        "R7_W": 9.186611248665857e-05,
+        "U1A_W": 0.00021413081765495452,
+        "U1B_W": 0.00021328926201223826,
+        "D1_electrical_W": 0.00013638753586611954,
+        "D2_electrical_W": 0.00025910954803929346,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.0004401258492387969,
+        "R4.1": 7.5e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00014145418326693226,
+        "R4.1": 7.5e-06,
+        "R7.1": 0.0001659574468085106
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0001444422310756972,
+        "D1.1": 0.0002936170212765957,
+        "R5.2": 7.5e-06,
+        "C3.2": 2.0665968865039856e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.0,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 2.0,
+        "green_Vf_V": 1.8,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0175160038985291,
+      "high_duty": 0.29031767145414944,
+      "threshold_low_V": 0.6045816733067728,
+      "threshold_high_V": 1.194223107569721,
+      "red_on_current_A": 0.00020851063829787234,
+      "green_on_current_A": 0.00025106382978723403,
+      "cell_average_A": 0.0003891315222659908,
+      "cell_peak_A": 0.00036282828770026275,
+      "cell_low_state_A": 0.0004000180130541663,
+      "cell_rms_A": 0.00038950360964132064,
+      "cell_internal_loss_W_per_ohm": 1.5171306192361826e-07,
+      "battery_terminal_power_W": 0.0011673945667979723,
+      "losses": {
+        "R1_W": 1.7759100039357274e-06,
+        "R2_W": 2.9063348416099832e-06,
+        "R3_W": 7.229688660721352e-07,
+        "R4_W": 1.6875e-05,
+        "R5_W": 5.625e-06,
+        "R6_W": 5.932363652437557e-05,
+        "R7_W": 0.00021024716473771112,
+        "U1A_W": 0.00021484462983723828,
+        "U1B_W": 0.00021328926201223826,
+        "D1_electrical_W": 0.00012106864596811339,
+        "D2_electrical_W": 0.000320716014006678,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 2.168404344971009e-19,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.00035501946626007356,
+        "R4.1": 7.5e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00014145418326693226,
+        "R4.1": 7.5e-06,
+        "R7.1": 0.00025106382978723403
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0001444422310756972,
+        "D1.1": 0.00020851063829787234,
+        "R5.2": 7.5e-06,
+        "C3.2": 2.0665968865039856e-06
+      }
+    },
+    {
+      "inputs": {
+        "supply_V": 3.0,
+        "Iq_package_A": 0.00014,
+        "red_Vf_V": 2.0,
+        "green_Vf_V": 2.2,
+        "assumed_high_headroom_V": 0.02,
+        "assumed_low_output_V": 0.02
+      },
+      "frequency_Hz": 1.0175160038985291,
+      "high_duty": 0.29031767145414944,
+      "threshold_low_V": 0.6045816733067728,
+      "threshold_high_V": 1.194223107569721,
+      "red_on_current_A": 0.00020851063829787234,
+      "green_on_current_A": 0.0001659574468085106,
+      "cell_average_A": 0.0003287330262195354,
+      "cell_peak_A": 0.00036282828770026275,
+      "cell_low_state_A": 0.00031491163007544285,
+      "cell_rms_A": 0.00032944253929867776,
+      "cell_internal_loss_W_per_ohm": 1.0853238669956082e-07,
+      "battery_terminal_power_W": 0.0009861990786586062,
+      "losses": {
+        "R1_W": 1.7759100039357274e-06,
+        "R2_W": 2.9063348416099832e-06,
+        "R3_W": 7.229688660721352e-07,
+        "R4_W": 1.6875e-05,
+        "R5_W": 5.625e-06,
+        "R6_W": 5.932363652437557e-05,
+        "R7_W": 9.186611248665857e-05,
+        "U1A_W": 0.00021363665991630916,
+        "U1B_W": 0.00021328926201223826,
+        "D1_electrical_W": 0.00012106864596811339,
+        "D2_electrical_W": 0.00025910954803929346,
+        "ideal_C3_average_loss_W": 0,
+        "ideal_C2_steady_loss_W": 0
+      },
+      "energy_residual_W": 0.0,
+      "high_VBAT_loads_A": {
+        "U1.8": 0.00035501946626007356,
+        "R4.1": 7.5e-06
+      },
+      "low_VBAT_loads_A": {
+        "U1.8": 0.00014145418326693226,
+        "R4.1": 7.5e-06,
+        "R7.1": 0.0001659574468085106
+      },
+      "high_GND_injections_A": {
+        "U1.4": 0.0001444422310756972,
+        "D1.1": 0.00020851063829787234,
+        "R5.2": 7.5e-06,
+        "C3.2": 2.0665968865039856e-06
+      }
+    }
+  ],
+  "conditional_runtime_hours": {
+    "100": 269.3339941812866,
+    "150": 404.0009912719299,
+    "200": 538.6679883625732
+  },
+  "runtime_condition": "Capacity must be measured usable capacity above 2.5 V under this load and temperature; these are scenarios, not CR2032 rated-capacity or lifetime claims.",
+  "references": [
+    "https://www.ti.com/lit/ds/symlink/lmv358a.pdf",
+    "https://energy.panasonic.com/dam/master/pdf/en/datasheet/lithium/CR2032_Datasheet_EN.pdf"
+  ],
+  "limits": [
+    "20 mV output offsets and diode drops are assumed operating points, not guaranteed at 3 V.",
+    "140 uA is two times typical per-channel Iq; 250 and 300 uA package scenarios reflect tabulated 25 C and full-temperature maxima under stated datasheet test conditions.",
+    "No startup, overload recovery, switching-current, capacitor leakage/ESR, bias-current, cell electrochemistry or temperature-dependent LED model.",
+    "LED electrical power includes optical output; it is not all heat.",
+    "Cell internal loss is RMS-current squared times unknown internal resistance. It is outside terminal-power balance.",
+    "No transistor-level simulation or bench measurements."
+  ]
+}

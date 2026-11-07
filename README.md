@@ -10,9 +10,12 @@ One CR2032 cell powers an LMV358A dual op-amp and alternating red / yellow-green
 
 - [PR #1 — timing resistor / blink-rate change](https://github.com/wayri/KERO/pull/1)
 - [PR #2 — LED placement and routing change](https://github.com/wayri/KERO/pull/2)
+- [PR #3 — assembly and bring-up documentation](https://github.com/wayri/KERO/pull/3)
+- [PR #4 — resistor values and manufacturer part numbers](https://github.com/wayri/KERO/pull/4)
+- [PR #5 — mixed additions, removals, layout and power analysis](https://github.com/wayri/KERO/pull/5)
 - [Baseline commit history](https://github.com/wayri/KERO/commits/main/)
 
-Both PRs are intentionally open and unmerged. Each contains a design commit followed by a verification commit. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
+PRs #1, #2 and #4 are open comparison examples; documentation PR #3 is currently closed and unmerged. The mixed ECO is PR #5. Each contains a design commit followed by a verification commit. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
 
 ## Open the project
 
@@ -27,13 +30,13 @@ Open [KERO.kicad_pro](KERO.kicad_pro) in **KiCad 10** (verified with 10.0.6). Th
 
 ![Wired and arranged KERO schematic](previews/schematic.png)
 
-The power, reference buffer, oscillator and LED branches use continuous visible wires and separated labels. [Drawing-equivalence receipt](evidence/drawing-review.json).
+The power, reference buffer, oscillator and LED branches use continuous visible wires and separated labels. [Historical baseline drawing receipt](evidence/drawing-review.json); the current hardware ECO is covered by the native receipt.
 
 ## How it works
 
-U1B buffers the quarter-supply divider formed by R4 (300 kΩ) and R5 (100 kΩ). U1A uses R2 (402 kΩ) and R3 (100 kΩ) for positive feedback, creating nominal thresholds near 0.201 × VBAT and 0.400 × VBAT. R1 and C1 slowly charge/discharge the timing input between these thresholds. U1A switches on each crossing, creating a relaxation oscillator.
+U1B buffers the quarter-supply divider formed by R4 (300 kΩ) and R5 (100 kΩ). U1A uses R2 (402 kΩ) and R3 (100 kΩ) for positive feedback, creating nominal thresholds near 0.201 × VBAT and 0.400 × VBAT. R1 and C3 slowly charge/discharge the timing input between these thresholds. U1A switches on each crossing, creating a relaxation oscillator.
 
-When OUT is high, R6/D1 source current into the red LED. When OUT is low, R7/D2 sink current from the green LED. Each LED has its own 3.3 kΩ current-limiting resistor. The LEDs alternate with unequal on-times; this is intentional.
+When OUT is high, R6/D1 source current into the red LED. When OUT is low, R7/D2 sink current from the green LED. Each LED has its own 4.7 kΩ current-limiting resistor. The LEDs alternate with unequal on-times; this is intentional.
 
 The thresholds stay below 0.41 × VBAT, within the LMV358A's specified input common-mode range over the intended **2.5–3.3 V** supply range. Use **LMV358ADR** in SOIC-8; a standard LM358 is not a suitable drop-in choice for this coin-cell design. See the [TI datasheet, input common-mode range and output swing sections](https://www.ti.com/lit/ds/symlink/lmv358a.pdf).
 
@@ -41,7 +44,11 @@ The thresholds stay below 0.41 × VBAT, within the LMV358A's specified input com
 
 Fit one CR2032 in the Keystone 1058 holder with the marked polarity. The cell is a separate purchased item in addition to BT1's holder. Remove it to switch off; there is no power switch or reverse-cell protection. Use a low-current, low-forward-voltage red LED and **yellow-green** LED (5 mm, 2.54 mm pitch); avoid high-Vf blue/InGaN green parts. Match the cathode/flat to the footprint. Generic LEDs/passives in the BoM are specification selections, not verified distributor stock or exact manufacturer parts.
 
-At 3 V, ideal LED currents are roughly 0.2–0.4 mA for the specified LED types. Real brightness, output swings, C1's effective capacitance, temperature, startup, frequency and useful battery life require bench measurements. Operation below 2.5 V is outside the specified design range; no full-cell-discharge life claim is made. Do not recharge a primary CR2032.
+At 3 V, ideal LED currents are roughly 0.2–0.3 mA for the specified LED types. Real brightness, output swings, C3's actual capacitance, temperature, startup, frequency and useful battery life require bench measurements. Operation below 2.5 V is outside the specified design range; no full-cell-discharge life claim is made. Do not recharge a primary CR2032.
+
+## Power and layout analysis
+
+The mixed ECO adds TP1 and replaces C1 with a radial film C3. [Layout review](docs/LAYOUT.md) · [Cell current and loss analysis](docs/POWER-ANALYSIS.md) · [Machine-readable results](evidence/analysis/wayricad-summary.json). The nominal analytical scenario draws **0.371 mA average** at 3 V; this is an estimate, not measured battery life.
 
 ## Models and attribution
 

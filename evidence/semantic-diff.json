@@ -1,6 +1,134 @@
 {
   "changes": [
     {
+      "id": "KERO.kicad_pcb/footprint:uuid:49b40b57-32f1-579e-a6d3-40fddceb373f",
+      "path": "KERO.kicad_pcb",
+      "kind": "footprint",
+      "label": "C3",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "49b40b57-32f1-579e-a6d3-40fddceb373f",
+        "position": {
+          "x": 87.95,
+          "y": 77.47
+        },
+        "properties": {
+          "Reference": "C3",
+          "Value": "1u",
+          "Datasheet": "",
+          "Description": "",
+          "KiLib_Generator": "capacitor/THT/other",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1 uF, >=16 V, +/-10%, film, radial P5 mm; verify body height",
+          "layer": "F.Cu",
+          "Source fingerprint": "b101d3ff"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:49b40b57-32f1-579e-a6d3-40fddceb373f/pad:uuid:1fb98745-6cf8-5010-9e98-5953453740e2",
+      "path": "KERO.kicad_pcb",
+      "kind": "pad",
+      "label": "C3 pad 2",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "1fb98745-6cf8-5010-9e98-5953453740e2",
+        "position": {
+          "x": 92.95,
+          "y": 77.47
+        },
+        "properties": {
+          "drill": "0.75",
+          "size": "1.5, 1.5",
+          "Layers": "*.Cu, *.Mask",
+          "Net": "/GND",
+          "Number": "2",
+          "Type": "thru_hole",
+          "Shape": "circle",
+          "Source fingerprint": "84671d16"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:49b40b57-32f1-579e-a6d3-40fddceb373f/pad:uuid:cbedabe8-cc53-569f-a869-a3397258a9a4",
+      "path": "KERO.kicad_pcb",
+      "kind": "pad",
+      "label": "C3 pad 1",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "cbedabe8-cc53-569f-a869-a3397258a9a4",
+        "position": {
+          "x": 87.95,
+          "y": 77.47
+        },
+        "properties": {
+          "drill": "0.75",
+          "size": "1.5, 1.5",
+          "Layers": "*.Cu, *.Mask",
+          "Net": "/TIMING",
+          "Number": "1",
+          "Type": "thru_hole",
+          "Shape": "circle",
+          "Source fingerprint": "b4107f63"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:61a1f339-4d77-5528-9f84-690577187156",
+      "path": "KERO.kicad_pcb",
+      "kind": "footprint",
+      "label": "TP1",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "61a1f339-4d77-5528-9f84-690577187156",
+        "position": {
+          "x": 106.68,
+          "y": 78.74
+        },
+        "properties": {
+          "Reference": "TP1",
+          "Value": "OUT",
+          "Datasheet": "",
+          "Description": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "2.5 mm loop test point, 1.0 mm drill; OUT probe access",
+          "layer": "F.Cu",
+          "Source fingerprint": "789e0c86"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:61a1f339-4d77-5528-9f84-690577187156/pad:uuid:6eb0f619-a73d-5e7d-ae86-9dfa951c6d29",
+      "path": "KERO.kicad_pcb",
+      "kind": "pad",
+      "label": "TP1 pad 1",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "6eb0f619-a73d-5e7d-ae86-9dfa951c6d29",
+        "position": {
+          "x": 106.68,
+          "y": 78.74
+        },
+        "properties": {
+          "drill": "1",
+          "size": "2, 2",
+          "Layers": "*.Cu, *.Mask",
+          "Net": "/OUT",
+          "Number": "1",
+          "Type": "thru_hole",
+          "Shape": "circle",
+          "Source fingerprint": "c759f561"
+        }
+      }
+    },
+    {
       "id": "KERO.kicad_pcb/footprint:uuid:8164542f-55ad-5f45-a95e-96738611018b",
       "path": "KERO.kicad_pcb",
       "kind": "footprint",
@@ -87,6 +215,518 @@
           "Rating": "4.7 kohm, 1%, >=0.1 W, 0603, thick film",
           "layer": "F.Cu",
           "Source fingerprint": "91017b83"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:c731454e-c243-533e-aeab-9fee9f09967b",
+      "path": "KERO.kicad_pcb",
+      "kind": "footprint",
+      "label": "C1",
+      "status": "removed",
+      "before": {
+        "uuid": "c731454e-c243-533e-aeab-9fee9f09967b",
+        "position": {
+          "x": 88.9,
+          "y": 77.47
+        },
+        "properties": {
+          "Reference": "C1",
+          "Value": "1u",
+          "Datasheet": "",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "10 V min, X7R, +/-10%, 0805; effective C affects frequency",
+          "layer": "F.Cu",
+          "Source fingerprint": "fff864bb"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:c731454e-c243-533e-aeab-9fee9f09967b/pad:uuid:47e87aa9-05b3-5238-9592-5472e75a16bd",
+      "path": "KERO.kicad_pcb",
+      "kind": "pad",
+      "label": "C1 pad 1",
+      "status": "removed",
+      "before": {
+        "uuid": "47e87aa9-05b3-5238-9592-5472e75a16bd",
+        "position": {
+          "x": 87.95,
+          "y": 77.47
+        },
+        "properties": {
+          "size": "1, 1.45",
+          "Layers": "F.Cu, F.Mask, F.Paste",
+          "Net": "/TIMING",
+          "Number": "1",
+          "Type": "smd",
+          "Shape": "roundrect",
+          "Source fingerprint": "ead4c837"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:c731454e-c243-533e-aeab-9fee9f09967b/pad:uuid:790f6ac5-e5a4-508d-9c4f-d019050c1304",
+      "path": "KERO.kicad_pcb",
+      "kind": "pad",
+      "label": "C1 pad 2",
+      "status": "removed",
+      "before": {
+        "uuid": "790f6ac5-e5a4-508d-9c4f-d019050c1304",
+        "position": {
+          "x": 89.85,
+          "y": 77.47
+        },
+        "properties": {
+          "size": "1, 1.45",
+          "Layers": "F.Cu, F.Mask, F.Paste",
+          "Net": "/GND",
+          "Number": "2",
+          "Type": "smd",
+          "Shape": "roundrect",
+          "Source fingerprint": "f700268b"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:3914ab91-342d-5ddb-8ad1-ba24940031ab",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "3914ab91-342d-5ddb-8ad1-ba24940031ab",
+        "position": {
+          "x": 106.364,
+          "y": 78.932
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "42e267fb"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:4bfeba02-be26-5380-9b48-7c114a763a26",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "4bfeba02-be26-5380-9b48-7c114a763a26",
+        "position": {
+          "x": 106.11,
+          "y": 79.694
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "84bcab27"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:630c941e-a93f-5fb8-bfb9-ce6690c09497",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "630c941e-a93f-5fb8-bfb9-ce6690c09497",
+        "position": {
+          "x": 106.364,
+          "y": 79.44
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "be857b18"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:93ca74e9-b061-5a85-af0a-88605aafc9cd",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "93ca74e9-b061-5a85-af0a-88605aafc9cd",
+        "position": {
+          "x": 105.856,
+          "y": 80.202
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "12f50d99"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:9527a6de-6fb9-5a90-9f5b-560b8b5c36b1",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "9527a6de-6fb9-5a90-9f5b-560b8b5c36b1",
+        "position": {
+          "x": 89.854,
+          "y": 77.408
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/GND",
+          "Source fingerprint": "477f1f56"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:9c41efc9-1543-5826-90a7-50bf837ec4c5",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "9c41efc9-1543-5826-90a7-50bf837ec4c5",
+        "position": {
+          "x": 104.078,
+          "y": 88.838
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "a0678ebc"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:b09e429b-3a87-5a69-9bce-72b6b7632c97",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "b09e429b-3a87-5a69-9bce-72b6b7632c97",
+        "position": {
+          "x": 92.902,
+          "y": 77.408
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/GND",
+          "Source fingerprint": "292ef16e"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:b0ab3457-c6bf-5b0a-9490-f46c40d73647",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "b0ab3457-c6bf-5b0a-9490-f46c40d73647",
+        "position": {
+          "x": 104.078,
+          "y": 86.551999
+        },
+        "properties": {
+          "layer": "B.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "6ca942dc"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:c6441a81-dbb5-5d0b-bdd6-80e7df421907",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "c6441a81-dbb5-5d0b-bdd6-80e7df421907",
+        "position": {
+          "x": 106.11,
+          "y": 79.948
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "119576ed"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:c862b125-1bef-56ef-af6b-996fe4761c03",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "c862b125-1bef-56ef-af6b-996fe4761c03",
+        "position": {
+          "x": 104.14,
+          "y": 88.9
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "5c26fd9e"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:e10d0e02-58ad-52f0-86a5-57b96ff78c6d",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "removed",
+      "before": {
+        "uuid": "e10d0e02-58ad-52f0-86a5-57b96ff78c6d",
+        "position": {
+          "x": 89.85,
+          "y": 77.47
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/GND",
+          "Source fingerprint": "74b8f47e"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:ef627f67-f28a-542b-8bc0-20bf300eb0e5",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "ef627f67-f28a-542b-8bc0-20bf300eb0e5",
+        "position": {
+          "x": 105.856,
+          "y": 84.774
+        },
+        "properties": {
+          "layer": "B.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "91ffdd90"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:fb71ebf2-7c01-5ec8-a28f-b92d7cf6ca3b",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "fb71ebf2-7c01-5ec8-a28f-b92d7cf6ca3b",
+        "position": {
+          "x": 106.618,
+          "y": 78.678
+        },
+        "properties": {
+          "layer": "F.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "2f1fdd9c"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/segment:uuid:ffc4e549-bc70-571f-8748-f925de591fb8",
+      "path": "KERO.kicad_pcb",
+      "kind": "segment",
+      "label": "segment",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "ffc4e549-bc70-571f-8748-f925de591fb8",
+        "position": {
+          "x": 104.078,
+          "y": 87.314
+        },
+        "properties": {
+          "layer": "B.Cu",
+          "width": "0.3",
+          "Net": "/OUT",
+          "Source fingerprint": "6ef9c85d"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/via:uuid:15bbc6c0-4964-5e1a-b2ac-d69954edc392",
+      "path": "KERO.kicad_pcb",
+      "kind": "via",
+      "label": "via",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "15bbc6c0-4964-5e1a-b2ac-d69954edc392",
+        "position": {
+          "x": 104.078,
+          "y": 87.314
+        },
+        "properties": {
+          "drill": "0.4",
+          "size": "0.8",
+          "Layers": "F.Cu, B.Cu",
+          "Net": "/OUT",
+          "Source fingerprint": "0605bf12"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/via:uuid:37e53754-592c-547f-931c-13f8647528ad",
+      "path": "KERO.kicad_pcb",
+      "kind": "via",
+      "label": "via",
+      "status": "removed",
+      "before": {
+        "uuid": "37e53754-592c-547f-931c-13f8647528ad",
+        "position": {
+          "x": 88.076,
+          "y": 77.408
+        },
+        "properties": {
+          "drill": "0.4",
+          "size": "0.8",
+          "Layers": "F.Cu, B.Cu",
+          "Net": "/TIMING",
+          "Source fingerprint": "8450d0de"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "KERO.kicad_pcb/via:uuid:855bb7ac-e67b-56ca-b946-3c981b7b57a1",
+      "path": "KERO.kicad_pcb",
+      "kind": "via",
+      "label": "via",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "855bb7ac-e67b-56ca-b946-3c981b7b57a1",
+        "position": {
+          "x": 105.856,
+          "y": 80.202
+        },
+        "properties": {
+          "drill": "0.4",
+          "size": "0.8",
+          "Layers": "F.Cu, B.Cu",
+          "Net": "/OUT",
+          "Source fingerprint": "f10c3bd2"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/junction:uuid:98393bff-c408-5195-9579-cb7fb1b6cc3f",
+      "path": "KERO.kicad_sch",
+      "kind": "junction",
+      "label": "junction",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "98393bff-c408-5195-9579-cb7fb1b6cc3f",
+        "position": {
+          "x": 175.26,
+          "y": 81.28
+        },
+        "properties": {
+          "Source fingerprint": "36b9368e"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/label:uuid:e61c0cbf-a25b-5e38-89d2-75f07531e603",
+      "path": "KERO.kicad_sch",
+      "kind": "label",
+      "label": "OUT",
+      "status": "modified",
+      "before": {
+        "uuid": "e61c0cbf-a25b-5e38-89d2-75f07531e603",
+        "position": {
+          "x": 172.72,
+          "y": 81.28
+        },
+        "properties": {
+          "Angle": "0",
+          "Text": "OUT",
+          "Source fingerprint": "98c4675e"
+        }
+      },
+      "after": {
+        "uuid": "e61c0cbf-a25b-5e38-89d2-75f07531e603",
+        "position": {
+          "x": 180.34,
+          "y": 81.28
+        },
+        "properties": {
+          "Angle": "0",
+          "Text": "OUT",
+          "Source fingerprint": "5040feee"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/symbol:uuid:5ba2b80f-b0be-5afe-a8b3-7dd199fd6467",
+      "path": "KERO.kicad_sch",
+      "kind": "symbol",
+      "label": "TP1",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "5ba2b80f-b0be-5afe-a8b3-7dd199fd6467",
+        "position": {
+          "x": 175.26,
+          "y": 73.66
+        },
+        "properties": {
+          "Reference": "TP1",
+          "Value": "OUT",
+          "Footprint": "Demo:TestPoint_Loop_D2.50mm_Drill1.0mm",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "2.5 mm loop test point, 1.0 mm drill; OUT probe access",
+          "lib_id": "Demo:Connector_TestPoint",
+          "unit": "1",
+          "Angle": "0",
+          "Source fingerprint": "1099edec"
         }
       }
     },
@@ -183,11 +823,116 @@
           "Source fingerprint": "86b5630c"
         }
       }
+    },
+    {
+      "id": "KERO.kicad_sch/symbol:uuid:a684545c-6d95-5eb5-99bd-dbbd0828d0d4",
+      "path": "KERO.kicad_sch",
+      "kind": "symbol",
+      "label": "C1",
+      "status": "removed",
+      "before": {
+        "uuid": "a684545c-6d95-5eb5-99bd-dbbd0828d0d4",
+        "position": {
+          "x": 116.84,
+          "y": 102.87
+        },
+        "properties": {
+          "Reference": "C1",
+          "Value": "1u",
+          "Footprint": "Demo:C_0805_2012Metric",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "10 V min, X7R, +/-10%, 0805; effective C affects frequency",
+          "lib_id": "Demo:Device_C",
+          "unit": "1",
+          "Angle": "0",
+          "Source fingerprint": "ff07f3ec"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "KERO.kicad_sch/symbol:uuid:e3341842-90eb-58c2-af46-f86b5e914ba6",
+      "path": "KERO.kicad_sch",
+      "kind": "symbol",
+      "label": "C3",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "e3341842-90eb-58c2-af46-f86b5e914ba6",
+        "position": {
+          "x": 116.84,
+          "y": 102.87
+        },
+        "properties": {
+          "Reference": "C3",
+          "Value": "1u",
+          "Footprint": "Demo:C_Rect_L7.2mm_W4.5mm_P5.00mm",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1 uF, >=16 V, +/-10%, film, radial P5 mm; verify body height",
+          "lib_id": "Demo:Device_C",
+          "unit": "1",
+          "Angle": "0",
+          "Source fingerprint": "80a93ca5"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/text:uuid:488b113e-af76-594c-8fa2-e152858d0363",
+      "path": "KERO.kicad_sch",
+      "kind": "text",
+      "label": "Calculated f = 1.02 Hz\nR1 / C3 set blink speed\nRed duty approximately 29%",
+      "status": "modified",
+      "before": {
+        "uuid": "488b113e-af76-594c-8fa2-e152858d0363",
+        "position": {
+          "x": 144.78,
+          "y": 137.16
+        },
+        "properties": {
+          "Angle": "0",
+          "Text": "Calculated f = 1.02 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%",
+          "Source fingerprint": "f592cb2a"
+        }
+      },
+      "after": {
+        "uuid": "488b113e-af76-594c-8fa2-e152858d0363",
+        "position": {
+          "x": 144.78,
+          "y": 137.16
+        },
+        "properties": {
+          "Angle": "0",
+          "Text": "Calculated f = 1.02 Hz\nR1 / C3 set blink speed\nRed duty approximately 29%",
+          "Source fingerprint": "8342a034"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/wire:uuid:631aab29-afe7-5a4f-84eb-dd532c44dc58",
+      "path": "KERO.kicad_sch",
+      "kind": "wire",
+      "label": "wire",
+      "status": "added",
+      "before": null,
+      "after": {
+        "uuid": "631aab29-afe7-5a4f-84eb-dd532c44dc58",
+        "position": {
+          "x": 175.26,
+          "y": 73.66
+        },
+        "properties": {
+          "Source fingerprint": "f2ad1181"
+        }
+      }
     }
   ],
   "counts": {
-    "added": 0,
-    "removed": 0,
-    "modified": 4
+    "added": 24,
+    "removed": 6,
+    "modified": 6
   }
 }

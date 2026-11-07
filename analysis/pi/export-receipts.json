@@ -1,0 +1,77 @@
+[
+  {
+    "case": "vbat-high",
+    "native": {
+      "relative_path": "analysis/pi/KERO.vbat-high.quick-pi.results.json",
+      "plugin": "quick-pi",
+      "identity": "e21cd8edfab56a1587464a78a29129c0c07ba697899753f0baae888923d94048",
+      "producer_version": "4.5.0",
+      "bytes": 9542279,
+      "sha256": "896f8a4500ec10937bf208676c27be520e6a2b904d63f7bef66a931d3006b6f3",
+      "source_state": "current",
+      "can_restore": true,
+      "source_path": "KERO.kicad_pcb",
+      "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+      "source_issues": [],
+      "created": true
+    },
+    "portable": {
+      "json": "analysis\\pi\\KERO.vbat-high.pocket-kivi.json",
+      "bytes": 9541930,
+      "sha256": "8cc149f8ad9d968845324d000d924ece5dbf4707efd6a556a841913615d532cb",
+      "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+      "schema": "wayricad.pocket-kivi-export/v1"
+    },
+    "native_load_source_state": "current"
+  },
+  {
+    "case": "vbat-low",
+    "native": {
+      "relative_path": "analysis/pi/KERO.vbat-low.quick-pi.results.json",
+      "plugin": "quick-pi",
+      "identity": "79cc2577c5a8850606b1bd1f2cc2659d250c6ab451a57f1e5b545d6c3caec5ba",
+      "producer_version": "4.5.0",
+      "bytes": 9458176,
+      "sha256": "8e68b133e20e7ae293b056a25b52604abfdd5145b8af2250c785a744bff0aa29",
+      "source_state": "current",
+      "can_restore": true,
+      "source_path": "KERO.kicad_pcb",
+      "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+      "source_issues": [],
+      "created": true
+    },
+    "portable": {
+      "json": "analysis\\pi\\KERO.vbat-low.pocket-kivi.json",
+      "bytes": 9457827,
+      "sha256": "f5abd9ce9e27c9f6b8862fe248d1e8606b8143a24a5d3490f9001e442336037f",
+      "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+      "schema": "wayricad.pocket-kivi-export/v1"
+    },
+    "native_load_source_state": "current"
+  },
+  {
+    "case": "gnd-high-reversed",
+    "native": {
+      "relative_path": "analysis/pi/KERO.gnd-high-reversed.quick-pi.results.json",
+      "plugin": "quick-pi",
+      "identity": "94fcba877ae9e654c96737fe14303d507a3a4afb2a36280a7c06c7c4f6cf00fc",
+      "producer_version": "4.5.0",
+      "bytes": 21235023,
+      "sha256": "245e35320f5ed4eb02122cf3cbf70b71575213c4eb0bb2a160a5b05cf4f00c54",
+      "source_state": "current",
+      "can_restore": true,
+      "source_path": "KERO.kicad_pcb",
+      "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+      "source_issues": [],
+      "created": true
+    },
+    "portable": {
+      "json": "analysis\\pi\\KERO.gnd-high-reversed.pocket-kivi.json",
+      "bytes": 21234674,
+      "sha256": "afe58c77644d9568ecdd6cf2d448ae97a962fb5f26e2afe3be323f75d428a49f",
+      "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+      "schema": "wayricad.pocket-kivi-export/v1"
+    },
+    "native_load_source_state": "current"
+  }
+]
