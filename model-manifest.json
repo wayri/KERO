@@ -1,0 +1,100 @@
+[
+  {
+    "reference": "D2",
+    "model": "models\\LED_D5.0mm_green.step",
+    "bytes": 23785,
+    "sha256": "da2ad32a5233e96a0bebd669545150bb7a542cabf3d9e4fa2d2cdad824fe57d7",
+    "origin": "KiCad LED_D5.0mm colour derivative"
+  },
+  {
+    "reference": "U1",
+    "model": "models\\SOIC-8_3.9x4.9mm_P1.27mm.step",
+    "bytes": 125320,
+    "sha256": "07f46cff378d30e6c27dfd5a03092c795323f86d91c71fc7e743f4f418dc553a",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "R2",
+    "model": "models\\R_0603_1608Metric.step",
+    "bytes": 40618,
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "R1",
+    "model": "models\\R_0603_1608Metric.step",
+    "bytes": 40618,
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "C2",
+    "model": "models\\C_0603_1608Metric.step",
+    "bytes": 43450,
+    "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "R4",
+    "model": "models\\R_0603_1608Metric.step",
+    "bytes": 40618,
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "R6",
+    "model": "models\\R_0603_1608Metric.step",
+    "bytes": 40618,
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "D1",
+    "model": "models\\LED_D5.0mm.step",
+    "bytes": 23819,
+    "sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "R7",
+    "model": "models\\R_0603_1608Metric.step",
+    "bytes": 40618,
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "C1",
+    "model": "models\\C_0805_2012Metric.step",
+    "bytes": 43618,
+    "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "R3",
+    "model": "models\\R_0603_1608Metric.step",
+    "bytes": 40618,
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "BT1",
+    "model": "models\\BatteryHolder_Keystone_1058_1x2032.step",
+    "bytes": 196119,
+    "sha256": "bfe25e361483fb1350eca3a79dfde5a35766b9210d5ce48235baba3f37bc2579",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
+    "reference": "BT1",
+    "model": "models\\CR2032_nominal.wrl",
+    "bytes": 9614,
+    "sha256": "8679a52dadd822449ffd21772c6257227df29ae2c95a30180d62abd88ca17987",
+    "origin": "Original nominal 20 x 3.2 mm CR2032 envelope"
+  },
+  {
+    "reference": "R5",
+    "model": "models\\R_0603_1608Metric.step",
+    "bytes": 40618,
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  }
+]
