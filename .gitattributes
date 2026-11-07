@@ -2,3 +2,7 @@
 *.png binary
 *.step text eol=lf
 *.wrl text eol=lf
+
+# Scientific receipts bind exact solve-time bytes; prevent EOL conversion.
+encoded-model/**/*.json -text
+encoded-model/spice/** -text

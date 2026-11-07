@@ -1,0 +1,268 @@
+{
+  "schema": "kero.simulation-execution/v1",
+  "command": [
+    "C:/Users/yawar/.codex/worktrees/saved-field-gradients/kiWay/.validation/editor-series-roundtrip/local/WayriCAD/runtimes/d29d42708158db93a528/Scripts/python.exe",
+    "-B",
+    "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/tools/simulate_encoder.py",
+    "--model",
+    "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/.git/encoded-simulation/vendor/tlv9042.lib",
+    "--xyce",
+    "D:/xyce/Xyce_7.8/bin/Xyce.exe"
+  ],
+  "working_directory": "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/",
+  "exit_code": 0,
+  "elapsed_s": 92.24295711517334,
+  "solver_exits": [
+    {
+      "name": "v2p5-ramp1ms",
+      "exit_code": 0,
+      "completed_stop_s": 12,
+      "pass_check": true
+    },
+    {
+      "name": "v3-ramp1ms",
+      "exit_code": 0,
+      "completed_stop_s": 12,
+      "pass_check": true
+    },
+    {
+      "name": "v3p3-ramp1ms",
+      "exit_code": 0,
+      "completed_stop_s": 12,
+      "pass_check": true
+    },
+    {
+      "name": "v3-ramp100ms",
+      "exit_code": 0,
+      "completed_stop_s": 12,
+      "pass_check": true
+    },
+    {
+      "name": "v3-ramp1s",
+      "exit_code": 0,
+      "completed_stop_s": 12,
+      "pass_check": true
+    },
+    {
+      "name": "v3-ramp1ms-refined",
+      "exit_code": 0,
+      "completed_stop_s": 12,
+      "pass_check": true
+    }
+  ],
+  "stdout_capture_note": "The orchestration callback did not retain helper stdout; complete solver stdout/stderr logs are retained per case. Completion is verified from process exitCode and result files.",
+  "source_spec_sha256": "0631060c3e8a6ebdba97a5724dbef59fc4870bc5d3bc7570ace8045ea0cc44b5",
+  "helper_sha256": "879955f6782744e2ccb4e58bd357eb9e9d3ad96f51c11686efebaf8d04382b2b",
+  "model_sha256": "75019b68d85b360113538587ae6231b3e7b48e511d444a953799f1756dfd0543",
+  "analytic_reference_checks": {
+    "command": [
+      "C:/Users/yawar/.codex/worktrees/saved-field-gradients/kiWay/.validation/editor-series-roundtrip/local/WayriCAD/runtimes/d29d42708158db93a528/Scripts/python.exe",
+      "-B",
+      "-c",
+      "import runpy, math; m=runpy.run_path('tools/simulate_encoder.py'); a=m['integrate_current']([[0,0,0,0,0,-1],[2,0,0,0,0,-3]],0,2); assert abs(a['mean_A']-2)<1e-14; assert abs(a['rms_A']-math.sqrt(13/3))<1e-14; b=m['integrate_current']([[0,0,0,0,0,-1],[2,0,0,0,0,-3]],.5,1.5); assert abs(b['mean_A']-2)<1e-14; assert abs(b['rms_A']-math.sqrt(49/12))<1e-14; print('Analytic current-integration reference checks passed')"
+    ],
+    "exit_code": 0,
+    "stdout": "Analytic current-integration reference checks passed",
+    "references": "i(t)=1+t A over [0,2] s: mean=2 A, RMS=sqrt(13/3) A; clipped [0.5,1.5] s: mean=2 A, RMS=sqrt(49/12) A"
+  },
+  "retained_waveform_checks": [
+    {
+      "case": "v2p5-ramp1ms",
+      "waveform_hash_verified": true,
+      "trace_lengths_verified": true,
+      "samples": 33945
+    },
+    {
+      "case": "v3-ramp1ms",
+      "waveform_hash_verified": true,
+      "trace_lengths_verified": true,
+      "samples": 34194
+    },
+    {
+      "case": "v3p3-ramp1ms",
+      "waveform_hash_verified": true,
+      "trace_lengths_verified": true,
+      "samples": 34196
+    },
+    {
+      "case": "v3-ramp100ms",
+      "waveform_hash_verified": true,
+      "trace_lengths_verified": true,
+      "samples": 34028
+    },
+    {
+      "case": "v3-ramp1s",
+      "waveform_hash_verified": true,
+      "trace_lengths_verified": true,
+      "samples": 34098
+    },
+    {
+      "case": "v3-ramp1ms-refined",
+      "waveform_hash_verified": true,
+      "trace_lengths_verified": true,
+      "samples": 58138
+    }
+  ],
+  "owned_case_artifacts": [
+    {
+      "path": "v2p5-ramp1ms/circuit.cir",
+      "bytes": 3308,
+      "sha256": "cf93e626cbc02fb9406241ea23bc6914dd21324cf8ea1b2a3aebc469e02487ab"
+    },
+    {
+      "path": "v2p5-ramp1ms/result.json",
+      "bytes": 14082,
+      "sha256": "beee31c2d359479aecfcc462872385605550f8ba363b43e9349beb124e4f2060"
+    },
+    {
+      "path": "v2p5-ramp1ms/trace.json",
+      "bytes": 859500,
+      "sha256": "ffd34d4165874cbd1fc6cab7c4539f5205c635e0dc954dd0527638a02caee907"
+    },
+    {
+      "path": "v2p5-ramp1ms/waveform.csv.gz",
+      "bytes": 699732,
+      "sha256": "3489e38523c9963fb7dc1afc4c70251307b9d6c32efd5c4819f665f2cfd7d700"
+    },
+    {
+      "path": "v2p5-ramp1ms/xyce.log",
+      "bytes": 19207,
+      "sha256": "c4c738b9d28195b0d89cee4260fce0edc5eca74d270f1ad4ac34a98fe97122f3"
+    },
+    {
+      "path": "v3-ramp1ms/circuit.cir",
+      "bytes": 3306,
+      "sha256": "ed24ba01344d0585537f4d4516cbeb0a1597def193f2ee2503a8089391e649b7"
+    },
+    {
+      "path": "v3-ramp1ms/result.json",
+      "bytes": 14083,
+      "sha256": "867fe77642248a30a610e06447c957ea18e999264be5ae266370a6204feccde5"
+    },
+    {
+      "path": "v3-ramp1ms/trace.json",
+      "bytes": 869584,
+      "sha256": "45add5d1c8ba4c620a206bc85ef2c8367be15d50aeab6f10442dff35bf139fe2"
+    },
+    {
+      "path": "v3-ramp1ms/waveform.csv.gz",
+      "bytes": 716852,
+      "sha256": "b18d1b68f9ae597c6c76c6b79b21d45830cf8aa72dbbe56c4a212fdfab1c25fd"
+    },
+    {
+      "path": "v3-ramp1ms/xyce.log",
+      "bytes": 19228,
+      "sha256": "f4ce73f28aace8d98d4246356c0edd3e441b887b2978830f325183e81430ba95"
+    },
+    {
+      "path": "v3p3-ramp1ms/circuit.cir",
+      "bytes": 3308,
+      "sha256": "2514cbcc23b3ae7f4de90f85ec439758a22a0eb9789cbc4f827cc5e1545b4bce"
+    },
+    {
+      "path": "v3p3-ramp1ms/result.json",
+      "bytes": 14082,
+      "sha256": "f7ce3d0971b48b415c77f61fb9bd7a2e51613216faef7dc8be21a4e38ba28f2b"
+    },
+    {
+      "path": "v3p3-ramp1ms/trace.json",
+      "bytes": 861987,
+      "sha256": "a0d5d171f4cdaa2f5ff993354cd3cd0dcbcec65a47e6a76abe5ac81c86f8738b"
+    },
+    {
+      "path": "v3p3-ramp1ms/waveform.csv.gz",
+      "bytes": 720654,
+      "sha256": "8ed1c8bbbab76af619acaa7df7fa7c0ff446be86ce05d1e896b57e4b89182d1d"
+    },
+    {
+      "path": "v3p3-ramp1ms/xyce.log",
+      "bytes": 19205,
+      "sha256": "059ec11554039490cfe7e8bf7efe3a3e6c6e10640c4d353276509fb2d6d36439"
+    },
+    {
+      "path": "v3-ramp100ms/circuit.cir",
+      "bytes": 3304,
+      "sha256": "9c67f4f407c53f8c3d828a783ae8789be4e6e24bf49f8d1ccbb109dc6383d306"
+    },
+    {
+      "path": "v3-ramp100ms/result.json",
+      "bytes": 12909,
+      "sha256": "fb4eba6b89d3806029d8fd7cb64607be886b346b4c392dccd1804f691a5fd433"
+    },
+    {
+      "path": "v3-ramp100ms/trace.json",
+      "bytes": 863339,
+      "sha256": "3642355f1c53d6de3e7853c3bdca036c697321b82839f2852126fe9cdd91ea87"
+    },
+    {
+      "path": "v3-ramp100ms/waveform.csv.gz",
+      "bytes": 719150,
+      "sha256": "54b695ac01ae5c5d0b9c19fcd4089d67cb5eb0cfb38f11b45312970265f7b8e4"
+    },
+    {
+      "path": "v3-ramp100ms/xyce.log",
+      "bytes": 19209,
+      "sha256": "71f505d4861cd7bbcdeecdb54f23bf9a4eb5e5713a1af0fad3d509faab98e46a"
+    },
+    {
+      "path": "v3-ramp1s/circuit.cir",
+      "bytes": 3302,
+      "sha256": "c3f96a5214bd18ad6b4ef6c7c8ecdcc6785823d031f4f77687dcf0040fa661dd"
+    },
+    {
+      "path": "v3-ramp1s/result.json",
+      "bytes": 12893,
+      "sha256": "fe7669e3233b7efe50705a46646b09f7b1cfe1c311dfadd7ec74c5189f76208d"
+    },
+    {
+      "path": "v3-ramp1s/trace.json",
+      "bytes": 868339,
+      "sha256": "32c45847bffa302790bfb0ed0148df5847aa10a109cac48588a6bf1c384e63a0"
+    },
+    {
+      "path": "v3-ramp1s/waveform.csv.gz",
+      "bytes": 783737,
+      "sha256": "4eb06f9626174c151f5cf7989b42a7532f7205cfbe853e82e3947b8307f3dc6c"
+    },
+    {
+      "path": "v3-ramp1s/xyce.log",
+      "bytes": 19205,
+      "sha256": "cc9b3df8b460b22151bdfb9d504a1459801f216173e1ddac10d5e6f68bce2872"
+    },
+    {
+      "path": "v3-ramp1ms-refined/circuit.cir",
+      "bytes": 3308,
+      "sha256": "211bbad2f9059ca41d7379ac37128519126a405757c8679aae983f778e6281bf"
+    },
+    {
+      "path": "v3-ramp1ms-refined/result.json",
+      "bytes": 14106,
+      "sha256": "c1b97a5a4bf7a8c732372f85fd5120776e1601695472b3bc309fceb1c4b12436"
+    },
+    {
+      "path": "v3-ramp1ms-refined/trace.json",
+      "bytes": 886128,
+      "sha256": "c3318da23a635b6c02bcd6774da4d1d3f232c7182e86466a253023f1f7e60f57"
+    },
+    {
+      "path": "v3-ramp1ms-refined/waveform.csv.gz",
+      "bytes": 1049150,
+      "sha256": "2d43e679d7154e98314cb779d15bdd612c56464188358d13d9e53d44101d9c02"
+    },
+    {
+      "path": "v3-ramp1ms-refined/xyce.log",
+      "bytes": 19217,
+      "sha256": "1152346ab923236953c73790361c8c31520d8265a3a63986067c74dabfe47c6f"
+    }
+  ],
+  "retained_case_bytes": 10115414,
+  "scratch_remaining": false,
+  "capacity_before_GiB": {
+    "C:/": 9.516204833984375,
+    "D:/": 184.6821632385254
+  },
+  "capacity_after_GiB": {
+    "C:/": 9.508556365966797,
+    "D:/": 184.67269134521484
+  }
+}
