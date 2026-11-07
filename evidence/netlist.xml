@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\KERO.kicad_sch</source>
-    <date>2026-11-07T20:35:36</date>
+    <date>2026-11-07T20:43:57</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -385,6 +385,35 @@
         </unit>
       </units>
     </comp>
+    <comp ref="TP1">
+      <value>OUT</value>
+      <footprint>Demo:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">2.5 mm loop test point, 1.0 mm drill; OUT probe access</field>
+        <field name="Footprint">Demo:TestPoint_Loop_D2.50mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Connector_TestPoint" description="test point"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="2.5 mm loop test point, 1.0 mm drill; OUT probe access"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ba2b80f-b0be-5afe-a8b3-7dd199fd6467</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
     <comp ref="U1">
       <value>LMV358ADR</value>
       <footprint>Demo:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
@@ -464,6 +493,23 @@
         <pin num="6" name="-" type="input"/>
         <pin num="7" name="" type="output"/>
         <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Demo" part="Connector_TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Demo" part="Device_Battery_Cell">
@@ -566,6 +612,7 @@
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
     </net>
     <net code="5" name="/RED_A" class="Default">

@@ -6,7 +6,7 @@
     ],
     "exit_code": 0,
     "stdout": "10.0.6\n",
-    "stderr": "20:35:25: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:35:25: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    "stderr": "20:43:47: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:43:47: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
   },
   {
     "command": [
@@ -23,7 +23,7 @@
     ],
     "exit_code": 0,
     "stdout": "Found 0 violations\nSaved ERC Report to D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/evidence/erc.json\n",
-    "stderr": "20:35:27: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:35:27: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    "stderr": "20:43:48: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:43:48: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
   },
   {
     "command": [
@@ -42,7 +42,7 @@
     ],
     "exit_code": 0,
     "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/evidence/drc.json\n",
-    "stderr": "20:35:30: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:35:30: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    "stderr": "20:43:51: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:43:51: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
   },
   {
     "command": [
@@ -58,7 +58,7 @@
     ],
     "exit_code": 0,
     "stdout": "",
-    "stderr": "20:35:34: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:35:34: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    "stderr": "20:43:55: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:43:55: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
   },
   {
     "command": [
@@ -72,7 +72,7 @@
     ],
     "exit_code": 0,
     "stdout": "Plotted to 'D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\previews\\KERO.svg'.\nDone.\n",
-    "stderr": "20:35:36: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:35:36: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    "stderr": "20:43:57: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:43:57: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
   },
   {
     "command": [
@@ -91,7 +91,7 @@
     ],
     "exit_code": 0,
     "stdout": "Plotted to 'D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\previews\\board.svg'.\nDone.\n",
-    "stderr": "20:35:38: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:35:38: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    "stderr": "20:43:59: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:43:59: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
   },
   {
     "command": [
@@ -111,7 +111,7 @@
       "basic"
     ],
     "exit_code": 0,
-    "stdout": "Loading\u2026\nBuild board outline\n\nCreate layers\nCreate tracks and vias\nCreate zones\nBuild Tech layers\nBuild Tech layer 11\nBuild Tech layer 9\nBuild Tech layer 15\nBuild Tech layer 13\nBuild Tech layer 7\nBuild Tech layer 5\nBuild Tech layer 3\nBuild Tech layer 1\nBuild Tech layer 17\nBuild Tech layer 19\nBuild Tech layer 21\nBuild Tech layer 23\nBuild Tech layer 39\nBuild Tech layer 41\nBuild Tech layer 43\nBuild Tech layer 45\nBuild Tech layer 47\nBuild Tech layer 49\nBuild Tech layer 51\nBuild Tech layer 53\nBuild Tech layer 55\nBuild Tech layer 57\nBuild Tech layer 59\nBuild Tech layer 61\nBuild Tech layer 63\nBuild Tech layer 65\nBuild Tech layer 67\nBuild Tech layer 69\nBuild Tech layer 71\nBuild Tech layer 73\nBuild Tech layer 75\nBuild Tech layer 77\nBuild Tech layer 79\nBuild Tech layer 81\nBuild Tech layer 83\nBuild Tech layer 85\nBuild Tech layer 87\nBuild Tech layer 89\nBuild Tech layer 91\nBuild Tech layer 93\nBuild Tech layer 95\nBuild Tech layer 97\nBuild Tech layer 99\nBuild Tech layer 101\nBuild Tech layer 103\nBuild Tech layer 105\nBuild Tech layer 107\nBuild Tech layer 109\nBuild Tech layer 111\nBuild Tech layer 113\nBuild Tech layer 115\nBuild Tech layer 117\nBuild Tech layer 119\nBuild Tech layer 121\nBuild Tech layer 123\nBuild Tech layer 125\nBuild Tech layer 127\nSimplifying copper layer polygons\nCalculating plated copper\nSimplify holes contours\nBuild BVH for holes and vias\nLoad Raytracing: board\nLoad Raytracing: layers\nLoading 3D models...\nReload time 0.065 s\nRendering: 100 \nRendering time 0.081 s\nSuccessfully created 3D render image\n",
-    "stderr": "20:35:40: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:35:40: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    "stdout": "Loading\u2026\nBuild board outline\n\nCreate layers\nCreate tracks and vias\nCreate zones\nBuild Tech layers\nBuild Tech layer 11\nBuild Tech layer 9\nBuild Tech layer 15\nBuild Tech layer 13\nBuild Tech layer 7\nBuild Tech layer 5\nBuild Tech layer 3\nBuild Tech layer 1\nBuild Tech layer 17\nBuild Tech layer 19\nBuild Tech layer 21\nBuild Tech layer 23\nBuild Tech layer 39\nBuild Tech layer 41\nBuild Tech layer 43\nBuild Tech layer 45\nBuild Tech layer 47\nBuild Tech layer 49\nBuild Tech layer 51\nBuild Tech layer 53\nBuild Tech layer 55\nBuild Tech layer 57\nBuild Tech layer 59\nBuild Tech layer 61\nBuild Tech layer 63\nBuild Tech layer 65\nBuild Tech layer 67\nBuild Tech layer 69\nBuild Tech layer 71\nBuild Tech layer 73\nBuild Tech layer 75\nBuild Tech layer 77\nBuild Tech layer 79\nBuild Tech layer 81\nBuild Tech layer 83\nBuild Tech layer 85\nBuild Tech layer 87\nBuild Tech layer 89\nBuild Tech layer 91\nBuild Tech layer 93\nBuild Tech layer 95\nBuild Tech layer 97\nBuild Tech layer 99\nBuild Tech layer 101\nBuild Tech layer 103\nBuild Tech layer 105\nBuild Tech layer 107\nBuild Tech layer 109\nBuild Tech layer 111\nBuild Tech layer 113\nBuild Tech layer 115\nBuild Tech layer 117\nBuild Tech layer 119\nBuild Tech layer 121\nBuild Tech layer 123\nBuild Tech layer 125\nBuild Tech layer 127\nSimplifying copper layer polygons\nCalculating plated copper\nSimplify holes contours\nBuild BVH for holes and vias\nLoad Raytracing: board\nLoad Raytracing: layers\nLoading 3D models...\nReload time 0.096 s\nRendering: 100 \nRendering time 0.076 s\nSuccessfully created 3D render image\n",
+    "stderr": "20:44:01: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n20:44:01: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
   }
 ]

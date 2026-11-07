@@ -38,6 +38,6 @@ def main():
   assert before==hashes(),'Design changed during verification'
   write(ROOT/'model-manifest.json',json.dumps(models,indent=2)+'\n')
   write(e/'summary.json',json.dumps({'status':'PASS','kicad_version':'10.0.6','native_erc_findings':0,'native_drc_findings':0,'native_unconnected_items':0,'native_schematic_parity_findings':0,'explicit_pad_net_parity':{'pads':len(actual),'nets':len(set(actual.values()))},'resolved_3d_models':models,'source_sha256':before,'limitations':['Analytical oscillator timing only; no transistor-level simulation or bench measurements.','Nominal CR2032 envelope is illustrative, not a manufacturer mechanical model.','Generic passives and LEDs are specification selections, not procurement-qualified MPNs.','KiCad CLI reports sandbox registry-access warnings; native checks and exports complete.'],'ignored_native_drc_checks':drc.get('ignored_checks',[])},indent=2)+'\n')
-  print('PASS: ERC, DRC, schematic parity, 32 pad/net mappings, all component models resolved')
+  print(f'PASS: ERC, DRC, schematic parity, {len(actual)} pad/net mappings, all component models resolved')
  finally:write(e/'commands.json',json.dumps(logs,indent=2)+'\n')
 if __name__=='__main__':main()

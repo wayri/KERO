@@ -28,6 +28,13 @@
     "origin": "Installed KiCad 10.0.6 standard library"
   },
   {
+    "reference": "TP1",
+    "model": "models\\TestPoint_Loop_D2.50mm_Drill1.0mm.step",
+    "bytes": 58685,
+    "sha256": "3b1a28ff5d3148fd63227a1eace71e22126d0861704d2fd890f148f94c5c56be",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
     "reference": "C2",
     "model": "models\\C_0603_1608Metric.step",
     "bytes": 43450,

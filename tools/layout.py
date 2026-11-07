@@ -43,7 +43,7 @@ def build_board(ps,variant):
  pro={'meta':{'filename':'KERO.kicad_pro','version':1},'board':{'design_settings':{'rules':{'min_clearance':.25,'min_track_width':.25,'min_via_diameter':.6,'min_through_hole_diameter':.3,'min_hole_clearance':.25,'min_copper_edge_clearance':.3}}},'net_settings':{'classes':[{'name':'Default','clearance':.25,'track_width':.3,'via_diameter':.8,'via_drill':.4,'microvia_diameter':.3,'microvia_drill':.1,'wire_width':6,'bus_width':12}]}}
  write(ROOT/'KERO.kicad_pro',json.dumps(pro,indent=2)+'\n')
  print('Board saved:',len(list(b.GetTracks())),'copper items')
-def route(b):
+def route(b,connections=None):
  step=.254;xmin,xmax,ymin,ymax=51.5,113.5,51.5,95.7;nx,ny=int((xmax-xmin)/step),int((ymax-ymin)/step);blocked=[{},{}]
  def grid(x,y):return round((x-xmin)/step),round((y-ymin)/step)
  def xy(g):return xmin+g[0]*step,ymin+g[1]*step
@@ -65,6 +65,16 @@ def route(b):
      if abs(xx-x)<=hx and abs(yy-y)<=hy:
       for layer in (0,1):blocked[layer].setdefault((ii,jj),set()).add(n or '__hole__')
    if n:pads.setdefault(n,[]).append((x,y,f.GetReference(),p.GetNumber()))
+ # Existing saved copper is an obstacle too when extending one ECO branch.
+ if connections is not None:
+  for track in b.GetTracks():
+   net=track.GetNetname()
+   if isinstance(track,pcb.PCB_VIA):
+    pos=track.GetPosition();disc(pcb.ToMM(pos.x),pcb.ToMM(pos.y),pcb.ToMM(track.GetWidth(pcb.F_Cu))/2+.4,net)
+   else:
+    a,z=track.GetStart(),track.GetEnd();a=(pcb.ToMM(a.x),pcb.ToMM(a.y));z=(pcb.ToMM(z.x),pcb.ToMM(z.y));count=max(1,math.ceil(math.dist(a,z)/.1));layer=0 if track.GetLayer()==pcb.F_Cu else 1
+    for k in range(count+1):disc(a[0]+(z[0]-a[0])*k/count,a[1]+(z[1]-a[1])*k/count,pcb.ToMM(track.GetWidth())/2+.4,net,(layer,))
+ route_pads=pads if connections is None else {net:[(*a,'ECO_START','1'),(*z,'ECO_END','1')] for net,a,z in connections}
  def free(i,j,l,n):return 0<=i<=nx and 0<=j<=ny and not(blocked[l].get((i,j),set())-{n})
  def seg(a,z,n,l):
   if math.dist(a,z)<1e-6:return
@@ -76,7 +86,7 @@ def route(b):
   if (g[0],g[1],n) in via_set:return
   via_set.add((g[0],g[1],n))
   x,y=xy(g);v=pcb.PCB_VIA(b);v.SetPosition(V(x,y));v.SetWidth(pcb.FromMM(.8));v.SetDrill(pcb.FromMM(.4));v.SetViaType(pcb.VIATYPE_THROUGH);v.SetLayerPair(pcb.F_Cu,pcb.B_Cu);v.SetNet(b.FindNet(n));v.SetUuid(pcb.KIID(uid('via'+n+str(g))));b.Add(v);disc(x,y,.8,n)
- for n,ps in sorted(pads.items(),key=lambda kv:(kv[0]=='GND',-len(kv[1]),kv[0])):
+ for n,ps in sorted(route_pads.items(),key=lambda kv:(kv[0]=='GND',-len(kv[1]),kv[0])):
   tree=[ps[0]];todo=ps[1:]
   while todo:
    _,si,ti=min((math.dist(a[:2],z[:2]),i,j) for i,a in enumerate(todo) for j,z in enumerate(tree));a=todo.pop(si);z=tree[ti];start=(*grid(*a[:2]),0);goal=grid(*z[:2]);dist={start:0};prev={};heap=[(0,0,start)];end=None
@@ -89,7 +99,7 @@ def route(b):
      nl=1-l if di==dj==0 else l;v=(i+di,j+dj,nl)
      if not free(v[0],v[1],nl,n):continue
      if di and dj and (not free(i+di,j,l,n) or not free(i,j+dj,l,n)):continue
-     if nl!=l and any(math.dist(xy(u),p[:2])<1.5 for pp in pads.values() for p in pp if p[2].startswith('D')):continue
+     if nl!=l and any(math.dist(xy(u),p[:2])<1.5 for pp in pads.values() for p in pp if p[2].startswith(('D','TP','C3'))):continue
      if nl!=l and any(not free(i+ii,j+jj,ll,n) for ii,jj in [(0,0),(1,0),(-1,0),(0,1),(0,-1),(2,0),(-2,0),(0,2),(0,-2)] for ll in (0,1)):continue
      nc=cost+(12 if nl!=l else (1.414214 if di and dj else 1))
      if nc<dist.get(v,1e99):dist[v]=nc;prev[v]=u;heapq.heappush(heap,(nc+math.hypot(v[0]-goal[0],v[1]-goal[1]),nc,v))

@@ -12,3 +12,4 @@ R6,1,4.7k,Demo:R_0603_1608Metric,Vishay,CRCW06034K70FKEA,"4.7 kohm, 1%, >=0.1 W,
 D1,1,RED,Demo:LED_D5.0mm,Generic,Select to specification,"5 mm diffused red LED; low-current type, Vf <=2 V preferred",
 R7,1,4.7k,Demo:R_0603_1608Metric,Vishay,CRCW06034K70FKEA,"4.7 kohm, 1%, >=0.1 W, 0603, thick film",https://www.vishay.com/docs/20035/dcrcwe3.pdf
 D2,1,GREEN,Demo:LED_D5.0mm,Generic,Select to specification,5 mm diffused yellow-green LED; Vf <=2.1 V; avoid blue/InGaN green,
+TP1,1,OUT,Demo:TestPoint_Loop_D2.50mm_Drill1.0mm,Generic,Select to specification,"2.5 mm loop test point, 1.0 mm drill; OUT probe access",

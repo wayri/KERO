@@ -464,6 +464,60 @@
       )
       (embedded_fonts no)
     )
+    (symbol
+      "Demo:Connector_TestPoint"
+      (pin_numbers (hide yes))
+      (pin_names (offset 0.762) (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "TP" (at 0 6.858 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+      (property "Value" "TestPoint" (at 0 5.08 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 5.08 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Datasheet" "" (at 5.08 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "Description"
+        "test point"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property
+        "ki_keywords"
+        "test point tp"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property
+        "ki_fp_filters"
+        "Pin* Test*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "Connector_TestPoint_0_1" (circle (center 0 3.302) (radius 0.762) (stroke (width 0) (type default)) (fill (type none))))
+      (symbol
+        "Connector_TestPoint_1_1"
+        (pin
+          passive
+          line
+          (at 0 0 90)
+          (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (embedded_fonts no)
+    )
   )
   (symbol
     (lib_id "Demo:Amplifier_Operational_LMV358")
@@ -956,7 +1010,7 @@
   (junction (at 190.5 81.28) (diameter 0.9144) (color 0 0 0 0) (uuid "b66b6578-3d3c-5b5b-baa3-c5e435471bd7"))
   (label
     "OUT"
-    (at 172.72 81.28 0)
+    (at 180.34 81.28 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid "e61c0cbf-a25b-5e38-89d2-75f07531e603")
   )
@@ -1178,4 +1232,32 @@
     (effects (font (size 1.27 1.27)))
     (uuid "bf87e844-4f2a-5550-a3ee-8680d608fec8")
   )
+  (symbol
+    (lib_id "Demo:Connector_TestPoint")
+    (at 175.26 73.66 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "5ba2b80f-b0be-5afe-a8b3-7dd199fd6467")
+    (property "Reference" "TP1" (at 180.34 72.39 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "OUT" (at 180.34 74.93 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:TestPoint_Loop_D2.50mm_Drill1.0mm" (at 180.34 74.93 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 180.34 74.93 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 180.34 74.93 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 180.34 74.93 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Rating"
+      "2.5 mm loop test point, 1.0 mm drill; OUT probe access"
+      (at 180.34 74.93 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "TP1") (unit 1))))
+  )
+  (wire
+    (pts (xy 175.26 73.66) (xy 175.26 81.28))
+    (stroke (width 0.2032) (type default))
+    (uuid "631aab29-afe7-5a4f-84eb-dd532c44dc58")
+  )
+  (junction (at 175.26 81.28) (diameter 0.9144) (color 0 0 0 0) (uuid "98393bff-c408-5195-9579-cb7fb1b6cc3f"))
 )

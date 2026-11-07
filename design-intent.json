@@ -286,7 +286,29 @@
         "2": "GREEN_A"
       },
       "rating": "5 mm diffused yellow-green LED; Vf <=2.1 V; avoid blue/InGaN green"
+    },
+    {
+      "ref": "TP1",
+      "symbol": "Connector:TestPoint",
+      "value": "OUT",
+      "footprint": "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm",
+      "sch": [
+        175.26,
+        73.66,
+        0
+      ],
+      "pcb": [
+        106.68,
+        78.74,
+        0
+      ],
+      "pins": {
+        "1": "OUT"
+      },
+      "manufacturer": "Generic",
+      "mpn": "Select to specification",
+      "rating": "2.5 mm loop test point, 1.0 mm drill; OUT probe access"
     }
   ],
-  "review_scenario": "bom-mpn"
+  "review_scenario": "add-testpoint"
 }
