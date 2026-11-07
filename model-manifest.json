@@ -4,7 +4,7 @@
     "model": "models\\LED_D5.0mm_green.step",
     "bytes": 23785,
     "sha256": "da2ad32a5233e96a0bebd669545150bb7a542cabf3d9e4fa2d2cdad824fe57d7",
-    "origin": "KiCad LED_D5.0mm colour derivative"
+    "origin": "KiCad LED colour derivative"
   },
   {
     "reference": "U1",
@@ -88,7 +88,7 @@
     "model": "models\\CR2032_nominal.wrl",
     "bytes": 9614,
     "sha256": "8679a52dadd822449ffd21772c6257227df29ae2c95a30180d62abd88ca17987",
-    "origin": "Original nominal 20 x 3.2 mm CR2032 envelope"
+    "origin": "Original nominal cell envelope"
   },
   {
     "reference": "R5",

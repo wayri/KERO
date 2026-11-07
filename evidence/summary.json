@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "kicad_version": "10.0.6",
+  "native_erc_findings": 0,
+  "native_drc_findings": 0,
+  "native_unconnected_items": 0,
+  "native_schematic_parity_findings": 0,
+  "explicit_pad_net_parity": {
+    "pads": 32,
+    "nets": 9
+  },
+  "resolved_3d_models": [
+    {
+      "reference": "D2",
+      "model": "models\\LED_D5.0mm_green.step",
+      "bytes": 23785,
+      "sha256": "da2ad32a5233e96a0bebd669545150bb7a542cabf3d9e4fa2d2cdad824fe57d7",
+      "origin": "KiCad LED colour derivative"
+    },
+    {
+      "reference": "U1",
+      "model": "models\\SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "bytes": 125320,
+      "sha256": "07f46cff378d30e6c27dfd5a03092c795323f86d91c71fc7e743f4f418dc553a",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "R2",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "R1",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "C2",
+      "model": "models\\C_0603_1608Metric.step",
+      "bytes": 43450,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "R4",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "R6",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "D1",
+      "model": "models\\LED_D5.0mm.step",
+      "bytes": 23819,
+      "sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "R7",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "C1",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "R3",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "BT1",
+      "model": "models\\BatteryHolder_Keystone_1058_1x2032.step",
+      "bytes": 196119,
+      "sha256": "bfe25e361483fb1350eca3a79dfde5a35766b9210d5ce48235baba3f37bc2579",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
+      "reference": "BT1",
+      "model": "models\\CR2032_nominal.wrl",
+      "bytes": 9614,
+      "sha256": "8679a52dadd822449ffd21772c6257227df29ae2c95a30180d62abd88ca17987",
+      "origin": "Original nominal cell envelope"
+    },
+    {
+      "reference": "R5",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    }
+  ],
+  "source_sha256": {
+    "KERO.kicad_sch": "b7d0cb008a757ac8067cbf6688dbfe54d0c6c3f76ea055d84ee794f9d5ebbf9f",
+    "KERO.kicad_pcb": "5e72e551b5608c41da9490328f732252edfc4fa94dc1cca18da83cd77c665e7a",
+    "KERO.kicad_pro": "a342616543b3e1d1e265dd4a028d3bf1c06607048dbca35b7dfcb8e594322b70",
+    "Demo.kicad_sym": "c5da32f4b58df83c60d31ab2a76cdb40565e14d7edbf33ae5088b9460cc6d5f6",
+    "fp-lib-table": "ac64be31241bd9efba0d46a7406cc5019676bdf414bf61bde343c65c6e43aa59",
+    "sym-lib-table": "b594e26f667631d425d3cd86ee9643581df54b1e2cb6af3f2f00455d6f99396c",
+    "models\\BatteryHolder_Keystone_1058_1x2032.step": "bfe25e361483fb1350eca3a79dfde5a35766b9210d5ce48235baba3f37bc2579",
+    "models\\CR2032_nominal.wrl": "8679a52dadd822449ffd21772c6257227df29ae2c95a30180d62abd88ca17987",
+    "models\\C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "models\\C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "models\\LED_D5.0mm.step": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+    "models\\LED_D5.0mm_green.step": "da2ad32a5233e96a0bebd669545150bb7a542cabf3d9e4fa2d2cdad824fe57d7",
+    "models\\R_0603_1608Metric.step": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "models\\SOIC-8_3.9x4.9mm_P1.27mm.step": "07f46cff378d30e6c27dfd5a03092c795323f86d91c71fc7e743f4f418dc553a",
+    "Demo.pretty\\BatteryHolder_Keystone_1058_1x2032.kicad_mod": "fc46deec655ba4348cc85f82443b6cf2348824feb057b6bbdaaa12bb9b970075",
+    "Demo.pretty\\C_0603_1608Metric.kicad_mod": "8237b34cfc5ae21970b0b07f928d6299fa965729e91185ed2e439b47201adaf4",
+    "Demo.pretty\\C_0805_2012Metric.kicad_mod": "35c49cf04dfb560f2df97c25630db5544cd0be6370e6a17c93fc2498205a8561",
+    "Demo.pretty\\LED_D5.0mm.kicad_mod": "f4b45ceba0bef58d10a0324f9b6c9043e0bf2a083f267532a621a324c6b23a98",
+    "Demo.pretty\\R_0603_1608Metric.kicad_mod": "f7e1a0b734a16db5c8d4c4da3f35584f848931b7087fbdb3b906a6bacaf9b30d",
+    "Demo.pretty\\SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod": "7e96ac31bf806b490a32b219ed4def9dcf15977c4ab8c433573fc2f7bb9c1b14"
+  },
+  "limitations": [
+    "Analytical oscillator timing only; no transistor-level simulation or bench measurements.",
+    "Nominal CR2032 envelope is illustrative, not a manufacturer mechanical model.",
+    "Generic passives and LEDs are specification selections, not procurement-qualified MPNs.",
+    "KiCad CLI reports sandbox registry-access warnings; native checks and exports complete."
+  ],
+  "ignored_native_drc_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ]
+}

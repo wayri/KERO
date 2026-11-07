@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\KERO.kicad_sch</source>
+    <date>2026-11-07T20:00:36</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>KERO - coin-cell red / green relaxation oscillator</title>
+        <company/>
+        <rev>baseline</rev>
+        <date>2026-11-07</date>
+        <source>KERO.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>CR2032</value>
+      <footprint>Demo:BatteryHolder_Keystone_1058_1x2032</footprint>
+      <fields>
+        <field name="Manufacturer">Keystone</field>
+        <field name="MPN">1058</field>
+        <field name="Rating">Keystone 1058 holder; one CR2032, 3 V nominal</field>
+        <field name="Footprint">Demo:BatteryHolder_Keystone_1058_1x2032</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_Battery_Cell" description="Single-cell battery"/>
+      <property name="Manufacturer" value="Keystone"/>
+      <property name="MPN" value="1058"/>
+      <property name="Rating" value="Keystone 1058 holder; one CR2032, 3 V nominal"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>696a533c-9d19-5019-bd66-f6df1eee21a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Demo:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">10 V min, X7R, +/-10%, 0805; effective C affects frequency</field>
+        <field name="Footprint">Demo:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="10 V min, X7R, +/-10%, 0805; effective C affects frequency"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a684545c-6d95-5eb5-99bd-dbbd0828d0d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Demo:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">10 V min, X7R, +/-10%, 0603</field>
+        <field name="Footprint">Demo:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="10 V min, X7R, +/-10%, 0603"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a1e139c-e22c-518c-a8db-54cdd515688d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>Demo:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">5 mm diffused red LED; low-current type, Vf &lt;=2 V preferred</field>
+        <field name="Footprint">Demo:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="5 mm diffused red LED; low-current type, Vf &lt;=2 V preferred"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0a5bdf1-95c4-55d1-a9e6-c4b9e8b382f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>GREEN</value>
+      <footprint>Demo:LED_D5.0mm</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">5 mm diffused yellow-green LED; Vf &lt;=2.1 V; avoid blue/InGaN green</field>
+        <field name="Footprint">Demo:LED_D5.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="5 mm diffused yellow-green LED; Vf &lt;=2.1 V; avoid blue/InGaN green"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82cde4ed-0ff5-5103-9070-398257c30a4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Demo:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Footprint">Demo:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>063f3bc2-acd0-591a-b7fa-a41fd3c68d7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>402k</value>
+      <footprint>Demo:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Footprint">Demo:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1895188b-7135-50bf-bd97-a24328ae9655</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Demo:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Footprint">Demo:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>272caeb0-051d-57d3-9972-bdd183d8bbb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>300k</value>
+      <footprint>Demo:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Footprint">Demo:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>571b07cb-2f99-5210-9535-79c126b49c3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Demo:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Footprint">Demo:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43c83ab0-5968-54c9-9d34-6edfd81f7707</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>3.3k</value>
+      <footprint>Demo:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Footprint">Demo:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65404b87-2980-57d2-ba94-b247326c181b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>3.3k</value>
+      <footprint>Demo:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Footprint">Demo:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9897ccf4-69e1-5ccf-8f1f-8a3e409881e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>LMV358ADR</value>
+      <footprint>Demo:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmv358a.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">LMV358ADR</field>
+        <field name="Rating">TI LMV358ADR, SOIC-8; 2.5 to 5.5 V</field>
+        <field name="Footprint">Demo:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmv358a.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Amplifier_Operational_LMV358" description="LMV358A dual low-voltage op amp; verified SOIC-8 pin map"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="LMV358ADR"/>
+      <property name="Rating" value="TI LMV358ADR, SOIC-8; 2.5 to 5.5 V"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="single opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9f88189-516d-5fab-8b7d-72e51837951b 9ec2d5c4-572d-59c0-917a-379e51a281cb 4a63a7e0-426a-51a2-bb5a-7f84d02a2b91</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Demo" part="Amplifier_Operational_LMV358">
+      <description>LMV358A dual low-voltage op amp; verified SOIC-8 pin map</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lmv358a.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV358ADR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmv358a.pdf</field>
+        <field name="Description">LMV358A dual low-voltage op amp; verified SOIC-8 pin map</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Demo" part="Device_Battery_Cell">
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Single-cell battery</field>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Demo" part="Device_C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Demo" part="Device_LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Demo" part="Device_R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Demo">
+      <uri>${KIPRJMOD}/Demo.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DIVIDER" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+_5" pintype="input"/>
+    </net>
+    <net code="2" name="/GND" class="Default">
+      <node ref="BT1" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-_4" pintype="power_in"/>
+    </net>
+    <net code="3" name="/GREEN_A" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/OUT" class="Default">
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="5" name="/RED_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/SCHMITT" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+_3" pintype="input"/>
+    </net>
+    <net code="7" name="/TIMING" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-_2" pintype="input"/>
+    </net>
+    <net code="8" name="/VBAT" class="Default">
+      <node ref="BT1" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V+_8" pintype="power_in"/>
+    </net>
+    <net code="9" name="/VREF" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-_6" pintype="input"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+  </nets>
+</export>
