@@ -1,5 +1,5 @@
 {
-  "variant": "baseline",
+  "variant": "timing",
   "supply_v": 3,
   "parts": [
     {
@@ -32,7 +32,7 @@
     {
       "ref": "R1",
       "symbol": "Device:R",
-      "value": "1M",
+      "value": "470k",
       "footprint": "Resistor_SMD:R_0603_1608Metric",
       "sch": [
         114.3,

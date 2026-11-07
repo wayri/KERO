@@ -85,7 +85,7 @@ def schematic(ps,variant):
   for a,b in zip(pts,pts[1:]):sch.append(['wire',['pts',['xy',*a],['xy',*b]],['stroke',['width',0.1524],['type','default']],['uuid',Q(uid('wire'+str(a)+str(b)))]])
  def label(n,p):sch.append(['label',Q(n),['at',*p,0],eff(),['uuid',Q(uid('label'+n+str(p)))]])
  def dot(p):sch.append(['junction',['at',*p],['diameter',0.9144],['color',0,0,0,0],['uuid',Q(uid('dot'+str(p)))]])
- def note(s,x,y,size=1.27):sch.append(['text',Q(s),['at',x,y,0],eff(size),['uuid',Q(uid('note'+s.splitlines()[0]))]])
+ def note(s,x,y,size=1.27):sch.append(['text',Q(s),['at',x,y,0],eff(size),['uuid',Q(uid('note'+('Ideal calculated f = 1.02 Hz; red duty about 29%.' if s.startswith('Ideal calculated f') else s.splitlines()[0])))]])
  path((85.09,58.42),(78.74,58.42));label('VREF',(78.74,58.42))
  path((92.71,58.42),(101.6,58.42),(110.49,58.42));dot((101.6,58.42));label('SCHMITT',(101.6,58.42))
  path((101.6,58.42),(101.6,78.74),(106.68,78.74))

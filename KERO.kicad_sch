@@ -3,7 +3,7 @@
   (generator "eeschema")
   (uuid "a9ee34e0-3058-59fb-8c06-cfd5be2176d6")
   (paper "A4")
-  (title_block (title "KERO - coin-cell red / green relaxation oscillator") (date "2026-11-07") (rev "baseline"))
+  (title_block (title "KERO - coin-cell red / green relaxation oscillator") (date "2026-11-07") (rev "timing"))
   (lib_symbols
     (symbol
       "Demo:Amplifier_Operational_LMV358"
@@ -496,7 +496,7 @@
     (dnp no)
     (uuid "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c")
     (property "Reference" "R1" (at 114.3 99.06 90) (effects (font (size 1.27 1.27))))
-    (property "Value" "1M" (at 114.3 101.6 90) (effects (font (size 1.27 1.27))))
+    (property "Value" "470k" (at 114.3 101.6 90) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Demo:R_0603_1608Metric" (at 114.3 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (property "Datasheet" "" (at 114.3 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (property "Manufacturer" "Generic" (at 114.3 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -985,7 +985,7 @@
     (uuid "12f7d476-7f4e-5494-8c34-9c78af86343f")
   )
   (text
-    "Ideal calculated f = 1.02 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification."
+    "Ideal calculated f = 2.18 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification."
     (at 144.78 154.94 0)
     (effects (font (size 1.27 1.27)))
     (uuid "51dda6fc-5e35-5bdd-831e-180a2ff23b8d")
