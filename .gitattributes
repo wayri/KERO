@@ -6,3 +6,6 @@
 # Scientific receipts bind exact solve-time bytes; prevent EOL conversion.
 encoded-model/**/*.json -text
 encoded-model/spice/** -text
+
+# Preserve exact native-CAD/model bytes bound by validation receipts.
+encoder/** -text
