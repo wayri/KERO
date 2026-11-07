@@ -135,9 +135,9 @@ def main():
         capacity_before_GiB=capacity_before,
         capacity_after_GiB={drive:shutil.disk_usage(drive).free/2**30 for drive in ['C:/','D:/']},
         limitations=LIMITS))
-    font_cache = scratch / 'matplotlib' / 'fontlist-v3.11.0.json'
-    if font_cache.is_file() and font_cache.resolve().is_relative_to(OUT.resolve()):
-        font_cache.unlink()
+    for font_cache in (scratch / 'matplotlib').glob('fontlist-v*.json'):
+        if font_cache.is_file() and font_cache.resolve().is_relative_to(scratch.resolve()):
+            font_cache.unlink()
     for folder in [scratch / 'matplotlib', scratch]:
         if folder.is_dir() and not any(folder.iterdir()):
             folder.rmdir()

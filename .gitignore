@@ -5,3 +5,6 @@ __pycache__/
 *.kicad_pcb.lck
 ~*
 *-backups/
+
+# Owned scientific-tool scratch, excluded from saved studies
+analysis/**/.scratch/
