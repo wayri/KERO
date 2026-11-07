@@ -1,0 +1,285 @@
+{
+  "variant": "baseline",
+  "supply_v": 3,
+  "parts": [
+    {
+      "ref": "U1",
+      "symbol": "Amplifier_Operational:LMV358",
+      "value": "LMV358ADR",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "sch": [
+        114.3,
+        81.28,
+        0
+      ],
+      "pcb": [
+        99.06,
+        71.12,
+        0
+      ],
+      "pins": {
+        "1": "OUT",
+        "2": "TIMING",
+        "3": "SCHMITT",
+        "4": "GND",
+        "5": "DIVIDER",
+        "6": "VREF",
+        "7": "VREF",
+        "8": "VBAT"
+      },
+      "rating": "TI LMV358ADR, SOIC-8; 2.5 to 5.5 V"
+    },
+    {
+      "ref": "R1",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sch": [
+        114.3,
+        104.14,
+        90
+      ],
+      "pcb": [
+        91.44,
+        73.66,
+        0
+      ],
+      "pins": {
+        "1": "TIMING",
+        "2": "OUT"
+      },
+      "rating": "1%, 0.1 W, 0603"
+    },
+    {
+      "ref": "R2",
+      "symbol": "Device:R",
+      "value": "402k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sch": [
+        114.3,
+        58.42,
+        90
+      ],
+      "pcb": [
+        96.52,
+        64.77,
+        0
+      ],
+      "pins": {
+        "1": "SCHMITT",
+        "2": "OUT"
+      },
+      "rating": "1%, 0.1 W, 0603"
+    },
+    {
+      "ref": "R3",
+      "symbol": "Device:R",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sch": [
+        88.9,
+        58.42,
+        90
+      ],
+      "pcb": [
+        91.44,
+        68.58,
+        0
+      ],
+      "pins": {
+        "1": "VREF",
+        "2": "SCHMITT"
+      },
+      "rating": "1%, 0.1 W, 0603"
+    },
+    {
+      "ref": "R4",
+      "symbol": "Device:R",
+      "value": "300k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sch": [
+        40.64,
+        116.84,
+        0
+      ],
+      "pcb": [
+        91.44,
+        81.28,
+        0
+      ],
+      "pins": {
+        "1": "VBAT",
+        "2": "DIVIDER"
+      },
+      "rating": "1%, 0.1 W, 0603"
+    },
+    {
+      "ref": "R5",
+      "symbol": "Device:R",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sch": [
+        40.64,
+        132.08,
+        0
+      ],
+      "pcb": [
+        91.44,
+        85.09,
+        0
+      ],
+      "pins": {
+        "1": "DIVIDER",
+        "2": "GND"
+      },
+      "rating": "1%, 0.1 W, 0603"
+    },
+    {
+      "ref": "C1",
+      "symbol": "Device:C",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sch": [
+        88.9,
+        104.14,
+        0
+      ],
+      "pcb": [
+        88.9,
+        77.47,
+        0
+      ],
+      "pins": {
+        "1": "TIMING",
+        "2": "GND"
+      },
+      "rating": "10 V min, X7R, +/-10%, 0805; effective C affects frequency"
+    },
+    {
+      "ref": "C2",
+      "symbol": "Device:C",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sch": [
+        66.04,
+        68.58,
+        0
+      ],
+      "pcb": [
+        102.87,
+        76.2,
+        0
+      ],
+      "pins": {
+        "1": "VBAT",
+        "2": "GND"
+      },
+      "rating": "10 V min, X7R, +/-10%, 0603"
+    },
+    {
+      "ref": "BT1",
+      "symbol": "Device:Battery_Cell",
+      "value": "CR2032",
+      "footprint": "Battery:BatteryHolder_Keystone_1058_1x2032",
+      "sch": [
+        43.18,
+        68.58,
+        0
+      ],
+      "pcb": [
+        69.85,
+        73.66,
+        0
+      ],
+      "pins": {
+        "1": "VBAT",
+        "2": "GND"
+      },
+      "rating": "Keystone 1058 holder; one CR2032, 3 V nominal"
+    },
+    {
+      "ref": "R6",
+      "symbol": "Device:R",
+      "value": "3.3k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sch": [
+        154.94,
+        91.44,
+        0
+      ],
+      "pcb": [
+        104.14,
+        66.04,
+        0
+      ],
+      "pins": {
+        "1": "OUT",
+        "2": "RED_A"
+      },
+      "rating": "1%, 0.1 W, 0603"
+    },
+    {
+      "ref": "D1",
+      "symbol": "Device:LED",
+      "value": "RED",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "sch": [
+        154.94,
+        106.68,
+        90
+      ],
+      "pcb": [
+        106.68,
+        58.42,
+        270
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "RED_A"
+      },
+      "rating": "5 mm diffused red LED; low-current type, Vf <=2 V preferred"
+    },
+    {
+      "ref": "R7",
+      "symbol": "Device:R",
+      "value": "3.3k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sch": [
+        180.34,
+        66.04,
+        0
+      ],
+      "pcb": [
+        104.14,
+        83.82,
+        0
+      ],
+      "pins": {
+        "1": "VBAT",
+        "2": "GREEN_A"
+      },
+      "rating": "1%, 0.1 W, 0603"
+    },
+    {
+      "ref": "D2",
+      "symbol": "Device:LED",
+      "value": "GREEN",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "sch": [
+        180.34,
+        81.28,
+        90
+      ],
+      "pcb": [
+        104.14,
+        88.9,
+        270
+      ],
+      "pins": {
+        "1": "OUT",
+        "2": "GREEN_A"
+      },
+      "rating": "5 mm diffused yellow-green LED; Vf <=2.1 V; avoid blue/InGaN green"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Demo") (type "KiCad") (uri "${KIPRJMOD}/Demo.kicad_sym") (options "") (descr "Localized KiCad 10 symbols")))

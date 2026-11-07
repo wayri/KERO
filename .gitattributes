@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+*.step text eol=lf
+*.wrl text eol=lf

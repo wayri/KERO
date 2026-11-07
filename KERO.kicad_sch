@@ -1,0 +1,1039 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (uuid "a9ee34e0-3058-59fb-8c06-cfd5be2176d6")
+  (paper "A4")
+  (title_block (title "KERO - coin-cell red / green relaxation oscillator") (date "2026-11-07") (rev "baseline"))
+  (lib_symbols
+    (symbol
+      "Demo:Amplifier_Operational_LMV358"
+      (pin_names (offset 0.127))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (symbol
+        "Amplifier_Operational_LMV358_1_1"
+        (polyline
+          (pts (xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08))
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin
+          output
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          input
+          line
+          (at -7.62 -2.54 0)
+          (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          input
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol
+        "Amplifier_Operational_LMV358_2_1"
+        (polyline
+          (pts (xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08))
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin
+          input
+          line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          input
+          line
+          (at -7.62 -2.54 0)
+          (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          output
+          line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol
+        "Amplifier_Operational_LMV358_3_1"
+        (pin
+          power_in
+          line
+          (at -2.54 -7.62 90)
+          (length 3.81)
+          (name "V-" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          power_in
+          line
+          (at -2.54 7.62 270)
+          (length 3.81)
+          (name "V+" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (embedded_fonts no)
+      (property "Reference" "U" (at 0 5.08 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left)))
+      (property
+        "Value"
+        "LMV358ADR"
+        (at 0 -5.08 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "Datasheet"
+        "https://www.ti.com/lit/ds/symlink/lmv358a.pdf"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property
+        "Description"
+        "LMV358A dual low-voltage op amp; verified SOIC-8 pin map"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_locked" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+      (property
+        "ki_keywords"
+        "single opamp"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property
+        "ki_fp_filters"
+        "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+    )
+    (symbol
+      "Demo:Device_R"
+      (pin_numbers (hide yes))
+      (pin_names (offset 0))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "R" (at 2.032 0 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 0 0 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at -1.778 0 90) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Description" "Resistor" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "ki_keywords"
+        "R res resistor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (symbol
+        "Device_R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54) (stroke (width 0.254) (type default)) (fill (type none)))
+      )
+      (symbol
+        "Device_R_1_1"
+        (pin
+          passive
+          line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          passive
+          line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol
+      "Demo:Device_C"
+      (pin_numbers (hide yes))
+      (pin_names (offset 0.254))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property
+        "Reference"
+        "C"
+        (at 0.635 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.635 -2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left)))
+      (property "Footprint" "" (at 0.9652 -3.81 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "Description"
+        "Unpolarized capacitor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property
+        "ki_keywords"
+        "cap capacitor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (symbol
+        "Device_C_0_1"
+        (polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.508) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.508) (type default)) (fill (type none)))
+      )
+      (symbol
+        "Device_C_1_1"
+        (pin
+          passive
+          line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          passive
+          line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol
+      "Demo:Device_Battery_Cell"
+      (pin_numbers (hide yes))
+      (pin_names (offset 0) (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property
+        "Reference"
+        "BT"
+        (at 2.54 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property
+        "Value"
+        "Battery_Cell"
+        (at 2.54 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 1.524 90) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Datasheet" "" (at 0 1.524 90) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "Description"
+        "Single-cell battery"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Sim.Device" "V" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Sim.Type" "DC" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Sim.Pins" "1=+ 2=-" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "ki_keywords"
+        "battery cell"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol
+        "Device_Battery_Cell_0_1"
+        (rectangle (start -2.286 1.778) (end 2.286 1.524) (stroke (width 0) (type default)) (fill (type outline)))
+        (rectangle (start -1.524 1.016) (end 1.524 0.508) (stroke (width 0) (type default)) (fill (type outline)))
+        (polyline (pts (xy 0 1.778) (xy 0 2.54)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 0.762) (xy 0 0)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy 0.762 3.048) (xy 1.778 3.048)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 1.27 3.556) (xy 1.27 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+      )
+      (symbol
+        "Device_Battery_Cell_1_1"
+        (pin
+          passive
+          line
+          (at 0 5.08 270)
+          (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          passive
+          line
+          (at 0 -2.54 90)
+          (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol
+      "Demo:Device_LED"
+      (pin_numbers (hide yes))
+      (pin_names (offset 1.016) (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "D" (at 0 2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+      (property "Value" "LED" (at 0 -2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "Description"
+        "Light emitting diode"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Sim.Pins" "1=K 2=A" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "ki_keywords" "LED diode" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "ki_fp_filters"
+        "LED* LED_SMD:* LED_THT:*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol
+        "Device_LED_0_1"
+        (polyline
+          (pts (xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524))
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts (xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524))
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline (pts (xy -1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))
+        (polyline (pts (xy -1.27 -1.27) (xy -1.27 1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline
+          (pts (xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27))
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol
+        "Device_LED_1_1"
+        (pin
+          passive
+          line
+          (at -3.81 0 0)
+          (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin
+          passive
+          line
+          (at 3.81 0 180)
+          (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol
+      "Demo:power_PWR_FLAG"
+      (power global)
+      (pin_numbers (hide yes))
+      (pin_names (offset 0) (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "#FLG" (at 0 1.905 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Value" "PWR_FLAG" (at 0 3.81 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27))))
+      (property
+        "Description"
+        "Special symbol for telling ERC where power comes from"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property
+        "ki_keywords"
+        "flag power"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol
+        "power_PWR_FLAG_0_0"
+        (pin
+          power_out
+          line
+          (at 0 0 90)
+          (length 0)
+          (name "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol
+        "power_PWR_FLAG_0_1"
+        (polyline
+          (pts (xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27))
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (embedded_fonts no)
+    )
+  )
+  (symbol
+    (lib_id "Demo:Amplifier_Operational_LMV358")
+    (at 114.3 81.28 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4a63a7e0-426a-51a2-bb5a-7f84d02a2b91")
+    (property "Reference" "U1" (at 114.3 73.66 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "LMV358ADR" (at 114.3 88.9 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:SOIC-8_3.9x4.9mm_P1.27mm" (at 114.3 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.ti.com/lit/ds/symlink/lmv358a.pdf"
+      (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Texas Instruments" (at 114.3 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "LMV358ADR" (at 114.3 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "TI LMV358ADR, SOIC-8; 2.5 to 5.5 V" (at 114.3 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "U1") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_R")
+    (at 114.3 104.14 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c")
+    (property "Reference" "R1" (at 114.3 99.06 90) (effects (font (size 1.27 1.27))))
+    (property "Value" "1M" (at 114.3 101.6 90) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:R_0603_1608Metric" (at 114.3 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 114.3 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 114.3 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 114.3 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "1%, 0.1 W, 0603" (at 114.3 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R1") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_R")
+    (at 114.3 58.42 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "1895188b-7135-50bf-bd97-a24328ae9655")
+    (property "Reference" "R2" (at 114.3 53.34 90) (effects (font (size 1.27 1.27))))
+    (property "Value" "402k" (at 114.3 55.88 90) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:R_0603_1608Metric" (at 114.3 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 114.3 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 114.3 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 114.3 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "1%, 0.1 W, 0603" (at 114.3 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R2") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_R")
+    (at 88.9 58.42 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "272caeb0-051d-57d3-9972-bdd183d8bbb9")
+    (property "Reference" "R3" (at 88.9 53.34 90) (effects (font (size 1.27 1.27))))
+    (property "Value" "100k" (at 88.9 55.88 90) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:R_0603_1608Metric" (at 88.9 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 88.9 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 88.9 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 88.9 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "1%, 0.1 W, 0603" (at 88.9 58.42 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R3") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_R")
+    (at 40.64 116.84 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "571b07cb-2f99-5210-9535-79c126b49c3c")
+    (property "Reference" "R4" (at 46.99 115.57000000000001 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "300k" (at 46.99 118.11 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:R_0603_1608Metric" (at 40.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 40.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 40.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 40.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "1%, 0.1 W, 0603" (at 40.64 116.84 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R4") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_R")
+    (at 40.64 132.08 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "43c83ab0-5968-54c9-9d34-6edfd81f7707")
+    (property "Reference" "R5" (at 46.99 130.81 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100k" (at 46.99 133.35000000000002 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:R_0603_1608Metric" (at 40.64 132.08 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 40.64 132.08 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 40.64 132.08 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 40.64 132.08 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "1%, 0.1 W, 0603" (at 40.64 132.08 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R5") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_C")
+    (at 88.9 104.14 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "a684545c-6d95-5eb5-99bd-dbbd0828d0d4")
+    (property "Reference" "C1" (at 95.25 102.87 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "1u" (at 95.25 105.41 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:C_0805_2012Metric" (at 88.9 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 88.9 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 88.9 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 88.9 104.14 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Rating"
+      "10 V min, X7R, +/-10%, 0805; effective C affects frequency"
+      (at 88.9 104.14 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "C1") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_C")
+    (at 66.04 68.58 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6a1e139c-e22c-518c-a8db-54cdd515688d")
+    (property "Reference" "C2" (at 72.39 67.31 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100n" (at 72.39 69.85 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:C_0603_1608Metric" (at 66.04 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 66.04 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 66.04 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 66.04 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "10 V min, X7R, +/-10%, 0603" (at 66.04 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "C2") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_Battery_Cell")
+    (at 43.18 68.58 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "696a533c-9d19-5019-bd66-f6df1eee21a2")
+    (property "Reference" "BT1" (at 49.53 67.31 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "CR2032" (at 49.53 69.85 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:BatteryHolder_Keystone_1058_1x2032" (at 43.18 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 43.18 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Keystone" (at 43.18 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "1058" (at 43.18 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Rating"
+      "Keystone 1058 holder; one CR2032, 3 V nominal"
+      (at 43.18 68.58 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "BT1") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_R")
+    (at 154.94 91.44 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "65404b87-2980-57d2-ba94-b247326c181b")
+    (property "Reference" "R6" (at 161.29 90.17 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "3.3k" (at 161.29 92.71 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:R_0603_1608Metric" (at 154.94 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 154.94 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 154.94 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 154.94 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "1%, 0.1 W, 0603" (at 154.94 91.44 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R6") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_LED")
+    (at 154.94 106.68 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "d0a5bdf1-95c4-55d1-a9e6-c4b9e8b382f5")
+    (property "Reference" "D1" (at 161.29 105.41000000000001 90) (effects (font (size 1.27 1.27))))
+    (property "Value" "RED" (at 161.29 107.95 90) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:LED_D5.0mm" (at 154.94 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 154.94 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 154.94 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 154.94 106.68 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Rating"
+      "5 mm diffused red LED; low-current type, Vf <=2 V preferred"
+      (at 154.94 106.68 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "D1") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_R")
+    (at 180.34 66.04 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "9897ccf4-69e1-5ccf-8f1f-8a3e409881e5")
+    (property "Reference" "R7" (at 186.69 64.77000000000001 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "3.3k" (at 186.69 67.31 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:R_0603_1608Metric" (at 180.34 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 180.34 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 180.34 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 180.34 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "1%, 0.1 W, 0603" (at 180.34 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "R7") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Device_LED")
+    (at 180.34 81.28 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "82cde4ed-0ff5-5103-9070-398257c30a4e")
+    (property "Reference" "D2" (at 186.69 80.01 90) (effects (font (size 1.27 1.27))))
+    (property "Value" "GREEN" (at 186.69 82.55 90) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:LED_D5.0mm" (at 180.34 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Datasheet" "" (at 180.34 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Manufacturer" "Generic" (at 180.34 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "Select to specification" (at 180.34 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Rating"
+      "5 mm diffused yellow-green LED; Vf <=2.1 V; avoid blue/InGaN green"
+      (at 180.34 81.28 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "D2") (unit 1))))
+  )
+  (symbol
+    (lib_id "Demo:Amplifier_Operational_LMV358")
+    (at 66.04 127 0)
+    (unit 2)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "9ec2d5c4-572d-59c0-917a-379e51a281cb")
+    (property "Reference" "U1" (at 66.04 119.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "LMV358ADR" (at 66.04 134.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:SOIC-8_3.9x4.9mm_P1.27mm" (at 66.04 127 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.ti.com/lit/ds/symlink/lmv358a.pdf"
+      (at 66.04 127 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Texas Instruments" (at 66.04 127 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "LMV358ADR" (at 66.04 127 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "TI LMV358ADR, SOIC-8; 2.5 to 5.5 V" (at 66.04 127 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "U1") (unit 2))))
+  )
+  (symbol
+    (lib_id "Demo:Amplifier_Operational_LMV358")
+    (at 88.9 137.16 0)
+    (unit 3)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "d9f88189-516d-5fab-8b7d-72e51837951b")
+    (property "Reference" "U1" (at 88.9 129.54 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "LMV358ADR" (at 88.9 144.78 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Demo:SOIC-8_3.9x4.9mm_P1.27mm" (at 88.9 137.16 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property
+      "Datasheet"
+      "https://www.ti.com/lit/ds/symlink/lmv358a.pdf"
+      (at 88.9 137.16 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (property "Manufacturer" "Texas Instruments" (at 88.9 137.16 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "LMV358ADR" (at 88.9 137.16 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Rating" "TI LMV358ADR, SOIC-8; 2.5 to 5.5 V" (at 88.9 137.16 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "U1") (unit 3))))
+  )
+  (wire
+    (pts (xy 85.09 58.42) (xy 78.74 58.42))
+    (stroke (width 0.1524) (type default))
+    (uuid "ba215e9a-7418-5625-bf21-09f74619e2d9")
+  )
+  (label "VREF" (at 78.74 58.42 0) (effects (font (size 1.27 1.27))) (uuid "29aa6e6e-00de-572a-bbc1-a66841b36b6a"))
+  (wire
+    (pts (xy 92.71 58.42) (xy 101.6 58.42))
+    (stroke (width 0.1524) (type default))
+    (uuid "d3247af3-5e88-5260-b174-da3b6ab1eacf")
+  )
+  (wire
+    (pts (xy 101.6 58.42) (xy 110.49 58.42))
+    (stroke (width 0.1524) (type default))
+    (uuid "8b4db936-0e13-59e6-ac1d-22be064368a5")
+  )
+  (junction (at 101.6 58.42) (diameter 0.9144) (color 0 0 0 0) (uuid "8610aacc-2ea4-5451-8295-93caa503f18f"))
+  (label "SCHMITT" (at 101.6 58.42 0) (effects (font (size 1.27 1.27))) (uuid "c28c91b8-7ee8-5053-8181-9917a7812637"))
+  (wire
+    (pts (xy 101.6 58.42) (xy 101.6 78.74))
+    (stroke (width 0.1524) (type default))
+    (uuid "0a1ac5b6-2142-5a15-ae74-4a29c263a9ab")
+  )
+  (wire
+    (pts (xy 101.6 78.74) (xy 106.68 78.74))
+    (stroke (width 0.1524) (type default))
+    (uuid "4761bd3b-db2c-5a44-9b9e-63b5a26f01fb")
+  )
+  (wire
+    (pts (xy 118.11 58.42) (xy 132.08 58.42))
+    (stroke (width 0.1524) (type default))
+    (uuid "216d3872-c775-5339-a8df-0942c560e45d")
+  )
+  (wire
+    (pts (xy 132.08 58.42) (xy 132.08 81.28))
+    (stroke (width 0.1524) (type default))
+    (uuid "3ae16a26-1b54-5646-b9ab-0d030598126a")
+  )
+  (wire
+    (pts (xy 132.08 81.28) (xy 132.08 104.14))
+    (stroke (width 0.1524) (type default))
+    (uuid "33332a3c-5a35-5419-b9f5-62ace018f225")
+  )
+  (wire
+    (pts (xy 132.08 104.14) (xy 118.11 104.14))
+    (stroke (width 0.1524) (type default))
+    (uuid "f3455a86-31ea-55cd-9091-ad5a6910988d")
+  )
+  (junction (at 132.08 81.28) (diameter 0.9144) (color 0 0 0 0) (uuid "0c75472c-09ca-5d1c-bd38-717b34b2584a"))
+  (label "OUT" (at 132.08 81.28 0) (effects (font (size 1.27 1.27))) (uuid "f318c93c-f2d6-54b6-9c45-cccf40afcc4b"))
+  (wire
+    (pts (xy 121.92 81.28) (xy 132.08 81.28))
+    (stroke (width 0.1524) (type default))
+    (uuid "bd4844d7-0c22-5583-bf2f-a3c8428cf66b")
+  )
+  (wire
+    (pts (xy 110.49 104.14) (xy 99.06 104.14))
+    (stroke (width 0.1524) (type default))
+    (uuid "05fdd344-397e-5a18-ba67-24bee17d6ac5")
+  )
+  (wire
+    (pts (xy 99.06 104.14) (xy 99.06 100.33))
+    (stroke (width 0.1524) (type default))
+    (uuid "dc6b4431-fe5e-566d-80a4-41727c1f2737")
+  )
+  (wire
+    (pts (xy 99.06 100.33) (xy 99.06 83.82))
+    (stroke (width 0.1524) (type default))
+    (uuid "acfea782-6f0b-551e-af8b-8dce6a276c45")
+  )
+  (wire
+    (pts (xy 99.06 83.82) (xy 106.68 83.82))
+    (stroke (width 0.1524) (type default))
+    (uuid "55c861c7-4dde-5436-8b54-03ee21a8d846")
+  )
+  (junction (at 99.06 100.33) (diameter 0.9144) (color 0 0 0 0) (uuid "c4fbe453-9014-593a-9f21-bf255dfafbc7"))
+  (label "TIMING" (at 99.06 100.33 0) (effects (font (size 1.27 1.27))) (uuid "38e07f2b-4b22-5b87-beaf-f8d408f5c96f"))
+  (wire
+    (pts (xy 88.9 100.33) (xy 99.06 100.33))
+    (stroke (width 0.1524) (type default))
+    (uuid "09a36702-5658-5006-aa75-20ae0313c196")
+  )
+  (wire
+    (pts (xy 88.9 107.95) (xy 88.9 114.3))
+    (stroke (width 0.1524) (type default))
+    (uuid "4d6c21c0-b7ff-5051-b753-ebca5c413124")
+  )
+  (label "GND" (at 88.9 114.3 0) (effects (font (size 1.27 1.27))) (uuid "64581285-70e1-5b93-be58-9cad374bdcba"))
+  (wire
+    (pts (xy 40.64 113.03) (xy 40.64 106.68))
+    (stroke (width 0.1524) (type default))
+    (uuid "b2411259-7f5b-560c-90af-5ef1f3b93674")
+  )
+  (label "VBAT" (at 40.64 106.68 0) (effects (font (size 1.27 1.27))) (uuid "752582db-aadb-5145-92f3-778f336b210f"))
+  (wire
+    (pts (xy 40.64 120.65) (xy 40.64 124.46))
+    (stroke (width 0.1524) (type default))
+    (uuid "dca63173-c6dc-5314-8e06-a2680f54fc99")
+  )
+  (wire
+    (pts (xy 40.64 124.46) (xy 40.64 128.27))
+    (stroke (width 0.1524) (type default))
+    (uuid "31945ea5-5248-5b3a-abf1-ae1a45bc99e0")
+  )
+  (junction (at 40.64 124.46) (diameter 0.9144) (color 0 0 0 0) (uuid "a7803a11-8a60-5991-95db-1058e28e6997"))
+  (wire
+    (pts (xy 40.64 124.46) (xy 58.42 124.46))
+    (stroke (width 0.1524) (type default))
+    (uuid "ac54f583-3b22-5ab4-863d-e5a0273bdf1b")
+  )
+  (label "DIVIDER" (at 45.72 124.46 0) (effects (font (size 1.27 1.27))) (uuid "ec9c09df-96a9-5b66-9c85-6ac76a4d53a6"))
+  (wire
+    (pts (xy 40.64 135.89) (xy 40.64 142.24))
+    (stroke (width 0.1524) (type default))
+    (uuid "b449b98d-0f41-52ac-b43c-a84e94f075b9")
+  )
+  (label "GND" (at 40.64 142.24 0) (effects (font (size 1.27 1.27))) (uuid "6a61f2ba-2e23-59d0-b398-9a6686578bf0"))
+  (wire (pts (xy 73.66 127) (xy 78.74 127)) (stroke (width 0.1524) (type default)) (uuid "1555913b-ae24-526e-9d69-35de063a42a2"))
+  (wire (pts (xy 78.74 127) (xy 78.74 139.7)) (stroke (width 0.1524) (type default)) (uuid "9df5d595-2115-500c-8a14-1cea63d9a315"))
+  (wire
+    (pts (xy 78.74 139.7) (xy 53.34 139.7))
+    (stroke (width 0.1524) (type default))
+    (uuid "332b2928-e9c9-56c9-a0f1-f989aba9ce18")
+  )
+  (wire
+    (pts (xy 53.34 139.7) (xy 53.34 129.54))
+    (stroke (width 0.1524) (type default))
+    (uuid "9c5e323c-a6d6-5913-a0b3-05bfda47fe1c")
+  )
+  (wire
+    (pts (xy 53.34 129.54) (xy 58.42 129.54))
+    (stroke (width 0.1524) (type default))
+    (uuid "457774ad-1d88-58b1-835b-e48ec526bf89")
+  )
+  (junction (at 78.74 127) (diameter 0.9144) (color 0 0 0 0) (uuid "3409ec8b-6003-530f-b5be-e1c52391e939"))
+  (label "VREF" (at 78.74 127 0) (effects (font (size 1.27 1.27))) (uuid "fa2cccc5-c68e-5ab2-95be-ab7352f4b63b"))
+  (wire
+    (pts (xy 86.36 129.54) (xy 86.36 124.46))
+    (stroke (width 0.1524) (type default))
+    (uuid "f3462cff-b2ec-5864-9d3c-2e3d64ae103d")
+  )
+  (label "VBAT" (at 86.36 124.46 0) (effects (font (size 1.27 1.27))) (uuid "9006c8cb-d4c0-5234-b2d6-cbf2cf2e515d"))
+  (wire
+    (pts (xy 86.36 144.78) (xy 86.36 149.86))
+    (stroke (width 0.1524) (type default))
+    (uuid "30865101-a377-558d-b4d4-66458726a755")
+  )
+  (label "GND" (at 86.36 149.86 0) (effects (font (size 1.27 1.27))) (uuid "6ce11378-075d-5ef6-aa3a-e2b0140ece4f"))
+  (wire
+    (pts (xy 154.94 87.63) (xy 154.94 81.28))
+    (stroke (width 0.1524) (type default))
+    (uuid "aada3048-905c-5b30-b6eb-30ce90351860")
+  )
+  (label "OUT" (at 154.94 81.28 0) (effects (font (size 1.27 1.27))) (uuid "dfde8e29-4753-5e7f-9899-3339dfd1164d"))
+  (wire
+    (pts (xy 154.94 95.25) (xy 154.94 102.87))
+    (stroke (width 0.1524) (type default))
+    (uuid "d615d041-511d-58dc-a45f-c1d03dcab1fe")
+  )
+  (label "RED_A" (at 154.94 99.06 0) (effects (font (size 1.27 1.27))) (uuid "16508acf-db32-5729-ab74-c6dae6b21aa2"))
+  (wire
+    (pts (xy 154.94 110.49) (xy 154.94 116.84))
+    (stroke (width 0.1524) (type default))
+    (uuid "e27e49a4-ae45-5338-927b-219060a17376")
+  )
+  (label "GND" (at 154.94 116.84 0) (effects (font (size 1.27 1.27))) (uuid "f2962656-16a2-5d7c-8dd3-998789ac9407"))
+  (wire
+    (pts (xy 180.34 62.23) (xy 180.34 55.88))
+    (stroke (width 0.1524) (type default))
+    (uuid "2fcb5a8c-bd4b-5655-8916-307ea9dc6bf0")
+  )
+  (label "VBAT" (at 180.34 55.88 0) (effects (font (size 1.27 1.27))) (uuid "88e0749f-b608-5e65-a3b4-397993067670"))
+  (wire
+    (pts (xy 180.34 69.85) (xy 180.34 77.47))
+    (stroke (width 0.1524) (type default))
+    (uuid "17954fd3-cd61-56d8-ad35-e3adbeb14bf8")
+  )
+  (label "GREEN_A" (at 180.34 73.66 0) (effects (font (size 1.27 1.27))) (uuid "8991d762-3c80-5174-8665-1851c6187a70"))
+  (wire
+    (pts (xy 180.34 85.09) (xy 180.34 91.44))
+    (stroke (width 0.1524) (type default))
+    (uuid "8db47d37-de08-5ec9-ab01-02124e9ae503")
+  )
+  (label "OUT" (at 180.34 91.44 0) (effects (font (size 1.27 1.27))) (uuid "7d086a72-e279-5a8f-9172-e59e6bd90a48"))
+  (wire
+    (pts (xy 43.18 63.5) (xy 43.18 58.42))
+    (stroke (width 0.1524) (type default))
+    (uuid "fb203e6f-797a-552a-98cf-77d75eff0760")
+  )
+  (label "VBAT" (at 43.18 58.42 0) (effects (font (size 1.27 1.27))) (uuid "f627ef1e-9f85-5d34-85d4-4cfe59a2d214"))
+  (wire
+    (pts (xy 43.18 71.12) (xy 43.18 76.2))
+    (stroke (width 0.1524) (type default))
+    (uuid "08feb54c-ccdf-5858-bb82-0c127ead26a3")
+  )
+  (label "GND" (at 43.18 76.2 0) (effects (font (size 1.27 1.27))) (uuid "7b8d5a81-3aad-55ba-aa7c-17b3309573b6"))
+  (wire
+    (pts (xy 66.04 64.77) (xy 66.04 59.69))
+    (stroke (width 0.1524) (type default))
+    (uuid "5799b09d-6f62-5b74-8c37-3328a1855106")
+  )
+  (label "VBAT" (at 66.04 59.69 0) (effects (font (size 1.27 1.27))) (uuid "7c2c7656-7812-50c5-bdf1-b0189b49d055"))
+  (wire
+    (pts (xy 66.04 72.39) (xy 66.04 77.47))
+    (stroke (width 0.1524) (type default))
+    (uuid "db868cca-f528-532f-9daa-ede243c09f15")
+  )
+  (label "GND" (at 66.04 77.47 0) (effects (font (size 1.27 1.27))) (uuid "7d9be61a-1622-5c09-9eb1-b09fe31ad119"))
+  (text "COIN CELL / BYPASS" (at 50.8 48.26 0) (effects (font (size 1.7 1.7))) (uuid "2a01f0fd-cc9e-5b20-aa65-cf7dfd544c75"))
+  (text
+    "SCHMITT + RC OSCILLATOR"
+    (at 106.68 40.64 0)
+    (effects (font (size 1.7 1.7)))
+    (uuid "819b60fa-386a-5899-93b7-586483f3129b")
+  )
+  (text "ALTERNATING LEDs" (at 168.91 40.64 0) (effects (font (size 1.7 1.7))) (uuid "a674b83e-9114-5a72-ac1a-d1b9e3061ee0"))
+  (text "REFERENCE BUFFER" (at 55.88 99.06 0) (effects (font (size 1.7 1.7))) (uuid "fdf96cd0-db0e-5689-9b05-493f809d438d"))
+  (text
+    "RED = output HIGH\nGREEN = output LOW\nUse low-Vf yellow-green LED."
+    (at 170.18 132.08 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "40ad3a39-0c20-5391-af62-f99d164b6647")
+  )
+  (text
+    "CR2032: 3 V nominal. Design operating range: 2.5-3.3 V.\nR2/R3 keep both oscillator inputs below 0.41 x VBAT.\nRemove cell to switch off. No reverse-cell protection."
+    (at 53.34 87.63 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "12f7d476-7f4e-5494-8c34-9c78af86343f")
+  )
+  (text
+    "Ideal calculated f = 1.02 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification."
+    (at 144.78 154.94 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "51dda6fc-5e35-5bdd-831e-180a2ff23b8d")
+  )
+  (symbol
+    (lib_id "Demo:power_PWR_FLAG")
+    (at 40.64 165.1 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "7d762ffc-b7a8-52f0-8fe2-69507164ad16")
+    (property "Reference" "#FLG001" (at 46.99 163.82999999999998 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "PWR_FLAG" (at 46.99 166.37 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Footprint" "" (at 40.64 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (property "Datasheet" "" (at 40.64 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (property "Manufacturer" "Generic" (at 40.64 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (property "MPN" "Select to specification" (at 40.64 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (property "Rating" "" (at 40.64 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "#FLG001") (unit 1))))
+  )
+  (wire
+    (pts (xy 40.64 165.1) (xy 40.64 170.18))
+    (stroke (width 0.1524) (type default))
+    (uuid "0915eee1-f109-5e09-8bad-442b45e8d638")
+  )
+  (label "VBAT" (at 40.64 170.18 0) (effects (font (size 1.27 1.27))) (uuid "6c81e4b8-bd1a-556d-8c6d-8f94b6741939"))
+  (symbol
+    (lib_id "Demo:power_PWR_FLAG")
+    (at 60.96 165.1 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "bf856f35-69d5-50f5-a66d-efefaf92e419")
+    (property "Reference" "#FLG002" (at 67.31 163.82999999999998 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "PWR_FLAG" (at 67.31 166.37 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Footprint" "" (at 60.96 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (property "Datasheet" "" (at 60.96 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (property "Manufacturer" "Generic" (at 60.96 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (property "MPN" "Select to specification" (at 60.96 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (property "Rating" "" (at 60.96 165.1 0) (effects (font (size 1.27 1.27)) (hide yes) (hide yes)))
+    (instances (project "KERO" (path "/a9ee34e0-3058-59fb-8c06-cfd5be2176d6" (reference "#FLG002") (unit 1))))
+  )
+  (wire
+    (pts (xy 60.96 165.1) (xy 60.96 170.18))
+    (stroke (width 0.1524) (type default))
+    (uuid "1f4781fc-1efe-5b85-965c-52616c0644be")
+  )
+  (label "GND" (at 60.96 170.18 0) (effects (font (size 1.27 1.27))) (uuid "857b10e2-428f-5d09-a222-c65aad319114"))
+)
