@@ -28,3 +28,9 @@ Suggested 90-second recording: 15 s introduction; 20 s schematic/BoM; 15 s PCB/3
 - In PR #9 open analysis/README.md, then a .pocket-kivi.json with the matching KERO PCB. Compare PI potential/loss/current-density fields and the QuickTherm temperature fields; inspect source-match status and numerical assumptions.
 
 Current PR numbers changed when demo branches were renamed. PRs #1–#4 remain historical; use #5–#9 for the current walkthrough.
+
+## Encoded-message and analysis demonstration
+
+In PR #16 open `encoder/Encoder.kicad_sch` and follow the power sheet, three RC banks and majority/LED decoder. Inspect shared project variables and the 79-part BoM, then open the 40 × 40 mm routed board and bottom coin-cell holder. Compare 83b9344 with d951d83 to see the routing repair; saved-object differences are tracks/vias only. Native ERC/DRC/parity and all 40 connected nets are recorded.
+
+Open `encoder/analysis/README.md` for the executed cell-current/loss budget and native/portable WayriCAD files. Load one selected `.pocket-kivi.json` with the matching encoder PCB, inspect potential/loss/current-density or board-temperature fields, and check the source-match status. Keep the shifted GND reference, unresolved mean-GND pad region, unconverged local peaks, and board-versus-junction temperature limits visible. Analysis additions do not change the routed PCB.

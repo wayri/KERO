@@ -1,0 +1,122 @@
+{
+  "schema": "kero.encoder-analysis-viewer-validation/v1",
+  "method": "Actual Pocket KiView analysis-data and analysis-spatial modules; API/data checks, not browser UI gestures",
+  "reader_sha256": "527fa763938e256a8a419b0bb4be2f9df36df4c0dbfd8473963fe28a4db6e997",
+  "spatial_reader_sha256": "e54ae11f5dd7b56063b2acd3dd21ded6e6b91eaeca430f84fd6cc4c56669f6c3",
+  "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "files": [
+    {
+      "file": "pi/vbat-mean.pocket-kivi.json",
+      "bytes": 31966020,
+      "plots": 6,
+      "supportedSurfaces": 6,
+      "sourceMatches": true,
+      "sampleProbe": {
+        "x": 64.44905825,
+        "y": 88.26660516666668,
+        "z": 0.0175,
+        "value": 2.9999575177945146,
+        "name": "Saved nodal potential · F.Cu",
+        "unit": "V",
+        "method": "Interpolated saved nodes"
+      },
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    },
+    {
+      "file": "pi/vbat-envelope.pocket-kivi.json",
+      "bytes": 31888757,
+      "plots": 6,
+      "supportedSurfaces": 6,
+      "sourceMatches": true,
+      "sampleProbe": {
+        "x": 64.44905825,
+        "y": 88.26660516666668,
+        "z": 0.0175,
+        "value": 2.999935469370445,
+        "name": "Saved nodal potential · F.Cu",
+        "unit": "V",
+        "method": "Interpolated saved nodes"
+      },
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    },
+    {
+      "file": "pi/gnd-mean-reversed.pocket-kivi.json",
+      "bytes": 14837928,
+      "plots": 6,
+      "supportedSurfaces": 6,
+      "sourceMatches": true,
+      "sampleProbe": {
+        "x": 60.63837500409158,
+        "y": 85.36019723791264,
+        "z": 0.0175,
+        "value": 2.9999929205040843,
+        "name": "Saved nodal potential · F.Cu",
+        "unit": "V",
+        "method": "Interpolated saved nodes"
+      },
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    },
+    {
+      "file": "pi/gnd-envelope-reversed.pocket-kivi.json",
+      "bytes": 14448404,
+      "plots": 6,
+      "supportedSurfaces": 6,
+      "sourceMatches": true,
+      "sampleProbe": {
+        "x": 60.63837500409158,
+        "y": 85.36019723791264,
+        "z": 0.0175,
+        "value": 2.999987957521001,
+        "name": "Saved nodal potential · F.Cu",
+        "unit": "V",
+        "method": "Interpolated saved nodes"
+      },
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    },
+    {
+      "file": "pi-ground-refinement/gnd-mean-reversed-0p05.pocket-kivi.json",
+      "bytes": 30812649,
+      "plots": 6,
+      "supportedSurfaces": 6,
+      "sourceMatches": true,
+      "sampleProbe": {
+        "x": 64.13666527970194,
+        "y": 89.0270328390494,
+        "z": 0.0175,
+        "value": 2.9999919662852976,
+        "name": "Saved nodal potential · F.Cu",
+        "unit": "V",
+        "method": "Interpolated saved nodes"
+      },
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    },
+    {
+      "file": "thermal/nominal.pocket-kivi.json",
+      "bytes": 398911,
+      "plots": 2,
+      "supportedSurfaces": 2,
+      "sourceMatches": true,
+      "sampleProbe": {
+        "x": 50.25,
+        "y": 50.25,
+        "value": 25.033016623631205,
+        "name": "Saved board temperature field",
+        "unit": "°C",
+        "method": "Saved cell center"
+      },
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    }
+  ]
+}

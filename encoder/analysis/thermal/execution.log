@@ -1,0 +1,17 @@
+coarse {"input_w": 0.0008372441790002697, "convection_w": 0.0008372441790025994, "radiation_w": 0.0, "mount_flux_w": 0.0, "board_convection_w": 0.0008372441790025994, "board_radiation_w": 0.0, "sink_convection_w": 0.0, "sink_radiation_w": 0.0, "component_convection_w": 0.0, "component_radiation_w": 0.0, "copper_loss_input_w": 0.0, "package_joule_input_w": 0.0, "component_input_w": 0.0008372441790002697, "residual_w": -2.329733628236852e-15, "relative_residual": 2.7826214701411517e-12, "tolerance_w": 1e-05}
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+nominal {"input_w": 0.0008372441790002697, "convection_w": 0.0008372441790055632, "radiation_w": 0.0, "mount_flux_w": 0.0, "board_convection_w": 0.0008372441790055632, "board_radiation_w": 0.0, "sink_convection_w": 0.0, "sink_radiation_w": 0.0, "component_convection_w": 0.0, "component_radiation_w": 0.0, "copper_loss_input_w": 0.0, "package_joule_input_w": 0.0, "component_input_w": 0.0008372441790002697, "residual_w": -5.293508686943227e-15, "relative_residual": 6.322538656839705e-12, "tolerance_w": 1e-05}
+Matplotlib is building the font cache; this may take a moment.
+Thermal results, native reload and source preservation verified.

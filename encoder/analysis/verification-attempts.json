@@ -1,0 +1,18 @@
+{
+  "schema": "kero.encoder-analysis-verification-attempts/v1",
+  "generatorNativeReadbacks": {
+    "pi": "Four final-path native load_result checks: current/can_restore, export-receipts.json",
+    "groundRefinement": "Final-path native load_result check: current/can_restore, summary.json",
+    "thermal": "Two staged-file native load_result checks: current/can_restore, summary.json; unchanged files atomically moved afterwards"
+  },
+  "portableValidation": "viewer-validation.json: six files / 32 supported surfaces, exact board bindings and finite probes",
+  "additionalConsolidatedReadback": {
+    "status": "TOOL_TIMEOUT",
+    "budget_seconds": 60,
+    "method": "Redundant seven-file final-path load_result audit; no completion receipt was produced; not a pass"
+  },
+  "initialRefinementAttempt": {
+    "status": "REQUEST_PATH_ERROR_BEFORE_MESH",
+    "reason": "Native saved request used a project-relative board path; corrected helper restores the absolute saved-board path."
+  }
+}
