@@ -1,6 +1,6 @@
 # Mixed hardware review scenario
 
-This branch deliberately combines PR #3 documentation and PR #4 4.7 kohm resistor/MPN changes, then adds TP1 and replaces C1 with C3. Keep the individual commits visible during review.
+This branch deliberately combines PR #7 documentation and PR #8 4.7 kohm resistor/MPN changes, then adds TP1 and replaces C1 with C3. Keep the individual commits visible during review.
 
 - TP1 adds a physical OUT probe loop, one pad and a routed copper branch.
 - C1 (0805 X7R) is removed; C3 is a new 1 uF radial film part with a 5 mm pitch and a portable generic STEP model. Its timing function and nominal capacitance remain the same. This is a demonstration ECO, not a claimed necessary circuit improvement.

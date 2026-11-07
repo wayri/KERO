@@ -8,14 +8,14 @@ One CR2032 cell powers an LMV358A dual op-amp and alternating red / yellow-green
 
 ## Try the comparison demos
 
-- [PR #1 — timing resistor / blink-rate change](https://github.com/wayri/KERO/pull/1)
-- [PR #2 — LED placement and routing change](https://github.com/wayri/KERO/pull/2)
-- [PR #3 — assembly and bring-up documentation](https://github.com/wayri/KERO/pull/3)
-- [PR #4 — resistor values and manufacturer part numbers](https://github.com/wayri/KERO/pull/4)
-- [PR #5 — mixed additions, removals, layout and power analysis](https://github.com/wayri/KERO/pull/5)
+- [PR #5 — timing resistor / blink-rate change](https://github.com/wayri/KERO/pull/5)
+- [PR #6 — LED placement and routing change](https://github.com/wayri/KERO/pull/6)
+- [PR #7 — assembly and bring-up documentation](https://github.com/wayri/KERO/pull/7)
+- [PR #8 — resistor values and manufacturer part numbers](https://github.com/wayri/KERO/pull/8)
+- [PR #9 — mixed additions, removals, layout and power analysis](https://github.com/wayri/KERO/pull/9)
 - [Baseline commit history](https://github.com/wayri/KERO/commits/main/)
 
-PRs #1, #2 and #4 are open comparison examples; documentation PR #3 is currently closed and unmerged. The mixed ECO is PR #5. Each contains a design commit followed by a verification commit. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
+PRs #5–#8 are the current open comparison examples. The mixed ECO is PR #9. Older PRs #1–#4 are closed historical examples. Each contains a design commit followed by a verification commit. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
 
 ## Open the project
 
@@ -48,7 +48,7 @@ At 3 V, ideal LED currents are roughly 0.2–0.3 mA for the specified LED types.
 
 ## Power and layout analysis
 
-The mixed ECO adds TP1 and replaces C1 with a radial film C3. [Layout review](docs/LAYOUT.md) · [Cell current and loss analysis](docs/POWER-ANALYSIS.md) · [Machine-readable results](evidence/analysis/wayricad-summary.json). The nominal analytical scenario draws **0.371 mA average** at 3 V; this is an estimate, not measured battery life.
+The mixed ECO adds TP1 and replaces C1 with a radial film C3. [Layout review](docs/LAYOUT.md) · [Cell current and loss analysis](docs/POWER-ANALYSIS.md) · [Saved PI/thermal visualization files](analysis/README.md) · [QuickTherm report](docs/THERMAL-ANALYSIS.md) · [Machine-readable PI results](evidence/analysis/wayricad-summary.json). The nominal analytical scenario draws **0.371 mA average** at 3 V; this is an estimate, not measured battery life.
 
 ## Models and attribution
 

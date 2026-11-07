@@ -1,0 +1,64 @@
+{
+  "environment": "air",
+  "ambient_c": 25.0,
+  "input_mode": "manual",
+  "references": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "U1",
+    "D1",
+    "D2"
+  ],
+  "manual_values": {
+    "R1": {
+      "power_w": 1.7759100039357274e-06
+    },
+    "R2": {
+      "power_w": 2.9063348416099832e-06
+    },
+    "R3": {
+      "power_w": 7.229688660721352e-07
+    },
+    "R4": {
+      "power_w": 1.6875e-05
+    },
+    "R5": {
+      "power_w": 5.625e-06
+    },
+    "R6": {
+      "power_w": 8.600815441122504e-05
+    },
+    "R7": {
+      "power_w": 0.00014501678900753935
+    },
+    "U1": {
+      "power_w": 0.0004277769857583347
+    },
+    "D1": {
+      "power_w": 0.0001311988796103433
+    },
+    "D2": {
+      "power_w": 0.0002959526306276313
+    }
+  },
+  "board_power_only": true,
+  "thermal_model_kind": "multilayer",
+  "thermal_network_settings": {
+    "mesh_mode": "manual",
+    "grid_cells_long_axis": 40,
+    "dielectric_k_w_mk": 0.3,
+    "copper_k_w_mk": 385.0,
+    "via_plating_mm": 0.025,
+    "board_h_w_m2k": 5.0,
+    "board_emissivity": 0.0,
+    "board_airflow_m_s": 0.0,
+    "copper_raster_mode": "area_face",
+    "barrel_contact_mode": "annulus_stencil",
+    "source_refinement_factor": 1
+  }
+}

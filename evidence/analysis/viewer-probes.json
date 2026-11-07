@@ -141,6 +141,34 @@
       "warnings": [
         "Property preview limited to 4000 fields; full source remains available."
       ]
+    },
+    {
+      "path": "analysis/thermal/nominal.pocket-kivi.json",
+      "bytes": 228390,
+      "plots": [
+        {
+          "title": "Saved board temperature field",
+          "type": "heatmap",
+          "rows": 58,
+          "columns": 80
+        },
+        {
+          "title": "Saved board temperature field",
+          "type": "heatmap",
+          "rows": 58,
+          "columns": 80
+        }
+      ],
+      "surfaces": 2,
+      "binding": [
+        {
+          "path": "KERO.kicad_pcb",
+          "sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5"
+        }
+      ],
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
     }
   ]
 }

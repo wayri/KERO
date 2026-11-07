@@ -52,8 +52,8 @@
       ]
     },
     {
-      "base": "9d258304250058c0eb76cee6857d11659aef40fe",
-      "head": "5dcaa6276161be9ae4675a9ec746ab18374d5982",
+      "base": "9e2694a3857b558c3d50a27c7170ecaa4aecc2c8",
+      "head": "9462a11f922d717aa7f1fa6725d79e1835d82f45",
       "scenario": "TP1 addition",
       "counts": {
         "added": 18,
@@ -74,8 +74,8 @@
       ]
     },
     {
-      "base": "5dcaa6276161be9ae4675a9ec746ab18374d5982",
-      "head": "f13b08f65d5305fc7233c47b30489b2ec59f1f21",
+      "base": "9462a11f922d717aa7f1fa6725d79e1835d82f45",
+      "head": "3b9a57a92633db3dc71c256878c40dde09fd5972",
       "scenario": "C1 removal / C3 addition and layout repair",
       "counts": {
         "added": 6,
