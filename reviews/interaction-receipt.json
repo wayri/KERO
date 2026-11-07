@@ -1,0 +1,31 @@
+{
+  "schema": "kero.browser-review-receipt/v1",
+  "date": "2026-11-07",
+  "method": "Actual Chrome UI through cua_repl; manual folder-dialog confirmation by user",
+  "annotationExport": {
+    "file": "reviews/blinker-extension-comments.json",
+    "bytes": 1145,
+    "sha256": "448ced1a846f9ed18657ec08a1c9e2733cd50abacce4d3da5f22c1dac58fef11",
+    "format": "kicad-visual-review-comments",
+    "comments": 1,
+    "anchorScope": "local workspace"
+  },
+  "sourceFiles": {
+    "KERO.kicad_sch": "1b7049141da6ba6fa7413dc043ed129c30528bff330965dc43b04ea2e6a74372",
+    "KERO.kicad_pcb": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5"
+  },
+  "directGitHubComment": "https://github.com/wayri/KERO/issues/13#issuecomment-6709805248",
+  "verified": [
+    "local folder import",
+    "wired schematic rendered",
+    "drawing annotation saved",
+    "portable review exported",
+    "GitHub UI comment published"
+  ],
+  "notVerified": [
+    "extension GitHub publication",
+    "repository PR compare UI",
+    "cross-probing UI",
+    "saved PI/thermal field UI"
+  ]
+}

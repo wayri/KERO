@@ -1,0 +1,26 @@
+{
+  "format": "kicad-visual-review-comments",
+  "version": 1,
+  "comments": [
+    {
+      "threadType": "issue",
+      "id": "7dff84f4-838c-41fb-988c-7e7d7a6efba7",
+      "text": "Demo review: C3 timing capacitor and source-bound analysis\nThe mixed ECO replaces C1 with the 1 uF radial film C3 and adds TP1 on OUT. Keep the timing-node wiring explicit and verify C3 pin membership against the native netlist. The saved PI and QuickTherm files belong to this blinker PCB revision; do not interpret them as results for the new hello world encoder. This is a drawing-level demo annotation created in Pocket KiView.",
+      "createdAt": "2026-11-07T16:23:39.059Z",
+      "updatedAt": "2026-11-07T16:23:54.436Z",
+      "severity": "info",
+      "state": "open",
+      "tags": [],
+      "mentions": [],
+      "remoteRefs": [],
+      "anchor": {
+        "repository": "local/a56563e0598d35644d9b9c5a09708194",
+        "ref": "a56563e0598d35644d9b9c5a097081946e73fdee",
+        "file": "KERO.kicad_sch",
+        "variant": "default",
+        "sheetUuid": "a9ee34e0-3058-59fb-8c06-cfd5be2176d6",
+        "sheetName": "KERO.kicad_sch"
+      }
+    }
+  ]
+}
