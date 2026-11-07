@@ -1,95 +1,24 @@
 {
-  "started_utc": "2026-11-07T15:37:32.374Z",
-  "completed_utc": "2026-11-07T15:38:50.464Z",
   "command": [
-    "C:/Users/yawar/.codex/worktrees/saved-field-gradients/kiWay/.validation/editor-series-roundtrip/local/WayriCAD/runtimes/d29d42708158db93a528/Scripts/python.exe",
+    "C:/Program Files/KiCad/10.0/bin/python.exe",
     "-B",
-    "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/tools/analyze_thermal.py",
+    "tools/analyze_thermal.py",
     "--wayricad-source",
-    "D:/WayriCAD-validation/release-4.5.0/source/"
+    "D:/WayriCAD-validation/release-4.5.0/source"
   ],
-  "cwd": "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/",
   "exit_code": 0,
-  "reason": "Regenerate exact task-owned outputs after corrected peak-current budget changed its checksum; nominal heat and saved PCB unchanged.",
-  "replaced_owned_files": [
-    {
-      "name": "coarse.config.json",
-      "sha256": "8e4117eeaa8f1c7d2d17e3dac1c7fac0b5ea6ddaee080d1704c03649595f8f92",
-      "bytes": 1298
-    },
-    {
-      "name": "coarse.results.json",
-      "sha256": "8f398e9be0ed41372036e4d4f5608e9b5400734cf7c1ea15140c8b0d9e822bb8",
-      "bytes": 95299
-    },
-    {
-      "name": "model-inputs.json",
-      "sha256": "e27d4646b26af27a10ffa4380a75c0b0f36fbf9af40b4710decd5a96b3f6bd97",
-      "bytes": 2269
-    },
-    {
-      "name": "nominal.config.json",
-      "sha256": "01e3e920a01929f9bf4c773b5ce65c8b82d4c01855813cdad9cbbb35a859c47f",
-      "bytes": 1298
-    },
-    {
-      "name": "nominal.html",
-      "sha256": "4d75109e09b32e096e0a729d8855741fd8dff8a582a1d5c4f6ade9b3aa0b6637",
-      "bytes": 1343561
-    },
-    {
-      "name": "nominal.json",
-      "sha256": "9470809a8f397f9a559e2a4e6012ee8bfda7411458f4ac725d7e9e6757073dee",
-      "bytes": 228194
-    },
-    {
-      "name": "nominal.pocket-kivi.json",
-      "sha256": "29fa4b7a95780af02a0085029d2d15f992913b2262c9140efd1e02b4c1967797",
-      "bytes": 228390
-    },
-    {
-      "name": "nominal.results.json",
-      "sha256": "00e11da95df55be1db7ee0862fb967bc6538a8ef0c413c16a4cffbb3605d7964",
-      "bytes": 228750
-    },
-    {
-      "name": "summary.json",
-      "sha256": "1bd7ade26a7d7d0893b9aa38faa1428d112d39170a583434e36ae19c70e7b1a5",
-      "bytes": 33394
-    }
-  ],
-  "power_budget_sha256": "61761430d695f96844b25487b91ecd5db7b923f243383540e390f7ca2f5198cd",
-  "numerical_thermal_result_identical": true,
-  "native_reload": [
-    {
-      "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\analysis\\thermal\\coarse.results.json",
-      "relative_path": "analysis/thermal/coarse.results.json",
-      "plugin": "quick-therm",
-      "identity": "3eb2230b3ad36c822a0755b1bbb0bba63757eab26c35ca50afd25fa99025212e",
-      "producer_version": "4.5.0",
-      "bytes": 95299,
-      "sha256": "cb9f6c59f46b5ce6c3317cbdd5a14a50de749ffe8b92b5846b1a83cab1476bd8",
-      "source_state": "current",
-      "can_restore": true,
-      "source_path": "KERO.kicad_pcb",
-      "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
-      "source_issues": []
-    },
-    {
-      "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\analysis\\thermal\\nominal.results.json",
-      "relative_path": "analysis/thermal/nominal.results.json",
-      "plugin": "quick-therm",
-      "identity": "5f46b8660179249cfd20edc645db0334b5283c32c523064288f4a2a2801a8d69",
-      "producer_version": "4.5.0",
-      "bytes": 228750,
-      "sha256": "724cf5a59bac02337dc28c730728806292408e9949d5dcb0371c9ea9a3ccbe55",
-      "source_state": "current",
-      "can_restore": true,
-      "source_path": "KERO.kicad_pcb",
-      "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
-      "source_issues": []
-    }
-  ],
-  "captured_worker_output": "coarse {\"input_w\": 0.0011138586531266917, \"convection_w\": 0.0011138586531250784, \"radiation_w\": 0.0, \"mount_flux_w\": 0.0, \"board_convection_w\": 0.0011138586531250784, \"board_radiation_w\": 0.0, \"sink_convection_w\": 0.0, \"sink_radiation_w\": 0.0, \"component_convection_w\": 0.0, \"component_radiation_w\": 0.0, \"copper_loss_input_w\": 0.0, \"package_joule_input_w\": 0.0, \"component_input_w\": 0.0011138586531266915, \"residual_w\": 1.6132928326584306e-15, \"relative_residual\": 1.4483820080131232e-12, \"tolerance_w\": 1e-05}\r\nAdding duplicate image handler for 'PNG file'\nAdding duplicate image handler for 'JPEG file'\nAdding duplicate image handler for 'TIFF file'\nAdding duplicate image handler for 'GIF file'\nAdding duplicate image handler for 'PNM file'\nAdding duplicate image handler for 'PCX file'\nAdding duplicate image handler for 'IFF file'\nAdding duplicate image handler for 'Windows icon file'\nAdding duplicate image handler for 'Windows cursor file'\nAdding duplicate image handler for 'Windows animated cursor file'\nAdding duplicate image handler for 'TGA file'\nAdding duplicate image handler for 'XPM file'\nAdding duplicate image handler for 'WebP file'\nnominal {\"input_w\": 0.0011138586531266917, \"convection_w\": 0.0011138586531370352, \"radiation_w\": 0.0, \"mount_flux_w\": 0.0, \"board_convection_w\": 0.0011138586531370352, \"board_radiation_w\": 0.0, \"sink_convection_w\": 0.0, \"sink_radiation_w\": 0.0, \"component_convection_w\": 0.0, \"component_radiation_w\": 0.0, \"copper_loss_input_w\": 0.0, \"package_joule_input_w\": 0.0, \"component_input_w\": 0.0011138586531266915, \"residual_w\": -1.034350556594621e-14, \"relative_residual\": 9.286192226375536e-12, \"tolerance_w\": 1e-05}\r\n",
-  "scratch_removed": true
+  "stdout": "coarse {\"input_w\": 0.0011138586531266917, \"convection_w\": 0.0011138586531250784, \"radiation_w\": 0.0, \"mount_flux_w\": 0.0, \"board_convection_w\": 0.0011138586531250784, \"board_radiation_w\": 0.0, \"sink_convection_w\": 0.0, \"sink_radiation_w\": 0.0, \"component_convection_w\": 0.0, \"component_radiation_w\": 0.0, \"copper_loss_input_w\": 0.0, \"package_joule_input_w\": 0.0, \"component_input_w\": 0.0011138586531266915, \"residual_w\": 1.6132928326584306e-15, \"relative_residual\": 1.4483820080131232e-12, \"tolerance_w\": 1e-05}\r\nnominal {\"input_w\": 0.0011138586531266917, \"convection_w\": 0.0011138586531370352, \"radiation_w\": 0.0, \"mount_flux_w\": 0.0, \"board_convection_w\": 0.0011138586531370352, \"board_radiation_w\": 0.0, \"sink_convection_w\": 0.0, \"sink_radiation_w\": 0.0, \"component_convection_w\": 0.0, \"component_radiation_w\": 0.0, \"copper_loss_input_w\": 0.0, \"package_joule_input_w\": 0.0, \"component_input_w\": 0.0011138586531266915, \"residual_w\": -1.034350556594621e-14, \"relative_residual\": 9.286192226375536e-12, \"tolerance_w\": 1e-05}\r\nThermal results, native reload and source preservation verified.\r\n",
+  "stderr": "Adding duplicate image handler for 'PNG file'\nAdding duplicate image handler for 'JPEG file'\nAdding duplicate image handler for 'TIFF file'\nAdding duplicate image handler for 'GIF file'\nAdding duplicate image handler for 'PNM file'\nAdding duplicate image handler for 'PCX file'\nAdding duplicate image handler for 'IFF file'\nAdding duplicate image handler for 'Windows icon file'\nAdding duplicate image handler for 'Windows cursor file'\nAdding duplicate image handler for 'Windows animated cursor file'\nAdding duplicate image handler for 'TGA file'\nAdding duplicate image handler for 'XPM file'\nAdding duplicate image handler for 'WebP file'\n",
+  "note": "Regenerated after making JSON line endings explicitly LF so the recorded power-budget digest matches committed bytes. Parsed thermal network is exactly unchanged.",
+  "prior_committed_artifact_sha256": {
+    "coarse.config.json": "8e4117eeaa8f1c7d2d17e3dac1c7fac0b5ea6ddaee080d1704c03649595f8f92",
+    "coarse.results.json": "cb9f6c59f46b5ce6c3317cbdd5a14a50de749ffe8b92b5846b1a83cab1476bd8",
+    "model-inputs.json": "f4d0c92510d07e16aae45f44c6f3f56db162fa5f60149a0de2dc731eaeb97ae1",
+    "nominal.config.json": "01e3e920a01929f9bf4c773b5ce65c8b82d4c01855813cdad9cbbb35a859c47f",
+    "nominal.html": "2534a1ceb1730c6ed2df20e6f67ded0d8b8acbaf81ca551a726cb69078f3aee8",
+    "nominal.json": "5b4ac1c3a238e1b4ebce7341fd4388d3bd818d6b4e4c9de08c4c17ea182180e5",
+    "nominal.pocket-kivi.json": "ba9e94aea0fc57a8fb8886a92bc003749e600127c46e0414fb191e0a8b1cbc05",
+    "nominal.results.json": "724cf5a59bac02337dc28c730728806292408e9949d5dcb0371c9ea9a3ccbe55",
+    "summary.json": "60129d950d938b2b4e56cbabfe2408464557555484cc2b32d632cf1cbb579654"
+  }
 }

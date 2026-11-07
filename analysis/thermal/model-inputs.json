@@ -1,6 +1,6 @@
 {
   "power_budget_file": "evidence/analysis/power-budget.json",
-  "power_budget_sha256": "61761430d695f96844b25487b91ecd5db7b923f243383540e390f7ca2f5198cd",
+  "power_budget_sha256": "d61d8b2c0ae435d042f3222b640b6c1b0e2d2cd412edef367b82b0708b5dadcb",
   "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
   "stackup_override": [
     {

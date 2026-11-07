@@ -446,10 +446,10 @@
         "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\analysis\\thermal\\coarse.results.json",
         "relative_path": "analysis/thermal/coarse.results.json",
         "plugin": "quick-therm",
-        "identity": "3eb2230b3ad36c822a0755b1bbb0bba63757eab26c35ca50afd25fa99025212e",
+        "identity": "1b5cc7fb594b700e01e728a354cdd9e8bb785bf5ef3a1d1ddedc93d07fec9ace",
         "producer_version": "4.5.0",
         "bytes": 95299,
-        "sha256": "cb9f6c59f46b5ce6c3317cbdd5a14a50de749ffe8b92b5846b1a83cab1476bd8",
+        "sha256": "2ccc0f893442eb4f7abd67ffa685cb6996c063a9885cb4a62d6cde4ac997639f",
         "source_state": "current",
         "can_restore": true,
         "source_path": "KERO.kicad_pcb",
@@ -900,10 +900,10 @@
         "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\analysis\\thermal\\nominal.results.json",
         "relative_path": "analysis/thermal/nominal.results.json",
         "plugin": "quick-therm",
-        "identity": "5f46b8660179249cfd20edc645db0334b5283c32c523064288f4a2a2801a8d69",
+        "identity": "28553fc6c495a598965ca08620ec81632f5b31ebd0ea7df058f1cd30abc55aa3",
         "producer_version": "4.5.0",
         "bytes": 228750,
-        "sha256": "724cf5a59bac02337dc28c730728806292408e9949d5dcb0371c9ea9a3ccbe55",
+        "sha256": "09b1a39c06b53c0163eb026f327886c9d254f716278fc0540a511b698aee2170",
         "source_state": "current",
         "can_restore": true,
         "source_path": "KERO.kicad_pcb",
@@ -957,12 +957,12 @@
   "maximum_component_change_C": 0.013846104765224965,
   "convergence_scope": "Two-grid sensitivity comparison; no physical/package qualification or local contact-resolution guarantee.",
   "capacity_before_GiB": {
-    "C:/": 10.546398162841797,
-    "D:/": 184.6963768005371
+    "C:/": 10.540752410888672,
+    "D:/": 184.6949806213379
   },
   "capacity_after_GiB": {
-    "C:/": 10.546295166015625,
-    "D:/": 184.69422149658203
+    "C:/": 10.539886474609375,
+    "D:/": 184.69285583496094
   },
   "limitations": [
     "Illustrative steady board-temperature screen; no measured thermal calibration or qualification.",

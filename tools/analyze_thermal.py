@@ -34,7 +34,7 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def write(name, value):
-    (OUT / name).write_text(json.dumps(value, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+    (OUT / name).write_text(json.dumps(value, indent=2, allow_nan=False) + '\n', encoding='utf-8', newline='\n')
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)

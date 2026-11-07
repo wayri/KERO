@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'evidence'/'analysis'
 def save(name,data):
  OUT.mkdir(parents=True,exist_ok=True)
- (OUT/name).write_text(json.dumps(data,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+ (OUT/name).write_text(json.dumps(data,indent=2,allow_nan=False)+'\n',encoding='utf-8',newline='\n')
 def operating(v=3.,iq=140e-6,vfr=1.8,vfg=2.,dh=.02,dl=.02):
  h,l,f=v-dh,dl,v/4;r1=1e6;r2=402e3;r3=100e3;s=r2+r3;c=1e-6;b=r3/s
  tl=(1-b)*f+b*l;th=(1-b)*f+b*h
