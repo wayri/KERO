@@ -1,0 +1,132 @@
+{
+  "changes": [
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:5306c6fd-77ce-544a-b766-0b8a144e35eb",
+      "path": "KERO.kicad_pcb",
+      "kind": "footprint",
+      "label": "R1",
+      "status": "modified",
+      "before": {
+        "uuid": "5306c6fd-77ce-544a-b766-0b8a144e35eb",
+        "position": {
+          "x": 91.44,
+          "y": 73.66
+        },
+        "properties": {
+          "Reference": "R1",
+          "Value": "1M",
+          "Datasheet": "",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "layer": "F.Cu",
+          "Source fingerprint": "c36a61e5"
+        }
+      },
+      "after": {
+        "uuid": "5306c6fd-77ce-544a-b766-0b8a144e35eb",
+        "position": {
+          "x": 91.44,
+          "y": 73.66
+        },
+        "properties": {
+          "Reference": "R1",
+          "Value": "470k",
+          "Datasheet": "",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "layer": "F.Cu",
+          "Source fingerprint": "2353e9f7"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/symbol:uuid:063f3bc2-acd0-591a-b7fa-a41fd3c68d7c",
+      "path": "KERO.kicad_sch",
+      "kind": "symbol",
+      "label": "R1",
+      "status": "modified",
+      "before": {
+        "uuid": "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c",
+        "position": {
+          "x": 114.3,
+          "y": 104.14
+        },
+        "properties": {
+          "Reference": "R1",
+          "Value": "1M",
+          "Footprint": "Demo:R_0603_1608Metric",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "lib_id": "Demo:Device_R",
+          "unit": "1",
+          "Angle": "90",
+          "Source fingerprint": "7ec9f608"
+        }
+      },
+      "after": {
+        "uuid": "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c",
+        "position": {
+          "x": 114.3,
+          "y": 104.14
+        },
+        "properties": {
+          "Reference": "R1",
+          "Value": "470k",
+          "Footprint": "Demo:R_0603_1608Metric",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "lib_id": "Demo:Device_R",
+          "unit": "1",
+          "Angle": "90",
+          "Source fingerprint": "314d3e8e"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/text:uuid:51dda6fc-5e35-5bdd-831e-180a2ff23b8d",
+      "path": "KERO.kicad_sch",
+      "kind": "text",
+      "label": "Ideal calculated f = 2.18 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification.",
+      "status": "modified",
+      "before": {
+        "uuid": "51dda6fc-5e35-5bdd-831e-180a2ff23b8d",
+        "position": {
+          "x": 144.78,
+          "y": 154.94
+        },
+        "properties": {
+          "Angle": "0",
+          "Text": "Ideal calculated f = 1.02 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification.",
+          "Source fingerprint": "0cc5f966"
+        }
+      },
+      "after": {
+        "uuid": "51dda6fc-5e35-5bdd-831e-180a2ff23b8d",
+        "position": {
+          "x": 144.78,
+          "y": 154.94
+        },
+        "properties": {
+          "Angle": "0",
+          "Text": "Ideal calculated f = 2.18 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification.",
+          "Source fingerprint": "91c3b88e"
+        }
+      }
+    }
+  ],
+  "counts": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  }
+}

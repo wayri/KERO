@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\KERO.kicad_sch</source>
-    <date>2026-11-07T20:00:36</date>
+    <date>2026-11-07T20:02:03</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>KERO - coin-cell red / green relaxation oscillator</title>
         <company/>
-        <rev>baseline</rev>
+        <rev>timing</rev>
         <date>2026-11-07</date>
         <source>KERO.kicad_sch</source>
         <comment number="1" value=""/>
@@ -174,7 +174,7 @@
       </units>
     </comp>
     <comp ref="R1">
-      <value>1M</value>
+      <value>470k</value>
       <footprint>Demo:R_0603_1608Metric</footprint>
       <fields>
         <field name="Manufacturer">Generic</field>
