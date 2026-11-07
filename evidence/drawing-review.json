@@ -7,7 +7,7 @@
     "removed": [],
     "changed": []
   },
-  "pcb_sha256": "5e72e551b5608c41da9490328f732252edfc4fa94dc1cca18da83cd77c665e7a",
+  "pcb_sha256": "b83414ae2910845b37a10119714b986defd23d0b1516471fa84f40b4faa6439d",
   "pcb_byte_identical_to_previous_commit": true,
   "wire_segments": 51,
   "wire_width_mm": 0.2032,
