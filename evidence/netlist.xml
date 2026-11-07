@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\KERO.kicad_sch</source>
-    <date>2026-11-07T20:16:47</date>
+    <date>2026-11-07T20:35:36</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -324,20 +324,21 @@
       </units>
     </comp>
     <comp ref="R6">
-      <value>3.3k</value>
+      <value>4.7k</value>
       <footprint>Demo:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">Generic</field>
-        <field name="MPN">Select to specification</field>
-        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">CRCW06034K70FKEA</field>
+        <field name="Rating">4.7 kohm, 1%, &gt;=0.1 W, 0603, thick film</field>
         <field name="Footprint">Demo:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Demo" part="Device_R" description="Resistor"/>
-      <property name="Manufacturer" value="Generic"/>
-      <property name="MPN" value="Select to specification"/>
-      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="MPN" value="CRCW06034K70FKEA"/>
+      <property name="Rating" value="4.7 kohm, 1%, &gt;=0.1 W, 0603, thick film"/>
       <property name="Sheetname" value="KERO"/>
       <property name="Sheetfile" value="KERO.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -354,20 +355,21 @@
       </units>
     </comp>
     <comp ref="R7">
-      <value>3.3k</value>
+      <value>4.7k</value>
       <footprint>Demo:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">Generic</field>
-        <field name="MPN">Select to specification</field>
-        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">CRCW06034K70FKEA</field>
+        <field name="Rating">4.7 kohm, 1%, &gt;=0.1 W, 0603, thick film</field>
         <field name="Footprint">Demo:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Demo" part="Device_R" description="Resistor"/>
-      <property name="Manufacturer" value="Generic"/>
-      <property name="MPN" value="Select to specification"/>
-      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="MPN" value="CRCW06034K70FKEA"/>
+      <property name="Rating" value="4.7 kohm, 1%, &gt;=0.1 W, 0603, thick film"/>
       <property name="Sheetname" value="KERO"/>
       <property name="Sheetfile" value="KERO.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>

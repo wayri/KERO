@@ -1,0 +1,193 @@
+{
+  "changes": [
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:8164542f-55ad-5f45-a95e-96738611018b",
+      "path": "KERO.kicad_pcb",
+      "kind": "footprint",
+      "label": "R6",
+      "status": "modified",
+      "before": {
+        "uuid": "8164542f-55ad-5f45-a95e-96738611018b",
+        "position": {
+          "x": 104.14,
+          "y": 66.04
+        },
+        "properties": {
+          "Reference": "R6",
+          "Value": "3.3k",
+          "Datasheet": "",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "layer": "F.Cu",
+          "Source fingerprint": "bdee1945"
+        }
+      },
+      "after": {
+        "uuid": "8164542f-55ad-5f45-a95e-96738611018b",
+        "position": {
+          "x": 104.14,
+          "y": 66.04
+        },
+        "properties": {
+          "Reference": "R6",
+          "Value": "4.7k",
+          "Datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Vishay",
+          "MPN": "CRCW06034K70FKEA",
+          "Rating": "4.7 kohm, 1%, >=0.1 W, 0603, thick film",
+          "layer": "F.Cu",
+          "Source fingerprint": "49ca1886"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_pcb/footprint:uuid:c203dbe0-f21f-52c3-bce8-44c69c8c18ec",
+      "path": "KERO.kicad_pcb",
+      "kind": "footprint",
+      "label": "R7",
+      "status": "modified",
+      "before": {
+        "uuid": "c203dbe0-f21f-52c3-bce8-44c69c8c18ec",
+        "position": {
+          "x": 104.14,
+          "y": 83.82
+        },
+        "properties": {
+          "Reference": "R7",
+          "Value": "3.3k",
+          "Datasheet": "",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "layer": "F.Cu",
+          "Source fingerprint": "cd775dca"
+        }
+      },
+      "after": {
+        "uuid": "c203dbe0-f21f-52c3-bce8-44c69c8c18ec",
+        "position": {
+          "x": 104.14,
+          "y": 83.82
+        },
+        "properties": {
+          "Reference": "R7",
+          "Value": "4.7k",
+          "Datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "Description": "",
+          "KiLib_Generator": "SMD_2terminal_chip_molded",
+          "Manufacturer": "Vishay",
+          "MPN": "CRCW06034K70FKEA",
+          "Rating": "4.7 kohm, 1%, >=0.1 W, 0603, thick film",
+          "layer": "F.Cu",
+          "Source fingerprint": "91017b83"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/symbol:uuid:65404b87-2980-57d2-ba94-b247326c181b",
+      "path": "KERO.kicad_sch",
+      "kind": "symbol",
+      "label": "R6",
+      "status": "modified",
+      "before": {
+        "uuid": "65404b87-2980-57d2-ba94-b247326c181b",
+        "position": {
+          "x": 190.5,
+          "y": 91.44
+        },
+        "properties": {
+          "Reference": "R6",
+          "Value": "3.3k",
+          "Footprint": "Demo:R_0603_1608Metric",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "lib_id": "Demo:Device_R",
+          "unit": "1",
+          "Angle": "0",
+          "Source fingerprint": "240b7380"
+        }
+      },
+      "after": {
+        "uuid": "65404b87-2980-57d2-ba94-b247326c181b",
+        "position": {
+          "x": 190.5,
+          "y": 91.44
+        },
+        "properties": {
+          "Reference": "R6",
+          "Value": "4.7k",
+          "Footprint": "Demo:R_0603_1608Metric",
+          "Datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "Manufacturer": "Vishay",
+          "MPN": "CRCW06034K70FKEA",
+          "Rating": "4.7 kohm, 1%, >=0.1 W, 0603, thick film",
+          "lib_id": "Demo:Device_R",
+          "unit": "1",
+          "Angle": "0",
+          "Source fingerprint": "1452674d"
+        }
+      }
+    },
+    {
+      "id": "KERO.kicad_sch/symbol:uuid:9897ccf4-69e1-5ccf-8f1f-8a3e409881e5",
+      "path": "KERO.kicad_sch",
+      "kind": "symbol",
+      "label": "R7",
+      "status": "modified",
+      "before": {
+        "uuid": "9897ccf4-69e1-5ccf-8f1f-8a3e409881e5",
+        "position": {
+          "x": 218.44,
+          "y": 63.5
+        },
+        "properties": {
+          "Reference": "R7",
+          "Value": "3.3k",
+          "Footprint": "Demo:R_0603_1608Metric",
+          "Datasheet": "",
+          "Manufacturer": "Generic",
+          "MPN": "Select to specification",
+          "Rating": "1%, 0.1 W, 0603",
+          "lib_id": "Demo:Device_R",
+          "unit": "1",
+          "Angle": "0",
+          "Source fingerprint": "3432e665"
+        }
+      },
+      "after": {
+        "uuid": "9897ccf4-69e1-5ccf-8f1f-8a3e409881e5",
+        "position": {
+          "x": 218.44,
+          "y": 63.5
+        },
+        "properties": {
+          "Reference": "R7",
+          "Value": "4.7k",
+          "Footprint": "Demo:R_0603_1608Metric",
+          "Datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "Manufacturer": "Vishay",
+          "MPN": "CRCW06034K70FKEA",
+          "Rating": "4.7 kohm, 1%, >=0.1 W, 0603, thick film",
+          "lib_id": "Demo:Device_R",
+          "unit": "1",
+          "Angle": "0",
+          "Source fingerprint": "86b5630c"
+        }
+      }
+    }
+  ],
+  "counts": {
+    "added": 0,
+    "removed": 0,
+    "modified": 4
+  }
+}
