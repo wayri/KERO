@@ -1,5 +1,7 @@
 # KERO — coin-cell LED relaxation oscillator
 
+Latest development: [RC-programmed hello world encoder](encoder/README.md), with hierarchical sheets, shared variables, a 79-part BoM and a 40 × 40 mm PCB candidate. Native schematic ERC passes; PCB routing is incomplete (13 opens, 15 dangling-track warnings). Follow [draft PR #16](https://github.com/wayri/KERO/pull/16). The root project below remains the validated blinker.
+
 An original, small KiCad project for demonstrating **schematic, PCB, BoM, 3D, commit and pull-request comparisons** in Pocket KiView.
 
 ![KERO 3D assembly](previews/board-3d.png)

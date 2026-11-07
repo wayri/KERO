@@ -1,0 +1,1043 @@
+{
+  "schema": "kero.encoder-board-validation/v1",
+  "status": "INCOMPLETE",
+  "source_sha256": {
+    "encoder/bank1.kicad_sch": "f810c0e654ed2c0e514641a30d0615ee6d94b068b1d6a444891e92edc9b664e4",
+    "encoder/bank2.kicad_sch": "66709dfe3f674b9388b96f932c32dd997e28426cfd0d431340ae855de3da0600",
+    "encoder/bank3.kicad_sch": "00372ade10aaf8aa68b33aee8660868a83b4fb1656f6b0bbce3c37fdfc097056",
+    "encoder/decoder.kicad_sch": "cee1e80dc3f17177ef4850e5dcf0f244e89684c27955da5f65a9f9c8457737c9",
+    "encoder/Encoder.kicad_pcb": "eaacb294ad8db8dc1bded975edc3e3b9434c02e23717e1305bcb9ecb963980c4",
+    "encoder/Encoder.kicad_prl": "507fa475f35e785ed06741c36dcad3b6ec93075a88359d0cbe1124caa30e84fc",
+    "encoder/Encoder.kicad_pro": "c96b309cf244bcbdaa540fb43f93ef31a521204d19c428e4547de6a6f989e049",
+    "encoder/Encoder.kicad_sch": "c8170889000416e7d5da67348e48b579efc1122663ecbd89017244313ada52bb",
+    "encoder/Encoder.kicad_sym": "7af727b99fe1340c29f0d02ef1394e6754ae41907e3005fbab4b3c1e6219d5e8",
+    "encoder/power.kicad_sch": "0bec3885bb39580414061264e16563cadb00f14aada47738c9326b078104a9ae",
+    "encoder/Encoder.pretty/BatteryHolder_Keystone_1058_1x2032.kicad_mod": "fc46deec655ba4348cc85f82443b6cf2348824feb057b6bbdaaa12bb9b970075",
+    "encoder/Encoder.pretty/C_0603_1608Metric.kicad_mod": "8237b34cfc5ae21970b0b07f928d6299fa965729e91185ed2e439b47201adaf4",
+    "encoder/Encoder.pretty/C_0805_2012Metric.kicad_mod": "35c49cf04dfb560f2df97c25630db5544cd0be6370e6a17c93fc2498205a8561",
+    "encoder/Encoder.pretty/LED_0603_1608Metric.kicad_mod": "9d2bd6b18d758e5fa70c8042953aa753c48de34a4de3e0db77491ef334ad7373",
+    "encoder/Encoder.pretty/R_0402_1005Metric.kicad_mod": "371e874372e368bea0319da5796b07911f985303093b0e4aa056199c6b9f383d",
+    "encoder/Encoder.pretty/R_0603_1608Metric.kicad_mod": "f7e1a0b734a16db5c8d4c4da3f35584f848931b7087fbdb3b906a6bacaf9b30d",
+    "encoder/Encoder.pretty/R_0805_2012Metric.kicad_mod": "880fa90bf1d2d616e006e74b5b41bcac7462859cee74d34ef1d532fb41d432a0",
+    "encoder/Encoder.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "5ed1ab80dcc54551387d1a97fff6e6d0df149d38ba88a551adf860054ecdba02",
+    "encoder/models/BatteryHolder_Keystone_1058_1x2032.step": "bfe25e361483fb1350eca3a79dfde5a35766b9210d5ce48235baba3f37bc2579",
+    "encoder/models/CR2032_nominal.wrl": "8679a52dadd822449ffd21772c6257227df29ae2c95a30180d62abd88ca17987",
+    "encoder/models/C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "encoder/models/C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "encoder/models/LED_0603_1608Metric.step": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d",
+    "encoder/models/R_0402_1005Metric.step": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb",
+    "encoder/models/R_0603_1608Metric.step": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "encoder/models/R_0805_2012Metric.step": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+    "encoder/models/TSSOP-14_4.4x5mm_P0.65mm.step": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+    "encoder/design-intent.json": "26c9ac59d459bf39e5482f9851943ce5dfbbaf37ad433fef8d3d9d744175bab6",
+    "encoder/fp-lib-table": "2ba94f617d40c73a4baf1821d711b4eef3011405d63b3a3e22a3b4c66cf006f1",
+    "encoder/sym-lib-table": "6eea9391f2425748f193558d39ce6371d30fb6c2e5503f06d4c474c3a8b023c1"
+  },
+  "source_unchanged_during_checks": true,
+  "native_kicad_version": "10.0.6",
+  "board_mm": [
+    40,
+    40
+  ],
+  "parts": 79,
+  "pads": 194,
+  "nets": 40,
+  "native_drc_findings": 15,
+  "native_unconnected_items": 13,
+  "native_schematic_parity_findings": 0,
+  "explicit_pad_net_differences": [],
+  "native_graph_unconnected_count": 13,
+  "native_connected_pad_partitions": {
+    "/GND": [
+      [
+        "BT1.2",
+        "C10.2",
+        "C12.2",
+        "C13.2",
+        "C14.2",
+        "C2.2",
+        "C4.2",
+        "C6.2",
+        "C8.2",
+        "D1.1",
+        "R12.2",
+        "R16.2",
+        "R20.2",
+        "R24.2",
+        "R28.2",
+        "R32.2",
+        "R36.2",
+        "R4.2",
+        "R40.2",
+        "R44.2",
+        "R57.2",
+        "R8.2",
+        "U1.11",
+        "U2.11",
+        "U3.11"
+      ]
+    ],
+    "/ST01_OUT": [
+      [
+        "R3.2"
+      ],
+      [
+        "R45.1",
+        "R5.1",
+        "U1.1"
+      ]
+    ],
+    "/ST02_OUT": [
+      [
+        "R46.1",
+        "R7.2",
+        "U1.7"
+      ],
+      [
+        "R9.1"
+      ]
+    ],
+    "/ST03_OUT": [
+      [
+        "R11.2",
+        "R13.1",
+        "R47.1"
+      ],
+      [
+        "U1.8"
+      ]
+    ],
+    "/ST04_OUT": [
+      [
+        "R15.2",
+        "R17.1",
+        "R48.1",
+        "U1.14"
+      ]
+    ],
+    "/ST05_OUT": [
+      [
+        "R19.2",
+        "R21.1",
+        "R49.1",
+        "U2.1"
+      ]
+    ],
+    "/ST06_OUT": [
+      [
+        "R23.2"
+      ],
+      [
+        "R25.1"
+      ],
+      [
+        "R50.1",
+        "U2.7"
+      ]
+    ],
+    "/ST07_OUT": [
+      [
+        "R27.2"
+      ],
+      [
+        "R29.1",
+        "R51.1",
+        "U2.8"
+      ]
+    ],
+    "/ST08_OUT": [
+      [
+        "R31.2",
+        "R33.1",
+        "R52.1",
+        "U2.14"
+      ]
+    ],
+    "/ST09_OUT": [
+      [
+        "R35.2",
+        "R37.1",
+        "R53.1",
+        "U3.1"
+      ]
+    ],
+    "/ST10_OUT": [
+      [
+        "R39.2"
+      ],
+      [
+        "R41.1"
+      ],
+      [
+        "R54.1"
+      ],
+      [
+        "U3.7"
+      ]
+    ],
+    "/ST11_OUT": [
+      [
+        "R1.1",
+        "R43.2",
+        "R55.1",
+        "U3.8"
+      ]
+    ],
+    "/VBAT": [
+      [
+        "BT1.1",
+        "C1.2",
+        "C11.2",
+        "C12.1",
+        "C13.1",
+        "C14.1",
+        "C3.2",
+        "C5.2",
+        "C7.2",
+        "C9.2",
+        "R10.1",
+        "R14.1",
+        "R18.1",
+        "R2.1",
+        "R22.1",
+        "R26.1",
+        "R30.1",
+        "R34.1",
+        "R38.1",
+        "R42.1",
+        "R56.1",
+        "R59.1",
+        "R6.1",
+        "U1.4",
+        "U2.4",
+        "U3.4"
+      ]
+    ],
+    "/bank1/ST01_TH": [
+      [
+        "R2.2",
+        "R3.1",
+        "R4.1",
+        "U1.3"
+      ]
+    ],
+    "/bank1/ST01_TIMING": [
+      [
+        "C1.1",
+        "R1.2",
+        "U1.2"
+      ]
+    ],
+    "/bank1/ST02_TH": [
+      [
+        "R6.2",
+        "R7.1",
+        "R8.1"
+      ],
+      [
+        "U1.5"
+      ]
+    ],
+    "/bank1/ST02_TIMING": [
+      [
+        "C2.1",
+        "R5.2",
+        "U1.6"
+      ]
+    ],
+    "/bank1/ST03_TH": [
+      [
+        "R10.2",
+        "R11.1",
+        "R12.1",
+        "U1.10"
+      ]
+    ],
+    "/bank1/ST03_TIMING": [
+      [
+        "C3.1",
+        "R9.2",
+        "U1.9"
+      ]
+    ],
+    "/bank1/ST04_TH": [
+      [
+        "R14.2",
+        "R15.1",
+        "R16.1",
+        "U1.12"
+      ]
+    ],
+    "/bank1/ST04_TIMING": [
+      [
+        "C4.1",
+        "R13.2",
+        "U1.13"
+      ]
+    ],
+    "/bank2/ST05_TH": [
+      [
+        "R18.2",
+        "R19.1",
+        "R20.1",
+        "U2.3"
+      ]
+    ],
+    "/bank2/ST05_TIMING": [
+      [
+        "C5.1",
+        "R17.2",
+        "U2.2"
+      ]
+    ],
+    "/bank2/ST06_TH": [
+      [
+        "R22.2",
+        "R23.1",
+        "R24.1",
+        "U2.5"
+      ]
+    ],
+    "/bank2/ST06_TIMING": [
+      [
+        "C6.1",
+        "R21.2",
+        "U2.6"
+      ]
+    ],
+    "/bank2/ST07_TH": [
+      [
+        "R26.2",
+        "R27.1",
+        "R28.1",
+        "U2.10"
+      ]
+    ],
+    "/bank2/ST07_TIMING": [
+      [
+        "C7.1",
+        "R25.2",
+        "U2.9"
+      ]
+    ],
+    "/bank2/ST08_TH": [
+      [
+        "R30.2",
+        "R32.1",
+        "U2.12"
+      ],
+      [
+        "R31.1"
+      ]
+    ],
+    "/bank2/ST08_TIMING": [
+      [
+        "C8.1",
+        "R29.2",
+        "U2.13"
+      ]
+    ],
+    "/bank3/ST09_TH": [
+      [
+        "R34.2",
+        "R35.1",
+        "R36.1",
+        "U3.3"
+      ]
+    ],
+    "/bank3/ST09_TIMING": [
+      [
+        "C9.1",
+        "R33.2",
+        "U3.2"
+      ]
+    ],
+    "/bank3/ST10_TH": [
+      [
+        "R38.2",
+        "R39.1",
+        "R40.1",
+        "U3.5"
+      ]
+    ],
+    "/bank3/ST10_TIMING": [
+      [
+        "C10.1",
+        "R37.2",
+        "U3.6"
+      ]
+    ],
+    "/bank3/ST11_TH": [
+      [
+        "R42.2",
+        "R43.1",
+        "R44.1",
+        "U3.10"
+      ]
+    ],
+    "/bank3/ST11_TIMING": [
+      [
+        "C11.1",
+        "R41.2",
+        "U3.9"
+      ]
+    ],
+    "/decoder/GREEN_A": [
+      [
+        "D2.2",
+        "R59.2"
+      ]
+    ],
+    "/decoder/MAJORITY_SUM": [
+      [
+        "R45.2",
+        "R46.2",
+        "R47.2",
+        "R48.2",
+        "R49.2",
+        "R50.2",
+        "R51.2",
+        "R52.2",
+        "R53.2",
+        "R54.2",
+        "R55.2",
+        "U3.12"
+      ]
+    ],
+    "/decoder/MIDREF": [
+      [
+        "R56.2"
+      ],
+      [
+        "R57.1"
+      ],
+      [
+        "U3.13"
+      ]
+    ],
+    "/decoder/RED_A": [
+      [
+        "D1.2",
+        "R58.2"
+      ]
+    ],
+    "ENCODED_OUT": [
+      [
+        "D2.1",
+        "R58.1",
+        "U3.14"
+      ]
+    ]
+  },
+  "incomplete_nets": {
+    "/ST01_OUT": [
+      [
+        "R3.2"
+      ],
+      [
+        "R45.1",
+        "R5.1",
+        "U1.1"
+      ]
+    ],
+    "/ST02_OUT": [
+      [
+        "R46.1",
+        "R7.2",
+        "U1.7"
+      ],
+      [
+        "R9.1"
+      ]
+    ],
+    "/ST03_OUT": [
+      [
+        "R11.2",
+        "R13.1",
+        "R47.1"
+      ],
+      [
+        "U1.8"
+      ]
+    ],
+    "/ST06_OUT": [
+      [
+        "R23.2"
+      ],
+      [
+        "R25.1"
+      ],
+      [
+        "R50.1",
+        "U2.7"
+      ]
+    ],
+    "/ST07_OUT": [
+      [
+        "R27.2"
+      ],
+      [
+        "R29.1",
+        "R51.1",
+        "U2.8"
+      ]
+    ],
+    "/ST10_OUT": [
+      [
+        "R39.2"
+      ],
+      [
+        "R41.1"
+      ],
+      [
+        "R54.1"
+      ],
+      [
+        "U3.7"
+      ]
+    ],
+    "/bank1/ST02_TH": [
+      [
+        "R6.2",
+        "R7.1",
+        "R8.1"
+      ],
+      [
+        "U1.5"
+      ]
+    ],
+    "/bank2/ST08_TH": [
+      [
+        "R30.2",
+        "R32.1",
+        "U2.12"
+      ],
+      [
+        "R31.1"
+      ]
+    ],
+    "/decoder/MIDREF": [
+      [
+        "R56.2"
+      ],
+      [
+        "R57.1"
+      ],
+      [
+        "U3.13"
+      ]
+    ]
+  },
+  "models": [
+    {
+      "reference": "R49",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C3",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R55",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C6",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R15",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C11",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R8",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R47",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C9",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R19",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R41",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "reference": "R7",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R9",
+      "model": "models\\R_0805_2012Metric.step",
+      "bytes": 40592,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "reference": "R54",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C8",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R1",
+      "model": "models\\R_0805_2012Metric.step",
+      "bytes": 40592,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "reference": "D1",
+      "model": "models\\LED_0603_1608Metric.step",
+      "bytes": 77068,
+      "sha256": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d"
+    },
+    {
+      "reference": "C2",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R44",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C7",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R34",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R48",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C14",
+      "model": "models\\C_0603_1608Metric.step",
+      "bytes": 43450,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    {
+      "reference": "R21",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "reference": "D2",
+      "model": "models\\LED_0603_1608Metric.step",
+      "bytes": 77068,
+      "sha256": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d"
+    },
+    {
+      "reference": "R32",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "U3",
+      "model": "models\\TSSOP-14_4.4x5mm_P0.65mm.step",
+      "bytes": 198789,
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245"
+    },
+    {
+      "reference": "R57",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R43",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "U2",
+      "model": "models\\TSSOP-14_4.4x5mm_P0.65mm.step",
+      "bytes": 198789,
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245"
+    },
+    {
+      "reference": "R59",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R17",
+      "model": "models\\R_0805_2012Metric.step",
+      "bytes": 40592,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "reference": "R12",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R11",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R16",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R50",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R28",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R42",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R36",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R25",
+      "model": "models\\R_0805_2012Metric.step",
+      "bytes": 40592,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "reference": "R4",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R18",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R38",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R40",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R6",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R37",
+      "model": "models\\R_0805_2012Metric.step",
+      "bytes": 40592,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "reference": "R10",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R22",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R52",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R51",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R13",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "reference": "R53",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C12",
+      "model": "models\\C_0603_1608Metric.step",
+      "bytes": 43450,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    {
+      "reference": "C4",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "C5",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R20",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "C13",
+      "model": "models\\C_0603_1608Metric.step",
+      "bytes": 43450,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    {
+      "reference": "R33",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "reference": "R26",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R24",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R31",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R45",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R5",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "reference": "R2",
+      "model": "models\\R_0805_2012Metric.step",
+      "bytes": 40592,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "reference": "R23",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R3",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "reference": "C1",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "U1",
+      "model": "models\\TSSOP-14_4.4x5mm_P0.65mm.step",
+      "bytes": 198789,
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245"
+    },
+    {
+      "reference": "R39",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R35",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R58",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R14",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R29",
+      "model": "models\\R_0603_1608Metric.step",
+      "bytes": 40618,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "reference": "C10",
+      "model": "models\\C_0805_2012Metric.step",
+      "bytes": 43618,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "reference": "R56",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R27",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R46",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "R30",
+      "model": "models\\R_0402_1005Metric.step",
+      "bytes": 40756,
+      "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+    },
+    {
+      "reference": "BT1",
+      "model": "models\\BatteryHolder_Keystone_1058_1x2032.step",
+      "bytes": 196119,
+      "sha256": "bfe25e361483fb1350eca3a79dfde5a35766b9210d5ce48235baba3f37bc2579"
+    },
+    {
+      "reference": "BT1",
+      "model": "models\\CR2032_nominal.wrl",
+      "bytes": 9614,
+      "sha256": "8679a52dadd822449ffd21772c6257227df29ae2c95a30180d62abd88ca17987"
+    }
+  ],
+  "ignored_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "limitations": [
+    "No fabrication capability or sourcing closure; exact passive/LED MPNs remain unverified.",
+    "No bench, enclosure or battery electrochemical validation.",
+    "Package models are standard KiCad envelopes; nominal coin model is illustrative.",
+    "No copper zones are present; tracks and vias provide all connections.",
+    "Native CLI registry-access warnings are retained in the command receipt."
+  ],
+  "producer_sha256": "f3a4d1a756cc5a1c44010f91dc38f5d5ce2f5643f15af18318ba1d9cc232eba5"
+}

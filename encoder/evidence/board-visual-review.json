@@ -1,0 +1,21 @@
+{
+  "schema": "kero.encoder-board-visual-review/v1",
+  "board_sha256": "eaacb294ad8db8dc1bded975edc3e3b9434c02e23717e1305bcb9ecb963980c4",
+  "previews": [
+    {
+      "path": "previews/board-3d.png",
+      "sha256": "17477716db27be17ff3fe7eaade67a728d0bc8957d8cf74ff72d3aa51957c6bb"
+    },
+    {
+      "path": "previews/board-3d-bottom.png",
+      "sha256": "3f0f61c9c0cb8d77df6d406e0db55874f61bf6d6d8f3b90c3b9706100a088447"
+    }
+  ],
+  "observations": [
+    "Native top and bottom 3D renders inspected: all 79 fitted parts have local models. The holder and nominal CR2032 are on the bottom and stay inside the 40 mm outline.",
+    "Front functional clusters show three quad op amps with local RC banks and a decoder resistor array. No obvious model body overlap was observed.",
+    "Part references are on fabrication layers; silkscreen is reserved for polarity and product identification.",
+    "Mechanical fit is an envelope preview. Vendor height and tolerance qualification and factory assembly approval remain open.",
+    "Routing remains incomplete per board-validation.json. Images do not override the 13 native open connections."
+  ]
+}

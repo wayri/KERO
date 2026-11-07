@@ -1,0 +1,938 @@
+{
+  "schema": "kero.grid-routing/v1",
+  "grid_mm": 0.1,
+  "track_mm": 0.15,
+  "clearance_model_mm": 0.15,
+  "via_mm": [
+    0.6,
+    0.3
+  ],
+  "records": [
+    {
+      "net": "/GND",
+      "pad": "R24.2",
+      "expanded": 189,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "C13.2",
+      "expanded": 383,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "U2.11",
+      "expanded": 1973,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R20.2",
+      "expanded": 1126,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R12.2",
+      "expanded": 522,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R16.2",
+      "expanded": 789,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "C4.2",
+      "expanded": 189,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R28.2",
+      "expanded": 544,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "C12.2",
+      "expanded": 1300,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "U1.11",
+      "expanded": 422,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R4.2",
+      "expanded": 6028,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R8.2",
+      "expanded": 785,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "C2.2",
+      "expanded": 53,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "BT1.2",
+      "expanded": 2308,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R36.2",
+      "expanded": 3163,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "U3.11",
+      "expanded": 5283,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "C14.2",
+      "expanded": 1351,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R40.2",
+      "expanded": 816,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "C10.2",
+      "expanded": 221,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R44.2",
+      "expanded": 1028,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R32.2",
+      "expanded": 402,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "C8.2",
+      "expanded": 203,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "R57.2",
+      "expanded": 1061,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/GND",
+      "pad": "D1.1",
+      "expanded": 475,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R10.1",
+      "expanded": 4087,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R22.1",
+      "expanded": 1590,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R14.1",
+      "expanded": 567,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "U1.4",
+      "expanded": 9589,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "C12.1",
+      "expanded": 799,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "C1.2",
+      "expanded": 3115,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R2.1",
+      "expanded": 309,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R18.1",
+      "expanded": 5573,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "C5.2",
+      "expanded": 358,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "U2.4",
+      "expanded": 291,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "C13.1",
+      "expanded": 1280,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R30.1",
+      "expanded": 3327,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "C7.2",
+      "expanded": 7332,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R26.1",
+      "expanded": 3337,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "BT1.1",
+      "expanded": 633,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R6.1",
+      "expanded": 1363,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "C9.2",
+      "expanded": 995,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R34.1",
+      "expanded": 197,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "U3.4",
+      "expanded": 483,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "C14.1",
+      "expanded": 1360,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R42.1",
+      "expanded": 8315,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "C11.2",
+      "expanded": 2791,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R56.1",
+      "expanded": 631,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R38.1",
+      "expanded": 879,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/VBAT",
+      "pad": "R59.1",
+      "expanded": 1636,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST01_TH",
+      "pad": "R3.1",
+      "expanded": 70,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST01_TH",
+      "pad": "R2.2",
+      "expanded": 5799,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST01_TH",
+      "pad": "U1.3",
+      "expanded": 1240,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST01_TIMING",
+      "pad": "C1.1",
+      "expanded": 174,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST01_TIMING",
+      "pad": "U1.2",
+      "expanded": 1445,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST02_TH",
+      "pad": "R7.1",
+      "expanded": 18,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST02_TH",
+      "pad": "R6.2",
+      "expanded": 100,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST02_TH",
+      "pad": "U1.5",
+      "expanded": 298,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/bank1/ST02_TIMING",
+      "pad": "R5.2",
+      "expanded": 188,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST02_TIMING",
+      "pad": "U1.6",
+      "expanded": 16505,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST03_TH",
+      "pad": "R11.1",
+      "expanded": 18,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST03_TH",
+      "pad": "R10.2",
+      "expanded": 446,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST03_TH",
+      "pad": "U1.10",
+      "expanded": 3581,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST03_TIMING",
+      "pad": "R9.2",
+      "expanded": 4880,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST03_TIMING",
+      "pad": "U1.9",
+      "expanded": 1445,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST04_TH",
+      "pad": "R16.1",
+      "expanded": 18,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST04_TH",
+      "pad": "R14.2",
+      "expanded": 100,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST04_TH",
+      "pad": "U1.12",
+      "expanded": 102,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST04_TIMING",
+      "pad": "C4.1",
+      "expanded": 188,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank1/ST04_TIMING",
+      "pad": "U1.13",
+      "expanded": 1903,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST05_TH",
+      "pad": "R20.1",
+      "expanded": 2840,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST05_TH",
+      "pad": "R18.2",
+      "expanded": 811,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST05_TH",
+      "pad": "U2.3",
+      "expanded": 127,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST05_TIMING",
+      "pad": "R17.2",
+      "expanded": 5736,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST05_TIMING",
+      "pad": "C5.1",
+      "expanded": 22,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST06_TH",
+      "pad": "R24.1",
+      "expanded": 4353,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST06_TH",
+      "pad": "R23.1",
+      "expanded": 18,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST06_TH",
+      "pad": "R22.2",
+      "expanded": 100,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST06_TIMING",
+      "pad": "R21.2",
+      "expanded": 188,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST06_TIMING",
+      "pad": "U2.6",
+      "expanded": 8088,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST07_TH",
+      "pad": "R26.2",
+      "expanded": 3438,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST07_TH",
+      "pad": "R27.1",
+      "expanded": 509,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST07_TH",
+      "pad": "R28.1",
+      "expanded": 48,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST07_TIMING",
+      "pad": "R25.2",
+      "expanded": 1649,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST07_TIMING",
+      "pad": "U2.9",
+      "expanded": 6385,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST08_TH",
+      "pad": "R31.1",
+      "expanded": 50,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/bank2/ST08_TH",
+      "pad": "R30.2",
+      "expanded": 2954,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST08_TH",
+      "pad": "U2.12",
+      "expanded": 1255,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST08_TIMING",
+      "pad": "R29.2",
+      "expanded": 188,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank2/ST08_TIMING",
+      "pad": "U2.13",
+      "expanded": 3038,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST09_TH",
+      "pad": "R35.1",
+      "expanded": 2761,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST09_TH",
+      "pad": "R36.1",
+      "expanded": 9,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST09_TH",
+      "pad": "U3.3",
+      "expanded": 55,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST09_TIMING",
+      "pad": "R33.2",
+      "expanded": 6142,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST09_TIMING",
+      "pad": "U3.2",
+      "expanded": 285,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST10_TH",
+      "pad": "R40.1",
+      "expanded": 4111,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST10_TH",
+      "pad": "R39.1",
+      "expanded": 18,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST10_TH",
+      "pad": "R38.2",
+      "expanded": 513,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST10_TIMING",
+      "pad": "R37.2",
+      "expanded": 15558,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST10_TIMING",
+      "pad": "C10.1",
+      "expanded": 7,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST11_TH",
+      "pad": "R43.1",
+      "expanded": 18,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST11_TH",
+      "pad": "R42.2",
+      "expanded": 100,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST11_TH",
+      "pad": "U3.10",
+      "expanded": 2676,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST11_TIMING",
+      "pad": "R41.2",
+      "expanded": 1409,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/bank3/ST11_TIMING",
+      "pad": "U3.9",
+      "expanded": 10952,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/GREEN_A",
+      "pad": "R59.2",
+      "expanded": 105,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MIDREF",
+      "pad": "R56.2",
+      "expanded": 145,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/decoder/MIDREF",
+      "pad": "R57.1",
+      "expanded": 145,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/decoder/RED_A",
+      "pad": "R58.2",
+      "expanded": 105,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST01_OUT",
+      "pad": "U1.1",
+      "expanded": 34057,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST01_OUT",
+      "pad": "R3.2",
+      "expanded": 358,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST01_OUT",
+      "pad": "R5.1",
+      "expanded": 10180,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST02_OUT",
+      "pad": "U1.7",
+      "expanded": 10741,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST02_OUT",
+      "pad": "R9.1",
+      "expanded": 655,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST02_OUT",
+      "pad": "R46.1",
+      "expanded": 8064,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST03_OUT",
+      "pad": "R11.2",
+      "expanded": 9647,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST03_OUT",
+      "pad": "U1.8",
+      "expanded": 339,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST03_OUT",
+      "pad": "R13.1",
+      "expanded": 31315,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST04_OUT",
+      "pad": "U1.14",
+      "expanded": 208,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST04_OUT",
+      "pad": "R17.1",
+      "expanded": 7556,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST04_OUT",
+      "pad": "R48.1",
+      "expanded": 20540,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST05_OUT",
+      "pad": "R21.1",
+      "expanded": 18634,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST05_OUT",
+      "pad": "R19.2",
+      "expanded": 3602,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST05_OUT",
+      "pad": "U2.1",
+      "expanded": 623,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST06_OUT",
+      "pad": "R25.1",
+      "expanded": 1476,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST06_OUT",
+      "pad": "R23.2",
+      "expanded": 169,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST06_OUT",
+      "pad": "R50.1",
+      "expanded": 14580,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST07_OUT",
+      "pad": "R27.2",
+      "expanded": 45,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST07_OUT",
+      "pad": "R29.1",
+      "expanded": 40189,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST07_OUT",
+      "pad": "R51.1",
+      "expanded": 1097,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST08_OUT",
+      "pad": "R31.2",
+      "expanded": 1909,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST08_OUT",
+      "pad": "R52.1",
+      "expanded": 27698,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST08_OUT",
+      "pad": "R33.1",
+      "expanded": 20382,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST09_OUT",
+      "pad": "R35.2",
+      "expanded": 1416,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST09_OUT",
+      "pad": "R37.1",
+      "expanded": 1890,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST09_OUT",
+      "pad": "R53.1",
+      "expanded": 19605,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST10_OUT",
+      "pad": "U3.7",
+      "expanded": 203826,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST10_OUT",
+      "pad": "R54.1",
+      "expanded": 203826,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST10_OUT",
+      "pad": "R39.2",
+      "expanded": 203826,
+      "status": "UNROUTABLE"
+    },
+    {
+      "net": "/ST11_OUT",
+      "pad": "R43.2",
+      "expanded": 16547,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST11_OUT",
+      "pad": "U3.8",
+      "expanded": 4561,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/ST11_OUT",
+      "pad": "R1.1",
+      "expanded": 53486,
+      "status": "ROUTED"
+    },
+    {
+      "net": "ENCODED_OUT",
+      "pad": "R58.1",
+      "expanded": 1119,
+      "status": "ROUTED"
+    },
+    {
+      "net": "ENCODED_OUT",
+      "pad": "U3.14",
+      "expanded": 36376,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R53.2",
+      "expanded": 4313,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R45.2",
+      "expanded": 1040,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R54.2",
+      "expanded": 83,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R50.2",
+      "expanded": 992,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R46.2",
+      "expanded": 134,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R55.2",
+      "expanded": 252,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R51.2",
+      "expanded": 1052,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R47.2",
+      "expanded": 453,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R48.2",
+      "expanded": 482,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "R52.2",
+      "expanded": 138,
+      "status": "ROUTED"
+    },
+    {
+      "net": "/decoder/MAJORITY_SUM",
+      "pad": "U3.12",
+      "expanded": 3271,
+      "status": "ROUTED"
+    }
+  ],
+  "estimated_complete": false,
+  "native_acceptance": "PENDING_NATIVE_DRC_AND_CONNECTIVITY"
+}
