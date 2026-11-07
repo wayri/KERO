@@ -54,8 +54,8 @@
       "before": {
         "uuid": "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c",
         "position": {
-          "x": 114.3,
-          "y": 104.14
+          "x": 144.78,
+          "y": 106.68
         },
         "properties": {
           "Reference": "R1",
@@ -68,14 +68,14 @@
           "lib_id": "Demo:Device_R",
           "unit": "1",
           "Angle": "90",
-          "Source fingerprint": "7ec9f608"
+          "Source fingerprint": "a59d9dbb"
         }
       },
       "after": {
         "uuid": "063f3bc2-acd0-591a-b7fa-a41fd3c68d7c",
         "position": {
-          "x": 114.3,
-          "y": 104.14
+          "x": 144.78,
+          "y": 106.68
         },
         "properties": {
           "Reference": "R1",
@@ -88,38 +88,38 @@
           "lib_id": "Demo:Device_R",
           "unit": "1",
           "Angle": "90",
-          "Source fingerprint": "314d3e8e"
+          "Source fingerprint": "8ed555e5"
         }
       }
     },
     {
-      "id": "KERO.kicad_sch/text:uuid:51dda6fc-5e35-5bdd-831e-180a2ff23b8d",
+      "id": "KERO.kicad_sch/text:uuid:488b113e-af76-594c-8fa2-e152858d0363",
       "path": "KERO.kicad_sch",
       "kind": "text",
-      "label": "Ideal calculated f = 2.18 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification.",
+      "label": "Calculated f = 2.18 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%",
       "status": "modified",
       "before": {
-        "uuid": "51dda6fc-5e35-5bdd-831e-180a2ff23b8d",
+        "uuid": "488b113e-af76-594c-8fa2-e152858d0363",
         "position": {
           "x": 144.78,
-          "y": 154.94
+          "y": 137.16
         },
         "properties": {
           "Angle": "0",
-          "Text": "Ideal calculated f = 1.02 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification.",
-          "Source fingerprint": "0cc5f966"
+          "Text": "Calculated f = 1.02 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%",
+          "Source fingerprint": "f592cb2a"
         }
       },
       "after": {
-        "uuid": "51dda6fc-5e35-5bdd-831e-180a2ff23b8d",
+        "uuid": "488b113e-af76-594c-8fa2-e152858d0363",
         "position": {
           "x": 144.78,
-          "y": 154.94
+          "y": 137.16
         },
         "properties": {
           "Angle": "0",
-          "Text": "Ideal calculated f = 2.18 Hz; red duty about 29%.\nR1/C1 set speed; R2/R3 set hysteresis.\nFrequency, LED brightness and battery life require bench verification.",
-          "Source fingerprint": "91c3b88e"
+          "Text": "Calculated f = 2.18 Hz\nR1 / C1 set blink speed\nRed duty approximately 29%",
+          "Source fingerprint": "be1520fe"
         }
       }
     }
