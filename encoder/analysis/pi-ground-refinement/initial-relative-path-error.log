@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\tools\refine_encoder_ground_pi.py", line 22, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\tools\refine_encoder_ground_pi.py", line 15, in main
+    request={**prior['request'],'edge_mm':.05};result=execute(request);assert sha(BASE/'Encoder.kicad_pcb')==before
+                                                      ^^^^^^^^^^^^^^^^
+  File "D:\WayriCAD-validation\release-4.5.0\source\quick_pi_plugin\service.py", line 187, in execute
+    output=_execute(request,_boards=boards)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\WayriCAD-validation\release-4.5.0\source\quick_pi_plugin\service.py", line 264, in _execute
+    if not path.is_file() or path.suffix.lower()!='.kicad_pcb':raise ValueError('Choose a saved KiCad PCB.')
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Choose a saved KiCad PCB.

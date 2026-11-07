@@ -1,0 +1,1904 @@
+{
+  "schema": "kero.encoder-power/v1",
+  "bindings": {
+    "encoder/Encoder.kicad_pcb": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+    "encoder/design-intent.json": "26c9ac59d459bf39e5482f9851943ce5dfbbaf37ad433fef8d3d9d744175bab6",
+    "encoder/bom.csv": "f57b3708324457df1c44783972d148a015095790feaf821686e527d8d1c952ed",
+    "encoder/evidence/netlist.xml": "7f548ce584341ee548b1ed20737a113b6da779e6d68233da969d3a96068860ec",
+    "encoded-model/design.json": "0631060c3e8a6ebdba97a5724dbef59fc4870bc5d3bc7570ace8045ea0cc44b5",
+    "encoder/evidence/circuit-equivalence.json": "4f6f4460df5a320829793bbca2e1794dd78d065c5a4e8fa7ed7c6a517b9df167"
+  },
+  "board_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "helper_sha256": "d45d61580df1361f274a4ca94cf7d719e141f549243723edca8d441501423f29",
+  "model_sha256": "75019b68d85b360113538587ae6231b3e7b48e511d444a953799f1756dfd0543",
+  "simulator": "Xyce 7.8.0",
+  "operating_point": {
+    "supply_V": 3,
+    "ramp_s": 0.001,
+    "temperature": "macro default",
+    "maximum_timestep_s": 0.0005,
+    "stop_s": 12
+  },
+  "nominal": {
+    "window": {
+      "start_s": 8.322450867608948,
+      "end_s": 11.988177924224754,
+      "duration_s": 3.665727056615806
+    },
+    "cell": {
+      "mean_A": 0.00027908139270175846,
+      "rms_A": 0.00027914949378453943,
+      "minimum_sampled_A": 0.000201350346,
+      "peak_sampled_A": 0.000290788378,
+      "peak_sample_time_s": 10.8339276,
+      "electrical_power_W": 0.0008372441781052753,
+      "charge_C": 0.0010230362122248568,
+      "supply_ramp_peak_sampled_A": 0.00117410868,
+      "startup_to_first_accepted_frame_peak_sampled_A": 0.00117410868,
+      "startup_window_end_s": 4.656710256322311,
+      "series_resistance_scenarios": [
+        {
+          "resistance_ohm": 0,
+          "mean_internal_heat_W": 0.0,
+          "mean_voltage_drop_V": 0.0,
+          "settled_peak_voltage_drop_V": 0.0,
+          "startup_peak_voltage_drop_V": 0.0,
+          "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+        },
+        {
+          "resistance_ohm": 10,
+          "mean_internal_heat_W": 7.792443988016462e-07,
+          "mean_voltage_drop_V": 0.0027908139270175847,
+          "settled_peak_voltage_drop_V": 0.00290788378,
+          "startup_peak_voltage_drop_V": 0.0117410868,
+          "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+        },
+        {
+          "resistance_ohm": 20,
+          "mean_internal_heat_W": 1.5584887976032923e-06,
+          "mean_voltage_drop_V": 0.0055816278540351694,
+          "settled_peak_voltage_drop_V": 0.00581576756,
+          "startup_peak_voltage_drop_V": 0.0234821736,
+          "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+        },
+        {
+          "resistance_ohm": 30,
+          "mean_internal_heat_W": 2.3377331964049387e-06,
+          "mean_voltage_drop_V": 0.008372441781052753,
+          "settled_peak_voltage_drop_V": 0.00872365134,
+          "startup_peak_voltage_drop_V": 0.0352232604,
+          "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+        },
+        {
+          "resistance_ohm": 50,
+          "mean_internal_heat_W": 3.8962219940082315e-06,
+          "mean_voltage_drop_V": 0.013954069635087923,
+          "settled_peak_voltage_drop_V": 0.0145394189,
+          "startup_peak_voltage_drop_V": 0.058705434,
+          "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+        },
+        {
+          "resistance_ohm": 100,
+          "mean_internal_heat_W": 7.792443988016463e-06,
+          "mean_voltage_drop_V": 0.027908139270175845,
+          "settled_peak_voltage_drop_V": 0.0290788378,
+          "startup_peak_voltage_drop_V": 0.117410868,
+          "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+        }
+      ]
+    },
+    "part_heat_W": {
+      "U1": 0.00011986761894480117,
+      "U2": 0.0001198495272576377,
+      "U3": 0.00011936517810528994,
+      "R1": 1.151706220731073e-07,
+      "R2": 3.593548645317663e-06,
+      "R3": 2.127196879953728e-06,
+      "R4": 6.364799904190466e-07,
+      "C1": 0.0,
+      "R5": 1.16472771394574e-07,
+      "R6": 5.2766005722383885e-06,
+      "R7": 2.822159454943876e-06,
+      "R8": 8.932361287318662e-06,
+      "C2": 0.0,
+      "R9": 1.1643286044575633e-07,
+      "R10": 6.595355955482246e-06,
+      "R11": 5.261485152436959e-06,
+      "R12": 6.294924967539363e-06,
+      "C3": 0.0,
+      "R13": 1.1649195172902387e-07,
+      "R14": 5.975472675927846e-06,
+      "R15": 3.171790627320724e-06,
+      "R16": 8.577169952463568e-06,
+      "C4": 0.0,
+      "R17": 1.1650644338328415e-07,
+      "R18": 8.054658714060058e-06,
+      "R19": 4.121177372661802e-06,
+      "R20": 6.537882144667601e-06,
+      "C5": 0.0,
+      "R21": 1.1650223427494479e-07,
+      "R22": 6.276675440701858e-06,
+      "R23": 3.0304833793261932e-06,
+      "R24": 8.080112402552298e-06,
+      "C6": 0.0,
+      "R25": 1.1650457283774896e-07,
+      "R26": 7.024403169468542e-06,
+      "R27": 4.449583433277363e-06,
+      "R28": 6.697732150105071e-06,
+      "C7": 0.0,
+      "R29": 1.1650029722560894e-07,
+      "R30": 6.593806436604015e-06,
+      "R31": 3.105192237232411e-06,
+      "R32": 7.821082420688545e-06,
+      "C8": 0.0,
+      "R33": 1.1650359446298858e-07,
+      "R34": 8.068140174693508e-06,
+      "R35": 3.4525089854233363e-06,
+      "R36": 6.616856598679985e-06,
+      "C9": 0.0,
+      "R37": 1.1650540323774088e-07,
+      "R38": 6.20462472830801e-06,
+      "R39": 3.349908870810945e-06,
+      "R40": 7.899736242566944e-06,
+      "C10": 0.0,
+      "R41": 1.1649606486334243e-07,
+      "R42": 8.051313182268244e-06,
+      "R43": 3.1222189025104366e-06,
+      "R44": 6.325750728541063e-06,
+      "C11": 0.0,
+      "R45": 2.2048109584093102e-06,
+      "R46": 2.3286435820514098e-06,
+      "R47": 2.159217440042807e-06,
+      "R48": 2.380036784475819e-06,
+      "R49": 2.1362542498071167e-06,
+      "R50": 2.3897473758069723e-06,
+      "R51": 2.114409363053966e-06,
+      "R52": 2.4115638589054794e-06,
+      "R53": 2.114424383940856e-06,
+      "R54": 2.401873691127819e-06,
+      "R55": 2.1419070619793004e-06,
+      "R56": 2.2499999786216932e-05,
+      "R57": 2.2500000214797796e-05,
+      "R58": 4.49679555506498e-05,
+      "R59": 3.809550141927625e-05,
+      "D1": 6.620970560509063e-05,
+      "D2": 7.367732267447024e-05,
+      "C12": 0.0,
+      "C13": 0.0,
+      "C14": 0.0
+    },
+    "part_details": {
+      "U1": {
+        "kind": "opamp_package",
+        "heat_W": 0.00011986761894480117,
+        "channels": {
+          "A": {
+            "terminal_power_W": {
+              "P": 3.2915855522919234e-13,
+              "M": 2.938396549070593e-12,
+              "V": 3.4059018220048856e-05,
+              "G": 0.0,
+              "O": -4.076820239272334e-06
+            },
+            "net_absorption_W": 2.9982201248331627e-05,
+            "inferred_global_ground_return_mean_A": 3.346756464299426e-12,
+            "inferred_global_ground_return_peak_abs_A": 7.418522340000108e-08
+          },
+          "B": {
+            "terminal_power_W": {
+              "P": 1.1468169792942448e-11,
+              "M": 4.0185587529305655e-12,
+              "V": 4.025610934669932e-05,
+              "G": 0.0,
+              "O": -1.0294285413690598e-05
+            },
+            "net_absorption_W": 2.9961839419737265e-05,
+            "inferred_global_ground_return_mean_A": 4.596227283449362e-12,
+            "inferred_global_ground_return_peak_abs_A": 4.344096309999995e-07
+          },
+          "C": {
+            "terminal_power_W": {
+              "P": 1.3229758954638269e-11,
+              "M": 7.483080000950859e-12,
+              "V": 3.34325229760772e-05,
+              "G": 0.0,
+              "O": -3.4695229735422855e-06
+            },
+            "net_absorption_W": 2.996302071537387e-05,
+            "inferred_global_ground_return_mean_A": 5.734846184004474e-12,
+            "inferred_global_ground_return_peak_abs_A": 2.623634680000011e-07
+          },
+          "D": {
+            "terminal_power_W": {
+              "P": 9.115012162954564e-12,
+              "M": 4.766707487215969e-12,
+              "V": 4.050550806150567e-05,
+              "G": 0.0,
+              "O": -1.0544964381866921e-05
+            },
+            "net_absorption_W": 2.99605575613584e-05,
+            "inferred_global_ground_return_mean_A": 4.548578758004373e-12,
+            "inferred_global_ground_return_peak_abs_A": 4.2172472100000076e-07
+          }
+        }
+      },
+      "U2": {
+        "kind": "opamp_package",
+        "heat_W": 0.0001198495272576377,
+        "channels": {
+          "A": {
+            "terminal_power_W": {
+              "P": 1.0525760725569605e-11,
+              "M": 7.128142793275259e-12,
+              "V": 3.4812427971937916e-05,
+              "G": 0.0,
+              "O": -4.85095984260574e-06
+            },
+            "net_absorption_W": 2.9961485783235696e-05,
+            "inferred_global_ground_return_mean_A": 5.317794527045584e-12,
+            "inferred_global_ground_return_peak_abs_A": 3.4403642499999905e-07
+          },
+          "B": {
+            "terminal_power_W": {
+              "P": 1.1620016192387446e-11,
+              "M": 4.909842717062988e-12,
+              "V": 3.8003667540134635e-05,
+              "G": 0.0,
+              "O": -8.041039302790216e-06
+            },
+            "net_absorption_W": 2.9962644767203328e-05,
+            "inferred_global_ground_return_mean_A": 4.882253948281145e-12,
+            "inferred_global_ground_return_peak_abs_A": 3.9157072899999894e-07
+          },
+          "C": {
+            "terminal_power_W": {
+              "P": 1.2328635455000278e-11,
+              "M": 6.777342908007635e-12,
+              "V": 3.4438613501673886e-05,
+              "G": 0.0,
+              "O": -4.475508037062413e-06
+            },
+            "net_absorption_W": 2.9963124570589837e-05,
+            "inferred_global_ground_return_mean_A": 5.450517879919742e-12,
+            "inferred_global_ground_return_peak_abs_A": 3.046929259999989e-07
+          },
+          "D": {
+            "terminal_power_W": {
+              "P": 1.124714403366947e-11,
+              "M": 5.25189310054835e-12,
+              "V": 3.766347836568366e-05,
+              "G": 0.0,
+              "O": -7.701222728111951e-06
+            },
+            "net_absorption_W": 2.9962272136608846e-05,
+            "inferred_global_ground_return_mean_A": 4.921485116900547e-12,
+            "inferred_global_ground_return_peak_abs_A": 3.895649740000007e-07
+          }
+        }
+      },
+      "U3": {
+        "kind": "opamp_package",
+        "heat_W": 0.00011936517810528994,
+        "channels": {
+          "A": {
+            "terminal_power_W": {
+              "P": 9.543298418032303e-12,
+              "M": 6.83022302809428e-12,
+              "V": 3.5883623497424977e-05,
+              "G": 0.0,
+              "O": -5.92213881779948e-06
+            },
+            "net_absorption_W": 2.9961501053146944e-05,
+            "inferred_global_ground_return_mean_A": 5.104886221879913e-12,
+            "inferred_global_ground_return_peak_abs_A": 3.9057835599999996e-07
+          },
+          "B": {
+            "terminal_power_W": {
+              "P": 1.2696968587430863e-11,
+              "M": 5.047399886757309e-12,
+              "V": 3.6798218353126584e-05,
+              "G": 0.0,
+              "O": -6.834358413395145e-06
+            },
+            "net_absorption_W": 2.9963877684099915e-05,
+            "inferred_global_ground_return_mean_A": 5.054624722696559e-12,
+            "inferred_global_ground_return_peak_abs_A": 3.422468069999991e-07
+          },
+          "C": {
+            "terminal_power_W": {
+              "P": 5.480390102349211e-12,
+              "M": 7.183668727998986e-12,
+              "V": 3.7634168270343364e-05,
+              "G": 0.0,
+              "O": -7.670634948096723e-06
+            },
+            "net_absorption_W": 2.9963545986305467e-05,
+            "inferred_global_ground_return_mean_A": 4.7044000740130355e-12,
+            "inferred_global_ground_return_peak_abs_A": 3.8026039099999913e-07
+          },
+          "D": {
+            "terminal_power_W": {
+              "P": 7.342053554410083e-12,
+              "M": -2.0561974853672842e-13,
+              "V": 0.00014091674983166555,
+              "G": 0.0,
+              "O": -0.00011144050358636176
+            },
+            "net_absorption_W": 2.9476253381737603e-05,
+            "inferred_global_ground_return_mean_A": 4.7681437335497465e-12,
+            "inferred_global_ground_return_peak_abs_A": 3.0146193828942797e-07
+          }
+        }
+      },
+      "R1": {
+        "kind": "resistor",
+        "heat_W": 1.151706220731073e-07,
+        "resistance_ohm": 6980000.0
+      },
+      "R2": {
+        "kind": "resistor",
+        "heat_W": 3.593548645317663e-06,
+        "resistance_ohm": 2130000.0
+      },
+      "R3": {
+        "kind": "resistor",
+        "heat_W": 2.127196879953728e-06,
+        "resistance_ohm": 1050000.0
+      },
+      "R4": {
+        "kind": "resistor",
+        "heat_W": 6.364799904190466e-07,
+        "resistance_ohm": 117000.0
+      },
+      "C1": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 2.86496011018933e-12,
+        "mean_terminal_power_W": 7.937008775243826e-13,
+        "stored_charge_change_C": -1.0015962583116434e-12,
+        "integrated_terminal_charge_C": -1.0080404984356024e-12
+      },
+      "R5": {
+        "kind": "resistor",
+        "heat_W": 1.16472771394574e-07,
+        "resistance_ohm": 1650000.0
+      },
+      "R6": {
+        "kind": "resistor",
+        "heat_W": 5.2766005722383885e-06,
+        "resistance_ohm": 365000.0
+      },
+      "R7": {
+        "kind": "resistor",
+        "heat_W": 2.822159454943876e-06,
+        "resistance_ohm": 208000.0
+      },
+      "R8": {
+        "kind": "resistor",
+        "heat_W": 8.932361287318662e-06,
+        "resistance_ohm": 412000.0
+      },
+      "C2": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 1.358650730517517e-15,
+        "mean_terminal_power_W": 8.800378471105298e-14,
+        "stored_charge_change_C": -2.6489769379278806e-13,
+        "integrated_terminal_charge_C": -2.448241008221853e-13
+      },
+      "R9": {
+        "kind": "resistor",
+        "heat_W": 1.1643286044575633e-07,
+        "resistance_ohm": 3520000.0
+      },
+      "R10": {
+        "kind": "resistor",
+        "heat_W": 6.595355955482246e-06,
+        "resistance_ohm": 182000.0
+      },
+      "R11": {
+        "kind": "resistor",
+        "heat_W": 5.261485152436959e-06,
+        "resistance_ohm": 332000.0
+      },
+      "R12": {
+        "kind": "resistor",
+        "heat_W": 6.294924967539363e-06,
+        "resistance_ohm": 665000.0
+      },
+      "C3": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 3.3981681293097067e-18,
+        "mean_terminal_power_W": -1.660076489479349e-14,
+        "stored_charge_change_C": 4.699999971435886e-16,
+        "integrated_terminal_charge_C": -3.5056757002269876e-14
+      },
+      "R13": {
+        "kind": "resistor",
+        "heat_W": 1.1649195172902387e-07,
+        "resistance_ohm": 1470000.0
+      },
+      "R14": {
+        "kind": "resistor",
+        "heat_W": 5.975472675927846e-06,
+        "resistance_ohm": 427000.0
+      },
+      "R15": {
+        "kind": "resistor",
+        "heat_W": 3.171790627320724e-06,
+        "resistance_ohm": 213000.0
+      },
+      "R16": {
+        "kind": "resistor",
+        "heat_W": 8.577169952463568e-06,
+        "resistance_ohm": 340000.0
+      },
+      "C4": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 2.0420516551989494e-20,
+        "mean_terminal_power_W": -1.5211627882908215e-13,
+        "stored_charge_change_C": -2.8199999887318365e-18,
+        "integrated_terminal_charge_C": 7.981641673825688e-14
+      },
+      "R17": {
+        "kind": "resistor",
+        "heat_W": 1.1650644338328415e-07,
+        "resistance_ohm": 2430000.0
+      },
+      "R18": {
+        "kind": "resistor",
+        "heat_W": 8.054658714060058e-06,
+        "resistance_ohm": 240000.0
+      },
+      "R19": {
+        "kind": "resistor",
+        "heat_W": 4.121177372661802e-06,
+        "resistance_ohm": 258000.0
+      },
+      "R20": {
+        "kind": "resistor",
+        "heat_W": 6.537882144667601e-06,
+        "resistance_ohm": 511000.0
+      },
+      "C5": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": -3.4012466293432673e-18,
+        "mean_terminal_power_W": -1.169352906586313e-13,
+        "stored_charge_change_C": -4.699999971435886e-16,
+        "integrated_terminal_charge_C": 8.285078994170898e-14
+      },
+      "R21": {
+        "kind": "resistor",
+        "heat_W": 1.1650223427494479e-07,
+        "resistance_ohm": 2000000.0
+      },
+      "R22": {
+        "kind": "resistor",
+        "heat_W": 6.276675440701858e-06,
+        "resistance_ohm": 291000.0
+      },
+      "R23": {
+        "kind": "resistor",
+        "heat_W": 3.0304833793261932e-06,
+        "resistance_ohm": 229000.0
+      },
+      "R24": {
+        "kind": "resistor",
+        "heat_W": 8.080112402552298e-06,
+        "resistance_ohm": 459000.0
+      },
+      "C6": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": -2.0413682195503805e-20,
+        "mean_terminal_power_W": -1.37016593982791e-13,
+        "stored_charge_change_C": 2.8199999887318365e-18,
+        "integrated_terminal_charge_C": 4.9541463951106475e-14
+      },
+      "R25": {
+        "kind": "resistor",
+        "heat_W": 1.1650457283774896e-07,
+        "resistance_ohm": 2910000.0
+      },
+      "R26": {
+        "kind": "resistor",
+        "heat_W": 7.024403169468542e-06,
+        "resistance_ohm": 208000.0
+      },
+      "R27": {
+        "kind": "resistor",
+        "heat_W": 4.449583433277363e-06,
+        "resistance_ohm": 291000.0
+      },
+      "R28": {
+        "kind": "resistor",
+        "heat_W": 6.697732150105071e-06,
+        "resistance_ohm": 583000.0
+      },
+      "C7": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 6.783246758713756e-18,
+        "mean_terminal_power_W": -6.408388960693436e-14,
+        "stored_charge_change_C": 9.399999942871773e-16,
+        "integrated_terminal_charge_C": 6.768412323767184e-14
+      },
+      "R29": {
+        "kind": "resistor",
+        "heat_W": 1.1650029722560894e-07,
+        "resistance_ohm": 2000000.0
+      },
+      "R30": {
+        "kind": "resistor",
+        "heat_W": 6.593806436604015e-06,
+        "resistance_ohm": 291000.0
+      },
+      "R31": {
+        "kind": "resistor",
+        "heat_W": 3.105192237232411e-06,
+        "resistance_ohm": 229000.0
+      },
+      "R32": {
+        "kind": "resistor",
+        "heat_W": 7.821082420688545e-06,
+        "resistance_ohm": 459000.0
+      },
+      "C8": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 2.449299484781067e-19,
+        "mean_terminal_power_W": -7.88738056321709e-14,
+        "stored_charge_change_C": -3.383999998708004e-17,
+        "integrated_terminal_charge_C": 2.287359643027131e-14
+      },
+      "R33": {
+        "kind": "resistor",
+        "heat_W": 1.1650359446298858e-07,
+        "resistance_ohm": 2000000.0
+      },
+      "R34": {
+        "kind": "resistor",
+        "heat_W": 8.068140174693508e-06,
+        "resistance_ohm": 291000.0
+      },
+      "R35": {
+        "kind": "resistor",
+        "heat_W": 3.4525089854233363e-06,
+        "resistance_ohm": 229000.0
+      },
+      "R36": {
+        "kind": "resistor",
+        "heat_W": 6.616856598679985e-06,
+        "resistance_ohm": 459000.0
+      },
+      "C9": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": -1.0202456938961369e-17,
+        "mean_terminal_power_W": -1.7577050718679397e-13,
+        "stored_charge_change_C": -1.410000012302959e-15,
+        "integrated_terminal_charge_C": 1.112541252157838e-13
+      },
+      "R37": {
+        "kind": "resistor",
+        "heat_W": 1.1650540323774088e-07,
+        "resistance_ohm": 2430000.0
+      },
+      "R38": {
+        "kind": "resistor",
+        "heat_W": 6.20462472830801e-06,
+        "resistance_ohm": 240000.0
+      },
+      "R39": {
+        "kind": "resistor",
+        "heat_W": 3.349908870810945e-06,
+        "resistance_ohm": 258000.0
+      },
+      "R40": {
+        "kind": "resistor",
+        "heat_W": 7.899736242566944e-06,
+        "resistance_ohm": 511000.0
+      },
+      "C10": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 1.2371595280315881e-17,
+        "mean_terminal_power_W": -3.381211770545187e-14,
+        "stored_charge_change_C": -1.7390766827059257e-15,
+        "integrated_terminal_charge_C": 9.377618946060612e-14
+      },
+      "R41": {
+        "kind": "resistor",
+        "heat_W": 1.1649606486334243e-07,
+        "resistance_ohm": 1370000.0
+      },
+      "R42": {
+        "kind": "resistor",
+        "heat_W": 8.051313182268244e-06,
+        "resistance_ohm": 470000.0
+      },
+      "R43": {
+        "kind": "resistor",
+        "heat_W": 3.1222189025104366e-06,
+        "resistance_ohm": 237000.0
+      },
+      "R44": {
+        "kind": "resistor",
+        "heat_W": 6.325750728541063e-06,
+        "resistance_ohm": 274000.0
+      },
+      "C11": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 6.806868958690962e-18,
+        "mean_terminal_power_W": -3.3921636406301877e-13,
+        "stored_charge_change_C": 9.399999942871773e-16,
+        "integrated_terminal_charge_C": 1.5902346685695157e-13
+      },
+      "R45": {
+        "kind": "resistor",
+        "heat_W": 2.2048109584093102e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R46": {
+        "kind": "resistor",
+        "heat_W": 2.3286435820514098e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R47": {
+        "kind": "resistor",
+        "heat_W": 2.159217440042807e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R48": {
+        "kind": "resistor",
+        "heat_W": 2.380036784475819e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R49": {
+        "kind": "resistor",
+        "heat_W": 2.1362542498071167e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R50": {
+        "kind": "resistor",
+        "heat_W": 2.3897473758069723e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R51": {
+        "kind": "resistor",
+        "heat_W": 2.114409363053966e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R52": {
+        "kind": "resistor",
+        "heat_W": 2.4115638589054794e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R53": {
+        "kind": "resistor",
+        "heat_W": 2.114424383940856e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R54": {
+        "kind": "resistor",
+        "heat_W": 2.401873691127819e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R55": {
+        "kind": "resistor",
+        "heat_W": 2.1419070619793004e-06,
+        "resistance_ohm": 1000000.0
+      },
+      "R56": {
+        "kind": "resistor",
+        "heat_W": 2.2499999786216932e-05,
+        "resistance_ohm": 100000.0
+      },
+      "R57": {
+        "kind": "resistor",
+        "heat_W": 2.2500000214797796e-05,
+        "resistance_ohm": 100000.0
+      },
+      "R58": {
+        "kind": "resistor",
+        "heat_W": 4.49679555506498e-05,
+        "resistance_ohm": 15000.0
+      },
+      "R59": {
+        "kind": "resistor",
+        "heat_W": 3.809550141927625e-05,
+        "resistance_ohm": 15000.0
+      },
+      "D1": {
+        "kind": "generic_LED",
+        "heat_W": 6.620970560509063e-05,
+        "electrical_absorption_W": 6.620970560509063e-05,
+        "heat_fraction_assumption": 1.0,
+        "current_basis": "unique series resistor terminal current by KCL",
+        "reported_diode_current_minus_series_mean_A": 4.411137686275836e-13,
+        "reported_diode_current_minus_series_peak_abs_A": 1.6802923333333327e-07
+      },
+      "D2": {
+        "kind": "generic_LED",
+        "heat_W": 7.367732267447024e-05,
+        "electrical_absorption_W": 7.367732267447024e-05,
+        "heat_fraction_assumption": 1.0,
+        "current_basis": "unique series resistor terminal current by KCL",
+        "reported_diode_current_minus_series_mean_A": 5.749290107836054e-14,
+        "reported_diode_current_minus_series_peak_abs_A": 6.843413333333044e-08
+      },
+      "C12": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 0.0,
+        "mean_terminal_power_W": 7.84345778524915e-20,
+        "stored_charge_change_C": 0.0,
+        "integrated_terminal_charge_C": 9.583991806937233e-20
+      },
+      "C13": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 0.0,
+        "mean_terminal_power_W": 7.84345778524915e-20,
+        "stored_charge_change_C": 0.0,
+        "integrated_terminal_charge_C": 9.583991806937233e-20
+      },
+      "C14": {
+        "kind": "ideal_capacitor",
+        "heat_W": 0.0,
+        "actual_loss_unknown": true,
+        "stored_energy_change_J": 0.0,
+        "mean_terminal_power_W": 7.84345778524915e-20,
+        "stored_charge_change_C": 0.0,
+        "integrated_terminal_charge_C": 9.583991806937233e-20
+      }
+    },
+    "energy_balance": {
+      "cell_input_W": 0.0008372441781052753,
+      "total_part_heat_W": 0.0008372441790002694,
+      "external_capacitor_delta_energy_J": 2.866334762032189e-12,
+      "external_capacitor_storage_W": 7.819280371295252e-13,
+      "external_capacitor_terminal_power_W": -2.3272071502049864e-13,
+      "capacitor_integration_vs_endpoint_delta_W": -1.0146487521500238e-12,
+      "residual_W": -1.676922076946546e-12,
+      "residual_fraction_of_input": -2.0029068231223814e-09,
+      "net_opamp_input_power_W": 1.7705600273798977e-10,
+      "terminal_power_balance_residual_W": -6.622733247965222e-13,
+      "maximum_sampled_vbat_kcl_residual_A": 1.3209479083481357e-12,
+      "maximum_sampled_gnd_kcl_residual_A": 5.271100670791525e-07,
+      "mean_raw_gnd_kcl_residual_A": 5.827326597606193e-11,
+      "maximum_sampled_gnd_kcl_residual_after_global_ground_assignment_A": 1.2754499604909764e-12
+    },
+    "pi_pad_loads": [
+      {
+        "ref": "U1",
+        "pin": "4",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 4.941771953477701e-05,
+        "output_high_mean_A": 4.931890224634054e-05,
+        "output_low_mean_A": 4.950054830202984e-05,
+        "minimum_A": 4.29172041e-05,
+        "maximum_A": 5.60898958e-05,
+        "conservative_positive_peak_A": 5.60898958e-05,
+        "at_settled_cell_peak_A": 5.0983445500000005e-05,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.941771953477701e-05
+      },
+      {
+        "ref": "U1",
+        "pin": "11",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 4.889056466097241e-05,
+        "output_high_mean_A": 4.86239813135539e-05,
+        "output_low_mean_A": 4.911400700219365e-05,
+        "minimum_A": 4.5382140851411135e-05,
+        "maximum_A": 5.4608777617970466e-05,
+        "conservative_positive_peak_A": 5.4608777617970466e-05,
+        "at_settled_cell_peak_A": 4.786080884381799e-05,
+        "ground_assignment": "measured VEE plus inferred global-0 model return",
+        "raw_mean_A": 4.889054643456372e-05
+      },
+      {
+        "ref": "U2",
+        "pin": "4",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 4.830606245981004e-05,
+        "output_high_mean_A": 4.842450602870183e-05,
+        "output_low_mean_A": 4.820678584069054e-05,
+        "minimum_A": 4.32705666e-05,
+        "maximum_A": 5.37561346e-05,
+        "conservative_positive_peak_A": 5.37561346e-05,
+        "at_settled_cell_peak_A": 4.93949096e-05,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.830606245981004e-05
+      },
+      {
+        "ref": "U2",
+        "pin": "11",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 5.249522445689346e-05,
+        "output_high_mean_A": 5.1674538799161496e-05,
+        "output_low_mean_A": 5.3183106303421614e-05,
+        "minimum_A": 4.591873997662873e-05,
+        "maximum_A": 6.004030993037191e-05,
+        "conservative_positive_peak_A": 6.004030993037191e-05,
+        "at_settled_cell_peak_A": 5.2714900594802676e-05,
+        "ground_assignment": "measured VEE plus inferred global-0 model return",
+        "raw_mean_A": 5.2495203884841984e-05
+      },
+      {
+        "ref": "U3",
+        "pin": "4",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 8.374425331752016e-05,
+        "output_high_mean_A": 0.00012933269035351208,
+        "output_low_mean_A": 4.5532989944519354e-05,
+        "minimum_A": 4.36630695e-05,
+        "maximum_A": 0.00013296238339999999,
+        "conservative_positive_peak_A": 0.00013296238339999999,
+        "at_settled_cell_peak_A": 0.0001273065832,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 8.374425331752016e-05
+      },
+      {
+        "ref": "U3",
+        "pin": "11",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 8.575152375903908e-05,
+        "output_high_mean_A": 4.7443645990521607e-05,
+        "output_low_mean_A": 0.00011786058216744381,
+        "minimum_A": 4.405063308382401e-05,
+        "maximum_A": 0.00012169951009903085,
+        "conservative_positive_peak_A": 0.00012169951009903085,
+        "at_settled_cell_peak_A": 5.329393601519368e-05,
+        "ground_assignment": "measured VEE plus inferred global-0 model return",
+        "raw_mean_A": 8.575150412698432e-05
+      },
+      {
+        "ref": "R2",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 1.2973231968425345e-06,
+        "output_high_mean_A": 1.2841258847673026e-06,
+        "output_low_mean_A": 1.30838498552526e-06,
+        "minimum_A": 1.20723580657277e-06,
+        "maximum_A": 1.3424464309859156e-06,
+        "conservative_positive_peak_A": 1.3424464309859156e-06,
+        "at_settled_cell_peak_A": 1.3424449596244132e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 1.2973231968425345e-06
+      },
+      {
+        "ref": "R4",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 2.023090519020523e-06,
+        "output_high_mean_A": 2.2633492773132086e-06,
+        "output_low_mean_A": 1.8217092378734701e-06,
+        "minimum_A": 1.2016162564102563e-06,
+        "maximum_A": 3.6631430085470087e-06,
+        "conservative_positive_peak_A": 3.6631430085470087e-06,
+        "at_settled_cell_peak_A": 1.2016430427350428e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.023090519020523e-06
+      },
+      {
+        "ref": "C1",
+        "pin": "2",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 2.7499060428307615e-13,
+        "output_high_mean_A": -5.337590147470826e-08,
+        "output_low_mean_A": 4.473928578294174e-08,
+        "minimum_A": -4.31230519e-07,
+        "maximum_A": 4.27449357e-07,
+        "conservative_positive_peak_A": 4.27449357e-07,
+        "at_settled_cell_peak_A": -7.26140031e-09,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.7499060428307615e-13
+      },
+      {
+        "ref": "R6",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 3.3085965107268138e-06,
+        "output_high_mean_A": 3.445103756171772e-06,
+        "output_low_mean_A": 3.194176516230151e-06,
+        "minimum_A": 1.9904087123287664e-06,
+        "maximum_A": 5.971235726027397e-06,
+        "conservative_positive_peak_A": 5.971235726027397e-06,
+        "at_settled_cell_peak_A": 1.9904585753424664e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.3085965107268138e-06
+      },
+      {
+        "ref": "R8",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 4.35039386792406e-06,
+        "output_high_mean_A": 4.229459050964329e-06,
+        "output_low_mean_A": 4.45176109605824e-06,
+        "minimum_A": 1.9915023300970874e-06,
+        "maximum_A": 5.518205873786409e-06,
+        "conservative_positive_peak_A": 5.518205873786409e-06,
+        "at_settled_cell_peak_A": 5.518161699029126e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.35039386792406e-06
+      },
+      {
+        "ref": "C2",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": -6.678732405358259e-14,
+        "output_high_mean_A": 4.5610040959467454e-08,
+        "output_low_mean_A": -3.8229310027123534e-08,
+        "minimum_A": -1.82615921e-06,
+        "maximum_A": 1.82579613e-06,
+        "conservative_positive_peak_A": 1.82579613e-06,
+        "at_settled_cell_peak_A": -5.16732155e-13,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": -6.678732405358259e-14
+      },
+      {
+        "ref": "R10",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 5.507536337439646e-06,
+        "output_high_mean_A": 4.6921260705433524e-06,
+        "output_low_mean_A": 6.190999590385209e-06,
+        "minimum_A": 2.464152252747252e-06,
+        "maximum_A": 7.447996868131868e-06,
+        "conservative_positive_peak_A": 7.447996868131868e-06,
+        "at_settled_cell_peak_A": 7.447957417582418e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 5.507536337439646e-06
+      },
+      {
+        "ref": "R12",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 3.0039524610315556e-06,
+        "output_high_mean_A": 3.22711737618212e-06,
+        "output_low_mean_A": 2.8168993602254013e-06,
+        "minimum_A": 2.472879052631579e-06,
+        "maximum_A": 3.836878631578948e-06,
+        "conservative_positive_peak_A": 3.836878631578948e-06,
+        "at_settled_cell_peak_A": 2.47288984962406e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.0039524610315556e-06
+      },
+      {
+        "ref": "C3",
+        "pin": "2",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 9.563384414832627e-15,
+        "output_high_mean_A": -4.777540550947663e-08,
+        "output_low_mean_A": 4.0044336549820944e-08,
+        "minimum_A": -8.55652006e-07,
+        "maximum_A": 8.56208887e-07,
+        "conservative_positive_peak_A": 8.56208887e-07,
+        "at_settled_cell_peak_A": -6.53625082e-10,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 9.563384414832627e-15
+      },
+      {
+        "ref": "R14",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 3.370526560805456e-06,
+        "output_high_mean_A": 3.7310853166798264e-06,
+        "output_low_mean_A": 3.068311759470604e-06,
+        "minimum_A": 2.0629465105386415e-06,
+        "maximum_A": 5.384770536299765e-06,
+        "conservative_positive_peak_A": 5.384770536299765e-06,
+        "at_settled_cell_peak_A": 2.062987213114754e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.370526560805456e-06
+      },
+      {
+        "ref": "R16",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 4.590544583929619e-06,
+        "output_high_mean_A": 4.137725205228571e-06,
+        "output_low_mean_A": 4.970090819723683e-06,
+        "minimum_A": 2.060891120588235e-06,
+        "maximum_A": 6.232711294117647e-06,
+        "conservative_positive_peak_A": 6.232711294117647e-06,
+        "at_settled_cell_peak_A": 6.232660176470588e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.590544583929619e-06
+      },
+      {
+        "ref": "C4",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 2.1773693323458536e-14,
+        "output_high_mean_A": 4.637900173274042e-08,
+        "output_low_mean_A": -3.8873917760077906e-08,
+        "minimum_A": -2.04958946e-06,
+        "maximum_A": 2.04971384e-06,
+        "conservative_positive_peak_A": 2.04971384e-06,
+        "at_settled_cell_peak_A": -6.98690937e-12,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.1773693323458536e-14
+      },
+      {
+        "ref": "R18",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 5.272402996839771e-06,
+        "output_high_mean_A": 4.314317382950537e-06,
+        "output_low_mean_A": 6.075453766005935e-06,
+        "minimum_A": 2.4345448333333333e-06,
+        "maximum_A": 7.303199166666667e-06,
+        "conservative_positive_peak_A": 7.303199166666667e-06,
+        "at_settled_cell_peak_A": 7.303158458333333e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 5.272402996839771e-06
+      },
+      {
+        "ref": "R20",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 3.394566107159403e-06,
+        "output_high_mean_A": 3.844547608790354e-06,
+        "output_low_mean_A": 3.017399405398386e-06,
+        "minimum_A": 2.440767514677104e-06,
+        "maximum_A": 4.7274153424657536e-06,
+        "conservative_positive_peak_A": 4.7274153424657536e-06,
+        "at_settled_cell_peak_A": 2.4407866340508804e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.394566107159403e-06
+      },
+      {
+        "ref": "C5",
+        "pin": "2",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": -2.260146177336965e-14,
+        "output_high_mean_A": -4.598194063896199e-08,
+        "output_low_mean_A": 3.854109786332717e-08,
+        "minimum_A": -1.24016704e-06,
+        "maximum_A": 1.24017334e-06,
+        "conservative_positive_peak_A": 1.24017334e-06,
+        "at_settled_cell_peak_A": -1.42347699e-09,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": -2.260146177336965e-14
+      },
+      {
+        "ref": "R22",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 4.0765984882432624e-06,
+        "output_high_mean_A": 4.63210900902482e-06,
+        "output_low_mean_A": 3.6109783144785217e-06,
+        "minimum_A": 2.2391745704467357e-06,
+        "maximum_A": 6.771086632302405e-06,
+        "conservative_positive_peak_A": 6.771086632302405e-06,
+        "at_settled_cell_peak_A": 2.239214261168385e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.0765984882432624e-06
+      },
+      {
+        "ref": "R24",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 3.9514375597412e-06,
+        "output_high_mean_A": 3.5992511511411275e-06,
+        "output_low_mean_A": 4.246634663369825e-06,
+        "minimum_A": 2.2431672984749455e-06,
+        "maximum_A": 5.116340305010893e-06,
+        "conservative_positive_peak_A": 5.116340305010893e-06,
+        "at_settled_cell_peak_A": 5.1163151416122e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.9514375597412e-06
+      },
+      {
+        "ref": "C6",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 1.3514771609003287e-14,
+        "output_high_mean_A": 4.429616196743493e-08,
+        "output_low_mean_A": -3.712811705921554e-08,
+        "minimum_A": -1.50668698e-06,
+        "maximum_A": 1.50671869e-06,
+        "conservative_positive_peak_A": 1.50671869e-06,
+        "at_settled_cell_peak_A": -2.9447347e-09,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 1.3514771609003287e-14
+      },
+      {
+        "ref": "R26",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 5.253443922867148e-06,
+        "output_high_mean_A": 4.111516024740663e-06,
+        "output_low_mean_A": 6.21058747339106e-06,
+        "minimum_A": 2.4719526442307686e-06,
+        "maximum_A": 7.472714759615384e-06,
+        "conservative_positive_peak_A": 7.472714759615384e-06,
+        "at_settled_cell_peak_A": 7.472653942307692e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 5.253443922867148e-06
+      },
+      {
+        "ref": "R28",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 3.2714985661125783e-06,
+        "output_high_mean_A": 3.6789102347408956e-06,
+        "output_low_mean_A": 2.9300133885671688e-06,
+        "minimum_A": 2.4797175471698114e-06,
+        "maximum_A": 4.263865951972556e-06,
+        "conservative_positive_peak_A": 4.263865951972556e-06,
+        "at_settled_cell_peak_A": 2.479739245283019e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.2714985661125783e-06
+      },
+      {
+        "ref": "C7",
+        "pin": "2",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": -1.8464037881794106e-14,
+        "output_high_mean_A": -4.3102029469131643e-08,
+        "output_low_mean_A": 3.612717888142284e-08,
+        "minimum_A": -1.03562665e-06,
+        "maximum_A": 1.03564097e-06,
+        "conservative_positive_peak_A": 1.03564097e-06,
+        "at_settled_cell_peak_A": -2.97524725e-08,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": -1.8464037881794106e-14
+      },
+      {
+        "ref": "R30",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 4.197549164923096e-06,
+        "output_high_mean_A": 4.8959748924073985e-06,
+        "output_low_mean_A": 3.6121405404323275e-06,
+        "minimum_A": 2.2391580068728522e-06,
+        "maximum_A": 6.771095360824742e-06,
+        "conservative_positive_peak_A": 6.771095360824742e-06,
+        "at_settled_cell_peak_A": 2.2392148109965633e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.197549164923096e-06
+      },
+      {
+        "ref": "R32",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 3.8747564117807815e-06,
+        "output_high_mean_A": 3.431963630303807e-06,
+        "output_low_mean_A": 4.2458978273076095e-06,
+        "minimum_A": 2.2431617647058827e-06,
+        "maximum_A": 5.116350806100218e-06,
+        "conservative_positive_peak_A": 5.116350806100218e-06,
+        "at_settled_cell_peak_A": 5.1163147930283225e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.8747564117807815e-06
+      },
+      {
+        "ref": "C8",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 6.239852579582994e-15,
+        "output_high_mean_A": 4.816254334787899e-08,
+        "output_low_mean_A": -4.0368825583771206e-08,
+        "minimum_A": -1.50667056e-06,
+        "maximum_A": 1.50672427e-06,
+        "conservative_positive_peak_A": 1.50672427e-06,
+        "at_settled_cell_peak_A": -1.11735653e-07,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 6.239852579582994e-15
+      },
+      {
+        "ref": "R34",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 4.759846284101774e-06,
+        "output_high_mean_A": 3.7250170168574873e-06,
+        "output_low_mean_A": 5.627221858491408e-06,
+        "minimum_A": 2.2391752577319593e-06,
+        "maximum_A": 6.77107941580756e-06,
+        "conservative_positive_peak_A": 6.77107941580756e-06,
+        "at_settled_cell_peak_A": 6.7299958075601375e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.759846284101774e-06
+      },
+      {
+        "ref": "R36",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 3.51826738851064e-06,
+        "output_high_mean_A": 4.174335616763553e-06,
+        "output_low_mean_A": 2.9683626125904143e-06,
+        "minimum_A": 2.2431718736383443e-06,
+        "maximum_A": 5.116339869281046e-06,
+        "conservative_positive_peak_A": 5.116339869281046e-06,
+        "at_settled_cell_peak_A": 2.2692183442265795e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.51826738851064e-06
+      },
+      {
+        "ref": "C9",
+        "pin": "2",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": -3.034981151010557e-14,
+        "output_high_mean_A": -4.363268665164155e-08,
+        "output_low_mean_A": 3.657203358117805e-08,
+        "minimum_A": -1.50672698e-06,
+        "maximum_A": 1.50670641e-06,
+        "conservative_positive_peak_A": 1.50670641e-06,
+        "at_settled_cell_peak_A": -3.14965652e-07,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": -3.034981151010557e-14
+      },
+      {
+        "ref": "R38",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 4.480794940862648e-06,
+        "output_high_mean_A": 5.162951107411477e-06,
+        "output_low_mean_A": 3.909022713806329e-06,
+        "minimum_A": 2.434545208333333e-06,
+        "maximum_A": 7.303197625e-06,
+        "conservative_positive_peak_A": 7.303197625e-06,
+        "at_settled_cell_peak_A": 7.303163916666667e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.480794940862648e-06
+      },
+      {
+        "ref": "R40",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 3.7663585404950374e-06,
+        "output_high_mean_A": 3.4459720826247472e-06,
+        "output_low_mean_A": 4.034901269445169e-06,
+        "minimum_A": 2.4407682387475538e-06,
+        "maximum_A": 4.727415166340509e-06,
+        "conservative_positive_peak_A": 4.727415166340509e-06,
+        "at_settled_cell_peak_A": 2.4407840704500977e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.7663585404950374e-06
+      },
+      {
+        "ref": "C10",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 2.5581879941487015e-14,
+        "output_high_mean_A": 5.712105269497595e-08,
+        "output_low_mean_A": -4.7877653045056567e-08,
+        "minimum_A": -1.24015507e-06,
+        "maximum_A": 1.24016684e-06,
+        "conservative_positive_peak_A": 1.24016684e-06,
+        "at_settled_cell_peak_A": -1.23346227e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.5581879941487015e-14
+      },
+      {
+        "ref": "R42",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 3.918745211363768e-06,
+        "output_high_mean_A": 3.4079313977509852e-06,
+        "output_low_mean_A": 4.346900641603894e-06,
+        "minimum_A": 2.323794063829787e-06,
+        "maximum_A": 5.030992391489361e-06,
+        "conservative_positive_peak_A": 5.030992391489361e-06,
+        "at_settled_cell_peak_A": 2.323816340425532e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.918745211363768e-06
+      },
+      {
+        "ref": "R44",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 4.226969892916165e-06,
+        "output_high_mean_A": 5.103183368821302e-06,
+        "output_low_mean_A": 3.4925426950590145e-06,
+        "minimum_A": 2.3191006423357668e-06,
+        "maximum_A": 6.962835e-06,
+        "conservative_positive_peak_A": 6.962835e-06,
+        "at_settled_cell_peak_A": 6.962796788321168e-06,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 4.226969892916165e-06
+      },
+      {
+        "ref": "C11",
+        "pin": "2",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": -4.338115315212852e-14,
+        "output_high_mean_A": -4.2480016001490426e-08,
+        "output_low_mean_A": 3.5605807947450175e-08,
+        "minimum_A": -2.19928112e-06,
+        "maximum_A": 2.19921199e-06,
+        "conservative_positive_peak_A": 2.19921199e-06,
+        "at_settled_cell_peak_A": 5.5173734e-13,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": -4.338115315212852e-14
+      },
+      {
+        "ref": "R56",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 1.4999999928569856e-05,
+        "output_high_mean_A": 1.5000000378904316e-05,
+        "output_low_mean_A": 1.4999999551107926e-05,
+        "minimum_A": 1.49844744e-05,
+        "maximum_A": 1.50155553e-05,
+        "conservative_positive_peak_A": 1.50155553e-05,
+        "at_settled_cell_peak_A": 1.50024306e-05,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 1.4999999928569856e-05
+      },
+      {
+        "ref": "R57",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 1.5000000071430145e-05,
+        "output_high_mean_A": 1.4999999621095683e-05,
+        "output_low_mean_A": 1.500000044889207e-05,
+        "minimum_A": 1.49844447e-05,
+        "maximum_A": 1.5015525599999998e-05,
+        "conservative_positive_peak_A": 1.5015525599999998e-05,
+        "at_settled_cell_peak_A": 1.4997569399999998e-05,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 1.5000000071430145e-05
+      },
+      {
+        "ref": "R59",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 3.716999382455834e-05,
+        "output_high_mean_A": 3.935994240077033e-15,
+        "output_low_mean_A": 6.832529921593169e-05,
+        "minimum_A": 0.0,
+        "maximum_A": 6.832934599999999e-05,
+        "conservative_positive_peak_A": 6.832934599999999e-05,
+        "at_settled_cell_peak_A": 0.0,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.716999382455834e-05
+      },
+      {
+        "ref": "D1",
+        "pin": "1",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 3.697224401172776e-05,
+        "output_high_mean_A": 8.108245990689895e-05,
+        "output_low_mean_A": 1.7657794069841313e-13,
+        "minimum_A": -7.333333361854896e-15,
+        "maximum_A": 8.108766600000003e-05,
+        "conservative_positive_peak_A": 8.108766600000003e-05,
+        "at_settled_cell_peak_A": 8.1018004e-05,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 3.697224401172776e-05
+      },
+      {
+        "ref": "C12",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 2.6144859284163837e-20,
+        "output_high_mean_A": 2.839436808304793e-20,
+        "output_low_mean_A": 2.4175577250475696e-20,
+        "minimum_A": -7.7532216e-13,
+        "maximum_A": 7.0418079e-13,
+        "conservative_positive_peak_A": 7.0418079e-13,
+        "at_settled_cell_peak_A": 4.69794362e-15,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.6144859284163837e-20
+      },
+      {
+        "ref": "C12",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 2.6144859284163837e-20,
+        "output_high_mean_A": 2.839436808304793e-20,
+        "output_low_mean_A": 2.4175577250475696e-20,
+        "minimum_A": -7.7532216e-13,
+        "maximum_A": 7.0418079e-13,
+        "conservative_positive_peak_A": 7.0418079e-13,
+        "at_settled_cell_peak_A": 4.69794362e-15,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.6144859284163837e-20
+      },
+      {
+        "ref": "C13",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 2.6144859284163837e-20,
+        "output_high_mean_A": 2.839436808304793e-20,
+        "output_low_mean_A": 2.4175577250475696e-20,
+        "minimum_A": -7.7532216e-13,
+        "maximum_A": 7.0418079e-13,
+        "conservative_positive_peak_A": 7.0418079e-13,
+        "at_settled_cell_peak_A": 4.69794362e-15,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.6144859284163837e-20
+      },
+      {
+        "ref": "C13",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 2.6144859284163837e-20,
+        "output_high_mean_A": 2.839436808304793e-20,
+        "output_low_mean_A": 2.4175577250475696e-20,
+        "minimum_A": -7.7532216e-13,
+        "maximum_A": 7.0418079e-13,
+        "conservative_positive_peak_A": 7.0418079e-13,
+        "at_settled_cell_peak_A": 4.69794362e-15,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.6144859284163837e-20
+      },
+      {
+        "ref": "C14",
+        "pin": "1",
+        "native_net": "/VBAT",
+        "rail": "VBAT",
+        "sign": "positive draw from VBAT",
+        "mean_A": 2.6144859284163837e-20,
+        "output_high_mean_A": 2.839436808304793e-20,
+        "output_low_mean_A": 2.4175577250475696e-20,
+        "minimum_A": -7.7532216e-13,
+        "maximum_A": 7.0418079e-13,
+        "conservative_positive_peak_A": 7.0418079e-13,
+        "at_settled_cell_peak_A": 4.69794362e-15,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.6144859284163837e-20
+      },
+      {
+        "ref": "C14",
+        "pin": "2",
+        "native_net": "/GND",
+        "rail": "GND",
+        "sign": "positive return into GND",
+        "mean_A": 2.6144859284163837e-20,
+        "output_high_mean_A": 2.839436808304793e-20,
+        "output_low_mean_A": 2.4175577250475696e-20,
+        "minimum_A": -7.7532216e-13,
+        "maximum_A": 7.0418079e-13,
+        "conservative_positive_peak_A": 7.0418079e-13,
+        "at_settled_cell_peak_A": 4.69794362e-15,
+        "ground_assignment": "direct passive or supply terminal",
+        "raw_mean_A": 2.6144859284163837e-20
+      }
+    ],
+    "decoded": "hello world",
+    "pulse_widths_s": [
+      0.11024335537410757,
+      0.08496914560575775,
+      0.1436340646857488,
+      0.14365469171331213,
+      0.18684553450328067,
+      0.05166794771476013,
+      0.31355440980251714,
+      0.18683211053259186,
+      0.24097834469178459,
+      0.14365021645767584,
+      0.06548366714098108
+    ]
+  },
+  "adjacent_complete_frames": [
+    {
+      "window": {
+        "start_s": 4.656710256322311,
+        "end_s": 8.322450867608948,
+        "duration_s": 3.665740611286637
+      },
+      "cell": {
+        "mean_A": 0.000279081280143163,
+        "rms_A": 0.0002791493827595068,
+        "minimum_sampled_A": 0.000201399123,
+        "peak_sampled_A": 0.000290786788,
+        "peak_sample_time_s": 7.16823488,
+        "electrical_power_W": 0.000837243840429489,
+        "charge_C": 0.0010230395824706554
+      },
+      "energy_balance": {
+        "cell_input_W": 0.000837243840429489,
+        "total_part_heat_W": 0.0008372438419836494,
+        "external_capacitor_delta_energy_J": 1.4899980205835326e-13,
+        "external_capacitor_storage_W": 4.064657537404314e-14,
+        "external_capacitor_terminal_power_W": -8.697964291246378e-13,
+        "capacitor_integration_vs_endpoint_delta_W": -9.10443004498681e-13,
+        "residual_W": -1.5948069131248972e-12,
+        "residual_fraction_of_input": -1.9048296757928892e-09,
+        "net_opamp_input_power_W": 1.7706872450918434e-10,
+        "terminal_power_balance_residual_W": -6.843639086262161e-13,
+        "maximum_sampled_vbat_kcl_residual_A": 1.114199065042204e-12,
+        "maximum_sampled_gnd_kcl_residual_A": 5.27329911759048e-07,
+        "mean_raw_gnd_kcl_residual_A": 5.827439170919262e-11,
+        "maximum_sampled_gnd_kcl_residual_after_global_ground_assignment_A": 1.3183432481540108e-12
+      }
+    },
+    {
+      "window": {
+        "start_s": 8.322450867608948,
+        "end_s": 11.988177924224754,
+        "duration_s": 3.665727056615806
+      },
+      "cell": {
+        "mean_A": 0.00027908139270175846,
+        "rms_A": 0.00027914949378453943,
+        "minimum_sampled_A": 0.000201350346,
+        "peak_sampled_A": 0.000290788378,
+        "peak_sample_time_s": 10.8339276,
+        "electrical_power_W": 0.0008372441781052753,
+        "charge_C": 0.0010230362122248568,
+        "supply_ramp_peak_sampled_A": 0.00117410868,
+        "startup_to_first_accepted_frame_peak_sampled_A": 0.00117410868,
+        "startup_window_end_s": 4.656710256322311,
+        "series_resistance_scenarios": [
+          {
+            "resistance_ohm": 0,
+            "mean_internal_heat_W": 0.0,
+            "mean_voltage_drop_V": 0.0,
+            "settled_peak_voltage_drop_V": 0.0,
+            "startup_peak_voltage_drop_V": 0.0,
+            "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+          },
+          {
+            "resistance_ohm": 10,
+            "mean_internal_heat_W": 7.792443988016462e-07,
+            "mean_voltage_drop_V": 0.0027908139270175847,
+            "settled_peak_voltage_drop_V": 0.00290788378,
+            "startup_peak_voltage_drop_V": 0.0117410868,
+            "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+          },
+          {
+            "resistance_ohm": 20,
+            "mean_internal_heat_W": 1.5584887976032923e-06,
+            "mean_voltage_drop_V": 0.0055816278540351694,
+            "settled_peak_voltage_drop_V": 0.00581576756,
+            "startup_peak_voltage_drop_V": 0.0234821736,
+            "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+          },
+          {
+            "resistance_ohm": 30,
+            "mean_internal_heat_W": 2.3377331964049387e-06,
+            "mean_voltage_drop_V": 0.008372441781052753,
+            "settled_peak_voltage_drop_V": 0.00872365134,
+            "startup_peak_voltage_drop_V": 0.0352232604,
+            "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+          },
+          {
+            "resistance_ohm": 50,
+            "mean_internal_heat_W": 3.8962219940082315e-06,
+            "mean_voltage_drop_V": 0.013954069635087923,
+            "settled_peak_voltage_drop_V": 0.0145394189,
+            "startup_peak_voltage_drop_V": 0.058705434,
+            "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+          },
+          {
+            "resistance_ohm": 100,
+            "mean_internal_heat_W": 7.792443988016463e-06,
+            "mean_voltage_drop_V": 0.027908139270175845,
+            "settled_peak_voltage_drop_V": 0.0290788378,
+            "startup_peak_voltage_drop_V": 0.117410868,
+            "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+          }
+        ]
+      },
+      "energy_balance": {
+        "cell_input_W": 0.0008372441781052753,
+        "total_part_heat_W": 0.0008372441790002694,
+        "external_capacitor_delta_energy_J": 2.866334762032189e-12,
+        "external_capacitor_storage_W": 7.819280371295252e-13,
+        "external_capacitor_terminal_power_W": -2.3272071502049864e-13,
+        "capacitor_integration_vs_endpoint_delta_W": -1.0146487521500238e-12,
+        "residual_W": -1.676922076946546e-12,
+        "residual_fraction_of_input": -2.0029068231223814e-09,
+        "net_opamp_input_power_W": 1.7705600273798977e-10,
+        "terminal_power_balance_residual_W": -6.622733247965222e-13,
+        "maximum_sampled_vbat_kcl_residual_A": 1.3209479083481357e-12,
+        "maximum_sampled_gnd_kcl_residual_A": 5.271100670791525e-07,
+        "mean_raw_gnd_kcl_residual_A": 5.827326597606193e-11,
+        "maximum_sampled_gnd_kcl_residual_after_global_ground_assignment_A": 1.2754499604909764e-12
+      }
+    }
+  ],
+  "baseline_comparison": {
+    "evidence": "encoded-model/spice/summary.json",
+    "sha256": "e67973fc5420fb22eaa532a299508389407c6faef7b0a359ab1176c6369a157d",
+    "source_and_model_match": true,
+    "mean_current_delta_A": 9.187172642652688e-11,
+    "maximum_pulse_width_delta_s": 6.098266680076847e-05,
+    "prior_cases_applicability": "Nominal connectivity/values and macro identity match; prior results exclude layout parasitics just as this schematic simulation does."
+  },
+  "checks": {
+    "native_equivalence": {
+      "parts": 79,
+      "terminals": 194,
+      "pin_net_and_value_equivalence": true
+    },
+    "analytic_references": {
+      "status": "PASS",
+      "checks": [
+        "linear mean 2 A",
+        "linear-current mean-square 13/3 A^2",
+        "bilinear power mean 19/3 W",
+        "clipped interpolated endpoints"
+      ]
+    },
+    "complete_frames": 2,
+    "all_frames_decode": true,
+    "finite_samples": true,
+    "all_heat_nonnegative": true,
+    "energy_residual_below_0p1percent": true,
+    "rail_kcl_residual_below_10nA": false,
+    "gnd_reconstructed_closure_below_10nA": true
+  },
+  "limitations": [
+    "Actual Xyce transient using twelve external TI TLV9042 Rev B channel models as a family approximation for three TLV9044 packages; no package-specific or bench validation.",
+    "Ideal 3 V source, 1 ms linear ramp, zero initial capacitor voltage, no battery electrochemistry, ESR feedback, trace resistance, capacitor ESR/leakage, optical model or lifetime calculation.",
+    "LED electrical absorption is assigned 100% to board heat conservatively; generic red/green diode models are not exact selected part models.",
+    "Opamp heat is mean net electrical absorption across all five measured channel terminals; internal macro stored-energy change over a settled frame is treated as negligible, supported by adjacent-frame comparison.",
+    "Ideal capacitor heat is zero, while terminal power and endpoint stored-energy change are separately accounted; real dielectric/ESR losses remain unknown.",
+    "Terminal-current PI loads are derived from an equipotential schematic. A rail-only DC PI solve is a separate spatial screen, not a coupled nonlinear circuit solve.",
+    "Per-pad positive-peak envelopes are noncoincident conservative loads and must not be described as a simultaneous physical operating state.",
+    "Startup sampled peak applies to the specified source ramp and ideal initial state only; sampled maxima are not guaranteed continuous-time or hardware bounds.",
+    "Existing six-case evidence remains circuit-applicable only after native connectivity/value and source-spec identity checks; it is not re-run here.",
+    "Printed Xyce I(D1)/I(D2) differs transiently from the associated unique series-resistor terminal current. LED terminal current is reconstructed from R58/R59 by KCL; the measured printed-current discrepancy is retained. No unverified explanation of the reporting discrepancy is assumed.",
+    "The TI macro also connects internal elements to SPICE global 0. Physical GND pad currents include the inferred missing global-0 return, calculated per channel by KCL and assigned to that package GND pin. This reconstructed closure is algebraic, not an independent physical validation; the raw measured VEE-only KCL failure is retained.",
+    "Xyce ignores the macro R_NOISELESS T_ABS noise parameter and reports single-terminal internal node warnings and recovered timestep failures; logs are retained."
+  ],
+  "waveform": {
+    "file": "waveform.csv.gz",
+    "uncompressed_sha256": "51c58eac08a4da53de11bdb9cf3f82a540d2dee1f51731a20c9921c4e26a06da",
+    "uncompressed_bytes": 61483377,
+    "columns": [
+      "TIME",
+      "V(VBAT)",
+      "V(ENCODED_OUT)",
+      "V(MAJORITY_SUM)",
+      "V(MIDREF)",
+      "I(VBAT)",
+      "V(GREEN_A)",
+      "V(RED_A)",
+      "V(ST01_OUT)",
+      "V(ST01_TH)",
+      "V(ST01_TIMING)",
+      "V(ST02_OUT)",
+      "V(ST02_TH)",
+      "V(ST02_TIMING)",
+      "V(ST03_OUT)",
+      "V(ST03_TH)",
+      "V(ST03_TIMING)",
+      "V(ST04_OUT)",
+      "V(ST04_TH)",
+      "V(ST04_TIMING)",
+      "V(ST05_OUT)",
+      "V(ST05_TH)",
+      "V(ST05_TIMING)",
+      "V(ST06_OUT)",
+      "V(ST06_TH)",
+      "V(ST06_TIMING)",
+      "V(ST07_OUT)",
+      "V(ST07_TH)",
+      "V(ST07_TIMING)",
+      "V(ST08_OUT)",
+      "V(ST08_TH)",
+      "V(ST08_TIMING)",
+      "V(ST09_OUT)",
+      "V(ST09_TH)",
+      "V(ST09_TIMING)",
+      "V(ST10_OUT)",
+      "V(ST10_TH)",
+      "V(ST10_TIMING)",
+      "V(ST11_OUT)",
+      "V(ST11_TH)",
+      "V(ST11_TIMING)",
+      "I(VS_U1A_P)",
+      "I(VS_U1A_M)",
+      "I(VS_U1A_V)",
+      "I(VS_U1A_G)",
+      "I(VS_U1A_O)",
+      "I(VS_U1B_P)",
+      "I(VS_U1B_M)",
+      "I(VS_U1B_V)",
+      "I(VS_U1B_G)",
+      "I(VS_U1B_O)",
+      "I(VS_U1C_P)",
+      "I(VS_U1C_M)",
+      "I(VS_U1C_V)",
+      "I(VS_U1C_G)",
+      "I(VS_U1C_O)",
+      "I(VS_U1D_P)",
+      "I(VS_U1D_M)",
+      "I(VS_U1D_V)",
+      "I(VS_U1D_G)",
+      "I(VS_U1D_O)",
+      "I(VS_U2A_P)",
+      "I(VS_U2A_M)",
+      "I(VS_U2A_V)",
+      "I(VS_U2A_G)",
+      "I(VS_U2A_O)",
+      "I(VS_U2B_P)",
+      "I(VS_U2B_M)",
+      "I(VS_U2B_V)",
+      "I(VS_U2B_G)",
+      "I(VS_U2B_O)",
+      "I(VS_U2C_P)",
+      "I(VS_U2C_M)",
+      "I(VS_U2C_V)",
+      "I(VS_U2C_G)",
+      "I(VS_U2C_O)",
+      "I(VS_U2D_P)",
+      "I(VS_U2D_M)",
+      "I(VS_U2D_V)",
+      "I(VS_U2D_G)",
+      "I(VS_U2D_O)",
+      "I(VS_U3A_P)",
+      "I(VS_U3A_M)",
+      "I(VS_U3A_V)",
+      "I(VS_U3A_G)",
+      "I(VS_U3A_O)",
+      "I(VS_U3B_P)",
+      "I(VS_U3B_M)",
+      "I(VS_U3B_V)",
+      "I(VS_U3B_G)",
+      "I(VS_U3B_O)",
+      "I(VS_U3C_P)",
+      "I(VS_U3C_M)",
+      "I(VS_U3C_V)",
+      "I(VS_U3C_G)",
+      "I(VS_U3C_O)",
+      "I(VS_U3D_P)",
+      "I(VS_U3D_M)",
+      "I(VS_U3D_V)",
+      "I(VS_U3D_G)",
+      "I(VS_U3D_O)",
+      "I(C1)",
+      "I(C2)",
+      "I(C3)",
+      "I(C4)",
+      "I(C5)",
+      "I(C6)",
+      "I(C7)",
+      "I(C8)",
+      "I(C9)",
+      "I(C10)",
+      "I(C11)",
+      "I(D1)",
+      "I(D2)",
+      "I(C12)",
+      "I(C13)",
+      "I(C14)"
+    ],
+    "samples": 34179
+  },
+  "execution": {
+    "command": [
+      "D:\\xyce\\Xyce_7.8\\bin\\Xyce.exe",
+      "runtime/power.cir"
+    ],
+    "exit_code": 0,
+    "elapsed_s": 180.21821761131287,
+    "capacity_before_GiB": {
+      "C:/": 5.883495330810547,
+      "D:/": 184.58417129516602
+    },
+    "capacity_after_GiB": {
+      "C:/": 5.8834686279296875,
+      "D:/": 184.58416748046875
+    },
+    "peak_output_estimate_MiB": 150,
+    "concurrent_solvers": 1
+  },
+  "postprocessing": {
+    "previous_helper_sha256": "e5c7ecfdcee5bdb493e388b7583b7e01784168558b503fe3a90cdfc78bc95755",
+    "operation": "Assign inferred macro global-ground return to physical GND pins; preserve raw failed check",
+    "solver_rerun": false,
+    "original_measured_rail_check": false
+  },
+  "status": "qualified_model_accounting_with_explicit_global_ground_assignment"
+}

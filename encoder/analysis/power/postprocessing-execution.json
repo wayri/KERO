@@ -1,0 +1,47 @@
+{
+  "command": [
+    "C:\\Users\\yawar\\.codex\\worktrees\\saved-field-gradients\\kiWay\\.validation\\editor-series-roundtrip\\local\\WayriCAD\\runtimes\\d29d42708158db93a528\\Scripts\\python.exe",
+    "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/tools/analyze_encoder_power.py",
+    "--model",
+    "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/.git/encoded-simulation/vendor/tlv9042.lib",
+    "--xyce",
+    "D:/xyce/Xyce_7.8/bin/Xyce.exe",
+    "--postprocess-saved"
+  ],
+  "exit_code": 0,
+  "solver_rerun": false,
+  "compressed_waveform_verified": true,
+  "input_hashes_unchanged": true,
+  "analytic_references": {
+    "status": "PASS",
+    "checks": [
+      "linear mean 2 A",
+      "linear-current mean-square 13/3 A^2",
+      "bilinear power mean 19/3 W",
+      "clipped interpolated endpoints"
+    ]
+  },
+  "checks": {
+    "native_equivalence": {
+      "parts": 79,
+      "terminals": 194,
+      "pin_net_and_value_equivalence": true
+    },
+    "analytic_references": {
+      "status": "PASS",
+      "checks": [
+        "linear mean 2 A",
+        "linear-current mean-square 13/3 A^2",
+        "bilinear power mean 19/3 W",
+        "clipped interpolated endpoints"
+      ]
+    },
+    "complete_frames": 2,
+    "all_frames_decode": true,
+    "finite_samples": true,
+    "all_heat_nonnegative": true,
+    "energy_residual_below_0p1percent": true,
+    "rail_kcl_residual_below_10nA": false,
+    "gnd_reconstructed_closure_below_10nA": true
+  }
+}

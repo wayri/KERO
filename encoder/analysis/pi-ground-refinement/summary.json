@@ -1,0 +1,135 @@
+{
+  "schema": "kero.encoder-ground-pi-refinement/v1",
+  "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "source_report_sha256": "1e756cf831f47aa7b79f21f9c0d9357771546d9df202ce149c0215bc353faf90",
+  "producer_script_sha256": "9a1185876f64660e3538f0672ba14083626948cd00bde4478004bdcc986bcb0d",
+  "request": {
+    "action": "solve",
+    "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\Encoder.kicad_pcb",
+    "edge_mm": 0.05,
+    "max_cells": 100000,
+    "mesh_backend": "gmsh",
+    "net": "/GND",
+    "options": {
+      "ambient_c": 20.0,
+      "temperature_c": 20.0,
+      "temperature_limit_c": 105.0
+    },
+    "plating_mm": 0.025,
+    "sinks": [
+      {
+        "current_A": 4.889056466097241e-05,
+        "terminal": "U1.11"
+      },
+      {
+        "current_A": 5.249522445689346e-05,
+        "terminal": "U2.11"
+      },
+      {
+        "current_A": 8.575152375903908e-05,
+        "terminal": "U3.11"
+      },
+      {
+        "current_A": 2.023090519020523e-06,
+        "terminal": "R4.2"
+      },
+      {
+        "current_A": 4.35039386792406e-06,
+        "terminal": "R8.2"
+      },
+      {
+        "current_A": 3.0039524610315556e-06,
+        "terminal": "R12.2"
+      },
+      {
+        "current_A": 4.590544583929619e-06,
+        "terminal": "R16.2"
+      },
+      {
+        "current_A": 3.394566107159403e-06,
+        "terminal": "R20.2"
+      },
+      {
+        "current_A": 3.9514375597412e-06,
+        "terminal": "R24.2"
+      },
+      {
+        "current_A": 3.2714985661125783e-06,
+        "terminal": "R28.2"
+      },
+      {
+        "current_A": 3.8747564117807815e-06,
+        "terminal": "R32.2"
+      },
+      {
+        "current_A": 3.51826738851064e-06,
+        "terminal": "R36.2"
+      },
+      {
+        "current_A": 3.7663585404950374e-06,
+        "terminal": "R40.2"
+      },
+      {
+        "current_A": 4.226969892916165e-06,
+        "terminal": "R44.2"
+      },
+      {
+        "current_A": 1.5000000071430145e-05,
+        "terminal": "R57.2"
+      },
+      {
+        "current_A": 3.697224401172776e-05,
+        "terminal": "D1.1"
+      }
+    ],
+    "source_terminal": "BT1.2",
+    "source_voltage": 3.0,
+    "stackup_override": [
+      {
+        "name": "F.Cu",
+        "thickness_mm": 0.035,
+        "z_mm": 0.0175
+      },
+      {
+        "name": "B.Cu",
+        "thickness_mm": 0.035,
+        "z_mm": 1.5825
+      }
+    ]
+  },
+  "before": {
+    "voltage_drop_V": 1.1115763919318764e-05,
+    "conductor_power_W": 2.000506236379277e-09,
+    "source_current_A": 0.0002790813933931138,
+    "current_balance_error_A": 5.34429380090462e-13,
+    "energy_relative_error": 3.7018019951460243e-09,
+    "max_current_density_A_mm2": 0.05469454105869385,
+    "floating_nodes": 614,
+    "floating_triangles": 1154
+  },
+  "after": {
+    "voltage_drop_V": 1.113763149576384e-05,
+    "conductor_power_W": 2.0053779462538637e-09,
+    "source_current_A": 0.00027908139453427003,
+    "current_balance_error_A": 1.6755856142684766e-12,
+    "energy_relative_error": 6.202246947340816e-09,
+    "max_current_density_A_mm2": 0.05767340850957281,
+    "floating_nodes": 1239,
+    "floating_triangles": 2384
+  },
+  "native_load_receipt": {
+    "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\analysis\\pi-ground-refinement\\gnd-mean-reversed-0p05.quick-pi.results.json",
+    "relative_path": "analysis/pi-ground-refinement/gnd-mean-reversed-0p05.quick-pi.results.json",
+    "plugin": "quick-pi",
+    "identity": "75f59e11c9b3fef0f62a9043c14c3f2a22424c6e7beb0e88c1240ef067e9fb74",
+    "producer_version": "4.5.0",
+    "bytes": 30813001,
+    "sha256": "615e1326556b76f6a2546068648258ae695d1e65d03d5ece6105af651af82c45",
+    "source_state": "current",
+    "can_restore": true,
+    "source_path": "Encoder.kicad_pcb",
+    "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+    "source_issues": []
+  },
+  "scope": "Extra refinement tests the unresolved mean-load GND region; no source, circuit, terminal loads, or solver checks were altered."
+}
