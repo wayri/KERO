@@ -32,6 +32,13 @@
       "origin": "Installed KiCad 10.0.6 standard library"
     },
     {
+      "reference": "C3",
+      "model": "models\\C_Rect_L7.2mm_W4.5mm_P5.00mm.step",
+      "bytes": 18511,
+      "sha256": "9ce9dd453c1efbb857a5320981fd08f0fb1dbcadd2ee105ff9a507530805291a",
+      "origin": "Installed KiCad 10.0.6 standard library"
+    },
+    {
       "reference": "R1",
       "model": "models\\R_0603_1608Metric.step",
       "bytes": 40618,
@@ -81,13 +88,6 @@
       "origin": "Installed KiCad 10.0.6 standard library"
     },
     {
-      "reference": "C1",
-      "model": "models\\C_0805_2012Metric.step",
-      "bytes": 43618,
-      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
-      "origin": "Installed KiCad 10.0.6 standard library"
-    },
-    {
       "reference": "R3",
       "model": "models\\R_0603_1608Metric.step",
       "bytes": 40618,
@@ -117,8 +117,8 @@
     }
   ],
   "source_sha256": {
-    "KERO.kicad_sch": "1020609a115184ea9329fa36226858a660fae6d9d4fdff27cd086eaf756f8cff",
-    "KERO.kicad_pcb": "1b70b6d4fdffac63e020c04c7d76c10cd3722496c2c0cf50d6be441c32fb6cda",
+    "KERO.kicad_sch": "1b7049141da6ba6fa7413dc043ed129c30528bff330965dc43b04ea2e6a74372",
+    "KERO.kicad_pcb": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
     "KERO.kicad_pro": "a342616543b3e1d1e265dd4a028d3bf1c06607048dbca35b7dfcb8e594322b70",
     "Demo.kicad_sym": "412a880427945cfff84e88a89665a9ad34547d24dfe1fb4049255b090cac0d1f",
     "fp-lib-table": "ac64be31241bd9efba0d46a7406cc5019676bdf414bf61bde343c65c6e43aa59",
@@ -127,6 +127,7 @@
     "models\\CR2032_nominal.wrl": "8679a52dadd822449ffd21772c6257227df29ae2c95a30180d62abd88ca17987",
     "models\\C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
     "models\\C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "models\\C_Rect_L7.2mm_W4.5mm_P5.00mm.step": "9ce9dd453c1efbb857a5320981fd08f0fb1dbcadd2ee105ff9a507530805291a",
     "models\\LED_D5.0mm.step": "1ddce37d9fdbd2bcd7b2dbbe1ce0785aa691b0ececd3d047aa91e8028cdd99fc",
     "models\\LED_D5.0mm_green.step": "5e0cc678ad60895519595f1233de5e66db8cef83f7f6c4600085492eba328601",
     "models\\R_0603_1608Metric.step": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
@@ -135,6 +136,7 @@
     "Demo.pretty\\BatteryHolder_Keystone_1058_1x2032.kicad_mod": "fc46deec655ba4348cc85f82443b6cf2348824feb057b6bbdaaa12bb9b970075",
     "Demo.pretty\\C_0603_1608Metric.kicad_mod": "8237b34cfc5ae21970b0b07f928d6299fa965729e91185ed2e439b47201adaf4",
     "Demo.pretty\\C_0805_2012Metric.kicad_mod": "35c49cf04dfb560f2df97c25630db5544cd0be6370e6a17c93fc2498205a8561",
+    "Demo.pretty\\C_Rect_L7.2mm_W4.5mm_P5.00mm.kicad_mod": "c0c18f89788aa115ca5304431e0acd27026ddbcc572bba1a98ddb013962c0310",
     "Demo.pretty\\LED_D5.0mm.kicad_mod": "f4b45ceba0bef58d10a0324f9b6c9043e0bf2a083f267532a621a324c6b23a98",
     "Demo.pretty\\R_0603_1608Metric.kicad_mod": "f7e1a0b734a16db5c8d4c4da3f35584f848931b7087fbdb3b906a6bacaf9b30d",
     "Demo.pretty\\SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod": "7e96ac31bf806b490a32b219ed4def9dcf15977c4ab8c433573fc2f7bb9c1b14",

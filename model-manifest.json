@@ -21,6 +21,13 @@
     "origin": "Installed KiCad 10.0.6 standard library"
   },
   {
+    "reference": "C3",
+    "model": "models\\C_Rect_L7.2mm_W4.5mm_P5.00mm.step",
+    "bytes": 18511,
+    "sha256": "9ce9dd453c1efbb857a5320981fd08f0fb1dbcadd2ee105ff9a507530805291a",
+    "origin": "Installed KiCad 10.0.6 standard library"
+  },
+  {
     "reference": "R1",
     "model": "models\\R_0603_1608Metric.step",
     "bytes": 40618,
@@ -67,13 +74,6 @@
     "model": "models\\R_0603_1608Metric.step",
     "bytes": 40618,
     "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
-    "origin": "Installed KiCad 10.0.6 standard library"
-  },
-  {
-    "reference": "C1",
-    "model": "models\\C_0805_2012Metric.step",
-    "bytes": 43618,
-    "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
     "origin": "Installed KiCad 10.0.6 standard library"
   },
   {

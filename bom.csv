@@ -5,7 +5,6 @@ R2,1,402k,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 060
 R3,1,100k,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 0603",
 R4,1,300k,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 0603",
 R5,1,100k,Demo:R_0603_1608Metric,Generic,Select to specification,"1%, 0.1 W, 0603",
-C1,1,1u,Demo:C_0805_2012Metric,Generic,Select to specification,"10 V min, X7R, +/-10%, 0805; effective C affects frequency",
 C2,1,100n,Demo:C_0603_1608Metric,Generic,Select to specification,"10 V min, X7R, +/-10%, 0603",
 BT1,1,CR2032,Demo:BatteryHolder_Keystone_1058_1x2032,Keystone,1058,"Keystone 1058 holder; one CR2032, 3 V nominal",
 R6,1,4.7k,Demo:R_0603_1608Metric,Vishay,CRCW06034K70FKEA,"4.7 kohm, 1%, >=0.1 W, 0603, thick film",https://www.vishay.com/docs/20035/dcrcwe3.pdf
@@ -13,3 +12,4 @@ D1,1,RED,Demo:LED_D5.0mm,Generic,Select to specification,"5 mm diffused red LED;
 R7,1,4.7k,Demo:R_0603_1608Metric,Vishay,CRCW06034K70FKEA,"4.7 kohm, 1%, >=0.1 W, 0603, thick film",https://www.vishay.com/docs/20035/dcrcwe3.pdf
 D2,1,GREEN,Demo:LED_D5.0mm,Generic,Select to specification,5 mm diffused yellow-green LED; Vf <=2.1 V; avoid blue/InGaN green,
 TP1,1,OUT,Demo:TestPoint_Loop_D2.50mm_Drill1.0mm,Generic,Select to specification,"2.5 mm loop test point, 1.0 mm drill; OUT probe access",
+C3,1,1u,Demo:C_Rect_L7.2mm_W4.5mm_P5.00mm,Generic,Select to specification,"1 uF, >=16 V, +/-10%, film, radial P5 mm; verify body height",

@@ -127,6 +127,11 @@ def main():
   for note in kids(sch,'text'):
    if 'R1 / C1' in note[1]:note[1]=Q(note[1].replace('R1 / C1','R1 / C3'))
   reroute=True
+ if args.scenario=='film-capacitor':
+  # New plated timing lead replaces the old SMD escape via.
+  for track in list(board.GetTracks()):
+   if isinstance(track,pcb.PCB_VIA) and track.GetNetname()=='/TIMING' and (track.GetPosition()-V(88.076,77.408)).EuclideanNorm()<pcb.FromMM(.01):board.Delete(track)
+   elif not isinstance(track,pcb.PCB_VIA) and track.GetNetname()=='/GND' and track.GetLength()<pcb.FromMM(.07) and (track.GetStart()-V(89.85,77.47)).EuclideanNorm()<pcb.FromMM(.01):board.Delete(track)
  if reroute:
   route(board,connections)
  if updates:write(ROOT/'KERO.kicad_pcb',targeted_properties(raw_board,updates))

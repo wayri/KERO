@@ -135,27 +135,6 @@
       "rating": "1%, 0.1 W, 0603"
     },
     {
-      "ref": "C1",
-      "symbol": "Device:C",
-      "value": "1u",
-      "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "sch": [
-        116.84,
-        102.87,
-        0
-      ],
-      "pcb": [
-        88.9,
-        77.47,
-        0
-      ],
-      "pins": {
-        "1": "TIMING",
-        "2": "GND"
-      },
-      "rating": "10 V min, X7R, +/-10%, 0805; effective C affects frequency"
-    },
-    {
       "ref": "C2",
       "symbol": "Device:C",
       "value": "100n",
@@ -308,7 +287,28 @@
       "manufacturer": "Generic",
       "mpn": "Select to specification",
       "rating": "2.5 mm loop test point, 1.0 mm drill; OUT probe access"
+    },
+    {
+      "ref": "C3",
+      "symbol": "Device:C",
+      "value": "1u",
+      "footprint": "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm",
+      "sch": [
+        116.84,
+        102.87,
+        0
+      ],
+      "pcb": [
+        87.95,
+        77.47,
+        0
+      ],
+      "pins": {
+        "1": "TIMING",
+        "2": "GND"
+      },
+      "rating": "1 uF, >=16 V, +/-10%, film, radial P5 mm; verify body height"
     }
   ],
-  "review_scenario": "add-testpoint"
+  "review_scenario": "film-capacitor"
 }
