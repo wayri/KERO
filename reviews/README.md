@@ -10,6 +10,8 @@ Executed on 2026-11-07:
 - Exported the 1,145-byte JSON and preserved its exact downloaded bytes here.
 - Entered and verified a [response directly on GitHub](https://github.com/wayri/KERO/issues/13#issuecomment-6709805248).
 
-Repository discovery reported failure and the extension toolbar reported GitHub signed out. No extension-backed GitHub publication, PR compare gesture, cross-probe or saved-analysis GUI interaction is claimed by this receipt. Those tasks remain tracked in [issue #13](https://github.com/wayri/KERO/issues/13). API/parser analysis checks are documented separately under `evidence/analysis/`.
+Additional verified UI interactions: the saved PCB rendered in 2D and 3D, the assembly BoM displayed 12 groups, and the VBAT-high PI companion opened with six plots, four tables and 2,652 properties. Its potential field and PCB overlay were visibly rendered, with “Source PCB verified by SHA-256”. The 3D view reported 14 linked models across 18 board objects and disclosed unsupported pad-shape omissions. Pointer probing and the thermal GUI remain unverified.
+
+Repository discovery reported failure and the extension toolbar reported GitHub signed out. No extension-backed GitHub publication, PR compare gesture, cross-probe or thermal GUI interaction is claimed by this receipt. Those tasks remain tracked in [issue #13](https://github.com/wayri/KERO/issues/13). API/parser analysis checks are documented separately under `evidence/analysis/`.
 
 The imported root design is the validated blinker. Its saved analysis must not be presented as evidence for the new encoder PCB.

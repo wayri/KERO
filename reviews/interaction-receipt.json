@@ -20,12 +20,22 @@
     "wired schematic rendered",
     "drawing annotation saved",
     "portable review exported",
-    "GitHub UI comment published"
+    "GitHub UI comment published",
+    "PCB 2D rendered",
+    "PCB 3D rendered:14/18linkedmodels",
+    "BoM12groups shown",
+    "VBAT-high PI result:6plots4tables2652properties;sourcePCB SHA-256verified;2Dfield+boardoverlayrendered",
+    "QuickTherm file loaded: two plots, five tables, 3266 properties; source PCB SHA-256 verified; displayed range 25.00–25.18 °C"
   ],
   "notVerified": [
     "extension GitHub publication",
     "repository PR compare UI",
     "cross-probing UI",
-    "saved PI/thermal field UI"
+    "PI pointer probing UI",
+    "thermal overlay rendering and pointer probing UI"
+  ],
+  "renderingLimits": [
+    "3Dviewer reported4 unsupported/ambiguous pad shapes per outer copper layer omitted",
+    "Propertypreview limited to 4000 fields; full source remains available"
   ]
 }
