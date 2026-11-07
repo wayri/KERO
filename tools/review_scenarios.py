@@ -1,5 +1,5 @@
 """Incremental review-demo ECOs. Run in the matching KERO branch checkout."""
-import argparse,copy,csv,json,hashlib
+import argparse,copy,csv,json,hashlib,re
 import pcbnew as pcb
 from build_demo import ROOT,LIB,Q,uid,parse,dump,kids,one,write,sym
 from layout import route,stable_fields,V
@@ -47,9 +47,35 @@ def save_bom(intent):
  write(ROOT/'design-intent.json',json.dumps(intent,indent=2)+'\n')
 
 
+def targeted_properties(raw,updates):
+ # Keep every unselected native byte, including hidden-field styling and UUIDs.
+ stack=[];root=None
+ for match in re.finditer(r'"(?:\\.|[^"\\])*"|[()]|[^\s()]+',raw):
+  t=match[0]
+  if t=='(':
+   node={'items':[],'start':match.start()}
+   if stack:stack[-1]['items'].append(node)
+   else:root=node
+   stack.append(node)
+  elif t==')':stack.pop()['end']=match.end()
+  else:stack[-1]['items'].append({'value':json.loads(t) if t.startswith('"') else t,'start':match.start(),'end':match.end()})
+ def children(n,kind):return [x for x in n['items'] if 'items' in x and x['items'][0].get('value')==kind]
+ edits=[]
+ for fp in children(root,'footprint'):
+  props=children(fp,'property');ref=next(x['items'][2]['value'] for x in props if x['items'][1]['value']=='Reference')
+  if ref not in updates:continue
+  found=set()
+  for prop in props:
+   key=prop['items'][1]['value']
+   if key in updates[ref]:
+    token=prop['items'][2];edits.append((token['start'],token['end'],json.dumps(updates[ref][key])));found.add(key)
+  assert found==set(updates[ref]),(ref,found,updates[ref])
+ for start,end,replacement in sorted(edits,reverse=True):raw=raw[:start]+replacement+raw[end:]
+ return raw
+
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('scenario',choices=['bom-values','bom-mpn','add-testpoint','film-capacitor']);args=ap.parse_args()
- intent=json.loads((ROOT/'design-intent.json').read_text());sch=parse((ROOT/'KERO.kicad_sch').read_text());board=pcb.LoadBoard(str(ROOT/'KERO.kicad_pcb'));reroute=False
+ intent=json.loads((ROOT/'design-intent.json').read_text());sch=parse((ROOT/'KERO.kicad_sch').read_text());raw_board=(ROOT/'KERO.kicad_pcb').read_text();board=pcb.LoadBoard(str(ROOT/'KERO.kicad_pcb'));reroute=False;updates={}
  if args.scenario in ['bom-values','bom-mpn']:
   for p in intent['parts']:
    if p['ref'] not in ['R6','R7']:continue
@@ -59,7 +85,7 @@ def main():
     if next(x[2] for x in kids(n,'property') if x[1]=='Reference')==p['ref']:
      field(n,'Value',p['value'])
      for name,val in meta(p).items():field(n,name,val)
-   board_fields(board.FindFootprintByReference(p['ref']),p)
+   updates[p['ref']]={'Value':p['value'],**meta(p)}
  elif args.scenario=='add-testpoint':
   assert not any(p['ref']=='TP1' for p in intent['parts'])
   p={'ref':'TP1','symbol':'Connector:TestPoint','value':'OUT','footprint':'TestPoint:TestPoint_Keystone_5000-5004_Miniature','sch':[175.26,99.06,0],'pcb':[106.68,78.74,0],'pins':{'1':'OUT'},'manufacturer':'Keystone','mpn':'5000','rating':'Miniature loop test point; OUT probe access'}
@@ -83,7 +109,8 @@ def main():
  if reroute:
   for track in list(board.GetTracks()):board.Remove(track)
   route(board)
- board.BuildConnectivity();pcb.SaveBoard(str(ROOT/'KERO.kicad_pcb'),board)
+ if updates:write(ROOT/'KERO.kicad_pcb',targeted_properties(raw_board,updates))
+ else:board.BuildConnectivity();pcb.SaveBoard(str(ROOT/'KERO.kicad_pcb'),board)
  # Keep native serialized files portable and avoid newline-only Git changes.
  write(ROOT/'KERO.kicad_pcb',(ROOT/'KERO.kicad_pcb').read_text())
  write(ROOT/'KERO.kicad_sch',dump(sch)+'\n');intent['review_scenario']=args.scenario;save_bom(intent)
