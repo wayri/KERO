@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "native_netlist_comparison": {
+    "components": 13,
+    "nets": 9,
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "pcb_sha256": "5e72e551b5608c41da9490328f732252edfc4fa94dc1cca18da83cd77c665e7a",
+  "pcb_byte_identical_to_previous_commit": true,
+  "wire_segments": 51,
+  "wire_width_mm": 0.2032,
+  "checks": [
+    "Native KiCad 10.0.6 schematic render visually reviewed",
+    "13 complete component metadata records and 9 named net terminal sets unchanged",
+    "ERC, DRC, parity and all 32 pad/net mappings pass",
+    "24 native field-orientation cases agree with the local corrected browser renderer",
+    "Local Edge desktop and narrow-viewport screenshots generated using the shared renderer"
+  ],
+  "browser_limit": "This screenshot uses local Pocket KiView field-rendering fixes. Installed/published app versions have not been rebuilt or deployed."
+}

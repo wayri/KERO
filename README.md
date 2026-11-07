@@ -23,6 +23,12 @@ Open [KERO.kicad_pro](KERO.kicad_pro) in **KiCad 10** (verified with 10.0.6). Th
 - [Native verification receipt](evidence/summary.json)
 - [Demo walkthrough and comparison steps](DEMO.md) · [Rebuild and validation](BUILD.md)
 
+## Schematic
+
+![Wired and arranged KERO schematic](previews/schematic.png)
+
+The power, reference buffer, oscillator and LED branches use continuous visible wires and separated labels. [Drawing-equivalence receipt](evidence/drawing-review.json).
+
 ## How it works
 
 U1B buffers the quarter-supply divider formed by R4 (300 kΩ) and R5 (100 kΩ). U1A uses R2 (402 kΩ) and R3 (100 kΩ) for positive feedback, creating nominal thresholds near 0.201 × VBAT and 0.400 × VBAT. R1 and C1 slowly charge/discharge the timing input between these thresholds. U1A switches on each crossing, creating a relaxation oscillator.
