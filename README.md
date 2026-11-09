@@ -1,8 +1,27 @@
-# KERO — coin-cell LED relaxation oscillator
+# KERO — coin-cell oscillators and RC-programmed pulse encoder
 
 > **AI hardware-design experiment:** KERO is an experiment to evaluate how well AI can generate and refine electronic schematics and PCB layouts. The designs are experimental candidates for engineering review and validation.
 
 An original, small KiCad project for demonstrating **schematic, PCB, BoM, 3D, commit and pull-request comparisons** in Pocket KiView.
+
+## Latest merged capability: `hello world` pulse encoder
+
+[PR #16](https://github.com/wayri/KERO/pull/16) adds a repeating, RC-programmed `hello world` pulse sequence powered by **one CR2032**, using **three TLV9044IPWR quad op-amps**, resistors, capacitors and red/green LED indication. Eleven Schmitt stages form a timing ring; the twelfth op-amp combines their outputs through a resistive-majority network. Component values program the pulse timing; no MCU or separate logic IC is used.
+
+The output uses a custom eight-symbol alphabet: space=0, d=1, e=2, h=3, l=4, o=5, r=6, w=7. Each high pulse lasts **50 ms × 1.3^code**, followed by a **100 ms** low gap; the final low gap is **1 s**. Eleven symbols form a nominal **3.664 s** repeating frame. A receiver needs the codebook and pulse-width decoding. The 33-bit symbol-index payload excludes framing/codebook overhead; this is an electrical output with LED indication, not ASCII, UART or radio.
+
+The encoder has six wired schematic sheets, shared value/part variables, a **79-part BoM**, local 3D models and a fully routed **40 × 40 mm** two-layer board. Saved KiCad 10.0.6 checks report **ERC 0, DRC 0, parity 0 and no open connections**, with all 40 nets connected. Five existing default ignored DRC checks are disclosed in the evidence. Simulation decodes the intended message; hardware has not been built or bench tested, and exact passive/LED sourcing remains open.
+
+Saved Xyce and WayriCAD studies estimate **279.081 µA mean cell draw at 3 V**, **837.244 µW component heat**, and a **25.166 °C maximum board temperature at 25 °C ambient** under the declared thermal assumptions. These are model results, not measured battery life or junction temperatures. Local PI current-density peaks remain unconverged, and the mean-GND mesh has an unresolved region at C4; the reports retain these limits.
+
+**Where to open it:** PR #16 was merged into [`demo-mixed-eco`](https://github.com/wayri/KERO/tree/demo-mixed-eco), not `main`. Check out that branch and open `encoder/Encoder.kicad_pro`. These links point to the merged revision:
+
+- [Encoder project and board previews](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoder/README.md)
+- [Pulse encoding, timing values and simulation](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoded-model/architecture.md)
+- [Hierarchical schematic and shared variables](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoder/SCHEMATIC.md) · [BoM](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoder/bom.csv)
+- [Cell draw, losses, native PI/QuickTherm files and viewer companions](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoder/analysis/README.md)
+
+## Original LED blinker on `main`
 
 ![KERO 3D assembly](previews/board-3d.png)
 
@@ -10,11 +29,11 @@ One CR2032 cell powers an LMV358A dual op-amp and alternating red / yellow-green
 
 ## Try the comparison demos
 
-- [PR #1 — timing resistor / blink-rate change](https://github.com/wayri/KERO/pull/1)
-- [PR #2 — LED placement and routing change](https://github.com/wayri/KERO/pull/2)
+- [PR #5 — timing resistor / blink-rate change](https://github.com/wayri/KERO/pull/5)
+- [PR #6 — LED placement and routing change](https://github.com/wayri/KERO/pull/6)
 - [Baseline commit history](https://github.com/wayri/KERO/commits/main/)
 
-Both PRs are intentionally open and unmerged. Each contains a design commit followed by a verification commit. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
+PRs #1–#4 are historical examples; #5 and #6 provide later comparison milestones. [PR #9](https://github.com/wayri/KERO/pull/9) covers the mixed ECO; PR #16 adds the encoder to that branch. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
 
 ## Open the project
 
@@ -47,6 +66,6 @@ At 3 V, ideal LED currents are roughly 0.2–0.4 mA for the specified LED types.
 
 ## Models and attribution
 
-All links use project-relative paths. Resistor, capacitor, op-amp, holder and LED STEP geometry comes from the installed KiCad 10 libraries. D2 uses a green-colour derivative of the standard red LED model. The separate CR2032 mesh is an original nominal 20 × 3.2 mm envelope for illustration, not a manufacturer fit-qualified model. Mounting holes have no physical component body or 3D model.
+The original blinker links use project-relative paths; encoder links above identify its merged revision. Resistor, capacitor, op-amp, holder and LED STEP geometry comes from the installed KiCad 10 libraries. D2 uses a green-colour derivative of the standard red LED model. The separate CR2032 mesh is an original nominal 20 × 3.2 mm envelope for illustration, not a manufacturer fit-qualified model. Mounting holes have no physical component body or 3D model.
 
 KiCad library assets retain their original [library license](LICENSE.KiCad.md), **CC-BY-SA-4.0 with the KiCad libraries exception**. See [asset provenance](ASSETS.md) and [model manifest](model-manifest.json). No IRCA files or proprietary thermal-camera circuitry are included.
