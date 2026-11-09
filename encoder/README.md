@@ -1,5 +1,7 @@
 # KERO hello world encoder — draft hardware
 
+> **AI hardware-design experiment:** KERO is an experiment to evaluate how well AI can generate and refine electronic schematics and PCB layouts. The designs are experimental candidates for engineering review and validation.
+
 Executed [encoder cell-draw, PI and QuickTherm studies](analysis/README.md) are saved with native WayriCAD and Pocket KiView files.
 
 Open [Encoder.kicad_pro](Encoder.kicad_pro) in KiCad 10. The [six-sheet schematic](Encoder.kicad_sch) implements an RC-programmed `hello world` PWM sequence using three TLV9044IPWR quad op amps, one CR2032 cell, and alternating red/green indication. See [circuit operation and timing](../encoded-model/architecture.md), [executed SPICE evidence](../encoded-model/spice/README.md), and [schematic/variables guide](SCHEMATIC.md).
