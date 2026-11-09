@@ -1,5 +1,7 @@
 # KERO — coin-cell LED relaxation oscillator
 
+> **AI hardware-design experiment:** KERO is an experiment to evaluate how well AI can generate and refine electronic schematics and PCB layouts. The designs are experimental candidates for engineering review and validation.
+
 An original, small KiCad project for demonstrating **schematic, PCB, BoM, 3D, commit and pull-request comparisons** in Pocket KiView.
 
 ![KERO 3D assembly](previews/board-3d.png)
