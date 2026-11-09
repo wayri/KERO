@@ -1,0 +1,134 @@
+{
+  "schema": "wayricad.pi-batch/v1",
+  "cases": [
+    {
+      "name": "vbat-high",
+      "electrical": {
+        "net": "/VBAT",
+        "source_terminal": "BT1.1",
+        "source_voltage": 3.0,
+        "sinks": [
+          {
+            "terminal": "U1.8",
+            "current_A": 0.0003975726577494352
+          },
+          {
+            "terminal": "R4.1",
+            "current_A": 7.5e-06
+          }
+        ],
+        "edge_mm": 0.075,
+        "mesh_backend": "gmsh",
+        "max_cells": 50000,
+        "plating_mm": 0.025,
+        "stackup_override": [
+          {
+            "name": "F.Cu",
+            "z_mm": 0.0175,
+            "thickness_mm": 0.035
+          },
+          {
+            "name": "B.Cu",
+            "z_mm": 1.5825,
+            "thickness_mm": 0.035
+          }
+        ],
+        "options": {
+          "temperature_c": 20.0,
+          "ambient_c": 20.0,
+          "temperature_limit_c": 105.0
+        }
+      }
+    },
+    {
+      "name": "vbat-low",
+      "electrical": {
+        "net": "/VBAT",
+        "source_terminal": "BT1.1",
+        "source_voltage": 3.0,
+        "sinks": [
+          {
+            "terminal": "U1.8",
+            "current_A": 0.00014145418326693226
+          },
+          {
+            "terminal": "R4.1",
+            "current_A": 7.5e-06
+          },
+          {
+            "terminal": "R7.1",
+            "current_A": 0.00020851063829787234
+          }
+        ],
+        "edge_mm": 0.075,
+        "mesh_backend": "gmsh",
+        "max_cells": 50000,
+        "plating_mm": 0.025,
+        "stackup_override": [
+          {
+            "name": "F.Cu",
+            "z_mm": 0.0175,
+            "thickness_mm": 0.035
+          },
+          {
+            "name": "B.Cu",
+            "z_mm": 1.5825,
+            "thickness_mm": 0.035
+          }
+        ],
+        "options": {
+          "temperature_c": 20.0,
+          "ambient_c": 20.0,
+          "temperature_limit_c": 105.0
+        }
+      }
+    },
+    {
+      "name": "gnd-high-reversed",
+      "electrical": {
+        "net": "/GND",
+        "source_terminal": "BT1.2",
+        "source_voltage": 3,
+        "sinks": [
+          {
+            "terminal": "U1.4",
+            "current_A": 0.0001444422310756972
+          },
+          {
+            "terminal": "D1.1",
+            "current_A": 0.00025106382978723403
+          },
+          {
+            "terminal": "R5.2",
+            "current_A": 7.5e-06
+          },
+          {
+            "terminal": "C3.2",
+            "current_A": 2.0665968865039856e-06
+          }
+        ],
+        "edge_mm": 0.05,
+        "mesh_backend": "gmsh",
+        "max_cells": 100000,
+        "plating_mm": 0.025,
+        "stackup_override": [
+          {
+            "name": "F.Cu",
+            "z_mm": 0.0175,
+            "thickness_mm": 0.035
+          },
+          {
+            "name": "B.Cu",
+            "z_mm": 1.5825,
+            "thickness_mm": 0.035
+          }
+        ],
+        "options": {
+          "temperature_c": 20,
+          "ambient_c": 20,
+          "temperature_limit_c": 105
+        }
+      }
+    }
+  ]
+}

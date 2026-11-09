@@ -1,0 +1,429 @@
+{
+  "schema": "wayricad.pi-batch/v1",
+  "cases": [
+    {
+      "name": "vbat-mean",
+      "electrical": {
+        "net": "/VBAT",
+        "source_terminal": "BT1.1",
+        "source_voltage": 3.0,
+        "sinks": [
+          {
+            "terminal": "U1.4",
+            "current_A": 4.941771953477701e-05
+          },
+          {
+            "terminal": "U2.4",
+            "current_A": 4.830606245981004e-05
+          },
+          {
+            "terminal": "U3.4",
+            "current_A": 8.374425331752016e-05
+          },
+          {
+            "terminal": "R2.1",
+            "current_A": 1.2973231968425345e-06
+          },
+          {
+            "terminal": "R6.1",
+            "current_A": 3.3085965107268138e-06
+          },
+          {
+            "terminal": "R10.1",
+            "current_A": 5.507536337439646e-06
+          },
+          {
+            "terminal": "R14.1",
+            "current_A": 3.370526560805456e-06
+          },
+          {
+            "terminal": "R18.1",
+            "current_A": 5.272402996839771e-06
+          },
+          {
+            "terminal": "R22.1",
+            "current_A": 4.0765984882432624e-06
+          },
+          {
+            "terminal": "R26.1",
+            "current_A": 5.253443922867148e-06
+          },
+          {
+            "terminal": "R30.1",
+            "current_A": 4.197549164923096e-06
+          },
+          {
+            "terminal": "R34.1",
+            "current_A": 4.759846284101774e-06
+          },
+          {
+            "terminal": "R38.1",
+            "current_A": 4.480794940862648e-06
+          },
+          {
+            "terminal": "R42.1",
+            "current_A": 3.918745211363768e-06
+          },
+          {
+            "terminal": "R56.1",
+            "current_A": 1.4999999928569856e-05
+          },
+          {
+            "terminal": "R59.1",
+            "current_A": 3.716999382455834e-05
+          }
+        ],
+        "edge_mm": 0.05,
+        "mesh_backend": "gmsh",
+        "max_cells": 100000,
+        "plating_mm": 0.025,
+        "stackup_override": [
+          {
+            "name": "F.Cu",
+            "z_mm": 0.0175,
+            "thickness_mm": 0.035
+          },
+          {
+            "name": "B.Cu",
+            "z_mm": 1.5825,
+            "thickness_mm": 0.035
+          }
+        ],
+        "options": {
+          "temperature_c": 20.0,
+          "ambient_c": 20.0,
+          "temperature_limit_c": 105.0
+        }
+      }
+    },
+    {
+      "name": "vbat-envelope",
+      "electrical": {
+        "net": "/VBAT",
+        "source_terminal": "BT1.1",
+        "source_voltage": 3.0,
+        "sinks": [
+          {
+            "terminal": "U1.4",
+            "current_A": 5.60898958e-05
+          },
+          {
+            "terminal": "U2.4",
+            "current_A": 5.37561346e-05
+          },
+          {
+            "terminal": "U3.4",
+            "current_A": 0.00013296238339999999
+          },
+          {
+            "terminal": "R2.1",
+            "current_A": 1.3424464309859156e-06
+          },
+          {
+            "terminal": "C1.2",
+            "current_A": 4.31230519e-07
+          },
+          {
+            "terminal": "R6.1",
+            "current_A": 5.971235726027397e-06
+          },
+          {
+            "terminal": "R10.1",
+            "current_A": 7.447996868131868e-06
+          },
+          {
+            "terminal": "C3.2",
+            "current_A": 8.56208887e-07
+          },
+          {
+            "terminal": "R14.1",
+            "current_A": 5.384770536299765e-06
+          },
+          {
+            "terminal": "R18.1",
+            "current_A": 7.303199166666667e-06
+          },
+          {
+            "terminal": "C5.2",
+            "current_A": 1.24017334e-06
+          },
+          {
+            "terminal": "R22.1",
+            "current_A": 6.771086632302405e-06
+          },
+          {
+            "terminal": "R26.1",
+            "current_A": 7.472714759615384e-06
+          },
+          {
+            "terminal": "C7.2",
+            "current_A": 1.03564097e-06
+          },
+          {
+            "terminal": "R30.1",
+            "current_A": 6.771095360824742e-06
+          },
+          {
+            "terminal": "R34.1",
+            "current_A": 6.77107941580756e-06
+          },
+          {
+            "terminal": "C9.2",
+            "current_A": 1.50672698e-06
+          },
+          {
+            "terminal": "R38.1",
+            "current_A": 7.303197625e-06
+          },
+          {
+            "terminal": "R42.1",
+            "current_A": 5.030992391489361e-06
+          },
+          {
+            "terminal": "C11.2",
+            "current_A": 2.19928112e-06
+          },
+          {
+            "terminal": "R56.1",
+            "current_A": 1.50155553e-05
+          },
+          {
+            "terminal": "R59.1",
+            "current_A": 6.832934599999999e-05
+          }
+        ],
+        "edge_mm": 0.05,
+        "mesh_backend": "gmsh",
+        "max_cells": 100000,
+        "plating_mm": 0.025,
+        "stackup_override": [
+          {
+            "name": "F.Cu",
+            "z_mm": 0.0175,
+            "thickness_mm": 0.035
+          },
+          {
+            "name": "B.Cu",
+            "z_mm": 1.5825,
+            "thickness_mm": 0.035
+          }
+        ],
+        "options": {
+          "temperature_c": 20.0,
+          "ambient_c": 20.0,
+          "temperature_limit_c": 105.0
+        }
+      }
+    },
+    {
+      "name": "gnd-mean-reversed",
+      "electrical": {
+        "net": "/GND",
+        "source_terminal": "BT1.2",
+        "source_voltage": 3.0,
+        "sinks": [
+          {
+            "terminal": "U1.11",
+            "current_A": 4.889056466097241e-05
+          },
+          {
+            "terminal": "U2.11",
+            "current_A": 5.249522445689346e-05
+          },
+          {
+            "terminal": "U3.11",
+            "current_A": 8.575152375903908e-05
+          },
+          {
+            "terminal": "R4.2",
+            "current_A": 2.023090519020523e-06
+          },
+          {
+            "terminal": "R8.2",
+            "current_A": 4.35039386792406e-06
+          },
+          {
+            "terminal": "R12.2",
+            "current_A": 3.0039524610315556e-06
+          },
+          {
+            "terminal": "R16.2",
+            "current_A": 4.590544583929619e-06
+          },
+          {
+            "terminal": "R20.2",
+            "current_A": 3.394566107159403e-06
+          },
+          {
+            "terminal": "R24.2",
+            "current_A": 3.9514375597412e-06
+          },
+          {
+            "terminal": "R28.2",
+            "current_A": 3.2714985661125783e-06
+          },
+          {
+            "terminal": "R32.2",
+            "current_A": 3.8747564117807815e-06
+          },
+          {
+            "terminal": "R36.2",
+            "current_A": 3.51826738851064e-06
+          },
+          {
+            "terminal": "R40.2",
+            "current_A": 3.7663585404950374e-06
+          },
+          {
+            "terminal": "R44.2",
+            "current_A": 4.226969892916165e-06
+          },
+          {
+            "terminal": "R57.2",
+            "current_A": 1.5000000071430145e-05
+          },
+          {
+            "terminal": "D1.1",
+            "current_A": 3.697224401172776e-05
+          }
+        ],
+        "edge_mm": 0.075,
+        "mesh_backend": "gmsh",
+        "max_cells": 100000,
+        "plating_mm": 0.025,
+        "stackup_override": [
+          {
+            "name": "F.Cu",
+            "z_mm": 0.0175,
+            "thickness_mm": 0.035
+          },
+          {
+            "name": "B.Cu",
+            "z_mm": 1.5825,
+            "thickness_mm": 0.035
+          }
+        ],
+        "options": {
+          "temperature_c": 20.0,
+          "ambient_c": 20.0,
+          "temperature_limit_c": 105.0
+        }
+      }
+    },
+    {
+      "name": "gnd-envelope-reversed",
+      "electrical": {
+        "net": "/GND",
+        "source_terminal": "BT1.2",
+        "source_voltage": 3.0,
+        "sinks": [
+          {
+            "terminal": "U1.11",
+            "current_A": 5.4608777617970466e-05
+          },
+          {
+            "terminal": "U2.11",
+            "current_A": 6.004030993037191e-05
+          },
+          {
+            "terminal": "U3.11",
+            "current_A": 0.00012169951009903085
+          },
+          {
+            "terminal": "R4.2",
+            "current_A": 3.6631430085470087e-06
+          },
+          {
+            "terminal": "R8.2",
+            "current_A": 5.518205873786409e-06
+          },
+          {
+            "terminal": "C2.2",
+            "current_A": 1.82615921e-06
+          },
+          {
+            "terminal": "R12.2",
+            "current_A": 3.836878631578948e-06
+          },
+          {
+            "terminal": "R16.2",
+            "current_A": 6.232711294117647e-06
+          },
+          {
+            "terminal": "C4.2",
+            "current_A": 2.04971384e-06
+          },
+          {
+            "terminal": "R20.2",
+            "current_A": 4.7274153424657536e-06
+          },
+          {
+            "terminal": "R24.2",
+            "current_A": 5.116340305010893e-06
+          },
+          {
+            "terminal": "C6.2",
+            "current_A": 1.50671869e-06
+          },
+          {
+            "terminal": "R28.2",
+            "current_A": 4.263865951972556e-06
+          },
+          {
+            "terminal": "R32.2",
+            "current_A": 5.116350806100218e-06
+          },
+          {
+            "terminal": "C8.2",
+            "current_A": 1.50672427e-06
+          },
+          {
+            "terminal": "R36.2",
+            "current_A": 5.116339869281046e-06
+          },
+          {
+            "terminal": "R40.2",
+            "current_A": 4.727415166340509e-06
+          },
+          {
+            "terminal": "C10.2",
+            "current_A": 1.24016684e-06
+          },
+          {
+            "terminal": "R44.2",
+            "current_A": 6.962835e-06
+          },
+          {
+            "terminal": "R57.2",
+            "current_A": 1.5015525599999998e-05
+          },
+          {
+            "terminal": "D1.1",
+            "current_A": 8.108766600000003e-05
+          }
+        ],
+        "edge_mm": 0.075,
+        "mesh_backend": "gmsh",
+        "max_cells": 100000,
+        "plating_mm": 0.025,
+        "stackup_override": [
+          {
+            "name": "F.Cu",
+            "z_mm": 0.0175,
+            "thickness_mm": 0.035
+          },
+          {
+            "name": "B.Cu",
+            "z_mm": 1.5825,
+            "thickness_mm": 0.035
+          }
+        ],
+        "options": {
+          "temperature_c": 20.0,
+          "ambient_c": 20.0,
+          "temperature_limit_c": 105.0
+        }
+      }
+    }
+  ]
+}

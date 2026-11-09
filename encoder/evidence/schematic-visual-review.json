@@ -1,0 +1,34 @@
+{
+  "schema": "kero.encoder-schematic-visual-review/v1",
+  "native_source_receipt": "evidence/schematic-validation.json",
+  "reviewed_sheets": [
+    "Encoder",
+    "power",
+    "bank1",
+    "bank2",
+    "bank3",
+    "decoder"
+  ],
+  "findings_resolved": [
+    "Horizontal resistor field rotation and value collision",
+    "Bank circuit and title-block overlap",
+    "Timing input labels crossing resistor bodies",
+    "Divider rail labels crossing the summing bus",
+    "Root functional captions colliding with lower sheet names"
+  ],
+  "rendering_note": "PNG previews rasterized from freshly read SVG bytes to avoid filename-based renderer caching.",
+  "preview_files": [
+    "Encoder-bank1.png",
+    "Encoder-bank1.svg",
+    "Encoder-bank2.png",
+    "Encoder-bank2.svg",
+    "Encoder-bank3.png",
+    "Encoder-bank3.svg",
+    "Encoder-decoder.png",
+    "Encoder-decoder.svg",
+    "Encoder-power.png",
+    "Encoder-power.svg",
+    "Encoder.png",
+    "Encoder.svg"
+  ]
+}

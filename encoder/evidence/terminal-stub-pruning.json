@@ -1,0 +1,176 @@
+{
+  "schema": "kero.native-stub-pruning/v1",
+  "source_before_sha256": "eaacb294ad8db8dc1bded975edc3e3b9434c02e23717e1305bcb9ecb963980c4",
+  "source_after_sha256": "b752bb35a04e4df18ac552769db9305f298190dcb6e6511ae68f9d79c80108bc",
+  "changes": [
+    {
+      "uuid": "df1a83d2-eac0-55d3-a226-5a017a18bd7b",
+      "action": "trim_terminal_segment",
+      "old_mm": [
+        [
+          62.8625,
+          61.3
+        ],
+        [
+          60.4,
+          61.3
+        ]
+      ],
+      "new_mm": [
+        [
+          62.8625,
+          61.3
+        ],
+        [
+          60.7,
+          61.3
+        ]
+      ]
+    },
+    {
+      "uuid": "52fa55d1-96a6-52b5-9f43-9629014cbda4",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0,
+        0
+      ]
+    },
+    {
+      "uuid": "ab641c55-2752-51d7-ad69-f9404e5b9e69",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "uuid": "00de5cab-dae0-5bb9-98a6-58b44ff7e8a4",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0,
+        0
+      ]
+    },
+    {
+      "uuid": "0105684e-5a11-59bd-a198-3f364f567826",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0,
+        0
+      ]
+    },
+    {
+      "uuid": "501e1b94-4492-55b4-8b24-62fb19a4373f",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0,
+        0
+      ]
+    },
+    {
+      "uuid": "e57340ce-c78a-5fdf-8ea6-6eb1aa851a2a",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "uuid": "475fab80-a1a0-5cd1-81b4-a7f308ea4863",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0,
+        0
+      ]
+    },
+    {
+      "uuid": "78460d48-d21f-534e-87c7-30b2ec8a8bd0",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0
+      ]
+    },
+    {
+      "uuid": "15b3a67b-507b-568a-acc4-9f20bcc6734a",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0
+      ]
+    },
+    {
+      "uuid": "349c6f5b-d31a-5b7b-8005-4479d7524cf4",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0
+      ]
+    },
+    {
+      "uuid": "9daf90e0-a859-5639-b366-544b7802bb18",
+      "action": "trim_terminal_segment",
+      "old_mm": [
+        [
+          57.1375,
+          58.7
+        ],
+        [
+          59.6,
+          58.7
+        ]
+      ],
+      "new_mm": [
+        [
+          57.1375,
+          58.7
+        ],
+        [
+          59.3,
+          58.7
+        ]
+      ]
+    },
+    {
+      "uuid": "24591bcc-befa-561c-96d2-e81132afc622",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0,
+        0
+      ]
+    },
+    {
+      "uuid": "75dfafd6-5f4a-5c02-b632-c62db062606f",
+      "action": "remove_terminal_branch",
+      "contacts": [
+        0
+      ]
+    },
+    {
+      "uuid": "2d6339d9-e345-53cd-b361-c7437fa1e5cd",
+      "action": "trim_terminal_segment",
+      "old_mm": [
+        [
+          62.8625,
+          58.7
+        ],
+        [
+          60.4,
+          58.7
+        ]
+      ],
+      "new_mm": [
+        [
+          62.8625,
+          58.7
+        ],
+        [
+          60.7,
+          58.7
+        ]
+      ]
+    }
+  ],
+  "native_pad_partitions_preserved": true
+}

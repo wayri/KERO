@@ -1,0 +1,86 @@
+[
+  {
+    "name": "vbat-mean",
+    "native_file": "vbat-mean.quick-pi.results.json",
+    "portable_file": "vbat-mean.pocket-kivi.json",
+    "native_bytes": 31966372,
+    "portable_bytes": 31966020,
+    "native_load_receipt": {
+      "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\analysis\\pi\\vbat-mean.quick-pi.results.json",
+      "relative_path": "analysis/pi/vbat-mean.quick-pi.results.json",
+      "plugin": "quick-pi",
+      "identity": "0188d17243c5ec2f303328d02a946fa8b302eb419cfb39570fd2720c07035446",
+      "producer_version": "4.5.0",
+      "bytes": 31966372,
+      "sha256": "a98ffa8e2c95598423ced19c23ca74aa62b9d09368da1e6f6b3a9d99e64e21e7",
+      "source_state": "current",
+      "can_restore": true,
+      "source_path": "Encoder.kicad_pcb",
+      "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+      "source_issues": []
+    }
+  },
+  {
+    "name": "vbat-envelope",
+    "native_file": "vbat-envelope.quick-pi.results.json",
+    "portable_file": "vbat-envelope.pocket-kivi.json",
+    "native_bytes": 31889109,
+    "portable_bytes": 31888757,
+    "native_load_receipt": {
+      "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\analysis\\pi\\vbat-envelope.quick-pi.results.json",
+      "relative_path": "analysis/pi/vbat-envelope.quick-pi.results.json",
+      "plugin": "quick-pi",
+      "identity": "54682b451c1aa24b3b92c0894e3ac53dfc013babc23f409c1b29ef24197d37b0",
+      "producer_version": "4.5.0",
+      "bytes": 31889109,
+      "sha256": "c74dcaf68cc4431e74593d72d1c9a671f42b2a008abf07921f73824b6a93889b",
+      "source_state": "current",
+      "can_restore": true,
+      "source_path": "Encoder.kicad_pcb",
+      "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+      "source_issues": []
+    }
+  },
+  {
+    "name": "gnd-mean-reversed",
+    "native_file": "gnd-mean-reversed.quick-pi.results.json",
+    "portable_file": "gnd-mean-reversed.pocket-kivi.json",
+    "native_bytes": 14838280,
+    "portable_bytes": 14837928,
+    "native_load_receipt": {
+      "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\analysis\\pi\\gnd-mean-reversed.quick-pi.results.json",
+      "relative_path": "analysis/pi/gnd-mean-reversed.quick-pi.results.json",
+      "plugin": "quick-pi",
+      "identity": "3635d3b65785aa505033e408f6eb531e5753c9533543dbebb4632bfee8fc6e71",
+      "producer_version": "4.5.0",
+      "bytes": 14838280,
+      "sha256": "1e756cf831f47aa7b79f21f9c0d9357771546d9df202ce149c0215bc353faf90",
+      "source_state": "current",
+      "can_restore": true,
+      "source_path": "Encoder.kicad_pcb",
+      "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+      "source_issues": []
+    }
+  },
+  {
+    "name": "gnd-envelope-reversed",
+    "native_file": "gnd-envelope-reversed.quick-pi.results.json",
+    "portable_file": "gnd-envelope-reversed.pocket-kivi.json",
+    "native_bytes": 14448756,
+    "portable_bytes": 14448404,
+    "native_load_receipt": {
+      "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\analysis\\pi\\gnd-envelope-reversed.quick-pi.results.json",
+      "relative_path": "analysis/pi/gnd-envelope-reversed.quick-pi.results.json",
+      "plugin": "quick-pi",
+      "identity": "0031628571b44ad0786f4330df6054c8e5816d2e6bc20448967dab607a4dbb17",
+      "producer_version": "4.5.0",
+      "bytes": 14448756,
+      "sha256": "fb761a168b1b325a0ed9aa79dc863557d680c05c78c089ad3c50f5f0dfc14871",
+      "source_state": "current",
+      "can_restore": true,
+      "source_path": "Encoder.kicad_pcb",
+      "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+      "source_issues": []
+    }
+  }
+]

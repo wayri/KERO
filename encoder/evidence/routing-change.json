@@ -1,0 +1,39 @@
+{
+  "schema": "kero.encoder-routing-change/v1",
+  "base_commit": "83b9344bd5a45d871d24279e90b4749a68156b3b",
+  "base_board_sha256": "eaacb294ad8db8dc1bded975edc3e3b9434c02e23717e1305bcb9ecb963980c4",
+  "head_board_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "method": "Pocket KiView compareProjects on saved PCB objects; not a browser UI interaction",
+  "comparison_tool_sha256": "275c3ad9dd3d88ca61d00decab402eaf1cb398ad587dcb9852b9599d7a13884b",
+  "counts": {
+    "added": 2168,
+    "removed": 1890,
+    "modified": 1
+  },
+  "changed_objects_by_kind": {
+    "segment": 3885,
+    "via": 174
+  },
+  "non_copper_changes": [],
+  "unchanged": [
+    "footprints",
+    "component values and metadata",
+    "pad/net assignments",
+    "component placement",
+    "board outline",
+    "project rules",
+    "schematic hierarchy"
+  ],
+  "native_before": {
+    "open_edges": 13,
+    "dangling_track_warnings": 15
+  },
+  "native_after": {
+    "open_edges": 0,
+    "drc_findings": 0,
+    "parity_findings": 0
+  },
+  "limits": [
+    "Saved-object change detection does not replace native connectivity and DRC."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "source_before_sha256": "7b8dd3616562880f94a590cf86106a6eb2285af4134420453693a680c76dfe4f",
+  "source_after_sha256": "eaacb294ad8db8dc1bded975edc3e3b9434c02e23717e1305bcb9ecb963980c4",
+  "removed": [
+    {
+      "uuid": "44af6c84-3d0f-5acf-9c75-8024bc6ab2d7",
+      "net": "/bank1/ST03_TIMING",
+      "direct_native_connected_tracks": 2,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "99073139-fac6-5094-ae1c-02488ea8f38a",
+      "net": "/VBAT",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "9981a434-a217-5556-8ffe-621e02e41de3",
+      "net": "/VBAT",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "53816e37-3c2b-564f-95f2-72e097d323d0",
+      "net": "/GND",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "adf8f48b-00be-5fdc-8889-c92da4cb0dbc",
+      "net": "/GND",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "c0b4010c-e3fb-5c47-80d9-3192fbf77016",
+      "net": "/GND",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "1a1a4de2-2372-5682-bbb6-d9cf415f0e59",
+      "net": "/bank1/ST04_TH",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "48abc145-1d74-55a5-a341-536f1bc6b0aa",
+      "net": "/ST04_OUT",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "0f8ed5af-7a11-531c-a629-38371c729621",
+      "net": "/bank1/ST02_TH",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "3a14d9f4-1202-5a2e-b4d3-408d0f048243",
+      "net": "/ST03_OUT",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "b9723fc2-7200-5226-9ac7-1a70e61b7881",
+      "net": "/ST10_OUT",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "60205355-401b-5625-9c83-943a4843088f",
+      "net": "/ST02_OUT",
+      "direct_native_connected_tracks": 2,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "ad87bf97-dfb8-5ae8-9287-eca70dc5499b",
+      "net": "/bank1/ST01_TIMING",
+      "direct_native_connected_tracks": 2,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "13d44bd0-32a2-590c-a7af-7e909de15aae",
+      "net": "/bank3/ST09_TH",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "0ba288b6-3291-5365-8f65-9a7e3e642413",
+      "net": "/decoder/MIDREF",
+      "direct_native_connected_tracks": 1,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "b54c507f-2430-59f2-bdf1-bb7d0a7c0495",
+      "net": "/ST06_OUT",
+      "direct_native_connected_tracks": 4,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "f96e7286-af4d-5e39-887e-699ab56c52bb",
+      "net": "/ST07_OUT",
+      "direct_native_connected_tracks": 4,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    },
+    {
+      "uuid": "f8a76c75-0ee8-56f2-bcb0-18647abe3aed",
+      "net": "/bank1/ST04_TIMING",
+      "direct_native_connected_tracks": 2,
+      "connected_track_layers": [
+        "F.Cu"
+      ],
+      "bottom_pad_connections": 0
+    }
+  ],
+  "reason": "Unused prefanout via barrel had no bottom copper connection; front traces remain unchanged.",
+  "native_pad_partitions_unchanged": true,
+  "final_open_edges": 13
+}

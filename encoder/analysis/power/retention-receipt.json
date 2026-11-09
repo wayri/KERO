@@ -1,0 +1,113 @@
+{
+  "schema": "kero.encoder-power-retention/v1",
+  "budget_sha256": "4a937eba27da7a0ddd4b5df87d925ffaa8ae2d7a10d58e7c0417c0d6ed576a51",
+  "owned_helper": "tools/analyze_encoder_power.py",
+  "helper_sha256": "d45d61580df1361f274a4ca94cf7d719e141f549243723edca8d441501423f29",
+  "binding_checks": [
+    {
+      "path": "encoder/Encoder.kicad_pcb",
+      "sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109"
+    },
+    {
+      "path": "encoder/design-intent.json",
+      "sha256": "26c9ac59d459bf39e5482f9851943ce5dfbbaf37ad433fef8d3d9d744175bab6"
+    },
+    {
+      "path": "encoder/bom.csv",
+      "sha256": "f57b3708324457df1c44783972d148a015095790feaf821686e527d8d1c952ed"
+    },
+    {
+      "path": "encoder/evidence/netlist.xml",
+      "sha256": "7f548ce584341ee548b1ed20737a113b6da779e6d68233da969d3a96068860ec"
+    },
+    {
+      "path": "encoded-model/design.json",
+      "sha256": "0631060c3e8a6ebdba97a5724dbef59fc4870bc5d3bc7570ace8045ea0cc44b5"
+    },
+    {
+      "path": "encoder/evidence/circuit-equivalence.json",
+      "sha256": "4f6f4460df5a320829793bbca2e1794dd78d065c5a4e8fa7ed7c6a517b9df167"
+    }
+  ],
+  "component_csv_exact_numeric_match": true,
+  "component_rows": 78,
+  "retained_files": [
+    {
+      "path": "circuit.cir",
+      "bytes": 5843,
+      "sha256": "bee0339b1b389c7a6c9e863f7afb97f09c93cefef14045e8b3c49fe27c203d91"
+    },
+    {
+      "path": "component-powers.csv",
+      "bytes": 2706,
+      "sha256": "cb0e10e252783ba237d3fc2f145874536a13405125880f85583633657fc0d247"
+    },
+    {
+      "path": "execution.json",
+      "bytes": 1963,
+      "sha256": "6702f720bab62d9061d930fe45cd8fd54a8012514c1ffabf7558fb532ada50c4"
+    },
+    {
+      "path": "helper-output.log",
+      "bytes": 21612,
+      "sha256": "2fbaee51b235dbc73c6c90ab5179c90131e23a52b9efb772f37c5b5f073c24b2"
+    },
+    {
+      "path": "pi-mean-policy.json",
+      "bytes": 14835,
+      "sha256": "9d7b593a13b9bec0108473b8f49d8ea641ed81d0a92c9e1c755f4c7f0230d660"
+    },
+    {
+      "path": "pi-pad-loads.csv",
+      "bytes": 12015,
+      "sha256": "5fd4172d2df5895aa96e660fb8e0ff77df5587928a93675a7b2b39f5be693a6f"
+    },
+    {
+      "path": "postprocessing-execution.json",
+      "bytes": 1546,
+      "sha256": "c7cc8c43b83e8f9621a1b6a84657ede856fff84332d0624fcbb96390b32273f3"
+    },
+    {
+      "path": "power-budget.json",
+      "bytes": 71663,
+      "sha256": "4a937eba27da7a0ddd4b5df87d925ffaa8ae2d7a10d58e7c0417c0d6ed576a51"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8491,
+      "sha256": "8401e525a8407c709889acc4d4159dddadabff53fd6e406cce6fd8a1e6211d12"
+    },
+    {
+      "path": "solver-execution.json",
+      "bytes": 922,
+      "sha256": "57613d3c5511008243678a0354635fa7f71b2750acc0dc692fdc2605a4bc2cc9"
+    },
+    {
+      "path": "waveform.csv.gz",
+      "bytes": 14449556,
+      "sha256": "11eb5a12d101dc38112b6cc933cfca63f18d28b0be2cb685644a2cb7986a66d2"
+    },
+    {
+      "path": "xyce.log",
+      "bytes": 19726,
+      "sha256": "24f64e2da5fda5fd6d7a83e00292d7d97abab8516724090389959ecfd3b4278d"
+    }
+  ],
+  "retained_bytes_before_receipt": 14610878,
+  "runtime_directory_absent": true,
+  "solver_runs": 1,
+  "postprocessing_final_exit_code": 0,
+  "waveform_decompression_sha_verified_in": "postprocessing-execution.json",
+  "ground_model_boundary": "raw VEE-only gate remains false; explicit global-ground assignment plus series-resistor LED terminal currents closes physical GND to 1.27545 pA",
+  "excluded": "TI vendor library and executable remain external/private; no CAD or Git writes by this task",
+  "capacity_context": {
+    "latest_parent_observation_GiB": {
+      "C": 5.88,
+      "D": 184.641
+    },
+    "observation_scope": "Parent observation before its PI job, not a measurement of this task alone",
+    "policy": "C below reserve; no installs, builds, bulk scratch, or downloads to C",
+    "D_owned_peak_allowance_MiB": 150
+  },
+  "completion": "No further numerical or helper changes planned; parent owns downstream PI/QuickTherm and publication"
+}

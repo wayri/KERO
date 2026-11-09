@@ -1,0 +1,18 @@
+{
+  "schema": "kero.encoder-circuit-equivalence/v1",
+  "comparison": "Independent circuit-contract reconstruction from encoded-model/design.json plus declared LED/bypass connections versus encoder/design-intent.json",
+  "source_sha256": {
+    "encoded-model/design.json": "0631060c3e8a6ebdba97a5724dbef59fc4870bc5d3bc7570ace8045ea0cc44b5",
+    "encoder/design-intent.json": "26c9ac59d459bf39e5482f9851943ce5dfbbaf37ad433fef8d3d9d744175bab6",
+    "encoder/evidence/netlist.xml": "7f548ce584341ee548b1ed20737a113b6da779e6d68233da969d3a96068860ec"
+  },
+  "parts": 79,
+  "terminal_assignments": 194,
+  "differences": [],
+  "status": "PASS",
+  "limits": [
+    "Connectivity and nominal values only; native netlist-to-intent and PCB connectivity are separately checked.",
+    "LEDs are generic and passive MPN sourcing remains open."
+  ],
+  "native_xml_pin_net_equivalence": true
+}

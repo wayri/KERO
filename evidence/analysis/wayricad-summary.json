@@ -1,0 +1,652 @@
+{
+  "source_sha256": {
+    "KERO.kicad_pcb": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+    "KERO.kicad_sch": "1b7049141da6ba6fa7413dc043ed129c30528bff330965dc43b04ea2e6a74372",
+    "KERO.kicad_pro": "a342616543b3e1d1e265dd4a028d3bf1c06607048dbca35b7dfcb8e594322b70",
+    "design-intent.json": "66c0d986cf0ee62a9a9233014411e701b8cb12aeb076a4fffd1f7cb072635a14",
+    "bom.csv": "d7b69135de8a2bd12c42557ed0fd32b26ae6c8954afe89841e25056eeca61973"
+  },
+  "producer": "WayriCAD Quick PI 4.5.0",
+  "execution": "Direct service.execute in prepared KiCad 10 Python; no runtime provisioning",
+  "stackup_assumption": "35 um top/bottom copper, 1.6 mm outer copper span; 25 um via plating; 20 C. No filled zones in this design.",
+  "scope": "VBAT high/low state-mean loads and high-state ground return. GND currents reversed and shifted to a 3 V mathematical reference to obtain resistance/drop magnitudes; ground is physically near 0 V. Low-state signed capacitor ground injection not solved.",
+  "studies": [
+    {
+      "name": "vbat-high",
+      "levels": [
+        {
+          "voltage_drop_V": 3.885928682065856e-05,
+          "conductor_power_W": 1.5629924067272277e-08,
+          "source_current_A": 0.00040507265761547285,
+          "current_balance_error_A": 1.339623941290502e-13,
+          "energy_relative_error": 2.853821905691601e-10,
+          "max_current_density_A_mm2": 0.051701124205689036,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.3,
+          "triangles": 2672,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/VBAT",
+            "source_terminal": "BT1.1",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.8",
+                "current_A": 0.0003975726577494352
+              },
+              {
+                "terminal": "R4.1",
+                "current_A": 7.5e-06
+              }
+            ],
+            "edge_mm": 0.3,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          }
+        },
+        {
+          "voltage_drop_V": 3.9176859963095904e-05,
+          "conductor_power_W": 1.5757207155106728e-08,
+          "source_current_A": 0.00040507265744931957,
+          "current_balance_error_A": 3.0011567233104164e-13,
+          "energy_relative_error": 6.403665996277763e-10,
+          "max_current_density_A_mm2": 0.060841165953718204,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.15,
+          "triangles": 6522,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/VBAT",
+            "source_terminal": "BT1.1",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.8",
+                "current_A": 0.0003975726577494352
+              },
+              {
+                "terminal": "R4.1",
+                "current_A": 7.5e-06
+              }
+            ],
+            "edge_mm": 0.15,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          },
+          "drop_refinement_change_percent": 0.8172387308675866,
+          "loss_refinement_change_percent": 0.814355126017352,
+          "local_peak_refinement_change_percent": 17.678613160646563
+        },
+        {
+          "voltage_drop_V": 3.934293995984516e-05,
+          "conductor_power_W": 1.5823748611615865e-08,
+          "source_current_A": 0.00040507265758981287,
+          "current_balance_error_A": 1.596223695755905e-13,
+          "energy_relative_error": 3.4230578112835345e-10,
+          "max_current_density_A_mm2": 0.07069547503557695,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.075,
+          "triangles": 25384,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/VBAT",
+            "source_terminal": "BT1.1",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.8",
+                "current_A": 0.0003975726577494352
+              },
+              {
+                "terminal": "R4.1",
+                "current_A": 7.5e-06
+              }
+            ],
+            "edge_mm": 0.075,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          },
+          "drop_refinement_change_percent": 0.42392370625339293,
+          "loss_refinement_change_percent": 0.42229219844693855,
+          "local_peak_refinement_change_percent": 16.196778821357416
+        }
+      ],
+      "global_drop_and_loss_stable_at_1percent": true,
+      "local_peak_stable_at_1percent": false
+    },
+    {
+      "name": "vbat-low",
+      "levels": [
+        {
+          "voltage_drop_V": 3.0560022726647135e-05,
+          "conductor_power_W": 1.080959234508342e-08,
+          "source_current_A": 0.00035746482144983295,
+          "current_balance_error_A": 1.1497167150611998e-13,
+          "energy_relative_error": 3.0386145021076636e-10,
+          "max_current_density_A_mm2": 0.04342295529067704,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.3,
+          "triangles": 2672,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/VBAT",
+            "source_terminal": "BT1.1",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.8",
+                "current_A": 0.00014145418326693226
+              },
+              {
+                "terminal": "R4.1",
+                "current_A": 7.5e-06
+              },
+              {
+                "terminal": "R7.1",
+                "current_A": 0.00020851063829787234
+              }
+            ],
+            "edge_mm": 0.3,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          }
+        },
+        {
+          "voltage_drop_V": 3.08049771755093e-05,
+          "conductor_power_W": 1.0894967934160224e-08,
+          "source_current_A": 0.00035746482130900967,
+          "current_balance_error_A": 2.5579495119276707e-13,
+          "energy_relative_error": 6.767787713357909e-10,
+          "max_current_density_A_mm2": 0.04979195806244653,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.15,
+          "triangles": 6522,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/VBAT",
+            "source_terminal": "BT1.1",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.8",
+                "current_A": 0.00014145418326693226
+              },
+              {
+                "terminal": "R4.1",
+                "current_A": 7.5e-06
+              },
+              {
+                "terminal": "R7.1",
+                "current_A": 0.00020851063829787234
+              }
+            ],
+            "edge_mm": 0.15,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          },
+          "drop_refinement_change_percent": 0.8015519198176779,
+          "loss_refinement_change_percent": 0.7898132172915462,
+          "local_peak_refinement_change_percent": 14.66736367696495
+        },
+        {
+          "voltage_drop_V": 3.093380335052717e-05,
+          "conductor_power_W": 1.0940091984451748e-08,
+          "source_current_A": 0.0003574648214289793,
+          "current_balance_error_A": 1.3582532451192342e-13,
+          "energy_relative_error": 3.615323518612155e-10,
+          "max_current_density_A_mm2": 0.058927234385568246,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.075,
+          "triangles": 25384,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/VBAT",
+            "source_terminal": "BT1.1",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.8",
+                "current_A": 0.00014145418326693226
+              },
+              {
+                "terminal": "R4.1",
+                "current_A": 7.5e-06
+              },
+              {
+                "terminal": "R7.1",
+                "current_A": 0.00020851063829787234
+              }
+            ],
+            "edge_mm": 0.075,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          },
+          "drop_refinement_change_percent": 0.4181992224304931,
+          "loss_refinement_change_percent": 0.41417331895068354,
+          "local_peak_refinement_change_percent": 18.346891101701047
+        }
+      ],
+      "global_drop_and_loss_stable_at_1percent": true,
+      "local_peak_stable_at_1percent": false
+    },
+    {
+      "name": "gnd-high-reversed",
+      "levels": [
+        {
+          "voltage_drop_V": 1.4863886748724654e-05,
+          "conductor_power_W": 4.904075017328307e-09,
+          "source_current_A": 0.0004050726576836448,
+          "current_balance_error_A": 6.579041781848427e-14,
+          "energy_relative_error": 1.2946578538561654e-10,
+          "max_current_density_A_mm2": 0.05757355530683186,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.3,
+          "triangles": 2405,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/GND",
+            "source_terminal": "BT1.2",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.4",
+                "current_A": 0.0001444422310756972
+              },
+              {
+                "terminal": "D1.1",
+                "current_A": 0.00025106382978723403
+              },
+              {
+                "terminal": "R5.2",
+                "current_A": 7.5e-06
+              },
+              {
+                "terminal": "C3.2",
+                "current_A": 2.0665968865039856e-06
+              }
+            ],
+            "edge_mm": 0.3,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          }
+        },
+        {
+          "voltage_drop_V": 1.5013604468329108e-05,
+          "conductor_power_W": 4.956143043342079e-09,
+          "source_current_A": 0.00040507265753605493,
+          "current_balance_error_A": 2.1338031168383065e-13,
+          "energy_relative_error": 2.7741712098804817e-10,
+          "max_current_density_A_mm2": 0.06335694860982387,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.15,
+          "triangles": 6512,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/GND",
+            "source_terminal": "BT1.2",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.4",
+                "current_A": 0.0001444422310756972
+              },
+              {
+                "terminal": "D1.1",
+                "current_A": 0.00025106382978723403
+              },
+              {
+                "terminal": "R5.2",
+                "current_A": 7.5e-06
+              },
+              {
+                "terminal": "C3.2",
+                "current_A": 2.0665968865039856e-06
+              }
+            ],
+            "edge_mm": 0.15,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          },
+          "drop_refinement_change_percent": 1.0072582100189909,
+          "loss_refinement_change_percent": 1.0617298028637867,
+          "local_peak_refinement_change_percent": 10.045225229135246
+        },
+        {
+          "voltage_drop_V": 1.5090779231285625e-05,
+          "conductor_power_W": 4.98341583539585e-09,
+          "source_current_A": 0.00040507265810097815,
+          "current_balance_error_A": 3.515429050290897e-13,
+          "energy_relative_error": 5.039511409255505e-10,
+          "max_current_density_A_mm2": 0.06917602729085923,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.075,
+          "triangles": 25351,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/GND",
+            "source_terminal": "BT1.2",
+            "source_voltage": 3.0,
+            "sinks": [
+              {
+                "terminal": "U1.4",
+                "current_A": 0.0001444422310756972
+              },
+              {
+                "terminal": "D1.1",
+                "current_A": 0.00025106382978723403
+              },
+              {
+                "terminal": "R5.2",
+                "current_A": 7.5e-06
+              },
+              {
+                "terminal": "C3.2",
+                "current_A": 2.0665968865039856e-06
+              }
+            ],
+            "edge_mm": 0.075,
+            "mesh_backend": "gmsh",
+            "max_cells": 50000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20.0,
+              "ambient_c": 20.0,
+              "temperature_limit_c": 105.0
+            }
+          },
+          "drop_refinement_change_percent": 0.5140322107147322,
+          "loss_refinement_change_percent": 0.5502825849711623,
+          "local_peak_refinement_change_percent": 9.184594284790215
+        },
+        {
+          "voltage_drop_V": 1.5113206280647758e-05,
+          "conductor_power_W": 4.991366711060331e-09,
+          "source_current_A": 0.00040507265843730975,
+          "current_balance_error_A": 6.878745077883164e-13,
+          "energy_relative_error": 1.1283696149684612e-09,
+          "max_current_density_A_mm2": 0.07938094680540911,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.05,
+          "triangles": 58878,
+          "producer_version": "4.5.0",
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "request": {
+            "action": "solve",
+            "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\KERO.kicad_pcb",
+            "net": "/GND",
+            "source_terminal": "BT1.2",
+            "source_voltage": 3,
+            "sinks": [
+              {
+                "terminal": "U1.4",
+                "current_A": 0.0001444422310756972
+              },
+              {
+                "terminal": "D1.1",
+                "current_A": 0.00025106382978723403
+              },
+              {
+                "terminal": "R5.2",
+                "current_A": 7.5e-06
+              },
+              {
+                "terminal": "C3.2",
+                "current_A": 2.0665968865039856e-06
+              }
+            ],
+            "edge_mm": 0.05,
+            "mesh_backend": "gmsh",
+            "max_cells": 100000,
+            "plating_mm": 0.025,
+            "stackup_override": [
+              {
+                "name": "F.Cu",
+                "z_mm": 0.0175,
+                "thickness_mm": 0.035
+              },
+              {
+                "name": "B.Cu",
+                "z_mm": 1.5825,
+                "thickness_mm": 0.035
+              }
+            ],
+            "options": {
+              "temperature_c": 20,
+              "ambient_c": 20,
+              "temperature_limit_c": 105
+            }
+          },
+          "drop_refinement_change_percent": 0.14861425654970617,
+          "loss_refinement_change_percent": 0.15954670304669794,
+          "local_peak_refinement_change_percent": 14.752104036911561
+        }
+      ],
+      "global_drop_and_loss_stable_at_1percent": true,
+      "local_peak_stable_at_1percent": false
+    }
+  ],
+  "runtime_versions": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "gmsh": "4.14.1"
+  },
+  "wayricad_source_files_sha256": {
+    "quick_pi_plugin\\service.py": "f0eb185aaa8d484be1c91f8ff1be643475a9e946cdf58dae4155eedc9ffb5103",
+    "quick_pi_plugin\\mesh.py": "136aed2d87bf57abc669b8d19e362f15f75222b59ab1874ee0de1ded71fb0434",
+    "quick_pi_plugin\\solver.py": "762e7724b25cf94a615a8d61dfade25ff6c2b1ed8ba426a8ee2b03a273793445",
+    "quick_pi_plugin\\board_geometry.py": "c5df70b047ea7c412a25ee1022f95a7121c41c065d1596fa6b69bcc69a3d85cf"
+  }
+}

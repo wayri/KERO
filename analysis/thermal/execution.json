@@ -1,0 +1,24 @@
+{
+  "command": [
+    "C:/Program Files/KiCad/10.0/bin/python.exe",
+    "-B",
+    "tools/analyze_thermal.py",
+    "--wayricad-source",
+    "D:/WayriCAD-validation/release-4.5.0/source"
+  ],
+  "exit_code": 0,
+  "stdout": "coarse {\"input_w\": 0.0011138586531266917, \"convection_w\": 0.0011138586531250784, \"radiation_w\": 0.0, \"mount_flux_w\": 0.0, \"board_convection_w\": 0.0011138586531250784, \"board_radiation_w\": 0.0, \"sink_convection_w\": 0.0, \"sink_radiation_w\": 0.0, \"component_convection_w\": 0.0, \"component_radiation_w\": 0.0, \"copper_loss_input_w\": 0.0, \"package_joule_input_w\": 0.0, \"component_input_w\": 0.0011138586531266915, \"residual_w\": 1.6132928326584306e-15, \"relative_residual\": 1.4483820080131232e-12, \"tolerance_w\": 1e-05}\r\nnominal {\"input_w\": 0.0011138586531266917, \"convection_w\": 0.0011138586531370352, \"radiation_w\": 0.0, \"mount_flux_w\": 0.0, \"board_convection_w\": 0.0011138586531370352, \"board_radiation_w\": 0.0, \"sink_convection_w\": 0.0, \"sink_radiation_w\": 0.0, \"component_convection_w\": 0.0, \"component_radiation_w\": 0.0, \"copper_loss_input_w\": 0.0, \"package_joule_input_w\": 0.0, \"component_input_w\": 0.0011138586531266915, \"residual_w\": -1.034350556594621e-14, \"relative_residual\": 9.286192226375536e-12, \"tolerance_w\": 1e-05}\r\nThermal results, native reload and source preservation verified.\r\n",
+  "stderr": "Adding duplicate image handler for 'PNG file'\nAdding duplicate image handler for 'JPEG file'\nAdding duplicate image handler for 'TIFF file'\nAdding duplicate image handler for 'GIF file'\nAdding duplicate image handler for 'PNM file'\nAdding duplicate image handler for 'PCX file'\nAdding duplicate image handler for 'IFF file'\nAdding duplicate image handler for 'Windows icon file'\nAdding duplicate image handler for 'Windows cursor file'\nAdding duplicate image handler for 'Windows animated cursor file'\nAdding duplicate image handler for 'TGA file'\nAdding duplicate image handler for 'XPM file'\nAdding duplicate image handler for 'WebP file'\n",
+  "note": "Regenerated after making JSON line endings explicitly LF so the recorded power-budget digest matches committed bytes. Parsed thermal network is exactly unchanged.",
+  "prior_committed_artifact_sha256": {
+    "coarse.config.json": "8e4117eeaa8f1c7d2d17e3dac1c7fac0b5ea6ddaee080d1704c03649595f8f92",
+    "coarse.results.json": "cb9f6c59f46b5ce6c3317cbdd5a14a50de749ffe8b92b5846b1a83cab1476bd8",
+    "model-inputs.json": "f4d0c92510d07e16aae45f44c6f3f56db162fa5f60149a0de2dc731eaeb97ae1",
+    "nominal.config.json": "01e3e920a01929f9bf4c773b5ce65c8b82d4c01855813cdad9cbbb35a859c47f",
+    "nominal.html": "2534a1ceb1730c6ed2df20e6f67ded0d8b8acbaf81ca551a726cb69078f3aee8",
+    "nominal.json": "5b4ac1c3a238e1b4ebce7341fd4388d3bd818d6b4e4c9de08c4c17ea182180e5",
+    "nominal.pocket-kivi.json": "ba9e94aea0fc57a8fb8886a92bc003749e600127c46e0414fb191e0a8b1cbc05",
+    "nominal.results.json": "724cf5a59bac02337dc28c730728806292408e9949d5dcb0371c9ea9a3ccbe55",
+    "summary.json": "60129d950d938b2b4e56cbabfe2408464557555484cc2b32d632cf1cbb579654"
+  }
+}

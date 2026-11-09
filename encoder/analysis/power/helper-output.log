@@ -1,0 +1,521 @@
+Solver ended 0 elapsed 167.92114233970642
+Traceback (most recent call last):
+  File "D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\tools\analyze_encoder_power.py", line 250, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ^^^^^^
+  File "D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\tools\analyze_encoder_power.py", line 236, in main
+    save(out/'power-budget.json',result)
+  File "D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\tools\analyze_encoder_power.py", line 25, in save
+    def save(p,x):Path(p).write_text(json.dumps(x,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\KiCad\10.0\bin\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Program Files\KiCad\10.0\bin\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Program Files\KiCad\10.0\bin\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Program Files\KiCad\10.0\bin\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\KiCad\10.0\bin\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Program Files\KiCad\10.0\bin\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Program Files\KiCad\10.0\bin\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable
+Solver ended 0 elapsed 167.93714261054993
+{
+  "cell": {
+    "mean_A": 0.00027908139270175846,
+    "rms_A": 0.00027914949378453943,
+    "minimum_sampled_A": 0.000201350346,
+    "peak_sampled_A": 0.000290788378,
+    "peak_sample_time_s": 10.8339276,
+    "electrical_power_W": 0.0008372441781052753,
+    "charge_C": 0.0010230362122248568,
+    "supply_ramp_peak_sampled_A": 0.00117410868,
+    "startup_to_first_accepted_frame_peak_sampled_A": 0.00117410868,
+    "startup_window_end_s": 4.656710256322311,
+    "series_resistance_scenarios": [
+      {
+        "resistance_ohm": 0,
+        "mean_internal_heat_W": 0.0,
+        "mean_voltage_drop_V": 0.0,
+        "settled_peak_voltage_drop_V": 0.0,
+        "startup_peak_voltage_drop_V": 0.0,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 10,
+        "mean_internal_heat_W": 7.792443988016462e-07,
+        "mean_voltage_drop_V": 0.0027908139270175847,
+        "settled_peak_voltage_drop_V": 0.00290788378,
+        "startup_peak_voltage_drop_V": 0.0117410868,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 20,
+        "mean_internal_heat_W": 1.5584887976032923e-06,
+        "mean_voltage_drop_V": 0.0055816278540351694,
+        "settled_peak_voltage_drop_V": 0.00581576756,
+        "startup_peak_voltage_drop_V": 0.0234821736,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 30,
+        "mean_internal_heat_W": 2.3377331964049387e-06,
+        "mean_voltage_drop_V": 0.008372441781052753,
+        "settled_peak_voltage_drop_V": 0.00872365134,
+        "startup_peak_voltage_drop_V": 0.0352232604,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 50,
+        "mean_internal_heat_W": 3.8962219940082315e-06,
+        "mean_voltage_drop_V": 0.013954069635087923,
+        "settled_peak_voltage_drop_V": 0.0145394189,
+        "startup_peak_voltage_drop_V": 0.058705434,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 100,
+        "mean_internal_heat_W": 7.792443988016463e-06,
+        "mean_voltage_drop_V": 0.027908139270175845,
+        "settled_peak_voltage_drop_V": 0.0290788378,
+        "startup_peak_voltage_drop_V": 0.117410868,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      }
+    ]
+  },
+  "energy_balance": {
+    "cell_input_W": 0.0008372441781052753,
+    "total_part_heat_W": 0.0008372441798893489,
+    "external_capacitor_delta_energy_J": 2.866334762032189e-12,
+    "external_capacitor_storage_W": 7.819280371295252e-13,
+    "external_capacitor_terminal_power_W": -2.3272071502049864e-13,
+    "capacitor_integration_vs_endpoint_delta_W": -1.0146487521500238e-12,
+    "residual_W": -2.5660015770722242e-12,
+    "residual_fraction_of_input": -3.064818656463174e-09,
+    "net_opamp_input_power_W": 1.7705600273798977e-10,
+    "terminal_power_balance_residual_W": -1.5513528249222e-12,
+    "maximum_sampled_vbat_kcl_residual_A": 1.3209479083481357e-12,
+    "maximum_sampled_gnd_kcl_residual_A": 5.271100674865414e-07
+  },
+  "checks": {
+    "native_equivalence": {
+      "parts": 79,
+      "terminals": 194,
+      "pin_net_and_value_equivalence": true
+    },
+    "analytic_references": {
+      "status": "PASS",
+      "checks": [
+        "linear mean 2 A",
+        "linear-current mean-square 13/3 A^2",
+        "bilinear power mean 19/3 W",
+        "clipped interpolated endpoints"
+      ]
+    },
+    "complete_frames": 2,
+    "all_frames_decode": true,
+    "finite_samples": true,
+    "all_heat_nonnegative": true,
+    "energy_residual_below_0p1percent": true,
+    "rail_kcl_residual_below_10nA": false
+  },
+  "heat": {
+    "U1": 0.00011986761894480117,
+    "U2": 0.0001198495272576377,
+    "U3": 0.00011936517810528994,
+    "R1": 1.151706220731073e-07,
+    "R2": 3.593548645317663e-06,
+    "R3": 2.127196879953728e-06,
+    "R4": 6.364799904190466e-07,
+    "C1": 0.0,
+    "R5": 1.16472771394574e-07,
+    "R6": 5.2766005722383885e-06,
+    "R7": 2.822159454943876e-06,
+    "R8": 8.932361287318662e-06,
+    "C2": 0.0,
+    "R9": 1.1643286044575633e-07,
+    "R10": 6.595355955482246e-06,
+    "R11": 5.261485152436959e-06,
+    "R12": 6.294924967539363e-06,
+    "C3": 0.0,
+    "R13": 1.1649195172902387e-07,
+    "R14": 5.975472675927846e-06,
+    "R15": 3.171790627320724e-06,
+    "R16": 8.577169952463568e-06,
+    "C4": 0.0,
+    "R17": 1.1650644338328415e-07,
+    "R18": 8.054658714060058e-06,
+    "R19": 4.121177372661802e-06,
+    "R20": 6.537882144667601e-06,
+    "C5": 0.0,
+    "R21": 1.1650223427494479e-07,
+    "R22": 6.276675440701858e-06,
+    "R23": 3.0304833793261932e-06,
+    "R24": 8.080112402552298e-06,
+    "C6": 0.0,
+    "R25": 1.1650457283774896e-07,
+    "R26": 7.024403169468542e-06,
+    "R27": 4.449583433277363e-06,
+    "R28": 6.697732150105071e-06,
+    "C7": 0.0,
+    "R29": 1.1650029722560894e-07,
+    "R30": 6.593806436604015e-06,
+    "R31": 3.105192237232411e-06,
+    "R32": 7.821082420688545e-06,
+    "C8": 0.0,
+    "R33": 1.1650359446298858e-07,
+    "R34": 8.068140174693508e-06,
+    "R35": 3.4525089854233363e-06,
+    "R36": 6.616856598679985e-06,
+    "C9": 0.0,
+    "R37": 1.1650540323774088e-07,
+    "R38": 6.20462472830801e-06,
+    "R39": 3.349908870810945e-06,
+    "R40": 7.899736242566944e-06,
+    "C10": 0.0,
+    "R41": 1.1649606486334243e-07,
+    "R42": 8.051313182268244e-06,
+    "R43": 3.1222189025104366e-06,
+    "R44": 6.325750728541063e-06,
+    "C11": 0.0,
+    "R45": 2.2048109584093102e-06,
+    "R46": 2.3286435820514098e-06,
+    "R47": 2.159217440042807e-06,
+    "R48": 2.380036784475819e-06,
+    "R49": 2.1362542498071167e-06,
+    "R50": 2.3897473758069723e-06,
+    "R51": 2.114409363053966e-06,
+    "R52": 2.4115638589054794e-06,
+    "R53": 2.114424383940856e-06,
+    "R54": 2.401873691127819e-06,
+    "R55": 2.1419070619793004e-06,
+    "R56": 2.2499999786216932e-05,
+    "R57": 2.2500000214797796e-05,
+    "R58": 4.49679555506498e-05,
+    "R59": 3.809550141927625e-05,
+    "D1": 6.620970637944081e-05,
+    "D2": 7.367732278919952e-05,
+    "C12": 0.0,
+    "C13": 0.0,
+    "C14": 0.0
+  }
+}
+{
+  "status": "qualified_model_accounting_with_explicit_global_ground_assignment",
+  "cell": {
+    "mean_A": 0.00027908139270175846,
+    "rms_A": 0.00027914949378453943,
+    "minimum_sampled_A": 0.000201350346,
+    "peak_sampled_A": 0.000290788378,
+    "peak_sample_time_s": 10.8339276,
+    "electrical_power_W": 0.0008372441781052753,
+    "charge_C": 0.0010230362122248568,
+    "supply_ramp_peak_sampled_A": 0.00117410868,
+    "startup_to_first_accepted_frame_peak_sampled_A": 0.00117410868,
+    "startup_window_end_s": 4.656710256322311,
+    "series_resistance_scenarios": [
+      {
+        "resistance_ohm": 0,
+        "mean_internal_heat_W": 0.0,
+        "mean_voltage_drop_V": 0.0,
+        "settled_peak_voltage_drop_V": 0.0,
+        "startup_peak_voltage_drop_V": 0.0,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 10,
+        "mean_internal_heat_W": 7.792443988016462e-07,
+        "mean_voltage_drop_V": 0.0027908139270175847,
+        "settled_peak_voltage_drop_V": 0.00290788378,
+        "startup_peak_voltage_drop_V": 0.0117410868,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 20,
+        "mean_internal_heat_W": 1.5584887976032923e-06,
+        "mean_voltage_drop_V": 0.0055816278540351694,
+        "settled_peak_voltage_drop_V": 0.00581576756,
+        "startup_peak_voltage_drop_V": 0.0234821736,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 30,
+        "mean_internal_heat_W": 2.3377331964049387e-06,
+        "mean_voltage_drop_V": 0.008372441781052753,
+        "settled_peak_voltage_drop_V": 0.00872365134,
+        "startup_peak_voltage_drop_V": 0.0352232604,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 50,
+        "mean_internal_heat_W": 3.8962219940082315e-06,
+        "mean_voltage_drop_V": 0.013954069635087923,
+        "settled_peak_voltage_drop_V": 0.0145394189,
+        "startup_peak_voltage_drop_V": 0.058705434,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 100,
+        "mean_internal_heat_W": 7.792443988016463e-06,
+        "mean_voltage_drop_V": 0.027908139270175845,
+        "settled_peak_voltage_drop_V": 0.0290788378,
+        "startup_peak_voltage_drop_V": 0.117410868,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      }
+    ]
+  },
+  "energy_balance": {
+    "cell_input_W": 0.0008372441781052753,
+    "total_part_heat_W": 0.0008372441798893489,
+    "external_capacitor_delta_energy_J": 2.866334762032189e-12,
+    "external_capacitor_storage_W": 7.819280371295252e-13,
+    "external_capacitor_terminal_power_W": -2.3272071502049864e-13,
+    "capacitor_integration_vs_endpoint_delta_W": -1.0146487521500238e-12,
+    "residual_W": -2.5660015770722242e-12,
+    "residual_fraction_of_input": -3.064818656463174e-09,
+    "net_opamp_input_power_W": 1.7705600273798977e-10,
+    "terminal_power_balance_residual_W": -1.5513528249222e-12,
+    "maximum_sampled_vbat_kcl_residual_A": 1.3209479083481357e-12,
+    "maximum_sampled_gnd_kcl_residual_A": 5.271100674865414e-07,
+    "mean_raw_gnd_kcl_residual_A": 5.783215221765468e-11,
+    "maximum_sampled_gnd_kcl_residual_after_global_ground_assignment_A": 1.6803014168975151e-07
+  },
+  "checks": {
+    "native_equivalence": {
+      "parts": 79,
+      "terminals": 194,
+      "pin_net_and_value_equivalence": true
+    },
+    "analytic_references": {
+      "status": "PASS",
+      "checks": [
+        "linear mean 2 A",
+        "linear-current mean-square 13/3 A^2",
+        "bilinear power mean 19/3 W",
+        "clipped interpolated endpoints"
+      ]
+    },
+    "complete_frames": 2,
+    "all_frames_decode": true,
+    "finite_samples": true,
+    "all_heat_nonnegative": true,
+    "energy_residual_below_0p1percent": true,
+    "rail_kcl_residual_below_10nA": false,
+    "gnd_reconstructed_closure_below_10nA": false
+  }
+}
+{
+  "status": "qualified_model_accounting_with_explicit_global_ground_assignment",
+  "cell": {
+    "mean_A": 0.00027908139270175846,
+    "rms_A": 0.00027914949378453943,
+    "minimum_sampled_A": 0.000201350346,
+    "peak_sampled_A": 0.000290788378,
+    "peak_sample_time_s": 10.8339276,
+    "electrical_power_W": 0.0008372441781052753,
+    "charge_C": 0.0010230362122248568,
+    "supply_ramp_peak_sampled_A": 0.00117410868,
+    "startup_to_first_accepted_frame_peak_sampled_A": 0.00117410868,
+    "startup_window_end_s": 4.656710256322311,
+    "series_resistance_scenarios": [
+      {
+        "resistance_ohm": 0,
+        "mean_internal_heat_W": 0.0,
+        "mean_voltage_drop_V": 0.0,
+        "settled_peak_voltage_drop_V": 0.0,
+        "startup_peak_voltage_drop_V": 0.0,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 10,
+        "mean_internal_heat_W": 7.792443988016462e-07,
+        "mean_voltage_drop_V": 0.0027908139270175847,
+        "settled_peak_voltage_drop_V": 0.00290788378,
+        "startup_peak_voltage_drop_V": 0.0117410868,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 20,
+        "mean_internal_heat_W": 1.5584887976032923e-06,
+        "mean_voltage_drop_V": 0.0055816278540351694,
+        "settled_peak_voltage_drop_V": 0.00581576756,
+        "startup_peak_voltage_drop_V": 0.0234821736,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 30,
+        "mean_internal_heat_W": 2.3377331964049387e-06,
+        "mean_voltage_drop_V": 0.008372441781052753,
+        "settled_peak_voltage_drop_V": 0.00872365134,
+        "startup_peak_voltage_drop_V": 0.0352232604,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 50,
+        "mean_internal_heat_W": 3.8962219940082315e-06,
+        "mean_voltage_drop_V": 0.013954069635087923,
+        "settled_peak_voltage_drop_V": 0.0145394189,
+        "startup_peak_voltage_drop_V": 0.058705434,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 100,
+        "mean_internal_heat_W": 7.792443988016463e-06,
+        "mean_voltage_drop_V": 0.027908139270175845,
+        "settled_peak_voltage_drop_V": 0.0290788378,
+        "startup_peak_voltage_drop_V": 0.117410868,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      }
+    ]
+  },
+  "energy_balance": {
+    "cell_input_W": 0.0008372441781052753,
+    "total_part_heat_W": 0.0008372441790002694,
+    "external_capacitor_delta_energy_J": 2.866334762032189e-12,
+    "external_capacitor_storage_W": 7.819280371295252e-13,
+    "external_capacitor_terminal_power_W": -2.3272071502049864e-13,
+    "capacitor_integration_vs_endpoint_delta_W": -1.0146487521500238e-12,
+    "residual_W": -1.676922076946546e-12,
+    "residual_fraction_of_input": -2.0029068231223814e-09,
+    "net_opamp_input_power_W": 1.7705600273798977e-10,
+    "terminal_power_balance_residual_W": -6.622733247965222e-13,
+    "maximum_sampled_vbat_kcl_residual_A": 1.3209479083481357e-12,
+    "maximum_sampled_gnd_kcl_residual_A": 5.271100670791525e-07,
+    "mean_raw_gnd_kcl_residual_A": 5.827326597606193e-11,
+    "maximum_sampled_gnd_kcl_residual_after_global_ground_assignment_A": 1.2754499604909764e-12
+  },
+  "checks": {
+    "native_equivalence": {
+      "parts": 79,
+      "terminals": 194,
+      "pin_net_and_value_equivalence": true
+    },
+    "analytic_references": {
+      "status": "PASS",
+      "checks": [
+        "linear mean 2 A",
+        "linear-current mean-square 13/3 A^2",
+        "bilinear power mean 19/3 W",
+        "clipped interpolated endpoints"
+      ]
+    },
+    "complete_frames": 2,
+    "all_frames_decode": true,
+    "finite_samples": true,
+    "all_heat_nonnegative": true,
+    "energy_residual_below_0p1percent": true,
+    "rail_kcl_residual_below_10nA": false,
+    "gnd_reconstructed_closure_below_10nA": true
+  }
+}
+{
+  "status": "qualified_model_accounting_with_explicit_global_ground_assignment",
+  "cell": {
+    "mean_A": 0.00027908139270175846,
+    "rms_A": 0.00027914949378453943,
+    "minimum_sampled_A": 0.000201350346,
+    "peak_sampled_A": 0.000290788378,
+    "peak_sample_time_s": 10.8339276,
+    "electrical_power_W": 0.0008372441781052753,
+    "charge_C": 0.0010230362122248568,
+    "supply_ramp_peak_sampled_A": 0.00117410868,
+    "startup_to_first_accepted_frame_peak_sampled_A": 0.00117410868,
+    "startup_window_end_s": 4.656710256322311,
+    "series_resistance_scenarios": [
+      {
+        "resistance_ohm": 0,
+        "mean_internal_heat_W": 0.0,
+        "mean_voltage_drop_V": 0.0,
+        "settled_peak_voltage_drop_V": 0.0,
+        "startup_peak_voltage_drop_V": 0.0,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 10,
+        "mean_internal_heat_W": 7.792443988016462e-07,
+        "mean_voltage_drop_V": 0.0027908139270175847,
+        "settled_peak_voltage_drop_V": 0.00290788378,
+        "startup_peak_voltage_drop_V": 0.0117410868,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 20,
+        "mean_internal_heat_W": 1.5584887976032923e-06,
+        "mean_voltage_drop_V": 0.0055816278540351694,
+        "settled_peak_voltage_drop_V": 0.00581576756,
+        "startup_peak_voltage_drop_V": 0.0234821736,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 30,
+        "mean_internal_heat_W": 2.3377331964049387e-06,
+        "mean_voltage_drop_V": 0.008372441781052753,
+        "settled_peak_voltage_drop_V": 0.00872365134,
+        "startup_peak_voltage_drop_V": 0.0352232604,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 50,
+        "mean_internal_heat_W": 3.8962219940082315e-06,
+        "mean_voltage_drop_V": 0.013954069635087923,
+        "settled_peak_voltage_drop_V": 0.0145394189,
+        "startup_peak_voltage_drop_V": 0.058705434,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      },
+      {
+        "resistance_ohm": 100,
+        "mean_internal_heat_W": 7.792443988016463e-06,
+        "mean_voltage_drop_V": 0.027908139270175845,
+        "settled_peak_voltage_drop_V": 0.0290788378,
+        "startup_peak_voltage_drop_V": 0.117410868,
+        "interpretation": "postprocessed constant resistance scenario; no coupled source droop recalculation"
+      }
+    ]
+  },
+  "energy_balance": {
+    "cell_input_W": 0.0008372441781052753,
+    "total_part_heat_W": 0.0008372441790002694,
+    "external_capacitor_delta_energy_J": 2.866334762032189e-12,
+    "external_capacitor_storage_W": 7.819280371295252e-13,
+    "external_capacitor_terminal_power_W": -2.3272071502049864e-13,
+    "capacitor_integration_vs_endpoint_delta_W": -1.0146487521500238e-12,
+    "residual_W": -1.676922076946546e-12,
+    "residual_fraction_of_input": -2.0029068231223814e-09,
+    "net_opamp_input_power_W": 1.7705600273798977e-10,
+    "terminal_power_balance_residual_W": -6.622733247965222e-13,
+    "maximum_sampled_vbat_kcl_residual_A": 1.3209479083481357e-12,
+    "maximum_sampled_gnd_kcl_residual_A": 5.271100670791525e-07,
+    "mean_raw_gnd_kcl_residual_A": 5.827326597606193e-11,
+    "maximum_sampled_gnd_kcl_residual_after_global_ground_assignment_A": 1.2754499604909764e-12
+  },
+  "checks": {
+    "native_equivalence": {
+      "parts": 79,
+      "terminals": 194,
+      "pin_net_and_value_equivalence": true
+    },
+    "analytic_references": {
+      "status": "PASS",
+      "checks": [
+        "linear mean 2 A",
+        "linear-current mean-square 13/3 A^2",
+        "bilinear power mean 19/3 W",
+        "clipped interpolated endpoints"
+      ]
+    },
+    "complete_frames": 2,
+    "all_frames_decode": true,
+    "finite_samples": true,
+    "all_heat_nonnegative": true,
+    "energy_residual_below_0p1percent": true,
+    "rail_kcl_residual_below_10nA": false,
+    "gnd_reconstructed_closure_below_10nA": true
+  }
+}

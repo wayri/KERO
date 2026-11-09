@@ -16,3 +16,7 @@ The native gate runs ERC and DRC with all severities, DRC schematic parity, XML 
 The PNG schematic is a rasterization of the native SVG; the SVG is the authoritative preview. There is no hardware test or transistor-level simulation in this gate. CLI sandbox registry warnings were captured; they did not prevent valid checks or exports.
 
 Libraries and models are vendored for viewing and assembly review. The rebuild tool additionally needs the matching standard KiCad source libraries for regeneration. Its layout router is a small deterministic demo helper, not a general KiCad router.
+
+## Mixed ECO and analysis
+
+This branch is a staged ECO, with 33 electrical pads. Do not run the baseline generator over it. Start from the documented BoM branch and apply add-testpoint, then film-capacitor with tools/review_scenarios.py; validate each milestone. tools/analyze_power.py computes the current/power budget and optionally runs prepared WayriCAD 4.5 copper studies. See docs/ECO.md and docs/POWER-ANALYSIS.md.

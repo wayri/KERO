@@ -1,0 +1,109 @@
+{
+  "engine_source": "Pocket KiView local extension/design-diff.js",
+  "engine_sha256": "275c3ad9dd3d88ca61d00decab402eaf1cb398ad587dcb9852b9599d7a13884b",
+  "base_main": "c14a6d2a6cb80385c3e86f5719d2e087168c4c5f",
+  "final_counts": {
+    "added": 24,
+    "removed": 6,
+    "modified": 6
+  },
+  "stages": [
+    {
+      "base": "c14a6d2a6cb80385c3e86f5719d2e087168c4c5f",
+      "head": "d7cbb7f8684b169e4af0951b7277f86e4642bfc8",
+      "scenario": "documentation",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "modified": 0
+      },
+      "part_changes": []
+    },
+    {
+      "base": "c14a6d2a6cb80385c3e86f5719d2e087168c4c5f",
+      "head": "fcbcfa3c76ff4543f7c4a058c6fb3b655c8dd4a4",
+      "scenario": "BoM values and MPN",
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "modified": 4
+      },
+      "part_changes": [
+        {
+          "kind": "footprint",
+          "label": "R6",
+          "status": "modified"
+        },
+        {
+          "kind": "footprint",
+          "label": "R7",
+          "status": "modified"
+        },
+        {
+          "kind": "symbol",
+          "label": "R6",
+          "status": "modified"
+        },
+        {
+          "kind": "symbol",
+          "label": "R7",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "base": "9e2694a3857b558c3d50a27c7170ecaa4aecc2c8",
+      "head": "9462a11f922d717aa7f1fa6725d79e1835d82f45",
+      "scenario": "TP1 addition",
+      "counts": {
+        "added": 18,
+        "removed": 0,
+        "modified": 1
+      },
+      "part_changes": [
+        {
+          "kind": "footprint",
+          "label": "TP1",
+          "status": "added"
+        },
+        {
+          "kind": "symbol",
+          "label": "TP1",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "base": "9462a11f922d717aa7f1fa6725d79e1835d82f45",
+      "head": "3b9a57a92633db3dc71c256878c40dde09fd5972",
+      "scenario": "C1 removal / C3 addition and layout repair",
+      "counts": {
+        "added": 6,
+        "removed": 6,
+        "modified": 1
+      },
+      "part_changes": [
+        {
+          "kind": "footprint",
+          "label": "C3",
+          "status": "added"
+        },
+        {
+          "kind": "footprint",
+          "label": "C1",
+          "status": "removed"
+        },
+        {
+          "kind": "symbol",
+          "label": "C1",
+          "status": "removed"
+        },
+        {
+          "kind": "symbol",
+          "label": "C3",
+          "status": "added"
+        }
+      ]
+    }
+  ]
+}

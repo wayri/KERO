@@ -1,0 +1,174 @@
+{
+  "scope": "Actual current-source extension parser and surface adapter; browser gestures not established by this check",
+  "files": [
+    {
+      "path": "analysis/pi/KERO.gnd-high-reversed.pocket-kivi.json",
+      "bytes": 21234674,
+      "kind": "Saved analysis report",
+      "plots": [
+        {
+          "title": "Saved nodal potential · F.Cu",
+          "type": "mesh-field",
+          "triangles": 51888
+        },
+        {
+          "title": "Saved nodal potential · B.Cu",
+          "type": "mesh-field",
+          "triangles": 6990
+        },
+        {
+          "title": "Saved cell power · F.Cu",
+          "type": "mesh-field",
+          "triangles": 51888
+        },
+        {
+          "title": "Saved cell power · B.Cu",
+          "type": "mesh-field",
+          "triangles": 6990
+        },
+        {
+          "title": "Saved current density magnitude · F.Cu",
+          "type": "mesh-field",
+          "triangles": 51888
+        },
+        {
+          "title": "Saved current density magnitude · B.Cu",
+          "type": "mesh-field",
+          "triangles": 6990
+        }
+      ],
+      "supported_surfaces": 6,
+      "source_bindings": [
+        {
+          "path": "KERO.kicad_pcb",
+          "sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5"
+        }
+      ],
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    },
+    {
+      "path": "analysis/pi/KERO.vbat-high.pocket-kivi.json",
+      "bytes": 9541930,
+      "kind": "Saved analysis report",
+      "plots": [
+        {
+          "title": "Saved nodal potential · F.Cu",
+          "type": "mesh-field",
+          "triangles": 22558
+        },
+        {
+          "title": "Saved nodal potential · B.Cu",
+          "type": "mesh-field",
+          "triangles": 2826
+        },
+        {
+          "title": "Saved cell power · F.Cu",
+          "type": "mesh-field",
+          "triangles": 22558
+        },
+        {
+          "title": "Saved cell power · B.Cu",
+          "type": "mesh-field",
+          "triangles": 2826
+        },
+        {
+          "title": "Saved current density magnitude · F.Cu",
+          "type": "mesh-field",
+          "triangles": 22558
+        },
+        {
+          "title": "Saved current density magnitude · B.Cu",
+          "type": "mesh-field",
+          "triangles": 2826
+        }
+      ],
+      "supported_surfaces": 6,
+      "source_bindings": [
+        {
+          "path": "KERO.kicad_pcb",
+          "sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5"
+        }
+      ],
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    },
+    {
+      "path": "analysis/pi/KERO.vbat-low.pocket-kivi.json",
+      "bytes": 9457827,
+      "kind": "Saved analysis report",
+      "plots": [
+        {
+          "title": "Saved nodal potential · F.Cu",
+          "type": "mesh-field",
+          "triangles": 22558
+        },
+        {
+          "title": "Saved nodal potential · B.Cu",
+          "type": "mesh-field",
+          "triangles": 2826
+        },
+        {
+          "title": "Saved cell power · F.Cu",
+          "type": "mesh-field",
+          "triangles": 22558
+        },
+        {
+          "title": "Saved cell power · B.Cu",
+          "type": "mesh-field",
+          "triangles": 2826
+        },
+        {
+          "title": "Saved current density magnitude · F.Cu",
+          "type": "mesh-field",
+          "triangles": 22558
+        },
+        {
+          "title": "Saved current density magnitude · B.Cu",
+          "type": "mesh-field",
+          "triangles": 2826
+        }
+      ],
+      "supported_surfaces": 6,
+      "source_bindings": [
+        {
+          "path": "KERO.kicad_pcb",
+          "sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5"
+        }
+      ],
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    },
+    {
+      "path": "analysis/thermal/nominal.pocket-kivi.json",
+      "bytes": 228390,
+      "plots": [
+        {
+          "title": "Saved board temperature field",
+          "type": "heatmap",
+          "rows": 58,
+          "columns": 80
+        },
+        {
+          "title": "Saved board temperature field",
+          "type": "heatmap",
+          "rows": 58,
+          "columns": 80
+        }
+      ],
+      "surfaces": 2,
+      "binding": [
+        {
+          "path": "KERO.kicad_pcb",
+          "sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5"
+        }
+      ],
+      "warnings": [
+        "Property preview limited to 4000 fields; full source remains available."
+      ]
+    }
+  ]
+}

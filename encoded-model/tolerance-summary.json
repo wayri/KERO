@@ -1,0 +1,35 @@
+{
+  "schema": "kero.rc-pwm-event-evidence/v1",
+  "evidence": "Exact exponential event integration with ideal instantaneous saturated op amps; not SPICE/device/ramp/bench validation.",
+  "seed": 9044112026,
+  "trials_per_voltage": 250,
+  "total_trials": 750,
+  "passed": 750,
+  "failed": 0,
+  "uncertainties": {
+    "resistors_relative": 0.001,
+    "capacitors_relative": 0.01,
+    "input_offset_max_V": 0.00225,
+    "output_high_headroom_V": [
+      0,
+      0.01
+    ],
+    "output_low_V": [
+      0,
+      0.01
+    ],
+    "sample_distribution": "Independent uniform per component and channel; random initial capacitor voltages and output states."
+  },
+  "maximum_symbol_coordinate_error": 0.1405200352831434,
+  "nearest_code_decision_boundary": 0.5,
+  "minimum_settled_majority_margin_V": 0.10751864131423483,
+  "limitations": [
+    "Sampling is not worst-case proof or population yield prediction.",
+    "No finite slew, overload recovery, dynamic supply current, loading-dependent output rail or input capacitance model.",
+    "No supply ramp or brownout integration; alternate capacitor bottom plates assume a fast initial power step from discharged capacitors.",
+    "Input differential >2.5 V can increase input bias in TI specification; leakage needs explicit device and board evaluation.",
+    "E192 nominal resistor values and 47nF 1% C0G capacitors require exact MPN/package/tolerance sourcing review.",
+    "Static decoder margin is evaluated; simultaneous analog transitions and output glitches require device simulation.",
+    "No complete cell-current budget or lifetime claim is established by this model."
+  ]
+}

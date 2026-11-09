@@ -1,0 +1,3018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\encoder\Encoder.kicad_sch</source>
+    <date>2026-11-07T22:17:53</date>
+    <tool>Eeschema 10.0.6</tool>
+    <textvar name="BYPASS_C">100n</textvar>
+    <textvar name="CAP_TOL">1%</textvar>
+    <textvar name="DIVIDER_R">100k</textvar>
+    <textvar name="ENCODER_OPAMP_MPN">TLV9044IPWR</textvar>
+    <textvar name="LED_R">15k</textvar>
+    <textvar name="OPAMP">TLV9044IPWR</textvar>
+    <textvar name="OPAMP_DATASHEET">https://www.ti.com/lit/ds/symlink/tlv9044.pdf</textvar>
+    <textvar name="OPAMP_MFR">Texas Instruments</textvar>
+    <textvar name="PASSIVE_MFR">Select to specification</textvar>
+    <textvar name="R10_VALUE">182k</textvar>
+    <textvar name="R11_VALUE">332k</textvar>
+    <textvar name="R12_VALUE">665k</textvar>
+    <textvar name="R13_VALUE">1.47M</textvar>
+    <textvar name="R14_VALUE">427k</textvar>
+    <textvar name="R15_VALUE">213k</textvar>
+    <textvar name="R16_VALUE">340k</textvar>
+    <textvar name="R17_VALUE">2.43M</textvar>
+    <textvar name="R18_VALUE">240k</textvar>
+    <textvar name="R19_VALUE">258k</textvar>
+    <textvar name="R1_VALUE">6.98M</textvar>
+    <textvar name="R20_VALUE">511k</textvar>
+    <textvar name="R21_VALUE">2M</textvar>
+    <textvar name="R22_VALUE">291k</textvar>
+    <textvar name="R23_VALUE">229k</textvar>
+    <textvar name="R24_VALUE">459k</textvar>
+    <textvar name="R25_VALUE">2.91M</textvar>
+    <textvar name="R26_VALUE">208k</textvar>
+    <textvar name="R27_VALUE">291k</textvar>
+    <textvar name="R28_VALUE">583k</textvar>
+    <textvar name="R29_VALUE">2M</textvar>
+    <textvar name="R2_VALUE">2.13M</textvar>
+    <textvar name="R30_VALUE">291k</textvar>
+    <textvar name="R31_VALUE">229k</textvar>
+    <textvar name="R32_VALUE">459k</textvar>
+    <textvar name="R33_VALUE">2M</textvar>
+    <textvar name="R34_VALUE">291k</textvar>
+    <textvar name="R35_VALUE">229k</textvar>
+    <textvar name="R36_VALUE">459k</textvar>
+    <textvar name="R37_VALUE">2.43M</textvar>
+    <textvar name="R38_VALUE">240k</textvar>
+    <textvar name="R39_VALUE">258k</textvar>
+    <textvar name="R3_VALUE">1.05M</textvar>
+    <textvar name="R40_VALUE">511k</textvar>
+    <textvar name="R41_VALUE">1.37M</textvar>
+    <textvar name="R42_VALUE">470k</textvar>
+    <textvar name="R43_VALUE">237k</textvar>
+    <textvar name="R44_VALUE">274k</textvar>
+    <textvar name="R4_VALUE">117k</textvar>
+    <textvar name="R5_VALUE">1.65M</textvar>
+    <textvar name="R6_VALUE">365k</textvar>
+    <textvar name="R7_VALUE">208k</textvar>
+    <textvar name="R8_VALUE">412k</textvar>
+    <textvar name="R9_VALUE">3.52M</textvar>
+    <textvar name="RES_TOL">0.1%</textvar>
+    <textvar name="SUM_R">1M</textvar>
+    <textvar name="TIMING_C">47n</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>KERO: RC-programmed hello world transmitter</title>
+        <company/>
+        <rev>candidate</rev>
+        <date>2026-11-07</date>
+        <source>Encoder.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/d23fc87b-804e-5bef-ae40-2c344f10f8fe/">
+      <title_block>
+        <title>CR2032 power and quad-op-amp bypass</title>
+        <company/>
+        <rev>candidate</rev>
+        <date>2026-11-07</date>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/">
+      <title_block>
+        <title>RC delay bank: ST01–ST04</title>
+        <company/>
+        <rev>candidate</rev>
+        <date>2026-11-07</date>
+        <source>bank1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/">
+      <title_block>
+        <title>RC delay bank: ST05–ST08</title>
+        <company/>
+        <rev>candidate</rev>
+        <date>2026-11-07</date>
+        <source>bank2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/">
+      <title_block>
+        <title>RC delay bank: ST09–ST11</title>
+        <company/>
+        <rev>candidate</rev>
+        <date>2026-11-07</date>
+        <source>bank3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/">
+      <title_block>
+        <title>Eleven-input majority decoder and alternating LEDs</title>
+        <company/>
+        <rev>candidate</rev>
+        <date>2026-11-07</date>
+        <source>decoder.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>CR2032</value>
+      <footprint>Encoder:BatteryHolder_Keystone_1058_1x2032</footprint>
+      <fields>
+        <field name="Manufacturer">Keystone</field>
+        <field name="MPN">1058</field>
+        <field name="Rating">One CR2032 coin cell, 3 V nominal; holder only</field>
+        <field name="Footprint">Encoder:BatteryHolder_Keystone_1058_1x2032</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_Battery_Cell" description="Single-cell battery"/>
+      <property name="Manufacturer" value="Keystone"/>
+      <property name="MPN" value="1058"/>
+      <property name="Rating" value="One CR2032 coin cell, 3 V nominal; holder only"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/power/" tstamps="/d23fc87b-804e-5bef-ae40-2c344f10f8fe/"/>
+      <tstamps>f27631ed-daa2-5cab-82f7-460c6eb59341</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Encoder:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">10 V, X7R, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="10 V, X7R, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/d23fc87b-804e-5bef-ae40-2c344f10f8fe/"/>
+      <tstamps>58487413-b824-5167-97d8-e6e6059ee39d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Encoder:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">10 V, X7R, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="10 V, X7R, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/d23fc87b-804e-5bef-ae40-2c344f10f8fe/"/>
+      <tstamps>58ad6d77-939c-54a9-bc52-eb81c4dc44a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Encoder:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">10 V, X7R, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="10 V, X7R, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/d23fc87b-804e-5bef-ae40-2c344f10f8fe/"/>
+      <tstamps>95f10e6f-939e-5ca8-846b-c804c8859c1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>TLV9044IPWR</value>
+      <footprint>Encoder:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv9044.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">TLV9044IPWR</field>
+        <field name="Rating">1.2–5.5 V RRIO quad op amp</field>
+        <field name="Footprint">Encoder:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv9044.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="TLV9044" description="TLV9044 quad RRIO low-power op amp; standard TSSOP-14 pin map"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="TLV9044IPWR"/>
+      <property name="Rating" value="1.2–5.5 V RRIO quad op amp"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"/>
+      <sheetpath names="/power/" tstamps="/d23fc87b-804e-5bef-ae40-2c344f10f8fe/"/>
+      <tstamps>8a8aceea-313a-5e27-a6f7-3e8537cb74f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="4"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TLV9044IPWR</value>
+      <footprint>Encoder:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv9044.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">TLV9044IPWR</field>
+        <field name="Rating">1.2–5.5 V RRIO quad op amp</field>
+        <field name="Footprint">Encoder:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv9044.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="TLV9044" description="TLV9044 quad RRIO low-power op amp; standard TSSOP-14 pin map"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="TLV9044IPWR"/>
+      <property name="Rating" value="1.2–5.5 V RRIO quad op amp"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"/>
+      <sheetpath names="/power/" tstamps="/d23fc87b-804e-5bef-ae40-2c344f10f8fe/"/>
+      <tstamps>eef8e5d5-6d1a-5085-b4aa-8def3e8e7c75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="4"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TLV9044IPWR</value>
+      <footprint>Encoder:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv9044.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MPN">TLV9044IPWR</field>
+        <field name="Rating">1.2–5.5 V RRIO quad op amp</field>
+        <field name="Footprint">Encoder:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv9044.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="TLV9044" description="TLV9044 quad RRIO low-power op amp; standard TSSOP-14 pin map"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MPN" value="TLV9044IPWR"/>
+      <property name="Rating" value="1.2–5.5 V RRIO quad op amp"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"/>
+      <sheetpath names="/power/" tstamps="/d23fc87b-804e-5bef-ae40-2c344f10f8fe/"/>
+      <tstamps>431000a8-2a17-588a-be9f-2eda4dd15fc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="4"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>b4edd5e8-1fcb-5e12-a2b4-a52b35e4aae7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>fcf6876a-585f-58ce-8389-8bff55ceedcc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>695996a8-d764-58fc-a26f-2fcaefe0cbd7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>2d6d73c0-27fe-51cc-aac3-84bbef44e905</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>6.98M</value>
+      <footprint>Encoder:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>8b2e1297-4fe9-51f4-aca5-d72641ec7a48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>2.13M</value>
+      <footprint>Encoder:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>a93e26d7-e104-598f-98e8-81c2ff752e3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>1.05M</value>
+      <footprint>Encoder:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>1454c67d-e5f4-584a-b3ea-0f221eee7df9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>117k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>1f55f227-5652-5804-b8e2-f4cde1f9d8f4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>1.65M</value>
+      <footprint>Encoder:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>42ed74e5-dd1e-540d-90ba-65913b09cf6f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>365k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>194e56bc-a757-5baa-a178-99caa9df6399</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>208k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>92f010eb-247b-5075-9c0c-6a9d33ae0268</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>412k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>41b10c40-c85a-5b4c-895d-91d247385838</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>3.52M</value>
+      <footprint>Encoder:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>e438d19e-3dd0-5a8f-bb85-d95eeb5d50ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>182k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>006214f5-e698-540c-ac0a-5d6761dcb4d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>332k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>4fbf586d-b9a8-52e8-87d6-af9adad5ad0b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>665k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>8da08e12-19cc-548b-ac7b-203970cd98d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>1.47M</value>
+      <footprint>Encoder:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>23747dfd-e0eb-51e4-9653-57b05b18e16a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>427k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>a87d1aa8-cf58-5fab-ac29-4e7e87ea94a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>213k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>9113114a-22a6-5740-bbd5-4e9baa7f52b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>340k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank1"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank1/" tstamps="/1a7fbb01-6560-54b5-9b34-89583e4e2610/"/>
+      <tstamps>e40beed1-b234-5a65-9898-79be8756964e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>0117e05f-4cf7-5161-81ec-498930156dd2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>3c5d51d2-062d-58db-a47d-cea62f37f4ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>79894ea0-ba9f-591c-ad81-d83718ef3d9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>ad386fb6-a4e7-5626-9a30-c022ee1126a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>2.43M</value>
+      <footprint>Encoder:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>b0adbd0c-b642-599d-98cc-19649e0126b5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>240k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>a1a6fe08-668a-5a7f-81b5-d2198b9148a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>258k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>d093af5c-d568-5824-a6e4-e9978b5adc0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>511k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>a9cf16b5-e8c9-5f8b-8751-eef68023a433</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>2M</value>
+      <footprint>Encoder:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>73e9a7ef-2d7f-580c-b4e4-3c5cbcc24659</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>291k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>abda7a25-6cbf-50c1-85ac-413935da5cbf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>229k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>1ab1b6d3-dec6-55aa-abb5-dce2185678a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>459k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>20f3df7e-0aa2-53ef-9bdc-314cec85a860</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>2.91M</value>
+      <footprint>Encoder:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>8d52f185-bd85-5a89-855a-02520350afc2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>208k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>b58128a3-5168-5966-b087-3c113901dc19</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R27">
+      <value>291k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>cd170a89-cecf-5192-ab9d-baff89b3257b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R28">
+      <value>583k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>2bdd7065-ac01-5761-8963-c3d42cb3d578</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>2M</value>
+      <footprint>Encoder:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>7c92d9c0-c45a-5ae4-90e5-8daed75eeb40</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>291k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>8205986f-50a6-5b21-b14b-18c794311055</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>229k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>c633425c-ea09-5fdc-9d0d-e9ce3bedd1b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>459k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank2"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank2/" tstamps="/0bdf1f61-aaac-5d9d-aedd-a17ac5c891b4/"/>
+      <tstamps>5dfe51bb-9f6e-50ab-a184-e8f95ded15b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>a7e8e6f2-cc43-50b0-a168-9810f606a076</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>bbd77b16-5992-560a-b59c-a61a06c4beb7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>47n</value>
+      <footprint>Encoder:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">47 nF, C0G, 1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="47 nF, C0G, 1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>1b52f19a-6fd5-5f8c-9bec-b95eec9f76c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>2M</value>
+      <footprint>Encoder:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>4d54af70-5ed0-5cac-a188-8a75afec8af1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>291k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>74aef28e-070f-5e30-89d0-7214cea10b72</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>229k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>4c266678-0589-5b9c-be8c-62aab7b39a1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R36">
+      <value>459k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>0086bf42-e7e5-5b49-8f1a-95ee45cac5b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R37">
+      <value>2.43M</value>
+      <footprint>Encoder:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0805; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0805; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>0bacc4d7-9165-5e62-89b7-feba4e4a3e87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R38">
+      <value>240k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>8e5f73a5-310b-5796-82db-04d46c3357d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R39">
+      <value>258k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>8bb93dc5-0bfa-55c9-b2c5-950a460be382</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R40">
+      <value>511k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>7dc5f3c5-0240-570c-aeed-321e03083c9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R41">
+      <value>1.37M</value>
+      <footprint>Encoder:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0603; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0603; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>db87e047-4f09-5909-b2a6-4b2248b84a8f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R42">
+      <value>470k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>c9aeee1e-7a7c-5a6b-a727-6cf49211f868</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R43">
+      <value>237k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>9b02c7e1-260d-5d71-9cf8-4c7f6e56fb94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R44">
+      <value>274k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="bank3"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/bank3/" tstamps="/a9252019-b33b-5f20-a763-f6f31dd95760/"/>
+      <tstamps>073546e7-db4c-52f8-b19e-700dbb637b1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>Encoder:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">Low-current red; generic SPICE model, exact MPN unverified</field>
+        <field name="Footprint">Encoder:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="Low-current red; generic SPICE model, exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>8cda34fc-63dc-5648-993f-8718e9bf52e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>GREEN</value>
+      <footprint>Encoder:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">Low-Vf yellow-green; generic SPICE model, exact MPN unverified</field>
+        <field name="Footprint">Encoder:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_LED" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="Low-Vf yellow-green; generic SPICE model, exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>845e477d-7710-5468-92ab-bed632beaa9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R45">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>9710d64a-4b73-5f7c-a210-b7b4bd8b7703</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R46">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>1f79e59a-756e-5cb0-b1e9-3445a638af9f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R47">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>ddc1656c-8ae5-5aeb-b0a8-14e5eaa64d2c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R48">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>a9af1804-748a-54b4-88df-c149e684b698</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R49">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>19268605-eadf-566c-b952-ff9d5866ecc6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R50">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>4f722ae9-8a38-51e2-9de0-8a2b95ab88dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R51">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>05e55abf-dcc7-53de-8af5-b64867fbc03e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R52">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>1f98d345-c1ab-54d2-86f2-5ad8733b003a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R53">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>bc5fe443-c6dc-53bb-8870-4df9880ce469</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R54">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>add6284f-14d5-5f14-81ac-30271abb3a5c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R55">
+      <value>1M</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>f593e387-2a28-56e9-803c-5960b1de9cb1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R56">
+      <value>100k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>b6a1ccd8-3313-5875-a374-900a2665803f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R57">
+      <value>100k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>b7850818-7428-5512-8802-b1b561a066e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R58">
+      <value>15k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>36e8d100-d26d-56ec-a932-e6155cc41144</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R59">
+      <value>15k</value>
+      <footprint>Encoder:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Select to specification</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">0.1%, 0402; exact MPN unverified</field>
+        <field name="Footprint">Encoder:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Encoder" part="Device_R" description="Resistor"/>
+      <property name="Manufacturer" value="Select to specification"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="0.1%, 0402; exact MPN unverified"/>
+      <property name="Sheetname" value="decoder"/>
+      <property name="Sheetfile" value="decoder.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/decoder/" tstamps="/7f5781d0-4eca-50af-9689-3f9d0f72fc67/"/>
+      <tstamps>98f20e78-cab0-555c-b1cf-517b1ce7724c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Encoder" part="Device_Battery_Cell">
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Single-cell battery</field>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Encoder" part="Device_C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Encoder" part="Device_LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Encoder" part="Device_R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Encoder" part="TLV9044">
+      <description>TLV9044 quad RRIO low-power op amp; standard TSSOP-14 pin map</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlv9044.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV9044IPWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv9044.pdf</field>
+        <field name="Description">TLV9044 quad RRIO low-power op amp; standard TSSOP-14 pin map</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Encoder">
+      <uri>${KIPRJMOD}/Encoder.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="BT1" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V-_11" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="V-_11" pintype="power_in"/>
+      <node ref="U3" pin="11" pinfunction="V-_11" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ST01_OUT" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="3" name="/ST02_OUT" class="Default">
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="4" name="/ST03_OUT" class="Default">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="5" name="/ST04_OUT" class="Default">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pintype="output"/>
+    </net>
+    <net code="6" name="/ST05_OUT" class="Default">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="7" name="/ST06_OUT" class="Default">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pintype="output"/>
+    </net>
+    <net code="8" name="/ST07_OUT" class="Default">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pintype="output"/>
+    </net>
+    <net code="9" name="/ST08_OUT" class="Default">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pintype="output"/>
+    </net>
+    <net code="10" name="/ST09_OUT" class="Default">
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="output"/>
+    </net>
+    <net code="11" name="/ST10_OUT" class="Default">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="12" name="/ST11_OUT" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pintype="output"/>
+    </net>
+    <net code="13" name="/VBAT" class="Default">
+      <node ref="BT1" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="R59" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V+_4" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V+_4" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="V+_4" pintype="power_in"/>
+    </net>
+    <net code="14" name="/bank1/ST01_TH" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+_3" pintype="input"/>
+    </net>
+    <net code="15" name="/bank1/ST01_TIMING" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-_2" pintype="input"/>
+    </net>
+    <net code="16" name="/bank1/ST02_TH" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+_5" pintype="input"/>
+    </net>
+    <net code="17" name="/bank1/ST02_TIMING" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-_6" pintype="input"/>
+    </net>
+    <net code="18" name="/bank1/ST03_TH" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+_10" pintype="input"/>
+    </net>
+    <net code="19" name="/bank1/ST03_TIMING" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="-_9" pintype="input"/>
+    </net>
+    <net code="20" name="/bank1/ST04_TH" class="Default">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="+_12" pintype="input"/>
+    </net>
+    <net code="21" name="/bank1/ST04_TIMING" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="-_13" pintype="input"/>
+    </net>
+    <net code="22" name="/bank2/ST05_TH" class="Default">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+_3" pintype="input"/>
+    </net>
+    <net code="23" name="/bank2/ST05_TIMING" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-_2" pintype="input"/>
+    </net>
+    <net code="24" name="/bank2/ST06_TH" class="Default">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="+_5" pintype="input"/>
+    </net>
+    <net code="25" name="/bank2/ST06_TIMING" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-_6" pintype="input"/>
+    </net>
+    <net code="26" name="/bank2/ST07_TH" class="Default">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="+_10" pintype="input"/>
+    </net>
+    <net code="27" name="/bank2/ST07_TIMING" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="-_9" pintype="input"/>
+    </net>
+    <net code="28" name="/bank2/ST08_TH" class="Default">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="+_12" pintype="input"/>
+    </net>
+    <net code="29" name="/bank2/ST08_TIMING" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="-_13" pintype="input"/>
+    </net>
+    <net code="30" name="/bank3/ST09_TH" class="Default">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="+_3" pintype="input"/>
+    </net>
+    <net code="31" name="/bank3/ST09_TIMING" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="-_2" pintype="input"/>
+    </net>
+    <net code="32" name="/bank3/ST10_TH" class="Default">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="+_5" pintype="input"/>
+    </net>
+    <net code="33" name="/bank3/ST10_TIMING" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="-_6" pintype="input"/>
+    </net>
+    <net code="34" name="/bank3/ST11_TH" class="Default">
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="+_10" pintype="input"/>
+    </net>
+    <net code="35" name="/bank3/ST11_TIMING" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="-_9" pintype="input"/>
+    </net>
+    <net code="36" name="/decoder/GREEN_A" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R59" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="/decoder/MAJORITY_SUM" class="Default">
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="+_12" pintype="input"/>
+    </net>
+    <net code="38" name="/decoder/MIDREF" class="Default">
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="-_13" pintype="input"/>
+    </net>
+    <net code="39" name="/decoder/RED_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R58" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="ENCODED_OUT" class="Default">
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R58" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pintype="output"/>
+    </net>
+  </nets>
+</export>

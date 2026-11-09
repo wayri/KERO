@@ -18,5 +18,6 @@
     "24 native field-orientation cases agree with the local corrected browser renderer",
     "Local Edge desktop and narrow-viewport screenshots generated using the shared renderer"
   ],
-  "browser_limit": "This screenshot uses local Pocket KiView field-rendering fixes. Installed/published app versions have not been rebuilt or deployed."
+  "browser_limit": "This screenshot uses local Pocket KiView field-rendering fixes. Installed/published app versions have not been rebuilt or deployed.",
+  "scope": "Historical baseline redraw only, main c14a6d2; superseded for hardware ECO connectivity by evidence/summary.json"
 }

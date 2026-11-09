@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\PROJECTS-DEV\Kicad-plugins-dev\nativegitvizdiffkicad\.vizdiff\KERO\KERO.kicad_sch</source>
-    <date>2026-11-07T20:16:47</date>
+    <date>2026-11-07T20:50:40</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -53,36 +53,6 @@
         </unit>
       </units>
     </comp>
-    <comp ref="C1">
-      <value>1u</value>
-      <footprint>Demo:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="Manufacturer">Generic</field>
-        <field name="MPN">Select to specification</field>
-        <field name="Rating">10 V min, X7R, +/-10%, 0805; effective C affects frequency</field>
-        <field name="Footprint">Demo:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Demo" part="Device_C" description="Unpolarized capacitor"/>
-      <property name="Manufacturer" value="Generic"/>
-      <property name="MPN" value="Select to specification"/>
-      <property name="Rating" value="10 V min, X7R, +/-10%, 0805; effective C affects frequency"/>
-      <property name="Sheetname" value="KERO"/>
-      <property name="Sheetfile" value="KERO.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a684545c-6d95-5eb5-99bd-dbbd0828d0d4</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="C2">
       <value>100n</value>
       <footprint>Demo:C_0603_1608Metric</footprint>
@@ -104,6 +74,36 @@
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6a1e139c-e22c-518c-a8db-54cdd515688d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Demo:C_Rect_L7.2mm_W4.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">1 uF, &gt;=16 V, +/-10%, film, radial P5 mm; verify body height</field>
+        <field name="Footprint">Demo:C_Rect_L7.2mm_W4.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="1 uF, &gt;=16 V, +/-10%, film, radial P5 mm; verify body height"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3341842-90eb-58c2-af46-f86b5e914ba6</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -324,20 +324,21 @@
       </units>
     </comp>
     <comp ref="R6">
-      <value>3.3k</value>
+      <value>4.7k</value>
       <footprint>Demo:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">Generic</field>
-        <field name="MPN">Select to specification</field>
-        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">CRCW06034K70FKEA</field>
+        <field name="Rating">4.7 kohm, 1%, &gt;=0.1 W, 0603, thick film</field>
         <field name="Footprint">Demo:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Demo" part="Device_R" description="Resistor"/>
-      <property name="Manufacturer" value="Generic"/>
-      <property name="MPN" value="Select to specification"/>
-      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="MPN" value="CRCW06034K70FKEA"/>
+      <property name="Rating" value="4.7 kohm, 1%, &gt;=0.1 W, 0603, thick film"/>
       <property name="Sheetname" value="KERO"/>
       <property name="Sheetfile" value="KERO.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -354,20 +355,21 @@
       </units>
     </comp>
     <comp ref="R7">
-      <value>3.3k</value>
+      <value>4.7k</value>
       <footprint>Demo:R_0603_1608Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">Generic</field>
-        <field name="MPN">Select to specification</field>
-        <field name="Rating">1%, 0.1 W, 0603</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="MPN">CRCW06034K70FKEA</field>
+        <field name="Rating">4.7 kohm, 1%, &gt;=0.1 W, 0603, thick film</field>
         <field name="Footprint">Demo:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">https://www.vishay.com/docs/20035/dcrcwe3.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Demo" part="Device_R" description="Resistor"/>
-      <property name="Manufacturer" value="Generic"/>
-      <property name="MPN" value="Select to specification"/>
-      <property name="Rating" value="1%, 0.1 W, 0603"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="MPN" value="CRCW06034K70FKEA"/>
+      <property name="Rating" value="4.7 kohm, 1%, &gt;=0.1 W, 0603, thick film"/>
       <property name="Sheetname" value="KERO"/>
       <property name="Sheetfile" value="KERO.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -379,6 +381,35 @@
           <pins>
             <pin num="1"/>
             <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>OUT</value>
+      <footprint>Demo:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <fields>
+        <field name="Manufacturer">Generic</field>
+        <field name="MPN">Select to specification</field>
+        <field name="Rating">2.5 mm loop test point, 1.0 mm drill; OUT probe access</field>
+        <field name="Footprint">Demo:TestPoint_Loop_D2.50mm_Drill1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Demo" part="Connector_TestPoint" description="test point"/>
+      <property name="Manufacturer" value="Generic"/>
+      <property name="MPN" value="Select to specification"/>
+      <property name="Rating" value="2.5 mm loop test point, 1.0 mm drill; OUT probe access"/>
+      <property name="Sheetname" value="KERO"/>
+      <property name="Sheetfile" value="KERO.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ba2b80f-b0be-5afe-a8b3-7dd199fd6467</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
           </pins>
         </unit>
       </units>
@@ -462,6 +493,23 @@
         <pin num="6" name="-" type="input"/>
         <pin num="7" name="" type="output"/>
         <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Demo" part="Connector_TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Demo" part="Device_Battery_Cell">
@@ -549,8 +597,8 @@
     </net>
     <net code="2" name="/GND" class="Default">
       <node ref="BT1" pin="2" pinfunction="-_2" pintype="passive"/>
-      <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="V-_4" pintype="power_in"/>
@@ -564,6 +612,7 @@
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
     </net>
     <net code="5" name="/RED_A" class="Default">
@@ -576,7 +625,7 @@
       <node ref="U1" pin="3" pinfunction="+_3" pintype="input"/>
     </net>
     <net code="7" name="/TIMING" class="Default">
-      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="-_2" pintype="input"/>
     </net>

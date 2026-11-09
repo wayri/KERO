@@ -14,14 +14,14 @@ The encoder has six wired schematic sheets, shared value/part variables, a **79-
 
 Saved Xyce and WayriCAD studies estimate **279.081 µA mean cell draw at 3 V**, **837.244 µW component heat**, and a **25.166 °C maximum board temperature at 25 °C ambient** under the declared thermal assumptions. These are model results, not measured battery life or junction temperatures. Local PI current-density peaks remain unconverged, and the mean-GND mesh has an unresolved region at C4; the reports retain these limits.
 
-**Where to open it:** PR #16 was merged into [`demo-mixed-eco`](https://github.com/wayri/KERO/tree/demo-mixed-eco), not `main`. Check out that branch and open `encoder/Encoder.kicad_pro`. These links point to the merged revision:
+**Open the encoder:** the complete design and saved analysis are now included on `main`. Open [encoder/Encoder.kicad_pro](encoder/Encoder.kicad_pro) in KiCad 10. PR #16 merged the encoder into `demo-mixed-eco`; that branch is now integrated here.
 
-- [Encoder project and board previews](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoder/README.md)
-- [Pulse encoding, timing values and simulation](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoded-model/architecture.md)
-- [Hierarchical schematic and shared variables](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoder/SCHEMATIC.md) · [BoM](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoder/bom.csv)
-- [Cell draw, losses, native PI/QuickTherm files and viewer companions](https://github.com/wayri/KERO/blob/45acf0a327c1f387e9fb1024638c3fbd06870ddc/encoder/analysis/README.md)
+- [Encoder project and board previews](encoder/README.md)
+- [Pulse encoding, timing values and simulation](encoded-model/architecture.md)
+- [Hierarchical schematic and shared variables](encoder/SCHEMATIC.md) · [BoM](encoder/bom.csv)
+- [Cell draw, losses, native PI/QuickTherm files and viewer companions](encoder/analysis/README.md)
 
-## Original LED blinker on `main`
+## Original LED blinker
 
 ![KERO 3D assembly](previews/board-3d.png)
 
@@ -31,9 +31,12 @@ One CR2032 cell powers an LMV358A dual op-amp and alternating red / yellow-green
 
 - [PR #5 — timing resistor / blink-rate change](https://github.com/wayri/KERO/pull/5)
 - [PR #6 — LED placement and routing change](https://github.com/wayri/KERO/pull/6)
+- [PR #7 — assembly and bring-up documentation](https://github.com/wayri/KERO/pull/7)
+- [PR #8 — resistor values and manufacturer part numbers](https://github.com/wayri/KERO/pull/8)
+- [PR #9 — mixed additions, removals, layout and power analysis](https://github.com/wayri/KERO/pull/9)
 - [Baseline commit history](https://github.com/wayri/KERO/commits/main/)
 
-PRs #1–#4 are historical examples; #5 and #6 provide later comparison milestones. [PR #9](https://github.com/wayri/KERO/pull/9) covers the mixed ECO; PR #16 adds the encoder to that branch. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
+PRs #5–#8 are the current open comparison examples. The mixed ECO is PR #9; its encoder follow-up PR #16 and saved analysis are now included on main. Older PRs #1–#4 are closed historical examples. Each contains a design commit followed by a verification commit. [Follow the walkthrough](DEMO.md) to compare changes in Pocket KiView.
 
 ## Open the project
 
@@ -48,13 +51,13 @@ Open [KERO.kicad_pro](KERO.kicad_pro) in **KiCad 10** (verified with 10.0.6). Th
 
 ![Wired and arranged KERO schematic](previews/schematic.png)
 
-The power, reference buffer, oscillator and LED branches use continuous visible wires and separated labels. [Drawing-equivalence receipt](evidence/drawing-review.json).
+The power, reference buffer, oscillator and LED branches use continuous visible wires and separated labels. [Historical baseline drawing receipt](evidence/drawing-review.json); the current hardware ECO is covered by the native receipt.
 
 ## How it works
 
-U1B buffers the quarter-supply divider formed by R4 (300 kΩ) and R5 (100 kΩ). U1A uses R2 (402 kΩ) and R3 (100 kΩ) for positive feedback, creating nominal thresholds near 0.201 × VBAT and 0.400 × VBAT. R1 and C1 slowly charge/discharge the timing input between these thresholds. U1A switches on each crossing, creating a relaxation oscillator.
+U1B buffers the quarter-supply divider formed by R4 (300 kΩ) and R5 (100 kΩ). U1A uses R2 (402 kΩ) and R3 (100 kΩ) for positive feedback, creating nominal thresholds near 0.201 × VBAT and 0.400 × VBAT. R1 and C3 slowly charge/discharge the timing input between these thresholds. U1A switches on each crossing, creating a relaxation oscillator.
 
-When OUT is high, R6/D1 source current into the red LED. When OUT is low, R7/D2 sink current from the green LED. Each LED has its own 3.3 kΩ current-limiting resistor. The LEDs alternate with unequal on-times; this is intentional.
+When OUT is high, R6/D1 source current into the red LED. When OUT is low, R7/D2 sink current from the green LED. Each LED has its own 4.7 kΩ current-limiting resistor. The LEDs alternate with unequal on-times; this is intentional.
 
 The thresholds stay below 0.41 × VBAT, within the LMV358A's specified input common-mode range over the intended **2.5–3.3 V** supply range. Use **LMV358ADR** in SOIC-8; a standard LM358 is not a suitable drop-in choice for this coin-cell design. See the [TI datasheet, input common-mode range and output swing sections](https://www.ti.com/lit/ds/symlink/lmv358a.pdf).
 
@@ -62,10 +65,14 @@ The thresholds stay below 0.41 × VBAT, within the LMV358A's specified input com
 
 Fit one CR2032 in the Keystone 1058 holder with the marked polarity. The cell is a separate purchased item in addition to BT1's holder. Remove it to switch off; there is no power switch or reverse-cell protection. Use a low-current, low-forward-voltage red LED and **yellow-green** LED (5 mm, 2.54 mm pitch); avoid high-Vf blue/InGaN green parts. Match the cathode/flat to the footprint. Generic LEDs/passives in the BoM are specification selections, not verified distributor stock or exact manufacturer parts.
 
-At 3 V, ideal LED currents are roughly 0.2–0.4 mA for the specified LED types. Real brightness, output swings, C1's effective capacitance, temperature, startup, frequency and useful battery life require bench measurements. Operation below 2.5 V is outside the specified design range; no full-cell-discharge life claim is made. Do not recharge a primary CR2032.
+At 3 V, ideal LED currents are roughly 0.2–0.3 mA for the specified LED types. Real brightness, output swings, C3's actual capacitance, temperature, startup, frequency and useful battery life require bench measurements. Operation below 2.5 V is outside the specified design range; no full-cell-discharge life claim is made. Do not recharge a primary CR2032.
+
+## Power and layout analysis
+
+The mixed ECO adds TP1 and replaces C1 with a radial film C3. [Layout review](docs/LAYOUT.md) · [Cell current and loss analysis](docs/POWER-ANALYSIS.md) · [Saved PI/thermal visualization files](analysis/README.md) · [QuickTherm report](docs/THERMAL-ANALYSIS.md) · [Machine-readable PI results](evidence/analysis/wayricad-summary.json). The nominal analytical scenario draws **0.371 mA average** at 3 V; this is an estimate, not measured battery life.
 
 ## Models and attribution
 
-The original blinker links use project-relative paths; encoder links above identify its merged revision. Resistor, capacitor, op-amp, holder and LED STEP geometry comes from the installed KiCad 10 libraries. D2 uses a green-colour derivative of the standard red LED model. The separate CR2032 mesh is an original nominal 20 × 3.2 mm envelope for illustration, not a manufacturer fit-qualified model. Mounting holes have no physical component body or 3D model.
+All links use project-relative paths. Resistor, capacitor, op-amp, holder and LED STEP geometry comes from the installed KiCad 10 libraries. D2 uses a green-colour derivative of the standard red LED model. The separate CR2032 mesh is an original nominal 20 × 3.2 mm envelope for illustration, not a manufacturer fit-qualified model. Mounting holes have no physical component body or 3D model.
 
 KiCad library assets retain their original [library license](LICENSE.KiCad.md), **CC-BY-SA-4.0 with the KiCad libraries exception**. See [asset provenance](ASSETS.md) and [model manifest](model-manifest.json). No IRCA files or proprietary thermal-camera circuitry are included.

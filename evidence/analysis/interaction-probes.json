@@ -1,0 +1,30 @@
+{
+  "scope": "Current extension API interactions on actual saved results; these do not establish browser pointer/UI testing",
+  "PI": {
+    "first": {
+      "x": 103.18199069903616,
+      "y": 82.93018350375081,
+      "z": 0.0175,
+      "value": 2.9999678106962153,
+      "name": "Saved nodal potential · F.Cu",
+      "unit": "V",
+      "method": "Interpolated saved nodes"
+    },
+    "second": {
+      "x": 56.3662968530619,
+      "y": 74.33825739772999,
+      "z": 0.0175,
+      "value": 3,
+      "name": "Saved nodal potential · F.Cu",
+      "unit": "V",
+      "method": "Interpolated saved nodes"
+    },
+    "difference": {
+      "dx": -46.815693845974266,
+      "dy": -8.591926106020821,
+      "distance": 47.59758801127758,
+      "delta": 0.00003218930378467988
+    },
+    "outside": null
+  }
+}

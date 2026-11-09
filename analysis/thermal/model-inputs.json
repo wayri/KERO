@@ -1,0 +1,44 @@
+{
+  "power_budget_file": "evidence/analysis/power-budget.json",
+  "power_budget_sha256": "d61d8b2c0ae435d042f3222b640b6c1b0e2d2cd412edef367b82b0708b5dadcb",
+  "source_sha256": "67c8981fce6cd003b58aa396febdd7da22f7feb196f664df3d18c9e04c6a2fc5",
+  "stackup_override": [
+    {
+      "name": "F.Cu",
+      "z_mm": 0.0175,
+      "thickness_mm": 0.035
+    },
+    {
+      "name": "B.Cu",
+      "z_mm": 1.5825,
+      "thickness_mm": 0.035
+    }
+  ],
+  "sources_W": {
+    "R1": 1.7759100039357274e-06,
+    "R2": 2.9063348416099832e-06,
+    "R3": 7.229688660721352e-07,
+    "R4": 1.6875e-05,
+    "R5": 5.625e-06,
+    "R6": 8.600815441122504e-05,
+    "R7": 0.00014501678900753935,
+    "U1": 0.0004277769857583347,
+    "D1": 0.0001311988796103433,
+    "D2": 0.0002959526306276313
+  },
+  "total_heat_W": 0.0011138586531266917,
+  "limitations": [
+    "Illustrative steady board-temperature screen; no measured thermal calibration or qualification.",
+    "Cycle-average nominal 3 V losses; not switching or startup temperatures.",
+    "LED electrical power is conservatively deposited as heat; optical output is unknown.",
+    "All selected power enters board contact proxies; package-air cooling is omitted.",
+    "No package RthetaJB or internal component model: all junction temperatures remain unknown.",
+    "Unspecified saved stackup is replaced only in the geometry extraction call by explicit 35 um copper layers within a 1.6 mm span.",
+    "Homogeneous isotropic FR4 k=0.3 W/m/K and copper k=385 W/m/K are illustrative assumptions, not material certification.",
+    "Two exposed faces, natural-convection h=5 W/m2/K, emissivity=0, ambient=25 C; radiation omitted conservatively for heat rejection.",
+    "Cell internal heat, contact resistance, capacitor loss and copper Joule heat are excluded; cell internal resistance is unknown.",
+    "No enclosure, battery/package shadowing or mechanical heat sinks; contact sources use producer footprint-area proxies.",
+    "Grid comparison establishes numerical sensitivity only; subcell sources and barrel contacts remain approximate."
+  ],
+  "adapter": "thermal_geometry.stackup delegates to the original shared stackup parser with explicit override; no source or solver modification"
+}

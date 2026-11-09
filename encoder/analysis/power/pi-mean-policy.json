@@ -1,0 +1,396 @@
+{
+  "schema": "kero.encoder-pi-load-policy/v1",
+  "board_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "rails": {
+    "VBAT": {
+      "included_mean_A": 0.0002790813926802513,
+      "included_refs": [
+        "U1.4",
+        "U2.4",
+        "U3.4",
+        "R2.1",
+        "R6.1",
+        "R10.1",
+        "R14.1",
+        "R18.1",
+        "R22.1",
+        "R26.1",
+        "R30.1",
+        "R34.1",
+        "R38.1",
+        "R42.1",
+        "R56.1",
+        "R59.1"
+      ],
+      "omitted_signed_mean_A": 1.697576028150888e-13,
+      "omitted": [
+        {
+          "ref": "C1",
+          "pin": "2",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": 2.7499060428307615e-13,
+          "output_high_mean_A": -5.337590147470826e-08,
+          "output_low_mean_A": 4.473928578294174e-08,
+          "minimum_A": -4.31230519e-07,
+          "maximum_A": 4.27449357e-07,
+          "conservative_positive_peak_A": 4.27449357e-07,
+          "at_settled_cell_peak_A": -7.26140031e-09,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.7499060428307615e-13
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": 9.563384414832627e-15,
+          "output_high_mean_A": -4.777540550947663e-08,
+          "output_low_mean_A": 4.0044336549820944e-08,
+          "minimum_A": -8.55652006e-07,
+          "maximum_A": 8.56208887e-07,
+          "conservative_positive_peak_A": 8.56208887e-07,
+          "at_settled_cell_peak_A": -6.53625082e-10,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 9.563384414832627e-15
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": -2.260146177336965e-14,
+          "output_high_mean_A": -4.598194063896199e-08,
+          "output_low_mean_A": 3.854109786332717e-08,
+          "minimum_A": -1.24016704e-06,
+          "maximum_A": 1.24017334e-06,
+          "conservative_positive_peak_A": 1.24017334e-06,
+          "at_settled_cell_peak_A": -1.42347699e-09,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": -2.260146177336965e-14
+        },
+        {
+          "ref": "C7",
+          "pin": "2",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": -1.8464037881794106e-14,
+          "output_high_mean_A": -4.3102029469131643e-08,
+          "output_low_mean_A": 3.612717888142284e-08,
+          "minimum_A": -1.03562665e-06,
+          "maximum_A": 1.03564097e-06,
+          "conservative_positive_peak_A": 1.03564097e-06,
+          "at_settled_cell_peak_A": -2.97524725e-08,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": -1.8464037881794106e-14
+        },
+        {
+          "ref": "C9",
+          "pin": "2",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": -3.034981151010557e-14,
+          "output_high_mean_A": -4.363268665164155e-08,
+          "output_low_mean_A": 3.657203358117805e-08,
+          "minimum_A": -1.50672698e-06,
+          "maximum_A": 1.50670641e-06,
+          "conservative_positive_peak_A": 1.50670641e-06,
+          "at_settled_cell_peak_A": -3.14965652e-07,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": -3.034981151010557e-14
+        },
+        {
+          "ref": "C11",
+          "pin": "2",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": -4.338115315212852e-14,
+          "output_high_mean_A": -4.2480016001490426e-08,
+          "output_low_mean_A": 3.5605807947450175e-08,
+          "minimum_A": -2.19928112e-06,
+          "maximum_A": 2.19921199e-06,
+          "conservative_positive_peak_A": 2.19921199e-06,
+          "at_settled_cell_peak_A": 5.5173734e-13,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": -4.338115315212852e-14
+        },
+        {
+          "ref": "C12",
+          "pin": "1",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": 2.6144859284163837e-20,
+          "output_high_mean_A": 2.839436808304793e-20,
+          "output_low_mean_A": 2.4175577250475696e-20,
+          "minimum_A": -7.7532216e-13,
+          "maximum_A": 7.0418079e-13,
+          "conservative_positive_peak_A": 7.0418079e-13,
+          "at_settled_cell_peak_A": 4.69794362e-15,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.6144859284163837e-20
+        },
+        {
+          "ref": "C13",
+          "pin": "1",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": 2.6144859284163837e-20,
+          "output_high_mean_A": 2.839436808304793e-20,
+          "output_low_mean_A": 2.4175577250475696e-20,
+          "minimum_A": -7.7532216e-13,
+          "maximum_A": 7.0418079e-13,
+          "conservative_positive_peak_A": 7.0418079e-13,
+          "at_settled_cell_peak_A": 4.69794362e-15,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.6144859284163837e-20
+        },
+        {
+          "ref": "C14",
+          "pin": "1",
+          "native_net": "/VBAT",
+          "rail": "VBAT",
+          "sign": "positive draw from VBAT",
+          "mean_A": 2.6144859284163837e-20,
+          "output_high_mean_A": 2.839436808304793e-20,
+          "output_low_mean_A": 2.4175577250475696e-20,
+          "minimum_A": -7.7532216e-13,
+          "maximum_A": 7.0418079e-13,
+          "conservative_positive_peak_A": 7.0418079e-13,
+          "at_settled_cell_peak_A": 4.69794362e-15,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.6144859284163837e-20
+        }
+      ],
+      "cell_mean_A": 0.00027908139270175846,
+      "included_minus_cell_A": -2.150715586526908e-14,
+      "conservative_positive_peak_sum_A": 0.00040098852307969345,
+      "interpretation": "Mean-load DC omits ideal capacitors after quantifying residual charge; peak envelope includes them and is noncoincident."
+    },
+    "GND": {
+      "included_mean_A": 0.0002790813928586844,
+      "included_refs": [
+        "U1.11",
+        "U2.11",
+        "U3.11",
+        "R4.2",
+        "R8.2",
+        "R12.2",
+        "R16.2",
+        "R20.2",
+        "R24.2",
+        "R28.2",
+        "R32.2",
+        "R36.2",
+        "R40.2",
+        "R44.2",
+        "R57.2",
+        "D1.1"
+      ],
+      "omitted_signed_mean_A": 3.229518345270899e-16,
+      "omitted": [
+        {
+          "ref": "C2",
+          "pin": "2",
+          "native_net": "/GND",
+          "rail": "GND",
+          "sign": "positive return into GND",
+          "mean_A": -6.678732405358259e-14,
+          "output_high_mean_A": 4.5610040959467454e-08,
+          "output_low_mean_A": -3.8229310027123534e-08,
+          "minimum_A": -1.82615921e-06,
+          "maximum_A": 1.82579613e-06,
+          "conservative_positive_peak_A": 1.82579613e-06,
+          "at_settled_cell_peak_A": -5.16732155e-13,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": -6.678732405358259e-14
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "native_net": "/GND",
+          "rail": "GND",
+          "sign": "positive return into GND",
+          "mean_A": 2.1773693323458536e-14,
+          "output_high_mean_A": 4.637900173274042e-08,
+          "output_low_mean_A": -3.8873917760077906e-08,
+          "minimum_A": -2.04958946e-06,
+          "maximum_A": 2.04971384e-06,
+          "conservative_positive_peak_A": 2.04971384e-06,
+          "at_settled_cell_peak_A": -6.98690937e-12,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.1773693323458536e-14
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "native_net": "/GND",
+          "rail": "GND",
+          "sign": "positive return into GND",
+          "mean_A": 1.3514771609003287e-14,
+          "output_high_mean_A": 4.429616196743493e-08,
+          "output_low_mean_A": -3.712811705921554e-08,
+          "minimum_A": -1.50668698e-06,
+          "maximum_A": 1.50671869e-06,
+          "conservative_positive_peak_A": 1.50671869e-06,
+          "at_settled_cell_peak_A": -2.9447347e-09,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 1.3514771609003287e-14
+        },
+        {
+          "ref": "C8",
+          "pin": "2",
+          "native_net": "/GND",
+          "rail": "GND",
+          "sign": "positive return into GND",
+          "mean_A": 6.239852579582994e-15,
+          "output_high_mean_A": 4.816254334787899e-08,
+          "output_low_mean_A": -4.0368825583771206e-08,
+          "minimum_A": -1.50667056e-06,
+          "maximum_A": 1.50672427e-06,
+          "conservative_positive_peak_A": 1.50672427e-06,
+          "at_settled_cell_peak_A": -1.11735653e-07,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 6.239852579582994e-15
+        },
+        {
+          "ref": "C10",
+          "pin": "2",
+          "native_net": "/GND",
+          "rail": "GND",
+          "sign": "positive return into GND",
+          "mean_A": 2.5581879941487015e-14,
+          "output_high_mean_A": 5.712105269497595e-08,
+          "output_low_mean_A": -4.7877653045056567e-08,
+          "minimum_A": -1.24015507e-06,
+          "maximum_A": 1.24016684e-06,
+          "conservative_positive_peak_A": 1.24016684e-06,
+          "at_settled_cell_peak_A": -1.23346227e-06,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.5581879941487015e-14
+        },
+        {
+          "ref": "C12",
+          "pin": "2",
+          "native_net": "/GND",
+          "rail": "GND",
+          "sign": "positive return into GND",
+          "mean_A": 2.6144859284163837e-20,
+          "output_high_mean_A": 2.839436808304793e-20,
+          "output_low_mean_A": 2.4175577250475696e-20,
+          "minimum_A": -7.7532216e-13,
+          "maximum_A": 7.0418079e-13,
+          "conservative_positive_peak_A": 7.0418079e-13,
+          "at_settled_cell_peak_A": 4.69794362e-15,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.6144859284163837e-20
+        },
+        {
+          "ref": "C13",
+          "pin": "2",
+          "native_net": "/GND",
+          "rail": "GND",
+          "sign": "positive return into GND",
+          "mean_A": 2.6144859284163837e-20,
+          "output_high_mean_A": 2.839436808304793e-20,
+          "output_low_mean_A": 2.4175577250475696e-20,
+          "minimum_A": -7.7532216e-13,
+          "maximum_A": 7.0418079e-13,
+          "conservative_positive_peak_A": 7.0418079e-13,
+          "at_settled_cell_peak_A": 4.69794362e-15,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.6144859284163837e-20
+        },
+        {
+          "ref": "C14",
+          "pin": "2",
+          "native_net": "/GND",
+          "rail": "GND",
+          "sign": "positive return into GND",
+          "mean_A": 2.6144859284163837e-20,
+          "output_high_mean_A": 2.839436808304793e-20,
+          "output_low_mean_A": 2.4175577250475696e-20,
+          "minimum_A": -7.7532216e-13,
+          "maximum_A": 7.0418079e-13,
+          "conservative_positive_peak_A": 7.0418079e-13,
+          "at_settled_cell_peak_A": 4.69794362e-15,
+          "ground_assignment": "direct passive or supply terminal",
+          "raw_mean_A": 2.6144859284163837e-20
+        }
+      ],
+      "cell_mean_A": 0.00027908139270175846,
+      "included_minus_cell_A": 1.5692595877261906e-13,
+      "conservative_positive_peak_sum_A": 0.00039586241237911656,
+      "interpretation": "Mean-load DC omits ideal capacitors after quantifying residual charge; peak envelope includes them and is noncoincident."
+    }
+  },
+  "capacitor_charge": {
+    "C1": {
+      "stored_charge_change_C": -1.0015962583116434e-12,
+      "integrated_terminal_charge_C": -1.0080404984356024e-12
+    },
+    "C2": {
+      "stored_charge_change_C": -2.6489769379278806e-13,
+      "integrated_terminal_charge_C": -2.448241008221853e-13
+    },
+    "C3": {
+      "stored_charge_change_C": 4.699999971435886e-16,
+      "integrated_terminal_charge_C": -3.5056757002269876e-14
+    },
+    "C4": {
+      "stored_charge_change_C": -2.8199999887318365e-18,
+      "integrated_terminal_charge_C": 7.981641673825688e-14
+    },
+    "C5": {
+      "stored_charge_change_C": -4.699999971435886e-16,
+      "integrated_terminal_charge_C": 8.285078994170898e-14
+    },
+    "C6": {
+      "stored_charge_change_C": 2.8199999887318365e-18,
+      "integrated_terminal_charge_C": 4.9541463951106475e-14
+    },
+    "C7": {
+      "stored_charge_change_C": 9.399999942871773e-16,
+      "integrated_terminal_charge_C": 6.768412323767184e-14
+    },
+    "C8": {
+      "stored_charge_change_C": -3.383999998708004e-17,
+      "integrated_terminal_charge_C": 2.287359643027131e-14
+    },
+    "C9": {
+      "stored_charge_change_C": -1.410000012302959e-15,
+      "integrated_terminal_charge_C": 1.112541252157838e-13
+    },
+    "C10": {
+      "stored_charge_change_C": -1.7390766827059257e-15,
+      "integrated_terminal_charge_C": 9.377618946060612e-14
+    },
+    "C11": {
+      "stored_charge_change_C": 9.399999942871773e-16,
+      "integrated_terminal_charge_C": 1.5902346685695157e-13
+    },
+    "C12": {
+      "stored_charge_change_C": 0.0,
+      "integrated_terminal_charge_C": 9.583991806937233e-20
+    },
+    "C13": {
+      "stored_charge_change_C": 0.0,
+      "integrated_terminal_charge_C": 9.583991806937233e-20
+    },
+    "C14": {
+      "stored_charge_change_C": 0.0,
+      "integrated_terminal_charge_C": 9.583991806937233e-20
+    }
+  },
+  "limitations": [
+    "Ground loads include the explicitly inferred macro global-0 return assigned to physical GND pins.",
+    "No negative current is silently clipped; every omitted signed mean is listed."
+  ]
+}
