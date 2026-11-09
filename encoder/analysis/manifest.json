@@ -1,0 +1,251 @@
+{
+  "schema": "kero.encoder-analysis-manifest/v1",
+  "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "native_design_commit": "d951d8377b82c49491ede2f86d717e11753f25df",
+  "hardware_inputs": {
+    "encoder/Encoder.kicad_pcb": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+    "encoder/design-intent.json": "26c9ac59d459bf39e5482f9851943ce5dfbbaf37ad433fef8d3d9d744175bab6",
+    "encoder/bom.csv": "f57b3708324457df1c44783972d148a015095790feaf821686e527d8d1c952ed",
+    "encoder/evidence/netlist.xml": "7f548ce584341ee548b1ed20737a113b6da779e6d68233da969d3a96068860ec",
+    "encoded-model/design.json": "0631060c3e8a6ebdba97a5724dbef59fc4870bc5d3bc7570ace8045ea0cc44b5",
+    "encoder/evidence/circuit-equivalence.json": "4f6f4460df5a320829793bbca2e1794dd78d065c5a4e8fa7ed7c6a517b9df167"
+  },
+  "files": [
+    {
+      "path": "encoder/analysis/pi/Encoder.quick-pi.study.json",
+      "bytes": 10656,
+      "sha256": "ab598caa950c9724f9368ad79d194058884b2b4bfdcf5d3758ff039493f1991e"
+    },
+    {
+      "path": "encoder/analysis/pi/execution.log",
+      "bytes": 11972,
+      "sha256": "ae3ac6aaa7b6fc43dc32f2e5982efca39c93d5653d285659f5232ea2acc2ab5d"
+    },
+    {
+      "path": "encoder/analysis/pi/export-receipts.json",
+      "bytes": 3847,
+      "sha256": "72d0b9f1f5dc96714e52176827e7aac5e294137775a24ddc2f43e41e1ac37f38"
+    },
+    {
+      "path": "encoder/analysis/pi/gnd-envelope-reversed.pocket-kivi.json",
+      "bytes": 14448404,
+      "sha256": "2358872cbcd0cc3153f08af90b6cb841f328a67ff4be0fab9d4098825aaae2c5"
+    },
+    {
+      "path": "encoder/analysis/pi/gnd-envelope-reversed.quick-pi.results.json",
+      "bytes": 14448756,
+      "sha256": "fb761a168b1b325a0ed9aa79dc863557d680c05c78c089ad3c50f5f0dfc14871"
+    },
+    {
+      "path": "encoder/analysis/pi/gnd-mean-reversed.pocket-kivi.json",
+      "bytes": 14837928,
+      "sha256": "69d98b3058e466177352ee5fcde15814bd0060370b8a7cd5cf2ae73c36df1427"
+    },
+    {
+      "path": "encoder/analysis/pi/gnd-mean-reversed.quick-pi.results.json",
+      "bytes": 14838280,
+      "sha256": "1e756cf831f47aa7b79f21f9c0d9357771546d9df202ce149c0215bc353faf90"
+    },
+    {
+      "path": "encoder/analysis/pi/load-cases.json",
+      "bytes": 5426,
+      "sha256": "976e994888b547a55bda67071eff59a59b7764f922459801f53a6330c7369c75"
+    },
+    {
+      "path": "encoder/analysis/pi/summary.json",
+      "bytes": 14949,
+      "sha256": "b9815d56925400e0b1e21181a0d423508f97d9db3a1e1539b776315bbd9b1137"
+    },
+    {
+      "path": "encoder/analysis/pi/vbat-envelope.pocket-kivi.json",
+      "bytes": 31888757,
+      "sha256": "c95be2148af5b4d4cb16d4ddc3d6da24781481ddc5d9623c590f54563116df27"
+    },
+    {
+      "path": "encoder/analysis/pi/vbat-envelope.quick-pi.results.json",
+      "bytes": 31889109,
+      "sha256": "c74dcaf68cc4431e74593d72d1c9a671f42b2a008abf07921f73824b6a93889b"
+    },
+    {
+      "path": "encoder/analysis/pi/vbat-mean.pocket-kivi.json",
+      "bytes": 31966020,
+      "sha256": "4197b9f2a473d1b3334469cf25d1f7d003d8a684d0dad9c87300dd52f7e638fe"
+    },
+    {
+      "path": "encoder/analysis/pi/vbat-mean.quick-pi.results.json",
+      "bytes": 31966372,
+      "sha256": "a98ffa8e2c95598423ced19c23ca74aa62b9d09368da1e6f6b3a9d99e64e21e7"
+    },
+    {
+      "path": "encoder/analysis/pi-ground-refinement/execution.log",
+      "bytes": 509,
+      "sha256": "621505f737fcb8e39ade0155b1d2ac8658e3ce5f5349925a8f779b36725ccf0f"
+    },
+    {
+      "path": "encoder/analysis/pi-ground-refinement/gnd-mean-reversed-0p05.pocket-kivi.json",
+      "bytes": 30812649,
+      "sha256": "68d96453fb9fe333511333a29b3cfbbed8d1a97619a8797e1bbd19bbf27c0ea5"
+    },
+    {
+      "path": "encoder/analysis/pi-ground-refinement/gnd-mean-reversed-0p05.quick-pi.results.json",
+      "bytes": 30813001,
+      "sha256": "615e1326556b76f6a2546068648258ae695d1e65d03d5ece6105af651af82c45"
+    },
+    {
+      "path": "encoder/analysis/pi-ground-refinement/initial-relative-path-error.log",
+      "bytes": 1121,
+      "sha256": "79315977feb8c687a83f68ff1d96aa14a35602d2fe8493ce3e73bf520ad836f7"
+    },
+    {
+      "path": "encoder/analysis/pi-ground-refinement/summary.json",
+      "bytes": 4117,
+      "sha256": "428e088fcb6e9ae03a06a6b898fd4011a6a908e0ab641d6903a0e416c6cc1a88"
+    },
+    {
+      "path": "encoder/analysis/power/circuit.cir",
+      "bytes": 5843,
+      "sha256": "bee0339b1b389c7a6c9e863f7afb97f09c93cefef14045e8b3c49fe27c203d91"
+    },
+    {
+      "path": "encoder/analysis/power/component-powers.csv",
+      "bytes": 2706,
+      "sha256": "cb0e10e252783ba237d3fc2f145874536a13405125880f85583633657fc0d247"
+    },
+    {
+      "path": "encoder/analysis/power/execution.json",
+      "bytes": 1963,
+      "sha256": "6702f720bab62d9061d930fe45cd8fd54a8012514c1ffabf7558fb532ada50c4"
+    },
+    {
+      "path": "encoder/analysis/power/helper-output.log",
+      "bytes": 21612,
+      "sha256": "2fbaee51b235dbc73c6c90ab5179c90131e23a52b9efb772f37c5b5f073c24b2"
+    },
+    {
+      "path": "encoder/analysis/power/pi-mean-policy.json",
+      "bytes": 14835,
+      "sha256": "9d7b593a13b9bec0108473b8f49d8ea641ed81d0a92c9e1c755f4c7f0230d660"
+    },
+    {
+      "path": "encoder/analysis/power/pi-pad-loads.csv",
+      "bytes": 12015,
+      "sha256": "5fd4172d2df5895aa96e660fb8e0ff77df5587928a93675a7b2b39f5be693a6f"
+    },
+    {
+      "path": "encoder/analysis/power/postprocessing-execution.json",
+      "bytes": 1546,
+      "sha256": "c7cc8c43b83e8f9621a1b6a84657ede856fff84332d0624fcbb96390b32273f3"
+    },
+    {
+      "path": "encoder/analysis/power/power-budget.json",
+      "bytes": 71663,
+      "sha256": "4a937eba27da7a0ddd4b5df87d925ffaa8ae2d7a10d58e7c0417c0d6ed576a51"
+    },
+    {
+      "path": "encoder/analysis/power/README.md",
+      "bytes": 8491,
+      "sha256": "8401e525a8407c709889acc4d4159dddadabff53fd6e406cce6fd8a1e6211d12"
+    },
+    {
+      "path": "encoder/analysis/power/retention-receipt.json",
+      "bytes": 4024,
+      "sha256": "261716fdafc01a67d8a1b285d589ec17e14a667f074f38485173470793f4c025"
+    },
+    {
+      "path": "encoder/analysis/power/solver-execution.json",
+      "bytes": 922,
+      "sha256": "57613d3c5511008243678a0354635fa7f71b2750acc0dc692fdc2605a4bc2cc9"
+    },
+    {
+      "path": "encoder/analysis/power/waveform.csv.gz",
+      "bytes": 14449556,
+      "sha256": "11eb5a12d101dc38112b6cc933cfca63f18d28b0be2cb685644a2cb7986a66d2"
+    },
+    {
+      "path": "encoder/analysis/power/xyce.log",
+      "bytes": 19726,
+      "sha256": "24f64e2da5fda5fd6d7a83e00292d7d97abab8516724090389959ecfd3b4278d"
+    },
+    {
+      "path": "encoder/analysis/README.md",
+      "bytes": 6018,
+      "sha256": "91dce7fc17a01a948555668a19037b60fb81e2429b5792b9c09959b9bb560102"
+    },
+    {
+      "path": "encoder/analysis/thermal/coarse.config.json",
+      "bytes": 5046,
+      "sha256": "59947f1b7bbf7ca0fa48d1d6bdb010b420d21dac093a69057d2e9a4393292482"
+    },
+    {
+      "path": "encoder/analysis/thermal/coarse.results.json",
+      "bytes": 218520,
+      "sha256": "e7b97e8caf16b9ddf4509af23cbb2a679c53f1b37d1943e20de054518c38ac72"
+    },
+    {
+      "path": "encoder/analysis/thermal/execution.log",
+      "bytes": 1797,
+      "sha256": "e7029c31e8e8699731cef8e264a61eff8a5ddd6627de28cdbce07a7b88ba64d9"
+    },
+    {
+      "path": "encoder/analysis/thermal/model-inputs.json",
+      "bytes": 4278,
+      "sha256": "ff2c3077beddb2093a3348a7366da1d5ebc24e9a93b1d3a77a6253bf51b4318c"
+    },
+    {
+      "path": "encoder/analysis/thermal/nominal.config.json",
+      "bytes": 5046,
+      "sha256": "2a9debbb7ce205c3ad468e68ed9a1fca2278dba8b95fa6f7413d464cb7c62b25"
+    },
+    {
+      "path": "encoder/analysis/thermal/nominal.html",
+      "bytes": 1577939,
+      "sha256": "bf16232da0a90a980d630da26f42abe7da510058cf0350bbfe46753e81ff6934"
+    },
+    {
+      "path": "encoder/analysis/thermal/nominal.json",
+      "bytes": 398721,
+      "sha256": "d32181b76790a191ec351a8a75205dc5c950e9352387952f6542ada288774e69"
+    },
+    {
+      "path": "encoder/analysis/thermal/nominal.pocket-kivi.json",
+      "bytes": 398911,
+      "sha256": "6d1198cff1ad6b27fec699e023ddd04ab1a5a0ec3e1dae377720514ec0699262"
+    },
+    {
+      "path": "encoder/analysis/thermal/nominal.results.json",
+      "bytes": 399298,
+      "sha256": "847296face4813529e2ca056e6f80cfbb6879896d6db4a50b40bcdadc8534cf4"
+    },
+    {
+      "path": "encoder/analysis/thermal/summary.json",
+      "bytes": 163188,
+      "sha256": "13c9e34e0dc22da5397ddf8b36a1ec1ac35a9c700a6be36de692d78f8171b3ce"
+    },
+    {
+      "path": "encoder/analysis/thermal/temperature-preview.png",
+      "bytes": 143149,
+      "sha256": "b9c1819121ac7066aca2d959baf06532f02478b44f347f05041e8b55630dcd7c"
+    },
+    {
+      "path": "encoder/analysis/verification-attempts.json",
+      "bytes": 990,
+      "sha256": "d59f01d9ef7ae9cec273a27422c9fd5b67eaf490f300d538a012086b84936c07"
+    },
+    {
+      "path": "encoder/analysis/viewer-validation.json",
+      "bytes": 3705,
+      "sha256": "e7d4fda365ec1172c4c27af9309449a9ef1fe064682ee65827825e8f30dd72d2"
+    }
+  ],
+  "total_logical_bytes": 265903381,
+  "excluded": [
+    "Task-owned runtime/config/font caches and scratch",
+    "Private manufacturer macro-model; download separately with its recorded SHA",
+    "Raw CSV after lossless gzip/hash verification; complete data retained as waveform.csv.gz"
+  ],
+  "limits": [
+    "Logical bytes are not allocated disk usage.",
+    "Native and portable files intentionally retain equivalent result data for different consumers.",
+    "No OS-level capacity enforcement or physical qualification is implied."
+  ]
+}

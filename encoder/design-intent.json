@@ -1,0 +1,1717 @@
+{
+  "schema": "kero.encoder-cad/v1",
+  "project": "Encoder",
+  "source_spec_sha256": "0631060c3e8a6ebdba97a5724dbef59fc4870bc5d3bc7570ace8045ea0cc44b5",
+  "parts": [
+    {
+      "ref": "U1",
+      "symbol": "TLV9044",
+      "value": "TLV9044IPWR",
+      "footprint": "Encoder:TSSOP-14_4.4x5mm_P0.65mm",
+      "source_footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "pins": {
+        "4": "/VBAT",
+        "11": "/GND",
+        "1": "/ST01_OUT",
+        "2": "/bank1/ST01_TIMING",
+        "3": "/bank1/ST01_TH",
+        "7": "/ST02_OUT",
+        "6": "/bank1/ST02_TIMING",
+        "5": "/bank1/ST02_TH",
+        "8": "/ST03_OUT",
+        "9": "/bank1/ST03_TIMING",
+        "10": "/bank1/ST03_TH",
+        "14": "/ST04_OUT",
+        "13": "/bank1/ST04_TIMING",
+        "12": "/bank1/ST04_TH"
+      },
+      "rating": "1.2\u20135.5 V RRIO quad op amp",
+      "value_expression": "${ENCODER_OPAMP_MPN}",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TLV9044IPWR",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tlv9044.pdf",
+      "logical_pins": {
+        "4": "VBAT",
+        "11": "GND",
+        "1": "ST01_OUT",
+        "2": "ST01_TIMING",
+        "3": "ST01_TH",
+        "7": "ST02_OUT",
+        "6": "ST02_TIMING",
+        "5": "ST02_TH",
+        "8": "ST03_OUT",
+        "9": "ST03_TIMING",
+        "10": "ST03_TH",
+        "14": "ST04_OUT",
+        "13": "ST04_TIMING",
+        "12": "ST04_TH"
+      }
+    },
+    {
+      "ref": "U2",
+      "symbol": "TLV9044",
+      "value": "TLV9044IPWR",
+      "footprint": "Encoder:TSSOP-14_4.4x5mm_P0.65mm",
+      "source_footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "pins": {
+        "4": "/VBAT",
+        "11": "/GND",
+        "1": "/ST05_OUT",
+        "2": "/bank2/ST05_TIMING",
+        "3": "/bank2/ST05_TH",
+        "7": "/ST06_OUT",
+        "6": "/bank2/ST06_TIMING",
+        "5": "/bank2/ST06_TH",
+        "8": "/ST07_OUT",
+        "9": "/bank2/ST07_TIMING",
+        "10": "/bank2/ST07_TH",
+        "14": "/ST08_OUT",
+        "13": "/bank2/ST08_TIMING",
+        "12": "/bank2/ST08_TH"
+      },
+      "rating": "1.2\u20135.5 V RRIO quad op amp",
+      "value_expression": "${ENCODER_OPAMP_MPN}",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TLV9044IPWR",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tlv9044.pdf",
+      "logical_pins": {
+        "4": "VBAT",
+        "11": "GND",
+        "1": "ST05_OUT",
+        "2": "ST05_TIMING",
+        "3": "ST05_TH",
+        "7": "ST06_OUT",
+        "6": "ST06_TIMING",
+        "5": "ST06_TH",
+        "8": "ST07_OUT",
+        "9": "ST07_TIMING",
+        "10": "ST07_TH",
+        "14": "ST08_OUT",
+        "13": "ST08_TIMING",
+        "12": "ST08_TH"
+      }
+    },
+    {
+      "ref": "U3",
+      "symbol": "TLV9044",
+      "value": "TLV9044IPWR",
+      "footprint": "Encoder:TSSOP-14_4.4x5mm_P0.65mm",
+      "source_footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "pins": {
+        "4": "/VBAT",
+        "11": "/GND",
+        "1": "/ST09_OUT",
+        "2": "/bank3/ST09_TIMING",
+        "3": "/bank3/ST09_TH",
+        "7": "/ST10_OUT",
+        "6": "/bank3/ST10_TIMING",
+        "5": "/bank3/ST10_TH",
+        "8": "/ST11_OUT",
+        "9": "/bank3/ST11_TIMING",
+        "10": "/bank3/ST11_TH",
+        "12": "/decoder/MAJORITY_SUM",
+        "13": "/decoder/MIDREF",
+        "14": "ENCODED_OUT"
+      },
+      "rating": "1.2\u20135.5 V RRIO quad op amp",
+      "value_expression": "${ENCODER_OPAMP_MPN}",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TLV9044IPWR",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tlv9044.pdf",
+      "logical_pins": {
+        "4": "VBAT",
+        "11": "GND",
+        "1": "ST09_OUT",
+        "2": "ST09_TIMING",
+        "3": "ST09_TH",
+        "7": "ST10_OUT",
+        "6": "ST10_TIMING",
+        "5": "ST10_TH",
+        "8": "ST11_OUT",
+        "9": "ST11_TIMING",
+        "10": "ST11_TH",
+        "12": "MAJORITY_SUM",
+        "13": "MIDREF",
+        "14": "ENCODED_OUT"
+      }
+    },
+    {
+      "ref": "R1",
+      "symbol": "Device:R",
+      "value": "6.98M",
+      "footprint": "Encoder:R_0805_2012Metric",
+      "source_footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "/ST11_OUT",
+        "2": "/bank1/ST01_TIMING"
+      },
+      "rating": "0.1%, 0805; exact MPN unverified",
+      "value_expression": "${R1_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST11_OUT",
+        "2": "ST01_TIMING"
+      }
+    },
+    {
+      "ref": "R2",
+      "symbol": "Device:R",
+      "value": "2.13M",
+      "footprint": "Encoder:R_0805_2012Metric",
+      "source_footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank1/ST01_TH"
+      },
+      "rating": "0.1%, 0805; exact MPN unverified",
+      "value_expression": "${R2_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST01_TH"
+      }
+    },
+    {
+      "ref": "R3",
+      "symbol": "Device:R",
+      "value": "1.05M",
+      "footprint": "Encoder:R_0603_1608Metric",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "/bank1/ST01_TH",
+        "2": "/ST01_OUT"
+      },
+      "rating": "0.1%, 0603; exact MPN unverified",
+      "value_expression": "${R3_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST01_TH",
+        "2": "ST01_OUT"
+      }
+    },
+    {
+      "ref": "R4",
+      "symbol": "Device:R",
+      "value": "117k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank1/ST01_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R4_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST01_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C1",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank1/ST01_TIMING",
+        "2": "/VBAT"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST01_TIMING",
+        "2": "VBAT"
+      }
+    },
+    {
+      "ref": "R5",
+      "symbol": "Device:R",
+      "value": "1.65M",
+      "footprint": "Encoder:R_0603_1608Metric",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "/ST01_OUT",
+        "2": "/bank1/ST02_TIMING"
+      },
+      "rating": "0.1%, 0603; exact MPN unverified",
+      "value_expression": "${R5_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST01_OUT",
+        "2": "ST02_TIMING"
+      }
+    },
+    {
+      "ref": "R6",
+      "symbol": "Device:R",
+      "value": "365k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank1/ST02_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R6_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST02_TH"
+      }
+    },
+    {
+      "ref": "R7",
+      "symbol": "Device:R",
+      "value": "208k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank1/ST02_TH",
+        "2": "/ST02_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R7_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST02_TH",
+        "2": "ST02_OUT"
+      }
+    },
+    {
+      "ref": "R8",
+      "symbol": "Device:R",
+      "value": "412k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank1/ST02_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R8_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST02_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C2",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank1/ST02_TIMING",
+        "2": "/GND"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST02_TIMING",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R9",
+      "symbol": "Device:R",
+      "value": "3.52M",
+      "footprint": "Encoder:R_0805_2012Metric",
+      "source_footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "/ST02_OUT",
+        "2": "/bank1/ST03_TIMING"
+      },
+      "rating": "0.1%, 0805; exact MPN unverified",
+      "value_expression": "${R9_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST02_OUT",
+        "2": "ST03_TIMING"
+      }
+    },
+    {
+      "ref": "R10",
+      "symbol": "Device:R",
+      "value": "182k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank1/ST03_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R10_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST03_TH"
+      }
+    },
+    {
+      "ref": "R11",
+      "symbol": "Device:R",
+      "value": "332k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank1/ST03_TH",
+        "2": "/ST03_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R11_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST03_TH",
+        "2": "ST03_OUT"
+      }
+    },
+    {
+      "ref": "R12",
+      "symbol": "Device:R",
+      "value": "665k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank1/ST03_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R12_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST03_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C3",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank1/ST03_TIMING",
+        "2": "/VBAT"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST03_TIMING",
+        "2": "VBAT"
+      }
+    },
+    {
+      "ref": "R13",
+      "symbol": "Device:R",
+      "value": "1.47M",
+      "footprint": "Encoder:R_0603_1608Metric",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "/ST03_OUT",
+        "2": "/bank1/ST04_TIMING"
+      },
+      "rating": "0.1%, 0603; exact MPN unverified",
+      "value_expression": "${R13_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST03_OUT",
+        "2": "ST04_TIMING"
+      }
+    },
+    {
+      "ref": "R14",
+      "symbol": "Device:R",
+      "value": "427k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank1/ST04_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R14_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST04_TH"
+      }
+    },
+    {
+      "ref": "R15",
+      "symbol": "Device:R",
+      "value": "213k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank1/ST04_TH",
+        "2": "/ST04_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R15_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST04_TH",
+        "2": "ST04_OUT"
+      }
+    },
+    {
+      "ref": "R16",
+      "symbol": "Device:R",
+      "value": "340k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank1/ST04_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R16_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST04_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C4",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank1/ST04_TIMING",
+        "2": "/GND"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST04_TIMING",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R17",
+      "symbol": "Device:R",
+      "value": "2.43M",
+      "footprint": "Encoder:R_0805_2012Metric",
+      "source_footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "/ST04_OUT",
+        "2": "/bank2/ST05_TIMING"
+      },
+      "rating": "0.1%, 0805; exact MPN unverified",
+      "value_expression": "${R17_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST04_OUT",
+        "2": "ST05_TIMING"
+      }
+    },
+    {
+      "ref": "R18",
+      "symbol": "Device:R",
+      "value": "240k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank2/ST05_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R18_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST05_TH"
+      }
+    },
+    {
+      "ref": "R19",
+      "symbol": "Device:R",
+      "value": "258k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank2/ST05_TH",
+        "2": "/ST05_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R19_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST05_TH",
+        "2": "ST05_OUT"
+      }
+    },
+    {
+      "ref": "R20",
+      "symbol": "Device:R",
+      "value": "511k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank2/ST05_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R20_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST05_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C5",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank2/ST05_TIMING",
+        "2": "/VBAT"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST05_TIMING",
+        "2": "VBAT"
+      }
+    },
+    {
+      "ref": "R21",
+      "symbol": "Device:R",
+      "value": "2M",
+      "footprint": "Encoder:R_0603_1608Metric",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "/ST05_OUT",
+        "2": "/bank2/ST06_TIMING"
+      },
+      "rating": "0.1%, 0603; exact MPN unverified",
+      "value_expression": "${R21_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST05_OUT",
+        "2": "ST06_TIMING"
+      }
+    },
+    {
+      "ref": "R22",
+      "symbol": "Device:R",
+      "value": "291k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank2/ST06_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R22_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST06_TH"
+      }
+    },
+    {
+      "ref": "R23",
+      "symbol": "Device:R",
+      "value": "229k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank2/ST06_TH",
+        "2": "/ST06_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R23_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST06_TH",
+        "2": "ST06_OUT"
+      }
+    },
+    {
+      "ref": "R24",
+      "symbol": "Device:R",
+      "value": "459k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank2/ST06_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R24_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST06_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C6",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank2/ST06_TIMING",
+        "2": "/GND"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST06_TIMING",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R25",
+      "symbol": "Device:R",
+      "value": "2.91M",
+      "footprint": "Encoder:R_0805_2012Metric",
+      "source_footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "/ST06_OUT",
+        "2": "/bank2/ST07_TIMING"
+      },
+      "rating": "0.1%, 0805; exact MPN unverified",
+      "value_expression": "${R25_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST06_OUT",
+        "2": "ST07_TIMING"
+      }
+    },
+    {
+      "ref": "R26",
+      "symbol": "Device:R",
+      "value": "208k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank2/ST07_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R26_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST07_TH"
+      }
+    },
+    {
+      "ref": "R27",
+      "symbol": "Device:R",
+      "value": "291k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank2/ST07_TH",
+        "2": "/ST07_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R27_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST07_TH",
+        "2": "ST07_OUT"
+      }
+    },
+    {
+      "ref": "R28",
+      "symbol": "Device:R",
+      "value": "583k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank2/ST07_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R28_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST07_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C7",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank2/ST07_TIMING",
+        "2": "/VBAT"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST07_TIMING",
+        "2": "VBAT"
+      }
+    },
+    {
+      "ref": "R29",
+      "symbol": "Device:R",
+      "value": "2M",
+      "footprint": "Encoder:R_0603_1608Metric",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "/ST07_OUT",
+        "2": "/bank2/ST08_TIMING"
+      },
+      "rating": "0.1%, 0603; exact MPN unverified",
+      "value_expression": "${R29_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST07_OUT",
+        "2": "ST08_TIMING"
+      }
+    },
+    {
+      "ref": "R30",
+      "symbol": "Device:R",
+      "value": "291k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank2/ST08_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R30_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST08_TH"
+      }
+    },
+    {
+      "ref": "R31",
+      "symbol": "Device:R",
+      "value": "229k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank2/ST08_TH",
+        "2": "/ST08_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R31_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST08_TH",
+        "2": "ST08_OUT"
+      }
+    },
+    {
+      "ref": "R32",
+      "symbol": "Device:R",
+      "value": "459k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank2/ST08_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R32_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST08_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C8",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank2/ST08_TIMING",
+        "2": "/GND"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST08_TIMING",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R33",
+      "symbol": "Device:R",
+      "value": "2M",
+      "footprint": "Encoder:R_0603_1608Metric",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "/ST08_OUT",
+        "2": "/bank3/ST09_TIMING"
+      },
+      "rating": "0.1%, 0603; exact MPN unverified",
+      "value_expression": "${R33_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST08_OUT",
+        "2": "ST09_TIMING"
+      }
+    },
+    {
+      "ref": "R34",
+      "symbol": "Device:R",
+      "value": "291k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank3/ST09_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R34_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST09_TH"
+      }
+    },
+    {
+      "ref": "R35",
+      "symbol": "Device:R",
+      "value": "229k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank3/ST09_TH",
+        "2": "/ST09_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R35_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST09_TH",
+        "2": "ST09_OUT"
+      }
+    },
+    {
+      "ref": "R36",
+      "symbol": "Device:R",
+      "value": "459k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank3/ST09_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R36_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST09_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C9",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank3/ST09_TIMING",
+        "2": "/VBAT"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST09_TIMING",
+        "2": "VBAT"
+      }
+    },
+    {
+      "ref": "R37",
+      "symbol": "Device:R",
+      "value": "2.43M",
+      "footprint": "Encoder:R_0805_2012Metric",
+      "source_footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": {
+        "1": "/ST09_OUT",
+        "2": "/bank3/ST10_TIMING"
+      },
+      "rating": "0.1%, 0805; exact MPN unverified",
+      "value_expression": "${R37_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST09_OUT",
+        "2": "ST10_TIMING"
+      }
+    },
+    {
+      "ref": "R38",
+      "symbol": "Device:R",
+      "value": "240k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank3/ST10_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R38_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST10_TH"
+      }
+    },
+    {
+      "ref": "R39",
+      "symbol": "Device:R",
+      "value": "258k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank3/ST10_TH",
+        "2": "/ST10_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R39_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST10_TH",
+        "2": "ST10_OUT"
+      }
+    },
+    {
+      "ref": "R40",
+      "symbol": "Device:R",
+      "value": "511k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank3/ST10_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R40_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST10_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C10",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank3/ST10_TIMING",
+        "2": "/GND"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST10_TIMING",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R41",
+      "symbol": "Device:R",
+      "value": "1.37M",
+      "footprint": "Encoder:R_0603_1608Metric",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "/ST10_OUT",
+        "2": "/bank3/ST11_TIMING"
+      },
+      "rating": "0.1%, 0603; exact MPN unverified",
+      "value_expression": "${R41_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST10_OUT",
+        "2": "ST11_TIMING"
+      }
+    },
+    {
+      "ref": "R42",
+      "symbol": "Device:R",
+      "value": "470k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/bank3/ST11_TH"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R42_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "ST11_TH"
+      }
+    },
+    {
+      "ref": "R43",
+      "symbol": "Device:R",
+      "value": "237k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank3/ST11_TH",
+        "2": "/ST11_OUT"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R43_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST11_TH",
+        "2": "ST11_OUT"
+      }
+    },
+    {
+      "ref": "R44",
+      "symbol": "Device:R",
+      "value": "274k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/bank3/ST11_TH",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${R44_VALUE}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST11_TH",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C11",
+      "symbol": "Device:C",
+      "value": "47n",
+      "footprint": "Encoder:C_0805_2012Metric",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "/bank3/ST11_TIMING",
+        "2": "/VBAT"
+      },
+      "rating": "47 nF, C0G, 1%, 0805; exact MPN unverified",
+      "value_expression": "${TIMING_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST11_TIMING",
+        "2": "VBAT"
+      }
+    },
+    {
+      "ref": "R45",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST01_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST01_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R46",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST02_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST02_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R47",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST03_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST03_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R48",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST04_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST04_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R49",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST05_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST05_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R50",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST06_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST06_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R51",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST07_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST07_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R52",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST08_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST08_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R53",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST09_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST09_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R54",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST10_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST10_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R55",
+      "symbol": "Device:R",
+      "value": "1M",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/ST11_OUT",
+        "2": "/decoder/MAJORITY_SUM"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${SUM_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ST11_OUT",
+        "2": "MAJORITY_SUM"
+      }
+    },
+    {
+      "ref": "R56",
+      "symbol": "Device:R",
+      "value": "100k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/decoder/MIDREF"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${DIVIDER_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "MIDREF"
+      }
+    },
+    {
+      "ref": "R57",
+      "symbol": "Device:R",
+      "value": "100k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/decoder/MIDREF",
+        "2": "/GND"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${DIVIDER_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "MIDREF",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R58",
+      "symbol": "Device:R",
+      "value": "15k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "ENCODED_OUT",
+        "2": "/decoder/RED_A"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${LED_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ENCODED_OUT",
+        "2": "RED_A"
+      }
+    },
+    {
+      "ref": "R59",
+      "symbol": "Device:R",
+      "value": "15k",
+      "footprint": "Encoder:R_0402_1005Metric",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/decoder/GREEN_A"
+      },
+      "rating": "0.1%, 0402; exact MPN unverified",
+      "value_expression": "${LED_R}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "GREEN_A"
+      }
+    },
+    {
+      "ref": "D1",
+      "symbol": "Device:LED",
+      "value": "RED",
+      "footprint": "Encoder:LED_0603_1608Metric",
+      "source_footprint": "LED_SMD:LED_0603_1608Metric",
+      "pins": {
+        "1": "/GND",
+        "2": "/decoder/RED_A"
+      },
+      "rating": "Low-current red; generic SPICE model, exact MPN unverified",
+      "value_expression": "RED",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "GND",
+        "2": "RED_A"
+      }
+    },
+    {
+      "ref": "D2",
+      "symbol": "Device:LED",
+      "value": "GREEN",
+      "footprint": "Encoder:LED_0603_1608Metric",
+      "source_footprint": "LED_SMD:LED_0603_1608Metric",
+      "pins": {
+        "1": "ENCODED_OUT",
+        "2": "/decoder/GREEN_A"
+      },
+      "rating": "Low-Vf yellow-green; generic SPICE model, exact MPN unverified",
+      "value_expression": "GREEN",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "ENCODED_OUT",
+        "2": "GREEN_A"
+      }
+    },
+    {
+      "ref": "BT1",
+      "symbol": "Device:Battery_Cell",
+      "value": "CR2032",
+      "footprint": "Encoder:BatteryHolder_Keystone_1058_1x2032",
+      "source_footprint": "Battery:BatteryHolder_Keystone_1058_1x2032",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/GND"
+      },
+      "rating": "One CR2032 coin cell, 3 V nominal; holder only",
+      "value_expression": "CR2032",
+      "manufacturer": "Keystone",
+      "mpn": "1058",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C12",
+      "symbol": "Device:C",
+      "value": "100n",
+      "footprint": "Encoder:C_0603_1608Metric",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/GND"
+      },
+      "rating": "10 V, X7R, 0603; exact MPN unverified",
+      "value_expression": "${BYPASS_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C13",
+      "symbol": "Device:C",
+      "value": "100n",
+      "footprint": "Encoder:C_0603_1608Metric",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/GND"
+      },
+      "rating": "10 V, X7R, 0603; exact MPN unverified",
+      "value_expression": "${BYPASS_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C14",
+      "symbol": "Device:C",
+      "value": "100n",
+      "footprint": "Encoder:C_0603_1608Metric",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "/VBAT",
+        "2": "/GND"
+      },
+      "rating": "10 V, X7R, 0603; exact MPN unverified",
+      "value_expression": "${BYPASS_C}",
+      "manufacturer": "Select to specification",
+      "mpn": "Select to specification",
+      "datasheet": "",
+      "logical_pins": {
+        "1": "VBAT",
+        "2": "GND"
+      }
+    }
+  ],
+  "variables": {
+    "TIMING_C": "47n",
+    "BYPASS_C": "100n",
+    "SUM_R": "1M",
+    "DIVIDER_R": "100k",
+    "LED_R": "15k",
+    "OPAMP": "TLV9044IPWR",
+    "RES_TOL": "0.1%",
+    "CAP_TOL": "1%",
+    "OPAMP_MFR": "Texas Instruments",
+    "PASSIVE_MFR": "Select to specification",
+    "OPAMP_DATASHEET": "https://www.ti.com/lit/ds/symlink/tlv9044.pdf",
+    "ENCODER_OPAMP_MPN": "TLV9044IPWR",
+    "R1_VALUE": "6.98M",
+    "R2_VALUE": "2.13M",
+    "R3_VALUE": "1.05M",
+    "R4_VALUE": "117k",
+    "R5_VALUE": "1.65M",
+    "R6_VALUE": "365k",
+    "R7_VALUE": "208k",
+    "R8_VALUE": "412k",
+    "R9_VALUE": "3.52M",
+    "R10_VALUE": "182k",
+    "R11_VALUE": "332k",
+    "R12_VALUE": "665k",
+    "R13_VALUE": "1.47M",
+    "R14_VALUE": "427k",
+    "R15_VALUE": "213k",
+    "R16_VALUE": "340k",
+    "R17_VALUE": "2.43M",
+    "R18_VALUE": "240k",
+    "R19_VALUE": "258k",
+    "R20_VALUE": "511k",
+    "R21_VALUE": "2M",
+    "R22_VALUE": "291k",
+    "R23_VALUE": "229k",
+    "R24_VALUE": "459k",
+    "R25_VALUE": "2.91M",
+    "R26_VALUE": "208k",
+    "R27_VALUE": "291k",
+    "R28_VALUE": "583k",
+    "R29_VALUE": "2M",
+    "R30_VALUE": "291k",
+    "R31_VALUE": "229k",
+    "R32_VALUE": "459k",
+    "R33_VALUE": "2M",
+    "R34_VALUE": "291k",
+    "R35_VALUE": "229k",
+    "R36_VALUE": "459k",
+    "R37_VALUE": "2.43M",
+    "R38_VALUE": "240k",
+    "R39_VALUE": "258k",
+    "R40_VALUE": "511k",
+    "R41_VALUE": "1.37M",
+    "R42_VALUE": "470k",
+    "R43_VALUE": "237k",
+    "R44_VALUE": "274k"
+  }
+}

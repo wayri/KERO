@@ -1,0 +1,553 @@
+{
+  "schema": "kero.rc-pwm-ring/v1",
+  "message": "hello world",
+  "alphabet": {
+    " ": 0,
+    "d": 1,
+    "e": 2,
+    "h": 3,
+    "l": 4,
+    "o": 5,
+    "r": 6,
+    "w": 7
+  },
+  "pulse_width_s": {
+    " ": 0.05,
+    "d": 0.065,
+    "e": 0.08450000000000002,
+    "h": 0.10985,
+    "l": 0.14280500000000004,
+    "o": 0.18564650000000005,
+    "r": 0.24134045000000004,
+    "w": 0.31374258500000013
+  },
+  "base_pulse_s": 0.05,
+  "width_ratio": 1.3,
+  "intersymbol_gap_s": 0.1,
+  "frame_gap_s": 1.0,
+  "frame_duration_s": 3.664141035000001,
+  "payload_symbols": 11,
+  "payload_code_bits": 33,
+  "alphabet_scope": "Custom fixed eight-symbol codebook; not ASCII, UART or universal text encoding.",
+  "intended_dwell_s": [
+    0.10985,
+    0.1,
+    0.08450000000000002,
+    0.1,
+    0.14280500000000004,
+    0.1,
+    0.14280500000000004,
+    0.1,
+    0.18564650000000005,
+    0.1,
+    0.05,
+    0.1,
+    0.31374258500000013,
+    0.1,
+    0.18564650000000005,
+    0.1,
+    0.24134045000000004,
+    0.1,
+    0.14280500000000004,
+    0.1,
+    0.065,
+    1.0
+  ],
+  "stages": [
+    {
+      "index": 0,
+      "id": "ST01",
+      "amplifier": "U1A",
+      "package": "U1",
+      "unit": 1,
+      "pins": {
+        "out": 1,
+        "minus": 2,
+        "plus": 3
+      },
+      "previous_output": "ST11_OUT",
+      "output": "ST01_OUT",
+      "timing_node": "ST01_TIMING",
+      "threshold_node": "ST01_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "VBAT",
+      "resistors": {
+        "R_timing_ohm": 6980000.0,
+        "R_vbat_ohm": 2130000.0,
+        "R_feedback_ohm": 1050000.0,
+        "R_gnd_ohm": 117000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 6992796.9820547,
+        "R_vbat_ohm": 2118201.6575375227,
+        "R_feedback_ohm": 1051699.4731695526,
+        "R_gnd_ohm": 116590.07451710015
+      },
+      "input_high_duration_s": 1.4985345350000008,
+      "input_low_duration_s": 2.1656065,
+      "requested_output_fall_delay_s": 0.050000000000000044,
+      "requested_output_rise_delay_s": 1.0,
+      "ideal_tau_s": 0.3286614581565709,
+      "quantized_tau_s": 0.32805999999999996,
+      "ideal_threshold_low_fraction": 0.04720985825129285,
+      "ideal_threshold_high_fraction": 0.1422940553543166,
+      "quantized_threshold_low_fraction": 0.04709494893734474,
+      "quantized_threshold_high_fraction": 0.14263041678167265,
+      "ideal_minimum_threshold_margin_fraction": 0.04720985825129285
+    },
+    {
+      "index": 1,
+      "id": "ST02",
+      "amplifier": "U1B",
+      "package": "U1",
+      "unit": 2,
+      "pins": {
+        "out": 7,
+        "minus": 6,
+        "plus": 5
+      },
+      "previous_output": "ST01_OUT",
+      "output": "ST02_OUT",
+      "timing_node": "ST02_TIMING",
+      "threshold_node": "ST02_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "GND",
+      "resistors": {
+        "R_timing_ohm": 1650000.0,
+        "R_vbat_ohm": 365000.0,
+        "R_feedback_ohm": 208000.0,
+        "R_gnd_ohm": 412000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 1645833.662057366,
+        "R_vbat_ohm": 364280.89585491247,
+        "R_feedback_ohm": 206699.28402894142,
+        "R_gnd_ohm": 413749.81208282063
+      },
+      "input_high_duration_s": 1.2156065000000003,
+      "input_low_duration_s": 2.4485345350000007,
+      "requested_output_fall_delay_s": 0.10985,
+      "requested_output_rise_delay_s": 0.10000000000000009,
+      "ideal_tau_s": 0.0773541821166962,
+      "quantized_tau_s": 0.07755,
+      "ideal_threshold_low_fraction": 0.27451343492860103,
+      "ideal_threshold_high_fraction": 0.7583080473279274,
+      "quantized_threshold_low_fraction": 0.27467018807933435,
+      "quantized_threshold_high_fraction": 0.756663546968551,
+      "ideal_minimum_threshold_margin_fraction": 0.24169195267207255
+    },
+    {
+      "index": 2,
+      "id": "ST03",
+      "amplifier": "U1C",
+      "package": "U1",
+      "unit": 3,
+      "pins": {
+        "out": 8,
+        "minus": 9,
+        "plus": 10
+      },
+      "previous_output": "ST02_OUT",
+      "output": "ST03_OUT",
+      "timing_node": "ST03_TIMING",
+      "threshold_node": "ST03_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "VBAT",
+      "resistors": {
+        "R_timing_ohm": 3520000.0,
+        "R_vbat_ohm": 182000.0,
+        "R_feedback_ohm": 332000.0,
+        "R_gnd_ohm": 665000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 3531205.4866030766,
+        "R_vbat_ohm": 182673.64777314267,
+        "R_feedback_ohm": 331488.9267213472,
+        "R_gnd_ohm": 662662.1382595119
+      },
+      "input_high_duration_s": 2.4583845350000004,
+      "input_low_duration_s": 1.2057565000000006,
+      "requested_output_fall_delay_s": 0.3137425850000002,
+      "requested_output_rise_delay_s": 0.1,
+      "ideal_tau_s": 0.1659666578703446,
+      "quantized_tau_s": 0.16544,
+      "ideal_threshold_low_fraction": 0.5474243341556699,
+      "ideal_threshold_high_fraction": 0.8490935361681431,
+      "quantized_threshold_low_fraction": 0.5488844801782047,
+      "quantized_threshold_high_fraction": 0.8497789843722808,
+      "ideal_minimum_threshold_margin_fraction": 0.15083460100623658
+    },
+    {
+      "index": 3,
+      "id": "ST04",
+      "amplifier": "U1D",
+      "package": "U1",
+      "unit": 4,
+      "pins": {
+        "out": 14,
+        "minus": 13,
+        "plus": 12
+      },
+      "previous_output": "ST03_OUT",
+      "output": "ST04_OUT",
+      "timing_node": "ST04_TIMING",
+      "threshold_node": "ST04_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "GND",
+      "resistors": {
+        "R_timing_ohm": 1470000.0,
+        "R_vbat_ohm": 427000.0,
+        "R_feedback_ohm": 213000.0,
+        "R_gnd_ohm": 340000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 1471175.7182483717,
+        "R_vbat_ohm": 424707.6056368168,
+        "R_feedback_ohm": 212800.93681795543,
+        "R_gnd_ohm": 339418.94715325744
+      },
+      "input_high_duration_s": 1.4194990850000004,
+      "input_low_duration_s": 2.2446419500000006,
+      "requested_output_fall_delay_s": 0.08449999999999999,
+      "requested_output_rise_delay_s": 0.10000000000000009,
+      "ideal_tau_s": 0.06914525875767347,
+      "quantized_tau_s": 0.06909,
+      "ideal_threshold_low_fraction": 0.23545610832671007,
+      "ideal_threshold_high_fraction": 0.705378851597088,
+      "quantized_threshold_low_fraction": 0.23470998311462285,
+      "quantized_threshold_high_fraction": 0.7052318741472237,
+      "ideal_minimum_threshold_margin_fraction": 0.234961371635189
+    },
+    {
+      "index": 4,
+      "id": "ST05",
+      "amplifier": "U2A",
+      "package": "U2",
+      "unit": 1,
+      "pins": {
+        "out": 1,
+        "minus": 2,
+        "plus": 3
+      },
+      "previous_output": "ST04_OUT",
+      "output": "ST05_OUT",
+      "timing_node": "ST05_TIMING",
+      "threshold_node": "ST05_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "VBAT",
+      "resistors": {
+        "R_timing_ohm": 2430000.0,
+        "R_vbat_ohm": 240000.0,
+        "R_feedback_ohm": 258000.0,
+        "R_gnd_ohm": 511000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 2419116.0840176046,
+        "R_vbat_ohm": 240974.13613090172,
+        "R_feedback_ohm": 256649.77691986944,
+        "R_gnd_ohm": 511818.7237457351
+      },
+      "input_high_duration_s": 2.2291419500000003,
+      "input_low_duration_s": 1.4349990850000007,
+      "requested_output_fall_delay_s": 0.18564650000000005,
+      "requested_output_rise_delay_s": 0.09999999999999998,
+      "ideal_tau_s": 0.11369845594882741,
+      "quantized_tau_s": 0.11420999999999999,
+      "ideal_threshold_low_fraction": 0.4149822948039457,
+      "ideal_threshold_high_fraction": 0.804618324104769,
+      "quantized_threshold_low_fraction": 0.41668404983596613,
+      "quantized_threshold_high_fraction": 0.8042971194508183,
+      "ideal_minimum_threshold_margin_fraction": 0.19481801465041163
+    },
+    {
+      "index": 5,
+      "id": "ST06",
+      "amplifier": "U2B",
+      "package": "U2",
+      "unit": 2,
+      "pins": {
+        "out": 7,
+        "minus": 6,
+        "plus": 5
+      },
+      "previous_output": "ST05_OUT",
+      "output": "ST06_OUT",
+      "timing_node": "ST06_TIMING",
+      "threshold_node": "ST06_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "GND",
+      "resistors": {
+        "R_timing_ohm": 2000000.0,
+        "R_vbat_ohm": 291000.0,
+        "R_feedback_ohm": 229000.0,
+        "R_gnd_ohm": 459000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 1997837.0078190526,
+        "R_vbat_ohm": 290078.5763619777,
+        "R_feedback_ohm": 228969.6598465816,
+        "R_gnd_ohm": 457609.9134163311
+      },
+      "input_high_duration_s": 1.5206455850000007,
+      "input_low_duration_s": 2.1434954500000005,
+      "requested_output_fall_delay_s": 0.14280500000000007,
+      "requested_output_rise_delay_s": 0.10000000000000009,
+      "ideal_tau_s": 0.09389833936749546,
+      "quantized_tau_s": 0.094,
+      "ideal_threshold_low_fraction": 0.34473417945630674,
+      "ideal_threshold_high_fraction": 0.7814732656173458,
+      "quantized_threshold_low_fraction": 0.34426616096607154,
+      "quantized_threshold_high_fraction": 0.7817397541587651,
+      "ideal_minimum_threshold_margin_fraction": 0.2183695430805195
+    },
+    {
+      "index": 6,
+      "id": "ST07",
+      "amplifier": "U2C",
+      "package": "U2",
+      "unit": 3,
+      "pins": {
+        "out": 8,
+        "minus": 9,
+        "plus": 10
+      },
+      "previous_output": "ST06_OUT",
+      "output": "ST07_OUT",
+      "timing_node": "ST07_TIMING",
+      "threshold_node": "ST07_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "VBAT",
+      "resistors": {
+        "R_timing_ohm": 2910000.0,
+        "R_vbat_ohm": 208000.0,
+        "R_feedback_ohm": 291000.0,
+        "R_gnd_ohm": 583000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 2919672.0768676414,
+        "R_vbat_ohm": 207245.21051150616,
+        "R_feedback_ohm": 289670.99601423234,
+        "R_gnd_ohm": 580515.915057932
+      },
+      "input_high_duration_s": 2.18630045,
+      "input_low_duration_s": 1.477840585000001,
+      "requested_output_fall_delay_s": 0.24134045000000004,
+      "requested_output_rise_delay_s": 0.09999999999999998,
+      "ideal_tau_s": 0.13722458761277914,
+      "quantized_tau_s": 0.13677,
+      "ideal_threshold_low_fraction": 0.48252019794902834,
+      "ideal_threshold_high_fraction": 0.8277394341720664,
+      "quantized_threshold_low_fraction": 0.48272987238401455,
+      "quantized_threshold_high_fraction": 0.8277739048784305,
+      "ideal_minimum_threshold_margin_fraction": 0.1722605658279336
+    },
+    {
+      "index": 7,
+      "id": "ST08",
+      "amplifier": "U2D",
+      "package": "U2",
+      "unit": 4,
+      "pins": {
+        "out": 14,
+        "minus": 13,
+        "plus": 12
+      },
+      "previous_output": "ST07_OUT",
+      "output": "ST08_OUT",
+      "timing_node": "ST08_TIMING",
+      "threshold_node": "ST08_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "GND",
+      "resistors": {
+        "R_timing_ohm": 2000000.0,
+        "R_vbat_ohm": 291000.0,
+        "R_feedback_ohm": 229000.0,
+        "R_gnd_ohm": 459000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 1997837.0078190526,
+        "R_vbat_ohm": 290078.55889960146,
+        "R_feedback_ohm": 228969.67070063943,
+        "R_gnd_ohm": 457609.9135198565
+      },
+      "input_high_duration_s": 1.6191810350000009,
+      "input_low_duration_s": 2.04496,
+      "requested_output_fall_delay_s": 0.14280500000000007,
+      "requested_output_rise_delay_s": 0.10000000000000009,
+      "ideal_tau_s": 0.09389833936749546,
+      "quantized_tau_s": 0.094,
+      "ideal_threshold_low_fraction": 0.34473420020888484,
+      "ideal_threshold_high_fraction": 0.7814732656667832,
+      "quantized_threshold_low_fraction": 0.34426616096607154,
+      "quantized_threshold_high_fraction": 0.7817397541587651,
+      "ideal_minimum_threshold_margin_fraction": 0.21836953272894918
+    },
+    {
+      "index": 8,
+      "id": "ST09",
+      "amplifier": "U3A",
+      "package": "U3",
+      "unit": 1,
+      "pins": {
+        "out": 1,
+        "minus": 2,
+        "plus": 3
+      },
+      "previous_output": "ST08_OUT",
+      "output": "ST09_OUT",
+      "timing_node": "ST09_TIMING",
+      "threshold_node": "ST09_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "VBAT",
+      "resistors": {
+        "R_timing_ohm": 2000000.0,
+        "R_vbat_ohm": 291000.0,
+        "R_feedback_ohm": 229000.0,
+        "R_gnd_ohm": 459000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 1997837.0078190516,
+        "R_vbat_ohm": 290078.549554463,
+        "R_feedback_ohm": 228969.67070063946,
+        "R_gnd_ohm": 457609.93677641044
+      },
+      "input_high_duration_s": 2.087765,
+      "input_low_duration_s": 1.576376035000001,
+      "requested_output_fall_delay_s": 0.14280500000000007,
+      "requested_output_rise_delay_s": 0.09999999999999998,
+      "ideal_tau_s": 0.09389833936749542,
+      "quantized_tau_s": 0.094,
+      "ideal_threshold_low_fraction": 0.34473421131480364,
+      "ideal_threshold_high_fraction": 0.781473276772702,
+      "quantized_threshold_low_fraction": 0.34426616096607154,
+      "quantized_threshold_high_fraction": 0.7817397541587651,
+      "ideal_minimum_threshold_margin_fraction": 0.21836953272894916
+    },
+    {
+      "index": 9,
+      "id": "ST10",
+      "amplifier": "U3B",
+      "package": "U3",
+      "unit": 2,
+      "pins": {
+        "out": 7,
+        "minus": 6,
+        "plus": 5
+      },
+      "previous_output": "ST09_OUT",
+      "output": "ST10_OUT",
+      "timing_node": "ST10_TIMING",
+      "threshold_node": "ST10_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "GND",
+      "resistors": {
+        "R_timing_ohm": 2430000.0,
+        "R_vbat_ohm": 240000.0,
+        "R_feedback_ohm": 258000.0,
+        "R_gnd_ohm": 511000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 2419116.084017605,
+        "R_vbat_ohm": 240974.29285696326,
+        "R_feedback_ohm": 256650.02206044848,
+        "R_gnd_ohm": 511817.04181824985
+      },
+      "input_high_duration_s": 1.6191810350000009,
+      "input_low_duration_s": 2.04496,
+      "requested_output_fall_delay_s": 0.18564650000000005,
+      "requested_output_rise_delay_s": 0.10000000000000009,
+      "ideal_tau_s": 0.11369845594882742,
+      "quantized_tau_s": 0.11420999999999999,
+      "ideal_threshold_low_fraction": 0.41498202490569264,
+      "ideal_threshold_high_fraction": 0.804617682043673,
+      "quantized_threshold_low_fraction": 0.41668404983596613,
+      "quantized_threshold_high_fraction": 0.8042971194508183,
+      "ideal_minimum_threshold_margin_fraction": 0.1948178285689902
+    },
+    {
+      "index": 10,
+      "id": "ST11",
+      "amplifier": "U3C",
+      "package": "U3",
+      "unit": 3,
+      "pins": {
+        "out": 8,
+        "minus": 9,
+        "plus": 10
+      },
+      "previous_output": "ST10_OUT",
+      "output": "ST11_OUT",
+      "timing_node": "ST11_TIMING",
+      "threshold_node": "ST11_TH",
+      "capacitor_F": 4.7e-08,
+      "capacitor_bottom": "VBAT",
+      "resistors": {
+        "R_timing_ohm": 1370000.0,
+        "R_vbat_ohm": 470000.0,
+        "R_feedback_ohm": 237000.0,
+        "R_gnd_ohm": 274000.0
+      },
+      "unrounded_resistors": {
+        "R_timing_ohm": 1371310.0729930198,
+        "R_vbat_ohm": 471879.0429312181,
+        "R_feedback_ohm": 236228.52832027688,
+        "R_gnd_ohm": 274151.07202215615
+      },
+      "input_high_duration_s": 2.1306065,
+      "input_low_duration_s": 1.5335345350000011,
+      "requested_output_fall_delay_s": 0.06499999999999995,
+      "requested_output_rise_delay_s": 0.10000000000000009,
+      "ideal_tau_s": 0.06445157343067193,
+      "quantized_tau_s": 0.06439,
+      "ideal_threshold_low_fraction": 0.21191871412389926,
+      "ideal_threshold_high_fraction": 0.6352376109187045,
+      "quantized_threshold_low_fraction": 0.21283611049202247,
+      "quantized_threshold_high_fraction": 0.6349161608348519,
+      "ideal_minimum_threshold_margin_fraction": 0.21165944839740258
+    }
+  ],
+  "capacitor_specification": "47 nF, C0G, 1%, intended 0805; exact MPN and procurement remain unverified.",
+  "resistor_specification": "0.1%; nearest E192 standard nominal values; exact MPN, tolerance and package availability remain unverified.",
+  "majority": {
+    "amplifier": "U3D",
+    "package": "U3",
+    "unit": 4,
+    "pins": {
+      "out": 14,
+      "minus": 13,
+      "plus": 12
+    },
+    "sum_resistor_ohm": 1000000.0,
+    "divider_top_ohm": 100000.0,
+    "divider_bottom_ohm": 100000.0,
+    "plus_node": "MAJORITY_SUM",
+    "minus_node": "MIDREF",
+    "output": "ENCODED_OUT",
+    "inputs": [
+      "ST01_OUT",
+      "ST02_OUT",
+      "ST03_OUT",
+      "ST04_OUT",
+      "ST05_OUT",
+      "ST06_OUT",
+      "ST07_OUT",
+      "ST08_OUT",
+      "ST09_OUT",
+      "ST10_OUT",
+      "ST11_OUT"
+    ],
+    "positive_feedback": false
+  },
+  "supply_pins": {
+    "VBAT": 4,
+    "GND": 11
+  },
+  "ic": "TLV9044IPWR",
+  "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+  "source_urls": [
+    "https://www.ti.com/lit/ds/symlink/tlv9044.pdf",
+    "https://www.ti.com/lit/zip/SBOMB62",
+    "https://www.ti.com/lit/zip/SBOMB61",
+    "https://www.vishay.com/docs/50034/stohmval.pdf"
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "name": "v3-ramp100ms",
+  "supply_V": 3.0,
+  "ramp_s": 0.1,
+  "maximum_timestep_s": 0.0005,
+  "requested_stop_s": 12.0,
+  "elapsed_s": 24.912992238998413,
+  "exit_code": 0,
+  "timed_out": false,
+  "log_limit_reached": false,
+  "simulator_command": [
+    "Xyce.exe",
+    "runtime deck with externally supplied model path"
+  ],
+  "source_spec_sha256": "0631060c3e8a6ebdba97a5724dbef59fc4870bc5d3bc7570ace8045ea0cc44b5",
+  "model_sha256": "75019b68d85b360113538587ae6231b3e7b48e511d444a953799f1756dfd0543",
+  "portable_netlist_sha256": "9c67f4f407c53f8c3d828a783ae8789be4e6e24bf49f8d1ccbb109dc6383d306",
+  "actual_run_deck_sha256": "c8d7c8eddad1ecaaba8b33499406c56348926e90dbb400db8409b18066b77bd4",
+  "family_model_applicability": "TLV9042 Rev B macro per channel for TLV9044; not a quad-package-specific model.",
+  "warning_lines": [
+    "Netlist warning in file",
+    " No model parameter T_ABS found for model R_NOISELESS of type RES, parameter",
+    " ignored.",
+    "Netlist warning: Voltage Node (XST07:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XDEC:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST11:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST10:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST09:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST08:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST06:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST05:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST04:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST03:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST02:49) connected to only 1 device Terminal",
+    "Netlist warning: Voltage Node (XST01:49) connected to only 1 device Terminal",
+    "\tNumber Failed Steps Attempted:\t\t0",
+    "\tNumber Failed Linear Solves:\t\t0",
+    "\tNumber Nonlinear Convergence Failures:\t0",
+    "\tNumber Failed Steps Attempted:\t\t2207",
+    "\tNumber Failed Linear Solves:\t\t0",
+    "\tNumber Nonlinear Convergence Failures:\t1344",
+    "\tNumber Failed Steps Attempted:\t\t2207",
+    "\tNumber Failed Linear Solves:\t\t0",
+    "\tNumber Nonlinear Convergence Failures:\t1344",
+    "      Failed Steps                         2207        0.000 ( 0.00%)        0.003 ( 0.01%)",
+    "        Nonlinear Failure                  1344        0.000 ( 0.00%)        0.000 (<0.01%)"
+  ],
+  "limitations": [
+    "TI TLV9042 Rev B family channel macro instantiated twelve times for TLV9044; not a package-specific quad or battery model.",
+    "The library includes a 10 uA/channel quiescent source and output-current supply accounting; model validity is not bench correlation.",
+    "Generic LED diode models and 15 kohm series resistors are illustrative, not selected LED part models.",
+    "Battery is an ideal ramped voltage source: no ESR, electrochemistry, capacity or lifetime prediction.",
+    "Crossings and integrals use sampled simulated waveforms; startup peak is the largest sampled current.",
+    "Xyce may ignore R_NOISELESS/T_ABS noise-temperature parameters. No noise analysis is claimed.",
+    "Recovered nonlinear time-step failures are retained in the log and do not alone invalidate a successful completed transient.",
+    "Incomplete startup frames are excluded by explicit frame boundaries; every complete frame after the supply ramp is checked.",
+    "These supply/ramp cases are not component tolerance, full-temperature, partial-discharge or brownout qualification."
+  ],
+  "completed_stop_s": 12.0,
+  "sample_count": 34028,
+  "full_waveform_csv_sha256": "dc57517daf1207d7cc947e6e64e5d58f538b8ad8c80120386c1397e6b1854e24",
+  "full_waveform_csv_bytes": 8949458,
+  "edges": [
+    {
+      "time_s": 1.0417576787227063,
+      "direction": "rise",
+      "sample_index": 2433
+    },
+    {
+      "time_s": 1.151976082332208,
+      "direction": "fall",
+      "sample_index": 2801
+    },
+    {
+      "time_s": 1.2521203802581395,
+      "direction": "rise",
+      "sample_index": 3141
+    },
+    {
+      "time_s": 1.3371356115720006,
+      "direction": "fall",
+      "sample_index": 3467
+    },
+    {
+      "time_s": 1.4378214442988353,
+      "direction": "rise",
+      "sample_index": 3816
+    },
+    {
+      "time_s": 1.5814731056635931,
+      "direction": "fall",
+      "sample_index": 4252
+    },
+    {
+      "time_s": 1.6818591075402607,
+      "direction": "rise",
+      "sample_index": 4598
+    },
+    {
+      "time_s": 1.8255105734554598,
+      "direction": "fall",
+      "sample_index": 5033
+    },
+    {
+      "time_s": 1.9264113760590733,
+      "direction": "rise",
+      "sample_index": 5382
+    },
+    {
+      "time_s": 2.113203200173369,
+      "direction": "fall",
+      "sample_index": 5899
+    },
+    {
+      "time_s": 2.213289974582071,
+      "direction": "rise",
+      "sample_index": 6246
+    },
+    {
+      "time_s": 2.265000053512448,
+      "direction": "fall",
+      "sample_index": 6494
+    },
+    {
+      "time_s": 2.3657861196370424,
+      "direction": "rise",
+      "sample_index": 6846
+    },
+    {
+      "time_s": 2.679344648156789,
+      "direction": "fall",
+      "sample_index": 7627
+    },
+    {
+      "time_s": 2.7800039107966374,
+      "direction": "rise",
+      "sample_index": 7992
+    },
+    {
+      "time_s": 2.966843197718111,
+      "direction": "fall",
+      "sample_index": 8516
+    },
+    {
+      "time_s": 3.0677291362199166,
+      "direction": "rise",
+      "sample_index": 8865
+    },
+    {
+      "time_s": 3.308729231218387,
+      "direction": "fall",
+      "sample_index": 9500
+    },
+    {
+      "time_s": 3.409616292375064,
+      "direction": "rise",
+      "sample_index": 9853
+    },
+    {
+      "time_s": 3.5532801104068277,
+      "direction": "fall",
+      "sample_index": 10286
+    },
+    {
+      "time_s": 3.6540342984218475,
+      "direction": "rise",
+      "sample_index": 10630
+    },
+    {
+      "time_s": 3.7194778917677063,
+      "direction": "fall",
+      "sample_index": 10910
+    },
+    {
+      "time_s": 4.7075360361896195,
+      "direction": "rise",
+      "sample_index": 13031
+    },
+    {
+      "time_s": 4.817788372375419,
+      "direction": "fall",
+      "sample_index": 13408
+    },
+    {
+      "time_s": 4.91800267266675,
+      "direction": "rise",
+      "sample_index": 13755
+    },
+    {
+      "time_s": 5.003020826005955,
+      "direction": "fall",
+      "sample_index": 14078
+    },
+    {
+      "time_s": 5.103740674320012,
+      "direction": "rise",
+      "sample_index": 14422
+    },
+    {
+      "time_s": 5.247411908102751,
+      "direction": "fall",
+      "sample_index": 14868
+    },
+    {
+      "time_s": 5.347796762755913,
+      "direction": "rise",
+      "sample_index": 15219
+    },
+    {
+      "time_s": 5.4914481898869605,
+      "direction": "fall",
+      "sample_index": 15651
+    },
+    {
+      "time_s": 5.5923266830464975,
+      "direction": "rise",
+      "sample_index": 15998
+    },
+    {
+      "time_s": 5.779118693592918,
+      "direction": "fall",
+      "sample_index": 16519
+    },
+    {
+      "time_s": 5.879205612978234,
+      "direction": "rise",
+      "sample_index": 16869
+    },
+    {
+      "time_s": 5.930927199643065,
+      "direction": "fall",
+      "sample_index": 17111
+    },
+    {
+      "time_s": 6.031713050805776,
+      "direction": "rise",
+      "sample_index": 17458
+    },
+    {
+      "time_s": 6.345305558827144,
+      "direction": "fall",
+      "sample_index": 18225
+    },
+    {
+      "time_s": 6.445963263390425,
+      "direction": "rise",
+      "sample_index": 18574
+    },
+    {
+      "time_s": 6.632762971830544,
+      "direction": "fall",
+      "sample_index": 19089
+    },
+    {
+      "time_s": 6.733641800430278,
+      "direction": "rise",
+      "sample_index": 19440
+    },
+    {
+      "time_s": 6.974628281746229,
+      "direction": "fall",
+      "sample_index": 20073
+    },
+    {
+      "time_s": 7.075505645551902,
+      "direction": "rise",
+      "sample_index": 20421
+    },
+    {
+      "time_s": 7.219157541401546,
+      "direction": "fall",
+      "sample_index": 20851
+    },
+    {
+      "time_s": 7.3198526846197085,
+      "direction": "rise",
+      "sample_index": 21195
+    },
+    {
+      "time_s": 7.385328744170973,
+      "direction": "fall",
+      "sample_index": 21480
+    },
+    {
+      "time_s": 8.373330828351227,
+      "direction": "rise",
+      "sample_index": 23591
+    },
+    {
+      "time_s": 8.483546574287706,
+      "direction": "fall",
+      "sample_index": 23959
+    },
+    {
+      "time_s": 8.583704976194795,
+      "direction": "rise",
+      "sample_index": 24304
+    },
+    {
+      "time_s": 8.66871961751304,
+      "direction": "fall",
+      "sample_index": 24631
+    },
+    {
+      "time_s": 8.769437446697673,
+      "direction": "rise",
+      "sample_index": 24978
+    },
+    {
+      "time_s": 8.913091490329295,
+      "direction": "fall",
+      "sample_index": 25413
+    },
+    {
+      "time_s": 9.013482476599878,
+      "direction": "rise",
+      "sample_index": 25752
+    },
+    {
+      "time_s": 9.157181866855264,
+      "direction": "fall",
+      "sample_index": 26186
+    },
+    {
+      "time_s": 9.258072049926726,
+      "direction": "rise",
+      "sample_index": 26535
+    },
+    {
+      "time_s": 9.44489813739981,
+      "direction": "fall",
+      "sample_index": 27052
+    },
+    {
+      "time_s": 9.545037544988762,
+      "direction": "rise",
+      "sample_index": 27413
+    },
+    {
+      "time_s": 9.596712521529147,
+      "direction": "fall",
+      "sample_index": 27659
+    },
+    {
+      "time_s": 9.697492494861317,
+      "direction": "rise",
+      "sample_index": 28010
+    },
+    {
+      "time_s": 10.011083463578098,
+      "direction": "fall",
+      "sample_index": 28774
+    },
+    {
+      "time_s": 10.111743941271573,
+      "direction": "rise",
+      "sample_index": 29128
+    },
+    {
+      "time_s": 10.298543587227455,
+      "direction": "fall",
+      "sample_index": 29645
+    },
+    {
+      "time_s": 10.399430004856875,
+      "direction": "rise",
+      "sample_index": 30001
+    },
+    {
+      "time_s": 10.640356637447386,
+      "direction": "fall",
+      "sample_index": 30635
+    },
+    {
+      "time_s": 10.741240772889256,
+      "direction": "rise",
+      "sample_index": 30980
+    },
+    {
+      "time_s": 10.884883719503064,
+      "direction": "fall",
+      "sample_index": 31416
+    },
+    {
+      "time_s": 10.985634437186423,
+      "direction": "rise",
+      "sample_index": 31776
+    },
+    {
+      "time_s": 11.05111811052667,
+      "direction": "fall",
+      "sample_index": 32061
+    }
+  ],
+  "frames": [
+    {
+      "start_s": 4.7075360361896195,
+      "end_s": 8.373330828351227,
+      "pulse_count": 11,
+      "widths_s": [
+        0.11025233618579922,
+        0.08501815333920515,
+        0.14367123378273838,
+        0.14365142713104717,
+        0.18679201054642025,
+        0.051721586664831065,
+        0.31359250802136795,
+        0.18679970844011873,
+        0.24098648131595102,
+        0.14365189584964355,
+        0.06547605955126468
+      ],
+      "codes": [
+        3,
+        2,
+        4,
+        4,
+        5,
+        0,
+        7,
+        5,
+        6,
+        4,
+        1
+      ],
+      "decoded": "hello world",
+      "pass_check": true,
+      "cell_current": {
+        "window_start_s": 4.7075360361896195,
+        "window_end_s": 8.373330828351227,
+        "duration_s": 3.6657947921616074,
+        "mean_A": 0.0002790817182179738,
+        "rms_A": 0.00027914981815123043,
+        "maximum_sampled_A": 0.000290786266,
+        "minimum_sampled_A": 0.000201396317,
+        "charge_C": 0.0010230563092309614
+      }
+    }
+  ],
+  "complete_frame_count": 1,
+  "pass_check": true,
+  "maximum_sampled_startup_current_A": 0.00029078737,
+  "current_sign": "Positive cell draw = -I(Vbat).",
+  "frame_policy": "Use all complete intervals between low gaps >0.5 s after the supply ramp. Incomplete startup/end fragments are excluded.",
+  "integration_method": "Piecewise-linear sampled current: trapezoid for charge; exact quadratic integral of the linear interpolant for I squared.",
+  "removed_owned_runtime_files": [
+    {
+      "name": "run.cir",
+      "bytes": 3405
+    },
+    {
+      "name": "xyce.log",
+      "bytes": 19302
+    },
+    {
+      "name": "run.cir.csv",
+      "bytes": 8949458
+    }
+  ]
+}

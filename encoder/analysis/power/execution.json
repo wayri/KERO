@@ -1,0 +1,58 @@
+{
+  "command": [
+    "C:\\Users\\yawar\\.codex\\worktrees\\saved-field-gradients\\kiWay\\.validation\\editor-series-roundtrip\\local\\WayriCAD\\runtimes\\d29d42708158db93a528\\Scripts\\python.exe",
+    "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/tools/analyze_encoder_power.py",
+    "--model",
+    "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/.git/encoded-simulation/vendor/tlv9042.lib",
+    "--xyce",
+    "D:/xyce/Xyce_7.8/bin/Xyce.exe",
+    "--reuse-runtime"
+  ],
+  "solver_exit": 0,
+  "checks": {
+    "native_equivalence": {
+      "parts": 79,
+      "terminals": 194,
+      "pin_net_and_value_equivalence": true
+    },
+    "analytic_references": {
+      "status": "PASS",
+      "checks": [
+        "linear mean 2 A",
+        "linear-current mean-square 13/3 A^2",
+        "bilinear power mean 19/3 W",
+        "clipped interpolated endpoints"
+      ]
+    },
+    "complete_frames": 2,
+    "all_frames_decode": true,
+    "finite_samples": true,
+    "all_heat_nonnegative": true,
+    "energy_residual_below_0p1percent": true,
+    "rail_kcl_residual_below_10nA": false
+  },
+  "removed_owned_scratch": [
+    {
+      "file": "power.cir",
+      "bytes": 5944
+    },
+    {
+      "file": "xyce.log",
+      "bytes": 19819
+    },
+    {
+      "file": "power.cir.csv",
+      "bytes": 61483377
+    }
+  ],
+  "retained_waveform_gzip_verified": true,
+  "input_hashes_unchanged": true,
+  "baseline_comparison": {
+    "evidence": "encoded-model/spice/summary.json",
+    "sha256": "e67973fc5420fb22eaa532a299508389407c6faef7b0a359ab1176c6369a157d",
+    "source_and_model_match": true,
+    "mean_current_delta_A": 9.187172642652688e-11,
+    "maximum_pulse_width_delta_s": 6.098266680076847e-05,
+    "prior_cases_applicability": "Nominal connectivity/values and macro identity match; prior results exclude layout parasitics just as this schematic simulation does."
+  }
+}

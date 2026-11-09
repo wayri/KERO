@@ -1,0 +1,71 @@
+{
+  "schema": "kero.encoder-schematic-validation/v1",
+  "kicad_version": "10.0.6",
+  "source_sha256": {
+    "encoder\\bank1.kicad_sch": "f810c0e654ed2c0e514641a30d0615ee6d94b068b1d6a444891e92edc9b664e4",
+    "encoder\\bank2.kicad_sch": "66709dfe3f674b9388b96f932c32dd997e28426cfd0d431340ae855de3da0600",
+    "encoder\\bank3.kicad_sch": "00372ade10aaf8aa68b33aee8660868a83b4fb1656f6b0bbce3c37fdfc097056",
+    "encoder\\decoder.kicad_sch": "cee1e80dc3f17177ef4850e5dcf0f244e89684c27955da5f65a9f9c8457737c9",
+    "encoder\\Encoder.kicad_pro": "c96b309cf244bcbdaa540fb43f93ef31a521204d19c428e4547de6a6f989e049",
+    "encoder\\Encoder.kicad_sch": "c8170889000416e7d5da67348e48b579efc1122663ecbd89017244313ada52bb",
+    "encoder\\Encoder.kicad_sym": "7af727b99fe1340c29f0d02ef1394e6754ae41907e3005fbab4b3c1e6219d5e8",
+    "encoder\\power.kicad_sch": "0bec3885bb39580414061264e16563cadb00f14aada47738c9326b078104a9ae",
+    "tools\\build_encoder_schematic.py": "401e4fc2d4c966b609ed339723008406c9deb90bd7bfc546f7acdf8270123856"
+  },
+  "native_erc_violations": 0,
+  "parts": 79,
+  "named_terminal_assignments": 194,
+  "native_pin_net_equivalence": true,
+  "native_value_footprint_manufacturer_mpn_equivalence": true,
+  "sheets": 6,
+  "commands": [
+    {
+      "args": [
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "evidence/netlist.xml",
+        "Encoder.kicad_sch"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "22:02:36: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n22:02:36: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    },
+    {
+      "args": [
+        "sch",
+        "erc",
+        "--format",
+        "json",
+        "--severity-all",
+        "-o",
+        "evidence/erc.json",
+        "Encoder.kicad_sch"
+      ],
+      "exit_code": 0,
+      "stdout": "Found 0 violations\nSaved ERC Report to evidence/erc.json\n",
+      "stderr": "22:02:38: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n22:02:38: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    },
+    {
+      "args": [
+        "sch",
+        "export",
+        "svg",
+        "-o",
+        "previews/",
+        "Encoder.kicad_sch"
+      ],
+      "exit_code": 0,
+      "stdout": "Plotted to 'D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\previews\\Encoder.svg'.\nPlotted to 'D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\previews\\Encoder-power.svg'.\nPlotted to 'D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\previews\\Encoder-bank1.svg'.\nPlotted to 'D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\previews\\Encoder-bank2.svg'.\nPlotted to 'D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\previews\\Encoder-bank3.svg'.\nPlotted to 'D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\previews\\Encoder-decoder.svg'.\nDone.\n",
+      "stderr": "22:02:41: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n22:02:41: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n"
+    }
+  ],
+  "limitations": [
+    "Circuit behavior is supported by sibling encoded-model/spice evidence, not by ERC.",
+    "Exact passive and LED MPNs remain unverified.",
+    "No PCB DRC or manufacturing acceptance is implied by this schematic receipt."
+  ]
+}

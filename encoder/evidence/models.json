@@ -1,0 +1,42 @@
+[
+  {
+    "footprint": "Battery:BatteryHolder_Keystone_1058_1x2032",
+    "model": "models/BatteryHolder_Keystone_1058_1x2032.step",
+    "source_sha256": "bfe25e361483fb1350eca3a79dfde5a35766b9210d5ce48235baba3f37bc2579"
+  },
+  {
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "model": "models/C_0603_1608Metric.step",
+    "source_sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+  },
+  {
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "model": "models/C_0805_2012Metric.step",
+    "source_sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+  },
+  {
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "model": "models/LED_0603_1608Metric.step",
+    "source_sha256": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d"
+  },
+  {
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "model": "models/TSSOP-14_4.4x5mm_P0.65mm.step",
+    "source_sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245"
+  },
+  {
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "model": "models/R_0402_1005Metric.step",
+    "source_sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+  },
+  {
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "model": "models/R_0603_1608Metric.step",
+    "source_sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+  },
+  {
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "model": "models/R_0805_2012Metric.step",
+    "source_sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+  }
+]

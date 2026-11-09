@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "filename": "Encoder.kicad_pro",
+    "version": 1
+  },
+  "text_variables": {
+    "TIMING_C": "47n",
+    "BYPASS_C": "100n",
+    "SUM_R": "1M",
+    "DIVIDER_R": "100k",
+    "LED_R": "15k",
+    "OPAMP": "TLV9044IPWR",
+    "RES_TOL": "0.1%",
+    "CAP_TOL": "1%",
+    "OPAMP_MFR": "Texas Instruments",
+    "PASSIVE_MFR": "Select to specification",
+    "OPAMP_DATASHEET": "https://www.ti.com/lit/ds/symlink/tlv9044.pdf",
+    "ENCODER_OPAMP_MPN": "TLV9044IPWR",
+    "R1_VALUE": "6.98M",
+    "R2_VALUE": "2.13M",
+    "R3_VALUE": "1.05M",
+    "R4_VALUE": "117k",
+    "R5_VALUE": "1.65M",
+    "R6_VALUE": "365k",
+    "R7_VALUE": "208k",
+    "R8_VALUE": "412k",
+    "R9_VALUE": "3.52M",
+    "R10_VALUE": "182k",
+    "R11_VALUE": "332k",
+    "R12_VALUE": "665k",
+    "R13_VALUE": "1.47M",
+    "R14_VALUE": "427k",
+    "R15_VALUE": "213k",
+    "R16_VALUE": "340k",
+    "R17_VALUE": "2.43M",
+    "R18_VALUE": "240k",
+    "R19_VALUE": "258k",
+    "R20_VALUE": "511k",
+    "R21_VALUE": "2M",
+    "R22_VALUE": "291k",
+    "R23_VALUE": "229k",
+    "R24_VALUE": "459k",
+    "R25_VALUE": "2.91M",
+    "R26_VALUE": "208k",
+    "R27_VALUE": "291k",
+    "R28_VALUE": "583k",
+    "R29_VALUE": "2M",
+    "R30_VALUE": "291k",
+    "R31_VALUE": "229k",
+    "R32_VALUE": "459k",
+    "R33_VALUE": "2M",
+    "R34_VALUE": "291k",
+    "R35_VALUE": "229k",
+    "R36_VALUE": "459k",
+    "R37_VALUE": "2.43M",
+    "R38_VALUE": "240k",
+    "R39_VALUE": "258k",
+    "R40_VALUE": "511k",
+    "R41_VALUE": "1.37M",
+    "R42_VALUE": "470k",
+    "R43_VALUE": "237k",
+    "R44_VALUE": "274k"
+  },
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.15,
+        "min_track_width": 0.15,
+        "min_via_diameter": 0.6,
+        "min_through_hole_diameter": 0.3,
+        "min_copper_edge_clearance": 0.3
+      }
+    }
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.15,
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "wire_width": 6,
+        "bus_width": 12
+      }
+    ]
+  }
+}

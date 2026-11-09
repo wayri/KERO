@@ -1,0 +1,308 @@
+{
+  "schema": "kero.encoder-pi/v1",
+  "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "board_path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\Encoder.kicad_pcb",
+  "power_budget_sha256": "4a937eba27da7a0ddd4b5df87d925ffaa8ae2d7a10d58e7c0417c0d6ed576a51",
+  "stackup_assumption": "35 um top/bottom copper, 1.6 mm outer copper span, 25 um via plating, fixed 20 C copper",
+  "producer": "Actual WayriCAD Quick PI service.execute; no provisioning",
+  "producer_script_sha256": "885e42b1220777d7ad85aed997df599d9dad269b3ff6d8b7e9ef43bedd75d6fc",
+  "studies": [
+    {
+      "name": "vbat-mean",
+      "net": "/VBAT",
+      "load_basis": "Cycle-average positive DC loads; ideal capacitor mean currents omitted under saved pi-mean-policy.json.",
+      "levels": [
+        {
+          "voltage_drop_V": 4.485796373356816e-05,
+          "conductor_power_W": 8.298491840492164e-09,
+          "source_current_A": 0.00027908139268025385,
+          "current_balance_error_A": 2.5478751053409354e-18,
+          "energy_relative_error": 5.382635054228933e-14,
+          "max_current_density_A_mm2": 0.1214372356361599,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.3,
+          "triangles": 7287,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ]
+        },
+        {
+          "voltage_drop_V": 4.532830820774804e-05,
+          "conductor_power_W": 8.389508030768438e-09,
+          "source_current_A": 0.00027908139268024653,
+          "current_balance_error_A": 4.7704895589362195e-18,
+          "energy_relative_error": 2.8198751860362693e-14,
+          "max_current_density_A_mm2": 0.06947464006106947,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.15,
+          "triangles": 15431,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 1.0485194490179373,
+          "loss_refinement_change_percent": 1.0967798971876386,
+          "local_peak_refinement_change_percent": 42.78967262625807
+        },
+        {
+          "voltage_drop_V": 4.561671291524899e-05,
+          "conductor_power_W": 8.443939578477856e-09,
+          "source_current_A": 0.00027908139268019574,
+          "current_balance_error_A": 5.55653613398821e-17,
+          "energy_relative_error": 1.5928532689162895e-13,
+          "max_current_density_A_mm2": 0.07749032900835431,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.075,
+          "triangles": 43573,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 0.6362573828679885,
+          "loss_refinement_change_percent": 0.648805001554198,
+          "local_peak_refinement_change_percent": 11.537575351579953
+        },
+        {
+          "voltage_drop_V": 4.576196208716461e-05,
+          "conductor_power_W": 8.471643556641083e-09,
+          "source_current_A": 0.00027908139268024854,
+          "current_balance_error_A": 2.7647155398380363e-18,
+          "energy_relative_error": 2.9292330597570383e-15,
+          "max_current_density_A_mm2": 0.1160925875661836,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.05,
+          "triangles": 88571,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 0.3184121841165455,
+          "loss_refinement_change_percent": 0.32809304123682104,
+          "local_peak_refinement_change_percent": 49.81558221757909
+        }
+      ],
+      "global_drop_and_loss_stable_at_1percent": true,
+      "local_peak_stable_at_1percent": false,
+      "producer_version": "4.5.0"
+    },
+    {
+      "name": "vbat-envelope",
+      "net": "/VBAT",
+      "load_basis": "Noncoincident stress screen: every pad receives its maximum absolute settled current simultaneously. Not an actual instant, not actual cell peak, not a waveform-average Joule loss.",
+      "levels": [
+        {
+          "voltage_drop_V": 6.874207416174084e-05,
+          "conductor_power_W": 1.886402203624963e-08,
+          "source_current_A": 0.0004009923918291418,
+          "current_balance_error_A": 9.215718466126788e-18,
+          "energy_relative_error": 1.2102501185904136e-14,
+          "max_current_density_A_mm2": 0.17371896233960177,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.3,
+          "triangles": 7287,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ]
+        },
+        {
+          "voltage_drop_V": 6.944188992173576e-05,
+          "conductor_power_W": 1.9064079075907946e-08,
+          "source_current_A": 0.00040099239182914934,
+          "current_balance_error_A": 1.6805133673525319e-18,
+          "energy_relative_error": 3.818274862102111e-15,
+          "max_current_density_A_mm2": 0.09938518714960173,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.15,
+          "triangles": 15431,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 1.0180311963650546,
+          "loss_refinement_change_percent": 1.0605216600886092,
+          "local_peak_refinement_change_percent": 42.78967257741591
+        },
+        {
+          "voltage_drop_V": 6.986720266192014e-05,
+          "conductor_power_W": 1.918350962195886e-08,
+          "source_current_A": 0.0004009923918291708,
+          "current_balance_error_A": 1.9786689647860456e-17,
+          "energy_relative_error": 2.2594543413560043e-14,
+          "max_current_density_A_mm2": 0.11085182800532502,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.075,
+          "triangles": 43573,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 0.6124728757580078,
+          "loss_refinement_change_percent": 0.6264690026482445,
+          "local_peak_refinement_change_percent": 11.537575351609352
+        },
+        {
+          "voltage_drop_V": 7.008178844711807e-05,
+          "conductor_power_W": 1.9244398281619587e-08,
+          "source_current_A": 0.0004009923918291478,
+          "current_balance_error_A": 3.198396408832238e-18,
+          "energy_relative_error": 4.814088092035779e-15,
+          "max_current_density_A_mm2": 0.16607331152496294,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.05,
+          "triangles": 88571,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 0.3071337867014412,
+          "loss_refinement_change_percent": 0.31740104319091245,
+          "local_peak_refinement_change_percent": 49.81558221753928
+        }
+      ],
+      "global_drop_and_loss_stable_at_1percent": true,
+      "local_peak_stable_at_1percent": false,
+      "producer_version": "4.5.0"
+    },
+    {
+      "name": "gnd-mean-reversed",
+      "net": "/GND",
+      "load_basis": "Cycle-average positive DC loads; ideal capacitor mean currents omitted under saved pi-mean-policy.json. GND currents reversed at a mathematical 3 V reference; physical ground rise is the solved drop magnitude.",
+      "levels": [
+        {
+          "voltage_drop_V": 1.096318428309097e-05,
+          "conductor_power_W": 1.9696002634977574e-09,
+          "source_current_A": 0.00027908139364020526,
+          "current_balance_error_A": 7.815208441334931e-13,
+          "energy_relative_error": 1.7552530055888949e-09,
+          "max_current_density_A_mm2": 0.05430346600865646,
+          "floating_nodes": 53,
+          "floating_triangles": 76,
+          "edge_mm": 0.3,
+          "triangles": 6454,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ]
+        },
+        {
+          "voltage_drop_V": 1.1062492193856278e-05,
+          "conductor_power_W": 1.988929640340035e-09,
+          "source_current_A": 0.0002790813943616761,
+          "current_balance_error_A": 1.5029916872709437e-12,
+          "energy_relative_error": 5.250471201603905e-09,
+          "max_current_density_A_mm2": 0.05231784922583638,
+          "floating_nodes": 170,
+          "floating_triangles": 300,
+          "edge_mm": 0.15,
+          "triangles": 13590,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 0.9058308991346076,
+          "loss_refinement_change_percent": 0.9813857766220568,
+          "local_peak_refinement_change_percent": 3.6565194245677723
+        },
+        {
+          "voltage_drop_V": 1.1115763919318764e-05,
+          "conductor_power_W": 2.000506236379277e-09,
+          "source_current_A": 0.0002790813933931138,
+          "current_balance_error_A": 5.34429380090462e-13,
+          "energy_relative_error": 3.7018019951460243e-09,
+          "max_current_density_A_mm2": 0.05469454105869385,
+          "floating_nodes": 614,
+          "floating_triangles": 1154,
+          "edge_mm": 0.075,
+          "triangles": 39068,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 0.48155266036771227,
+          "loss_refinement_change_percent": 0.5820515620282407,
+          "local_peak_refinement_change_percent": 4.542793459643546
+        }
+      ],
+      "global_drop_and_loss_stable_at_1percent": true,
+      "local_peak_stable_at_1percent": false,
+      "producer_version": "4.5.0"
+    },
+    {
+      "name": "gnd-envelope-reversed",
+      "net": "/GND",
+      "load_basis": "Noncoincident stress screen: every pad receives its maximum absolute settled current simultaneously. Not an actual instant, not actual cell peak, not a waveform-average Joule loss. Ground currents reversed at a mathematical 3 V reference for drop/loss magnitudes.",
+      "levels": [
+        {
+          "voltage_drop_V": 1.934443926689516e-05,
+          "conductor_power_W": 4.359173480058574e-09,
+          "source_current_A": 0.00039586277334657447,
+          "current_balance_error_A": 2.168404344971009e-19,
+          "energy_relative_error": 3.7951259170438576e-16,
+          "max_current_density_A_mm2": 0.08582042924025123,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.3,
+          "triangles": 6454,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ]
+        },
+        {
+          "voltage_drop_V": 1.952779605387016e-05,
+          "conductor_power_W": 4.4006373792406e-09,
+          "source_current_A": 0.0003958627736039117,
+          "current_balance_error_A": 2.573374456235622e-13,
+          "energy_relative_error": 7.861573860952105e-10,
+          "max_current_density_A_mm2": 0.08268238840867967,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.15,
+          "triangles": 13590,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 0.9478526849252544,
+          "loss_refinement_change_percent": 0.9511871773790537,
+          "local_peak_refinement_change_percent": 3.656519618174736
+        },
+        {
+          "voltage_drop_V": 1.962394200749524e-05,
+          "conductor_power_W": 4.424519228686657e-09,
+          "source_current_A": 0.00039586277359318774,
+          "current_balance_error_A": 2.4661349351529083e-13,
+          "energy_relative_error": 1.8105911290375968e-09,
+          "max_current_density_A_mm2": 0.0864384791139852,
+          "floating_nodes": 0,
+          "floating_triangles": 0,
+          "edge_mm": 0.075,
+          "triangles": 39068,
+          "geometry_warnings": [
+            "Copper curves use inscribed polygons and drills use circumscribed polygons at the stated tolerance; no geometric gap snapping is performed."
+          ],
+          "drop_refinement_change_percent": 0.4923543515092499,
+          "loss_refinement_change_percent": 0.5426906920055874,
+          "local_peak_refinement_change_percent": 4.542794151929974
+        }
+      ],
+      "global_drop_and_loss_stable_at_1percent": true,
+      "local_peak_stable_at_1percent": false,
+      "producer_version": "4.5.0"
+    }
+  ],
+  "capacity_before_GiB": {
+    "C:/": 5.8802032470703125,
+    "D:/": 184.64128494262695
+  },
+  "limitations": [
+    "Fixed-temperature 2.5D DC conduction on saved copper; no source-droop, contact-resistance or electrochemical solve.",
+    "Cycle-average load conduction loss is not the actual time-average I-squared-R loss of switching currents.",
+    "Per-pad absolute-current envelope is a noncoincident stress case, not the observed cell peak.",
+    "GND fields use reversed currents at a shifted mathematical 3 V reference. Interpret voltage-drop magnitudes as physical ground rise.",
+    "Physical op-amp ground currents include the explicit hidden-global-ground assignment from the vendor family model. Raw model discrepancies remain in power-budget.json.",
+    "Local current-density peaks require a separate convergence result and do not establish ampacity or hardware qualification."
+  ],
+  "elapsed_seconds": 329.49690675735474,
+  "capacity_after_GiB": {
+    "C:/": 5.869945526123047,
+    "D:/": 184.46773529052734
+  }
+}

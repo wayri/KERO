@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:\\Users\\yawar\\.codex\\worktrees\\saved-field-gradients\\kiWay\\.validation\\editor-series-roundtrip\\local\\WayriCAD\\runtimes\\d29d42708158db93a528\\Scripts\\python.exe",
+    "D:/PROJECTS-DEV/Kicad-plugins-dev/nativegitvizdiffkicad/.vizdiff/KERO/tools/encoded_sequence_model.py"
+  ],
+  "elapsed_s": 3.022045850753784,
+  "exit_code": 0,
+  "tool": "Python exact-event analytical model",
+  "helper_sha256": "014dcdbc9e2a48452533673cf07b66adfab277da2a532b55353e15ca07d981cd",
+  "capacity_before_GiB": {
+    "C:/": 9.530048370361328,
+    "D:/": 184.6835708618164
+  },
+  "capacity_after_GiB": {
+    "C:/": 9.530029296875,
+    "D:/": 184.6826515197754
+  }
+}

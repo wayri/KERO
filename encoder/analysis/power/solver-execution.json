@@ -1,0 +1,15 @@
+{
+  "exit_code": 0,
+  "elapsed_s": 167.92114233970642,
+  "runtime_deck_sha256": "6b2acadfcb2782b9e6b282a2d0f497ebf5ca8f2cad4a0059f66619d27b003d8a",
+  "bindings": {
+    "encoder/Encoder.kicad_pcb": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+    "encoder/design-intent.json": "26c9ac59d459bf39e5482f9851943ce5dfbbaf37ad433fef8d3d9d744175bab6",
+    "encoder/bom.csv": "f57b3708324457df1c44783972d148a015095790feaf821686e527d8d1c952ed",
+    "encoder/evidence/netlist.xml": "7f548ce584341ee548b1ed20737a113b6da779e6d68233da969d3a96068860ec",
+    "encoded-model/design.json": "0631060c3e8a6ebdba97a5724dbef59fc4870bc5d3bc7570ace8045ea0cc44b5",
+    "encoder/evidence/circuit-equivalence.json": "4f6f4460df5a320829793bbca2e1794dd78d065c5a4e8fa7ed7c6a517b9df167"
+  },
+  "model_sha256": "75019b68d85b360113538587ae6231b3e7b48e511d444a953799f1756dfd0543",
+  "reused_completed_runtime": true
+}

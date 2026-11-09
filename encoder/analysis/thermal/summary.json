@@ -1,0 +1,5192 @@
+{
+  "producer": "WayriCAD QuickTherm 4.5.0",
+  "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "heat_input_W": 0.0008372441790002694,
+  "studies": [
+    {
+      "name": "coarse",
+      "grid": 40,
+      "mesh": {
+        "nx": 40,
+        "ny": 40,
+        "active_cells_per_layer": 1600,
+        "minimum_cell_size_mm": 1.0,
+        "maximum_cell_size_mm": 1.0,
+        "automatic_sizing": null,
+        "source_refinement_factor": 1,
+        "solver_iterations": 1,
+        "copper_lateral_edges": 1962,
+        "via_vertical_edges": 93,
+        "barrel_stencil_edges": 292,
+        "unresolved_barrel_stencils": 0,
+        "unexcited_regions_anchored_at_ambient": 0,
+        "component_storage_nodes": 0
+      },
+      "heat_balance": {
+        "input_w": 0.0008372441790002697,
+        "convection_w": 0.0008372441790025994,
+        "radiation_w": 0.0,
+        "mount_flux_w": 0.0,
+        "board_convection_w": 0.0008372441790025994,
+        "board_radiation_w": 0.0,
+        "sink_convection_w": 0.0,
+        "sink_radiation_w": 0.0,
+        "component_convection_w": 0.0,
+        "component_radiation_w": 0.0,
+        "copper_loss_input_w": 0.0,
+        "package_joule_input_w": 0.0,
+        "component_input_w": 0.0008372441790002697,
+        "residual_w": -2.329733628236852e-15,
+        "relative_residual": 2.7826214701411517e-12,
+        "tolerance_w": 1e-05
+      },
+      "layers": [
+        {
+          "id": 0,
+          "name": "F.Cu",
+          "z_mm": 0.0175,
+          "sampled_min_c": 25.032652257379176,
+          "sampled_max_c": 25.16757907189029,
+          "sampled_max_cell": {
+            "x_mm": 85.5,
+            "y_mm": 87.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.2975225386603597
+          }
+        },
+        {
+          "id": 2,
+          "name": "B.Cu",
+          "z_mm": 1.5825,
+          "sampled_min_c": 25.032622857412743,
+          "sampled_max_c": 25.154876111542734,
+          "sampled_max_cell": {
+            "x_mm": 85.5,
+            "y_mm": 88.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0
+          }
+        }
+      ],
+      "components": [
+        {
+          "reference": "D1",
+          "power_w": 6.620970560509063e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 4.849500000000006,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.849500000000005,
+          "source_bbox_mm": [
+            80.455,
+            87.205,
+            83.505,
+            88.795
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.162309872768926,
+          "source_peak_cell": {
+            "x_mm": 83.5,
+            "y_mm": 88.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1802709458870595
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.15530455764149,
+          "junction_c": null
+        },
+        {
+          "reference": "D2",
+          "power_w": 7.367732267447024e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 4.849500000000006,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.849500000000005,
+          "source_bbox_mm": [
+            84.455,
+            87.205,
+            87.505,
+            88.795
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.16757907189029,
+          "source_peak_cell": {
+            "x_mm": 85.5,
+            "y_mm": 87.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.2975225386603597
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.16412782678132,
+          "junction_c": null
+        },
+        {
+          "reference": "R1",
+          "power_w": 1.151706220731073e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 6.649500000000003,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 6.649500000000003,
+          "source_bbox_mm": [
+            51.795,
+            52.025,
+            55.205,
+            53.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.037050953557102,
+          "source_peak_cell": {
+            "x_mm": 53.5,
+            "y_mm": 53.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1601833831116437
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.036622517679326,
+          "junction_c": null
+        },
+        {
+          "reference": "R10",
+          "power_w": 6.595355955482246e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            64.205,
+            66.545,
+            65.195,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.045413186965437,
+          "source_peak_cell": {
+            "x_mm": 64.5,
+            "y_mm": 66.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.3051324218281479
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.044824768096788,
+          "junction_c": null
+        },
+        {
+          "reference": "R11",
+          "power_w": 5.261485152436959e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            66.005,
+            66.545,
+            66.995,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.045122955248914,
+          "source_peak_cell": {
+            "x_mm": 66.5,
+            "y_mm": 66.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.2079993681677479
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04489370557464,
+          "junction_c": null
+        },
+        {
+          "reference": "R12",
+          "power_w": 6.294924967539363e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            67.805,
+            66.545,
+            68.795,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.044971461944783,
+          "source_peak_cell": {
+            "x_mm": 68.5,
+            "y_mm": 66.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1669090354985201
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.044791521097398,
+          "junction_c": null
+        },
+        {
+          "reference": "R13",
+          "power_w": 1.1649195172902387e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 4.5451000000000015,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.5451000000000015,
+          "source_bbox_mm": [
+            64.995,
+            52.245,
+            68.005,
+            53.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.040036795095357,
+          "source_peak_cell": {
+            "x_mm": 66.5,
+            "y_mm": 53.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.09216354738350674
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.039496264911726,
+          "junction_c": null
+        },
+        {
+          "reference": "R14",
+          "power_w": 5.975472675927846e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            64.205,
+            57.545,
+            65.195,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.051887036017547,
+          "source_peak_cell": {
+            "x_mm": 64.5,
+            "y_mm": 59.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.18352427851436914
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.051250373488156,
+          "junction_c": null
+        },
+        {
+          "reference": "R15",
+          "power_w": 3.171790627320724e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            66.005,
+            57.545,
+            66.995,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04909703134851,
+          "source_peak_cell": {
+            "x_mm": 66.5,
+            "y_mm": 58.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.20447809755887647
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04885140002598,
+          "junction_c": null
+        },
+        {
+          "reference": "R16",
+          "power_w": 8.577169952463568e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            67.805,
+            57.545,
+            68.795,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.048289423476508,
+          "source_peak_cell": {
+            "x_mm": 67.5,
+            "y_mm": 59.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.07723855541667035
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.047964835754915,
+          "junction_c": null
+        },
+        {
+          "reference": "R17",
+          "power_w": 1.1650644338328415e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 6.649500000000003,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 6.649500000000003,
+          "source_bbox_mm": [
+            71.795,
+            52.025,
+            75.205,
+            53.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.040806708579993,
+          "source_peak_cell": {
+            "x_mm": 75.5,
+            "y_mm": 53.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.13508693678295458
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.039734012899196,
+          "junction_c": null
+        },
+        {
+          "reference": "R18",
+          "power_w": 8.054658714060058e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            71.205,
+            57.545,
+            72.195,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.049580548305244,
+          "source_peak_cell": {
+            "x_mm": 72.5,
+            "y_mm": 58.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.1880939877628407
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04896836619337,
+          "junction_c": null
+        },
+        {
+          "reference": "R19",
+          "power_w": 4.121177372661802e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            73.005,
+            57.545,
+            73.995,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.05001945107849,
+          "source_peak_cell": {
+            "x_mm": 73.5,
+            "y_mm": 59.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1841475909163819
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.049796826971107,
+          "junction_c": null
+        },
+        {
+          "reference": "R2",
+          "power_w": 3.593548645317663e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 15,
+          "source_contact_area_mm2": 6.649499999999978,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 6.649499999999978,
+          "source_bbox_mm": [
+            50.725,
+            56.795,
+            52.675,
+            60.205
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04384447336783,
+          "source_peak_cell": {
+            "x_mm": 52.5,
+            "y_mm": 60.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.2866905190091984
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.042445812839453,
+          "junction_c": null
+        },
+        {
+          "reference": "R20",
+          "power_w": 6.537882144667601e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            74.805,
+            57.545,
+            75.795,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.05295908605597,
+          "source_peak_cell": {
+            "x_mm": 75.5,
+            "y_mm": 59.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.20399818367741318
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05185404401516,
+          "junction_c": null
+        },
+        {
+          "reference": "R21",
+          "power_w": 1.1650223427494479e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 4.5451000000000015,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.5451000000000015,
+          "source_bbox_mm": [
+            71.995,
+            61.245,
+            75.005,
+            62.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.050479545962464,
+          "source_peak_cell": {
+            "x_mm": 75.5,
+            "y_mm": 61.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.1731200994468054
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.047145997214177,
+          "junction_c": null
+        },
+        {
+          "reference": "R22",
+          "power_w": 6.276675440701858e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            71.205,
+            66.545,
+            72.195,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.044806667277413,
+          "source_peak_cell": {
+            "x_mm": 71.5,
+            "y_mm": 67.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.2938094674059357
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04465014024922,
+          "junction_c": null
+        },
+        {
+          "reference": "R23",
+          "power_w": 3.0304833793261932e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            73.005,
+            66.545,
+            73.995,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04477858011965,
+          "source_peak_cell": {
+            "x_mm": 73.5,
+            "y_mm": 66.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.18414759091501764
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.044571881820332,
+          "junction_c": null
+        },
+        {
+          "reference": "R24",
+          "power_w": 8.080112402552298e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            74.805,
+            66.545,
+            75.795,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.045374367571586,
+          "source_peak_cell": {
+            "x_mm": 75.5,
+            "y_mm": 66.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.3107271683638828
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045042830233868,
+          "junction_c": null
+        },
+        {
+          "reference": "R25",
+          "power_w": 1.1650457283774896e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 6.649500000000003,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 6.649500000000003,
+          "source_bbox_mm": [
+            84.795,
+            61.025,
+            88.205,
+            62.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.049920915235596,
+          "source_peak_cell": {
+            "x_mm": 84.5,
+            "y_mm": 61.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.2332475656207862
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04722836949717,
+          "junction_c": null
+        },
+        {
+          "reference": "R26",
+          "power_w": 7.024403169468542e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            84.205,
+            66.545,
+            85.195,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.046193393465614,
+          "source_peak_cell": {
+            "x_mm": 84.5,
+            "y_mm": 66.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.29237986238968006
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04568968831897,
+          "junction_c": null
+        },
+        {
+          "reference": "R27",
+          "power_w": 4.449583433277363e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            86.005,
+            66.545,
+            86.995,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.045713660827317,
+          "source_peak_cell": {
+            "x_mm": 86.5,
+            "y_mm": 67.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1909781264926096
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045552516280097,
+          "junction_c": null
+        },
+        {
+          "reference": "R28",
+          "power_w": 6.697732150105071e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            87.805,
+            66.545,
+            88.795,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.045981938732456,
+          "source_peak_cell": {
+            "x_mm": 88.5,
+            "y_mm": 67.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.15450903549981376
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04573177625231,
+          "junction_c": null
+        },
+        {
+          "reference": "R29",
+          "power_w": 1.1650029722560894e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 4.5451000000000015,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.5451000000000015,
+          "source_bbox_mm": [
+            84.995,
+            52.245,
+            88.005,
+            53.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.040390098557353,
+          "source_peak_cell": {
+            "x_mm": 85.5,
+            "y_mm": 53.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.4674143094880492
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.039540532036064,
+          "junction_c": null
+        },
+        {
+          "reference": "R3",
+          "power_w": 2.127196879953728e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 15,
+          "source_contact_area_mm2": 4.545100000000023,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.545100000000023,
+          "source_bbox_mm": [
+            52.745,
+            56.995,
+            54.255,
+            60.005
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04641664440875,
+          "source_peak_cell": {
+            "x_mm": 54.5,
+            "y_mm": 60.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.19300522061553238
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.044404282791955,
+          "junction_c": null
+        },
+        {
+          "reference": "R30",
+          "power_w": 6.593806436604015e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            84.205,
+            57.545,
+            85.195,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.05071418500828,
+          "source_peak_cell": {
+            "x_mm": 84.5,
+            "y_mm": 59.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.16892189792451973
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.0501124212288,
+          "junction_c": null
+        },
+        {
+          "reference": "R31",
+          "power_w": 3.105192237232411e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            86.005,
+            57.545,
+            86.995,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.048404950815367,
+          "source_peak_cell": {
+            "x_mm": 86.5,
+            "y_mm": 58.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.20447812649172192
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.048210759811322,
+          "junction_c": null
+        },
+        {
+          "reference": "R32",
+          "power_w": 7.821082420688545e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            87.805,
+            57.545,
+            88.795,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.047605204256516,
+          "source_peak_cell": {
+            "x_mm": 87.5,
+            "y_mm": 58.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.07683855541608864
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04685648117656,
+          "junction_c": null
+        },
+        {
+          "reference": "R33",
+          "power_w": 1.1650359446298858e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 4.54509999999998,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.54509999999998,
+          "source_bbox_mm": [
+            51.995,
+            72.245,
+            55.005,
+            73.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.044039935928552,
+          "source_peak_cell": {
+            "x_mm": 53.5,
+            "y_mm": 73.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.2005150365987447
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.043778683186847,
+          "junction_c": null
+        },
+        {
+          "reference": "R34",
+          "power_w": 8.068140174693508e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.8909000000000002,
+          "source_bbox_mm": [
+            51.205,
+            77.545,
+            52.195,
+            79.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.053267871441008,
+          "source_peak_cell": {
+            "x_mm": 52.5,
+            "y_mm": 78.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.18778144734937996
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.052685579366766,
+          "junction_c": null
+        },
+        {
+          "reference": "R35",
+          "power_w": 3.4525089854233363e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            53.005,
+            77.545,
+            53.995,
+            79.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.053922485767938,
+          "source_peak_cell": {
+            "x_mm": 53.5,
+            "y_mm": 79.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.18414759091592714
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.0536555734314,
+          "junction_c": null
+        },
+        {
+          "reference": "R36",
+          "power_w": 6.616856598679985e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.8909000000000002,
+          "source_bbox_mm": [
+            54.805,
+            77.545,
+            55.795,
+            79.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.05653128464992,
+          "source_peak_cell": {
+            "x_mm": 55.5,
+            "y_mm": 79.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1669090355003391
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.055300096149814,
+          "junction_c": null
+        },
+        {
+          "reference": "R37",
+          "power_w": 1.1650540323774088e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 6.6494999999999544,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 6.6494999999999544,
+          "source_bbox_mm": [
+            51.795,
+            81.025,
+            55.205,
+            82.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.056405730994662,
+          "source_peak_cell": {
+            "x_mm": 55.5,
+            "y_mm": 81.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.17408519580385473
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05301804649653,
+          "junction_c": null
+        },
+        {
+          "reference": "R38",
+          "power_w": 6.20462472830801e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.8909000000000002,
+          "source_bbox_mm": [
+            51.205,
+            86.545,
+            52.195,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.051493988924467,
+          "source_peak_cell": {
+            "x_mm": 52.5,
+            "y_mm": 87.5,
+            "center_in_drill_id": "37658aba-fb4c-53ce-8243-a1e96b7afa66",
+            "center_in_copper": false,
+            "copper_area_fraction": 0.23239045276977777
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.051391471783674,
+          "junction_c": null
+        },
+        {
+          "reference": "R39",
+          "power_w": 3.349908870810945e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            53.005,
+            86.545,
+            53.995,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.051501227655287,
+          "source_peak_cell": {
+            "x_mm": 53.5,
+            "y_mm": 87.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.19232767934408912
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.051475681455,
+          "junction_c": null
+        },
+        {
+          "reference": "R4",
+          "power_w": 6.364799904190466e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.8909000000000002,
+          "source_bbox_mm": [
+            54.805,
+            57.545,
+            55.795,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.047788442937026,
+          "source_peak_cell": {
+            "x_mm": 55.5,
+            "y_mm": 59.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.23764797700914642
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04707406155781,
+          "junction_c": null
+        },
+        {
+          "reference": "R40",
+          "power_w": 7.899736242566944e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.8909000000000002,
+          "source_bbox_mm": [
+            54.805,
+            86.545,
+            55.795,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.052172372872324,
+          "source_peak_cell": {
+            "x_mm": 55.5,
+            "y_mm": 87.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.15450903549981376
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.051959869164516,
+          "junction_c": null
+        },
+        {
+          "reference": "R41",
+          "power_w": 1.1649606486334243e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 4.545099999999959,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.545099999999959,
+          "source_bbox_mm": [
+            64.995,
+            81.245,
+            68.005,
+            82.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.058215385455867,
+          "source_peak_cell": {
+            "x_mm": 64.5,
+            "y_mm": 81.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1207534786940414
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05502571080916,
+          "junction_c": null
+        },
+        {
+          "reference": "R42",
+          "power_w": 8.051313182268244e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            64.205,
+            86.545,
+            65.195,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.057138685107464,
+          "source_peak_cell": {
+            "x_mm": 65.5,
+            "y_mm": 87.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.18746893236675533
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.056552040945483,
+          "junction_c": null
+        },
+        {
+          "reference": "R43",
+          "power_w": 3.1222189025104366e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            66.005,
+            86.545,
+            66.995,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.0576423832116,
+          "source_peak_cell": {
+            "x_mm": 66.5,
+            "y_mm": 87.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.20447809756069546
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.057522711313315,
+          "junction_c": null
+        },
+        {
+          "reference": "R44",
+          "power_w": 6.325750728541063e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            67.805,
+            86.545,
+            68.795,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.060668322948587,
+          "source_peak_cell": {
+            "x_mm": 68.5,
+            "y_mm": 87.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.306046434518521
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.060014908483325,
+          "junction_c": null
+        },
+        {
+          "reference": "R45",
+          "power_w": 2.2048109584093102e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 4,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            73.045,
+            72.505,
+            74.955,
+            73.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04296961364588,
+          "source_peak_cell": {
+            "x_mm": 74.5,
+            "y_mm": 73.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.329997590916264
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04254823317484,
+          "junction_c": null
+        },
+        {
+          "reference": "R46",
+          "power_w": 2.3286435820514098e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            76.545,
+            72.505,
+            78.455,
+            73.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.042848956309175,
+          "source_peak_cell": {
+            "x_mm": 77.5,
+            "y_mm": 73.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.22919154212240755
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.042651954364278,
+          "junction_c": null
+        },
+        {
+          "reference": "R47",
+          "power_w": 2.159217440042807e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 4,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            80.045,
+            72.505,
+            81.955,
+            73.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.043450409774923,
+          "source_peak_cell": {
+            "x_mm": 81.5,
+            "y_mm": 73.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.24588494241152148
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04328234005339,
+          "junction_c": null
+        },
+        {
+          "reference": "R48",
+          "power_w": 2.380036784475819e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            83.545,
+            72.505,
+            85.455,
+            73.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.043943919951584,
+          "source_peak_cell": {
+            "x_mm": 84.5,
+            "y_mm": 73.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.28378205018134395
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04366524682062,
+          "junction_c": null
+        },
+        {
+          "reference": "R49",
+          "power_w": 2.1362542498071167e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 4,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            73.045,
+            75.505,
+            74.955,
+            76.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04530732960556,
+          "source_peak_cell": {
+            "x_mm": 74.5,
+            "y_mm": 76.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.16424759091569285
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.044636013758648,
+          "junction_c": null
+        },
+        {
+          "reference": "R5",
+          "power_w": 1.16472771394574e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 4.545100000000023,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 4.545100000000023,
+          "source_bbox_mm": [
+            51.995,
+            61.245,
+            55.005,
+            62.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04841986405395,
+          "source_peak_cell": {
+            "x_mm": 55.5,
+            "y_mm": 61.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1745033999145562
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04474137911899,
+          "junction_c": null
+        },
+        {
+          "reference": "R50",
+          "power_w": 2.3897473758069723e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            76.545,
+            75.505,
+            78.455,
+            76.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04565421882673,
+          "source_peak_cell": {
+            "x_mm": 78.5,
+            "y_mm": 76.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.17204518979633576
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045333889604873,
+          "junction_c": null
+        },
+        {
+          "reference": "R51",
+          "power_w": 2.114409363053966e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 4,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            80.045,
+            75.505,
+            81.955,
+            76.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.046096869161914,
+          "source_peak_cell": {
+            "x_mm": 80.5,
+            "y_mm": 76.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.16424759091660235
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045872349371493,
+          "junction_c": null
+        },
+        {
+          "reference": "R52",
+          "power_w": 2.4115638589054794e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            83.545,
+            75.505,
+            85.455,
+            76.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.046375139102985,
+          "source_peak_cell": {
+            "x_mm": 85.5,
+            "y_mm": 76.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.08532379545795266
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04588342508233,
+          "junction_c": null
+        },
+        {
+          "reference": "R53",
+          "power_w": 2.114424383940856e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 4,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            73.045,
+            78.505,
+            74.955,
+            79.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.05125942584764,
+          "source_peak_cell": {
+            "x_mm": 74.5,
+            "y_mm": 79.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.23932208130145227
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.0505551042706,
+          "junction_c": null
+        },
+        {
+          "reference": "R54",
+          "power_w": 2.401873691127819e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            76.545,
+            78.505,
+            78.455,
+            79.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.05508835732746,
+          "source_peak_cell": {
+            "x_mm": 78.5,
+            "y_mm": 79.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.1499999999996362
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.053812155619433,
+          "junction_c": null
+        },
+        {
+          "reference": "R55",
+          "power_w": 2.1419070619793004e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 4,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            80.045,
+            78.505,
+            81.955,
+            79.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.056651207001536,
+          "source_peak_cell": {
+            "x_mm": 81.5,
+            "y_mm": 79.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.16424759091751184
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.055720199106155,
+          "junction_c": null
+        },
+        {
+          "reference": "R56",
+          "power_w": 2.2499999786216932e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 2,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            73.045,
+            85.005,
+            74.955,
+            85.995
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.086472042474306,
+          "source_peak_cell": {
+            "x_mm": 74.5,
+            "y_mm": 85.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.3614951818326517
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.081859669691198,
+          "junction_c": null
+        },
+        {
+          "reference": "R57",
+          "power_w": 2.2500000214797796e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 2,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            76.045,
+            85.005,
+            77.955,
+            85.995
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.10311843046719,
+          "source_peak_cell": {
+            "x_mm": 77.5,
+            "y_mm": 85.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.38530423440352024
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.097472575515592,
+          "junction_c": null
+        },
+        {
+          "reference": "R58",
+          "power_w": 4.49679555506498e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 2,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            81.045,
+            85.005,
+            82.955,
+            85.995
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.155264025747908,
+          "source_peak_cell": {
+            "x_mm": 82.5,
+            "y_mm": 85.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.35549518183051987
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.14723435384471,
+          "junction_c": null
+        },
+        {
+          "reference": "R59",
+          "power_w": 3.809550141927625e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 2,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890900000000014,
+          "source_bbox_mm": [
+            85.045,
+            85.005,
+            86.955,
+            85.995
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.156875066708068,
+          "source_peak_cell": {
+            "x_mm": 86.5,
+            "y_mm": 85.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.3554951818300651
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.15038452427904,
+          "junction_c": null
+        },
+        {
+          "reference": "R6",
+          "power_w": 5.2766005722383885e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.8909000000000002,
+          "source_bbox_mm": [
+            51.205,
+            66.545,
+            52.195,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.04350925020331,
+          "source_peak_cell": {
+            "x_mm": 52.5,
+            "y_mm": 67.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.18778152144659543
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.043147754275914,
+          "junction_c": null
+        },
+        {
+          "reference": "R7",
+          "power_w": 2.822159454943876e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 3,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.890899999999987,
+          "source_bbox_mm": [
+            53.005,
+            66.545,
+            53.995,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.043828009576213,
+          "source_peak_cell": {
+            "x_mm": 53.5,
+            "y_mm": 66.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.17064759091613269
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04380918121113,
+          "junction_c": null
+        },
+        {
+          "reference": "R8",
+          "power_w": 8.932361287318662e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 6,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 1.8909000000000002,
+          "source_bbox_mm": [
+            54.805,
+            66.545,
+            55.795,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.0442985829929,
+          "source_peak_cell": {
+            "x_mm": 55.5,
+            "y_mm": 67.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.2505398965611221
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04421906094343,
+          "junction_c": null
+        },
+        {
+          "reference": "R9",
+          "power_w": 1.1643286044575633e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 10,
+          "source_contact_area_mm2": 6.649500000000003,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 6.649500000000003,
+          "source_bbox_mm": [
+            64.795,
+            61.025,
+            68.205,
+            62.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.050407015208982,
+          "source_peak_cell": {
+            "x_mm": 64.5,
+            "y_mm": 61.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.22002281240293087
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.046425152548665,
+          "junction_c": null
+        },
+        {
+          "reference": "U1",
+          "power_w": 0.00011986761894480117,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 48,
+          "source_contact_area_mm2": 44.29124999999997,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 44.29124999999998,
+          "source_bbox_mm": [
+            56.125,
+            57.06,
+            63.875,
+            62.775
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.05830536026597,
+          "source_peak_cell": {
+            "x_mm": 60.5,
+            "y_mm": 59.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05368791684759,
+          "junction_c": null
+        },
+        {
+          "reference": "U2",
+          "power_w": 0.0001198495272576377,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 48,
+          "source_contact_area_mm2": 44.29124999999997,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 44.29124999999998,
+          "source_bbox_mm": [
+            76.125,
+            57.06,
+            83.875,
+            62.775
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.05838264242436,
+          "source_peak_cell": {
+            "x_mm": 80.5,
+            "y_mm": 59.5,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.17343264088003707
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05509802453674,
+          "junction_c": null
+        },
+        {
+          "reference": "U3",
+          "power_w": 0.00011936517810528994,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 48,
+          "source_contact_area_mm2": 44.291250000000026,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 44.29125000000003,
+          "source_bbox_mm": [
+            56.125,
+            77.06,
+            63.875,
+            82.775
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 1.0,
+            "max_x": 1.0,
+            "min_y": 1.0,
+            "max_y": 1.0
+          },
+          "source_peak_c": 25.06440587873901,
+          "source_peak_cell": {
+            "x_mm": 60.5,
+            "y_mm": 80.5,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.06017026579854,
+          "junction_c": null
+        }
+      ],
+      "native_load_receipt": {
+        "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\.scratch\\thermal-analysis\\stage\\coarse.results.json",
+        "relative_path": "encoder/.scratch/thermal-analysis/stage/coarse.results.json",
+        "plugin": "quick-therm",
+        "identity": "fdd831815b5e54ee2aaffe8552b5bd0ba772292a7afde7155aa2bb3e3786bf96",
+        "producer_version": "4.5.0",
+        "bytes": 218520,
+        "sha256": "e7b97e8caf16b9ddf4509af23cbb2a679c53f1b37d1943e20de054518c38ac72",
+        "source_state": "current",
+        "can_restore": true,
+        "source_path": "encoder/Encoder.kicad_pcb",
+        "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+        "source_issues": []
+      }
+    },
+    {
+      "name": "nominal",
+      "grid": 80,
+      "mesh": {
+        "nx": 80,
+        "ny": 80,
+        "active_cells_per_layer": 6400,
+        "minimum_cell_size_mm": 0.5,
+        "maximum_cell_size_mm": 0.5,
+        "automatic_sizing": null,
+        "source_refinement_factor": 1,
+        "solver_iterations": 1,
+        "copper_lateral_edges": 5616,
+        "via_vertical_edges": 93,
+        "barrel_stencil_edges": 529,
+        "unresolved_barrel_stencils": 0,
+        "unexcited_regions_anchored_at_ambient": 0,
+        "component_storage_nodes": 0
+      },
+      "heat_balance": {
+        "input_w": 0.0008372441790002697,
+        "convection_w": 0.0008372441790055632,
+        "radiation_w": 0.0,
+        "mount_flux_w": 0.0,
+        "board_convection_w": 0.0008372441790055632,
+        "board_radiation_w": 0.0,
+        "sink_convection_w": 0.0,
+        "sink_radiation_w": 0.0,
+        "component_convection_w": 0.0,
+        "component_radiation_w": 0.0,
+        "copper_loss_input_w": 0.0,
+        "package_joule_input_w": 0.0,
+        "component_input_w": 0.0008372441790002697,
+        "residual_w": -5.293508686943227e-15,
+        "relative_residual": 6.322538656839705e-12,
+        "tolerance_w": 1e-05
+      },
+      "layers": [
+        {
+          "id": 0,
+          "name": "F.Cu",
+          "z_mm": 0.0175,
+          "sampled_min_c": 25.032733849379483,
+          "sampled_max_c": 25.165585497500974,
+          "sampled_max_cell": {
+            "x_mm": 85.75,
+            "y_mm": 88.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.24197045835171593
+          }
+        },
+        {
+          "id": 2,
+          "name": "B.Cu",
+          "z_mm": 1.5825,
+          "sampled_min_c": 25.032731024352728,
+          "sampled_max_c": 25.15201202282829,
+          "sampled_max_cell": {
+            "x_mm": 85.25,
+            "y_mm": 88.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0
+          }
+        }
+      ],
+      "components": [
+        {
+          "reference": "D1",
+          "power_w": 6.620970560509063e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.849500000000006,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 19.39800000000002,
+          "source_bbox_mm": [
+            80.455,
+            87.205,
+            83.505,
+            88.795
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.15911835130846,
+          "source_peak_cell": {
+            "x_mm": 83.75,
+            "y_mm": 88.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.16715045973796805
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.15052083683446,
+          "junction_c": null
+        },
+        {
+          "reference": "D2",
+          "power_w": 7.367732267447024e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.849500000000006,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 19.39800000000002,
+          "source_bbox_mm": [
+            84.455,
+            87.205,
+            87.505,
+            88.795
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.165585497500974,
+          "source_peak_cell": {
+            "x_mm": 85.75,
+            "y_mm": 88.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.24197045835171593
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.161815182759444,
+          "junction_c": null
+        },
+        {
+          "reference": "R1",
+          "power_w": 1.151706220731073e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 6.649500000000003,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 26.598000000000013,
+          "source_bbox_mm": [
+            51.795,
+            52.025,
+            55.205,
+            53.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.03760630063551,
+          "source_peak_cell": {
+            "x_mm": 55.25,
+            "y_mm": 53.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.03678385621849,
+          "junction_c": null
+        },
+        {
+          "reference": "R10",
+          "power_w": 6.595355955482246e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            64.205,
+            66.545,
+            65.195,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04598979403825,
+          "source_peak_cell": {
+            "x_mm": 64.75,
+            "y_mm": 66.75,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.7074659431473265
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045376791197942,
+          "junction_c": null
+        },
+        {
+          "reference": "R11",
+          "power_w": 5.261485152436959e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            66.005,
+            66.545,
+            66.995,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.045594667668283,
+          "source_peak_cell": {
+            "x_mm": 66.25,
+            "y_mm": 66.75,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.4766604614796961
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04532597770959,
+          "junction_c": null
+        },
+        {
+          "reference": "R12",
+          "power_w": 6.294924967539363e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            67.805,
+            66.545,
+            68.795,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04542377986506,
+          "source_peak_cell": {
+            "x_mm": 68.25,
+            "y_mm": 66.75,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5502514514355425
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045238494384517,
+          "junction_c": null
+        },
+        {
+          "reference": "R13",
+          "power_w": 1.1649195172902387e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.5451000000000015,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 18.180400000000006,
+          "source_bbox_mm": [
+            64.995,
+            52.245,
+            68.005,
+            53.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.039361816288412,
+          "source_peak_cell": {
+            "x_mm": 66.75,
+            "y_mm": 53.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.25520159929874353
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.038167901304448,
+          "junction_c": null
+        },
+        {
+          "reference": "R14",
+          "power_w": 5.975472675927846e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            64.205,
+            57.545,
+            65.195,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.05332613082463,
+          "source_peak_cell": {
+            "x_mm": 64.25,
+            "y_mm": 59.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.11738469056035683
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.052392660926515,
+          "junction_c": null
+        },
+        {
+          "reference": "R15",
+          "power_w": 3.171790627320724e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            66.005,
+            57.545,
+            66.995,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.050035598362356,
+          "source_peak_cell": {
+            "x_mm": 66.25,
+            "y_mm": 58.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.4482172084044578
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.049186604785532,
+          "junction_c": null
+        },
+        {
+          "reference": "R16",
+          "power_w": 8.577169952463568e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            67.805,
+            57.545,
+            68.795,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04957140041317,
+          "source_peak_cell": {
+            "x_mm": 68.25,
+            "y_mm": 59.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.550251451436452
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04846028128336,
+          "junction_c": null
+        },
+        {
+          "reference": "R17",
+          "power_w": 1.1650644338328415e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 6.649500000000003,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 26.598000000000013,
+          "source_bbox_mm": [
+            71.795,
+            52.025,
+            75.205,
+            53.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.039641676888607,
+          "source_peak_cell": {
+            "x_mm": 75.25,
+            "y_mm": 53.75,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.39369086174610857
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.03856565640948,
+          "junction_c": null
+        },
+        {
+          "reference": "R18",
+          "power_w": 8.054658714060058e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            71.205,
+            57.545,
+            72.195,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.050367429725483,
+          "source_peak_cell": {
+            "x_mm": 72.25,
+            "y_mm": 58.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.022499992710436345
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.049612367710704,
+          "junction_c": null
+        },
+        {
+          "reference": "R19",
+          "power_w": 4.121177372661802e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            73.005,
+            57.545,
+            73.995,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.051922253830515,
+          "source_peak_cell": {
+            "x_mm": 73.75,
+            "y_mm": 59.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.3952951818337169
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05114914884809,
+          "junction_c": null
+        },
+        {
+          "reference": "R2",
+          "power_w": 3.593548645317663e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 40,
+          "source_contact_area_mm2": 6.649499999999978,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 26.597999999999914,
+          "source_bbox_mm": [
+            50.725,
+            56.795,
+            52.675,
+            60.205
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04432858690702,
+          "source_peak_cell": {
+            "x_mm": 52.75,
+            "y_mm": 60.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.29402525609020813
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.042284667333004,
+          "junction_c": null
+        },
+        {
+          "reference": "R20",
+          "power_w": 6.537882144667601e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            74.805,
+            57.545,
+            75.795,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.054517242241225,
+          "source_peak_cell": {
+            "x_mm": 75.75,
+            "y_mm": 59.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.2657412832741102
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.052569753917982,
+          "junction_c": null
+        },
+        {
+          "reference": "R21",
+          "power_w": 1.1650223427494479e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.5451000000000015,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 18.180400000000006,
+          "source_bbox_mm": [
+            71.995,
+            61.245,
+            75.005,
+            62.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.05164663184886,
+          "source_peak_cell": {
+            "x_mm": 75.25,
+            "y_mm": 61.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.08187491652461176
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.047983781604053,
+          "junction_c": null
+        },
+        {
+          "reference": "R22",
+          "power_w": 6.276675440701858e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            71.205,
+            66.545,
+            72.195,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.045464476662136,
+          "source_peak_cell": {
+            "x_mm": 71.75,
+            "y_mm": 67.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5225547140198614
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045382387190035,
+          "junction_c": null
+        },
+        {
+          "reference": "R23",
+          "power_w": 3.0304833793261932e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            73.005,
+            66.545,
+            73.995,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04545369290975,
+          "source_peak_cell": {
+            "x_mm": 73.25,
+            "y_mm": 67.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.3156951818309608
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045312957177487,
+          "junction_c": null
+        },
+        {
+          "reference": "R24",
+          "power_w": 8.080112402552298e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            74.805,
+            66.545,
+            75.795,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.046037618441673,
+          "source_peak_cell": {
+            "x_mm": 75.25,
+            "y_mm": 67.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5102514514346694
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045819482320315,
+          "junction_c": null
+        },
+        {
+          "reference": "R25",
+          "power_w": 1.1650457283774896e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 6.649500000000003,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 26.598000000000013,
+          "source_bbox_mm": [
+            84.795,
+            61.025,
+            88.205,
+            62.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.05087359340648,
+          "source_peak_cell": {
+            "x_mm": 84.75,
+            "y_mm": 61.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.4331189376425755
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04766905779666,
+          "junction_c": null
+        },
+        {
+          "reference": "R26",
+          "power_w": 7.024403169468542e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            84.205,
+            66.545,
+            85.195,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04642290978483,
+          "source_peak_cell": {
+            "x_mm": 85.25,
+            "y_mm": 66.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.014954221669540857
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045973892564447,
+          "junction_c": null
+        },
+        {
+          "reference": "R27",
+          "power_w": 4.449583433277363e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            86.005,
+            66.545,
+            86.995,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.046451411141128,
+          "source_peak_cell": {
+            "x_mm": 86.75,
+            "y_mm": 67.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.3156951818291418
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04619405419061,
+          "junction_c": null
+        },
+        {
+          "reference": "R28",
+          "power_w": 6.697732150105071e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            87.805,
+            66.545,
+            88.795,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.046594933104135,
+          "source_peak_cell": {
+            "x_mm": 88.25,
+            "y_mm": 67.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5102514514364884
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.046296413513552,
+          "junction_c": null
+        },
+        {
+          "reference": "R29",
+          "power_w": 1.1650029722560894e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.5451000000000015,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 18.180400000000006,
+          "source_bbox_mm": [
+            84.995,
+            52.245,
+            88.005,
+            53.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04059947954027,
+          "source_peak_cell": {
+            "x_mm": 85.25,
+            "y_mm": 53.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.20791573354654247
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.03896352948388,
+          "junction_c": null
+        },
+        {
+          "reference": "R3",
+          "power_w": 2.127196879953728e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.545100000000023,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 18.18040000000009,
+          "source_bbox_mm": [
+            52.745,
+            56.995,
+            54.255,
+            60.005
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.046336185321795,
+          "source_peak_cell": {
+            "x_mm": 54.25,
+            "y_mm": 59.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.454098889836132
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.044584585192556,
+          "junction_c": null
+        },
+        {
+          "reference": "R30",
+          "power_w": 6.593806436604015e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            84.205,
+            57.545,
+            85.195,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.05200742577869,
+          "source_peak_cell": {
+            "x_mm": 84.25,
+            "y_mm": 59.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.11738469056399481
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.050929144836953,
+          "junction_c": null
+        },
+        {
+          "reference": "R31",
+          "power_w": 3.105192237232411e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            86.005,
+            57.545,
+            86.995,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.049574912043077,
+          "source_peak_cell": {
+            "x_mm": 86.25,
+            "y_mm": 58.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.4482173241340206
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.048982645625287,
+          "junction_c": null
+        },
+        {
+          "reference": "R32",
+          "power_w": 7.821082420688545e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            87.805,
+            57.545,
+            88.795,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.048797133392977,
+          "source_peak_cell": {
+            "x_mm": 87.75,
+            "y_mm": 58.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.15735422166653734
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.047694585007452,
+          "junction_c": null
+        },
+        {
+          "reference": "R33",
+          "power_w": 1.1650359446298858e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.54509999999998,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 18.18039999999992,
+          "source_bbox_mm": [
+            51.995,
+            72.245,
+            55.005,
+            73.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.044234867032195,
+          "source_peak_cell": {
+            "x_mm": 52.75,
+            "y_mm": 73.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.023198373280138185
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.043067249173042,
+          "junction_c": null
+        },
+        {
+          "reference": "R34",
+          "power_w": 8.068140174693508e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000001,
+          "source_bbox_mm": [
+            51.205,
+            77.545,
+            52.195,
+            79.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.054019532610074,
+          "source_peak_cell": {
+            "x_mm": 52.25,
+            "y_mm": 78.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.028168934377390542
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05340554528551,
+          "junction_c": null
+        },
+        {
+          "reference": "R35",
+          "power_w": 3.4525089854233363e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            53.005,
+            77.545,
+            53.995,
+            79.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.055871131958817,
+          "source_peak_cell": {
+            "x_mm": 53.75,
+            "y_mm": 79.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.39529518183189793
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.055122950944895,
+          "junction_c": null
+        },
+        {
+          "reference": "R36",
+          "power_w": 6.616856598679985e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000001,
+          "source_bbox_mm": [
+            54.805,
+            77.545,
+            55.795,
+            79.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.057702331189276,
+          "source_peak_cell": {
+            "x_mm": 55.75,
+            "y_mm": 79.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.11738469056399481
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.056198493224517,
+          "junction_c": null
+        },
+        {
+          "reference": "R37",
+          "power_w": 1.1650540323774088e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 6.6494999999999544,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 26.597999999999814,
+          "source_bbox_mm": [
+            51.795,
+            81.025,
+            55.205,
+            82.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.056788623313974,
+          "source_peak_cell": {
+            "x_mm": 55.25,
+            "y_mm": 81.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.049944723814405734
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05307644740781,
+          "junction_c": null
+        },
+        {
+          "reference": "R38",
+          "power_w": 6.20462472830801e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000001,
+          "source_bbox_mm": [
+            51.205,
+            86.545,
+            52.195,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.051734446086293,
+          "source_peak_cell": {
+            "x_mm": 51.75,
+            "y_mm": 87.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5102514514346694
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.051496213276543,
+          "junction_c": null
+        },
+        {
+          "reference": "R39",
+          "power_w": 3.349908870810945e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            53.005,
+            86.545,
+            53.995,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.051940997197566,
+          "source_peak_cell": {
+            "x_mm": 53.75,
+            "y_mm": 87.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.3696951818328671
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.051808809756945,
+          "junction_c": null
+        },
+        {
+          "reference": "R4",
+          "power_w": 6.364799904190466e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000001,
+          "source_bbox_mm": [
+            54.805,
+            57.545,
+            55.795,
+            59.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.048963080298325,
+          "source_peak_cell": {
+            "x_mm": 55.75,
+            "y_mm": 58.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.10994472381207743
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04687975431009,
+          "junction_c": null
+        },
+        {
+          "reference": "R40",
+          "power_w": 7.899736242566944e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000001,
+          "source_bbox_mm": [
+            54.805,
+            86.545,
+            55.795,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.052821395262136,
+          "source_peak_cell": {
+            "x_mm": 55.25,
+            "y_mm": 87.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5102514514364884
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05251359089375,
+          "junction_c": null
+        },
+        {
+          "reference": "R41",
+          "power_w": 1.1649606486334243e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.545099999999959,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 18.180399999999835,
+          "source_bbox_mm": [
+            64.995,
+            81.245,
+            68.005,
+            82.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.057792599410853,
+          "source_peak_cell": {
+            "x_mm": 64.75,
+            "y_mm": 81.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.08237111639937211
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.055564760117313,
+          "junction_c": null
+        },
+        {
+          "reference": "R42",
+          "power_w": 8.051313182268244e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            64.205,
+            86.545,
+            65.195,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.058520338463293,
+          "source_peak_cell": {
+            "x_mm": 65.25,
+            "y_mm": 87.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.051874941260393825
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05784505877635,
+          "junction_c": null
+        },
+        {
+          "reference": "R43",
+          "power_w": 3.1222189025104366e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            66.005,
+            86.545,
+            66.995,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.059463548831282,
+          "source_peak_cell": {
+            "x_mm": 66.75,
+            "y_mm": 87.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.36969518183650507
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05912691260264,
+          "junction_c": null
+        },
+        {
+          "reference": "R44",
+          "power_w": 6.325750728541063e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            67.805,
+            86.545,
+            68.795,
+            88.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.061444290881536,
+          "source_peak_cell": {
+            "x_mm": 68.75,
+            "y_mm": 87.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.4064342866422521
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.060858540381606,
+          "junction_c": null
+        },
+        {
+          "reference": "R45",
+          "power_w": 2.2048109584093102e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            73.045,
+            72.505,
+            74.955,
+            73.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04275706462241,
+          "source_peak_cell": {
+            "x_mm": 74.75,
+            "y_mm": 73.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.39529518182644097
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.042322043194435,
+          "junction_c": null
+        },
+        {
+          "reference": "R46",
+          "power_w": 2.3286435820514098e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            76.545,
+            72.505,
+            78.455,
+            73.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.042911107978213,
+          "source_peak_cell": {
+            "x_mm": 78.25,
+            "y_mm": 73.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.3412951818318106
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.042703428770935,
+          "junction_c": null
+        },
+        {
+          "reference": "R47",
+          "power_w": 2.159217440042807e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            80.045,
+            72.505,
+            81.955,
+            73.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.043624036491543,
+          "source_peak_cell": {
+            "x_mm": 81.75,
+            "y_mm": 73.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.34129518182999163
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.043268694487423,
+          "junction_c": null
+        },
+        {
+          "reference": "R48",
+          "power_w": 2.380036784475819e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            83.545,
+            72.505,
+            85.455,
+            73.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.044467310582437,
+          "source_peak_cell": {
+            "x_mm": 84.75,
+            "y_mm": 73.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.490109891487009
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04416828445779,
+          "junction_c": null
+        },
+        {
+          "reference": "R49",
+          "power_w": 2.1362542498071167e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            73.045,
+            75.505,
+            74.955,
+            76.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.045245065705053,
+          "source_peak_cell": {
+            "x_mm": 74.75,
+            "y_mm": 76.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.3412951818336296
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.044552157787834,
+          "junction_c": null
+        },
+        {
+          "reference": "R5",
+          "power_w": 1.16472771394574e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 4.545100000000023,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 18.18040000000009,
+          "source_bbox_mm": [
+            51.995,
+            61.245,
+            55.005,
+            62.755
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.047539485823897,
+          "source_peak_cell": {
+            "x_mm": 55.25,
+            "y_mm": 61.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.13987113110215432
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.044700791996068,
+          "junction_c": null
+        },
+        {
+          "reference": "R50",
+          "power_w": 2.3897473758069723e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            76.545,
+            75.505,
+            78.455,
+            76.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04576233756043,
+          "source_peak_cell": {
+            "x_mm": 77.75,
+            "y_mm": 76.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.3156951818309608
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.045527092104773,
+          "junction_c": null
+        },
+        {
+          "reference": "R51",
+          "power_w": 2.114409363053966e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            80.045,
+            75.505,
+            81.955,
+            76.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.046294961935054,
+          "source_peak_cell": {
+            "x_mm": 81.25,
+            "y_mm": 76.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.3156951818327798
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.046191954197596,
+          "junction_c": null
+        },
+        {
+          "reference": "R52",
+          "power_w": 2.4115638589054794e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            83.545,
+            75.505,
+            85.455,
+            76.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.046423463169578,
+          "source_peak_cell": {
+            "x_mm": 83.75,
+            "y_mm": 76.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5235475518893509
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04619092287878,
+          "junction_c": null
+        },
+        {
+          "reference": "R53",
+          "power_w": 2.114424383940856e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            73.045,
+            78.505,
+            74.955,
+            79.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.050891576862973,
+          "source_peak_cell": {
+            "x_mm": 74.25,
+            "y_mm": 79.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.47176541414592066
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.050426517574532,
+          "junction_c": null
+        },
+        {
+          "reference": "R54",
+          "power_w": 2.401873691127819e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            76.545,
+            78.505,
+            78.455,
+            79.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.054338557041916,
+          "source_peak_cell": {
+            "x_mm": 78.25,
+            "y_mm": 79.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.3412951818336296
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05403621565605,
+          "junction_c": null
+        },
+        {
+          "reference": "R55",
+          "power_w": 2.1419070619793004e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            80.045,
+            78.505,
+            81.955,
+            79.495
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.05747313804658,
+          "source_peak_cell": {
+            "x_mm": 80.25,
+            "y_mm": 79.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.529705267483223
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.057137963187056,
+          "junction_c": null
+        },
+        {
+          "reference": "R56",
+          "power_w": 2.2499999786216932e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            73.045,
+            85.005,
+            74.955,
+            85.995
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.086819162200307,
+          "source_peak_cell": {
+            "x_mm": 74.75,
+            "y_mm": 85.25,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.4732951818368747
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.082320934521086,
+          "junction_c": null
+        },
+        {
+          "reference": "R57",
+          "power_w": 2.2500000214797796e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            76.045,
+            85.005,
+            77.955,
+            85.995
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.105177347104927,
+          "source_peak_cell": {
+            "x_mm": 77.75,
+            "y_mm": 85.75,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5685313921221677
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.09886248861281,
+          "junction_c": null
+        },
+        {
+          "reference": "R58",
+          "power_w": 4.49679555506498e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            81.045,
+            85.005,
+            82.955,
+            85.995
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.149112238207287,
+          "source_peak_cell": {
+            "x_mm": 82.75,
+            "y_mm": 85.75,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.39529518183007895
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.14288777414706,
+          "junction_c": null
+        },
+        {
+          "reference": "R59",
+          "power_w": 3.809550141927625e-05,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890900000000014,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000056,
+          "source_bbox_mm": [
+            85.045,
+            85.005,
+            86.955,
+            85.995
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.15108471682411,
+          "source_peak_cell": {
+            "x_mm": 86.75,
+            "y_mm": 85.75,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.395295181824622
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.146152354732806,
+          "junction_c": null
+        },
+        {
+          "reference": "R6",
+          "power_w": 5.2766005722383885e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000001,
+          "source_bbox_mm": [
+            51.205,
+            66.545,
+            52.195,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.04329498277521,
+          "source_peak_cell": {
+            "x_mm": 52.25,
+            "y_mm": 67.75,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.08237111924063356
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.0429762638934,
+          "junction_c": null
+        },
+        {
+          "reference": "R7",
+          "power_w": 2.822159454943876e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 8,
+          "source_contact_area_mm2": 1.890899999999987,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563599999999948,
+          "source_bbox_mm": [
+            53.005,
+            66.545,
+            53.995,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.043718990118645,
+          "source_peak_cell": {
+            "x_mm": 53.25,
+            "y_mm": 67.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.3156951818318703
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.043673181147593,
+          "junction_c": null
+        },
+        {
+          "reference": "R8",
+          "power_w": 8.932361287318662e-06,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 12,
+          "source_contact_area_mm2": 1.8909000000000005,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 7.563600000000001,
+          "source_bbox_mm": [
+            54.805,
+            66.545,
+            55.795,
+            68.455
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.044281745177642,
+          "source_peak_cell": {
+            "x_mm": 55.25,
+            "y_mm": 67.75,
+            "center_in_drill_id": null,
+            "center_in_copper": true,
+            "copper_area_fraction": 0.5102514514355789
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.04398194113399,
+          "junction_c": null
+        },
+        {
+          "reference": "R9",
+          "power_w": 1.1643286044575633e-07,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 32,
+          "source_contact_area_mm2": 6.649500000000003,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 26.598000000000013,
+          "source_bbox_mm": [
+            64.795,
+            61.025,
+            68.205,
+            62.975
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.050629300622695,
+          "source_peak_cell": {
+            "x_mm": 64.75,
+            "y_mm": 61.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0.25200313110053685
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.047031167119428,
+          "junction_c": null
+        },
+        {
+          "reference": "U1",
+          "power_w": 0.00011986761894480117,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 192,
+          "source_contact_area_mm2": 44.29124999999997,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 177.16500000000005,
+          "source_bbox_mm": [
+            56.125,
+            57.06,
+            63.875,
+            62.775
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.05789865888883,
+          "source_peak_cell": {
+            "x_mm": 60.25,
+            "y_mm": 60.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05359996007987,
+          "junction_c": null
+        },
+        {
+          "reference": "U2",
+          "power_w": 0.0001198495272576377,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 192,
+          "source_contact_area_mm2": 44.29124999999997,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 177.16500000000005,
+          "source_bbox_mm": [
+            76.125,
+            57.06,
+            83.875,
+            62.775
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.05977271161674,
+          "source_peak_cell": {
+            "x_mm": 79.75,
+            "y_mm": 60.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.05564857172686,
+          "junction_c": null
+        },
+        {
+          "reference": "U3",
+          "power_w": 0.00011936517810528994,
+          "side": "top",
+          "heat_path": "board",
+          "sink_c": null,
+          "source_distribution": "footprint_bbox_proxy",
+          "source_cells": 192,
+          "source_contact_area_mm2": 44.291250000000026,
+          "source_drill_redistributed_mm2": 0.0,
+          "effective_source_cells": 177.16500000000013,
+          "source_bbox_mm": [
+            56.125,
+            77.06,
+            63.875,
+            82.775
+          ],
+          "source_pad_number": null,
+          "source_net": null,
+          "source_cell_size_mm": {
+            "min_x": 0.5,
+            "max_x": 0.5,
+            "min_y": 0.5,
+            "max_y": 0.5
+          },
+          "source_peak_c": 25.065227936201598,
+          "source_peak_cell": {
+            "x_mm": 60.25,
+            "y_mm": 80.25,
+            "center_in_drill_id": null,
+            "center_in_copper": false,
+            "copper_area_fraction": 0
+          },
+          "junction_peak_proxy_c": null,
+          "board_site_c": 25.060925912665112,
+          "junction_c": null
+        }
+      ],
+      "native_load_receipt": {
+        "path": "D:\\PROJECTS-DEV\\Kicad-plugins-dev\\nativegitvizdiffkicad\\.vizdiff\\KERO\\encoder\\.scratch\\thermal-analysis\\stage\\nominal.results.json",
+        "relative_path": "encoder/.scratch/thermal-analysis/stage/nominal.results.json",
+        "plugin": "quick-therm",
+        "identity": "03d69647ed0f726b202932fb60c4278eb8e7abca4c8a52eeef4f1ac8c6c552ba",
+        "producer_version": "4.5.0",
+        "bytes": 399298,
+        "sha256": "847296face4813529e2ca056e6f80cfbb6879896d6db4a50b40bcdadc8534cf4",
+        "source_state": "current",
+        "can_restore": true,
+        "source_path": "encoder/Encoder.kicad_pcb",
+        "source_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+        "source_issues": []
+      }
+    }
+  ],
+  "component_grid_changes_C": {
+    "D1": {
+      "board_site_c": 0.004783720807029823,
+      "source_peak_c": 0.0031915214604651965
+    },
+    "D2": {
+      "board_site_c": 0.0023126440218774746,
+      "source_peak_c": 0.001993574389317132
+    },
+    "R1": {
+      "board_site_c": 0.0001613385391650013,
+      "source_peak_c": 0.000555347078407209
+    },
+    "R10": {
+      "board_site_c": 0.0005520231011537646,
+      "source_peak_c": 0.000576607072812152
+    },
+    "R11": {
+      "board_site_c": 0.00043227213495100614,
+      "source_peak_c": 0.0004717124193689415
+    },
+    "R12": {
+      "board_site_c": 0.00044697328711862383,
+      "source_peak_c": 0.0004523179202777783
+    },
+    "R13": {
+      "board_site_c": 0.0013283636072785043,
+      "source_peak_c": 0.0006749788069448925
+    },
+    "R14": {
+      "board_site_c": 0.0011422874383590909,
+      "source_peak_c": 0.001439094807082597
+    },
+    "R15": {
+      "board_site_c": 0.0003352047595512886,
+      "source_peak_c": 0.0009385670138470914
+    },
+    "R16": {
+      "board_site_c": 0.0004954455284469361,
+      "source_peak_c": 0.0012819769366636535
+    },
+    "R17": {
+      "board_site_c": 0.0011683564897140286,
+      "source_peak_c": 0.0011650316913858205
+    },
+    "R18": {
+      "board_site_c": 0.000644001517333237,
+      "source_peak_c": 0.0007868814202396379
+    },
+    "R19": {
+      "board_site_c": 0.0013523218769826428,
+      "source_peak_c": 0.0019028027520242574
+    },
+    "R2": {
+      "board_site_c": 0.0001611455064498557,
+      "source_peak_c": 0.0004841135391906448
+    },
+    "R20": {
+      "board_site_c": 0.0007157099028241021,
+      "source_peak_c": 0.0015581561852542336
+    },
+    "R21": {
+      "board_site_c": 0.0008377843898763615,
+      "source_peak_c": 0.0011670858863972455
+    },
+    "R22": {
+      "board_site_c": 0.0007322469408137522,
+      "source_peak_c": 0.0006578093847231514
+    },
+    "R23": {
+      "board_site_c": 0.0007410753571548412,
+      "source_peak_c": 0.0006751127900983533
+    },
+    "R24": {
+      "board_site_c": 0.0007766520864471715,
+      "source_peak_c": 0.0006632508700867845
+    },
+    "R25": {
+      "board_site_c": 0.00044068829949139854,
+      "source_peak_c": 0.000952678170882848
+    },
+    "R26": {
+      "board_site_c": 0.0002842042454780369,
+      "source_peak_c": 0.00022951631921586113
+    },
+    "R27": {
+      "board_site_c": 0.0006415379105142449,
+      "source_peak_c": 0.0007377503138101815
+    },
+    "R28": {
+      "board_site_c": 0.0005646372612417849,
+      "source_peak_c": 0.0006129943716786102
+    },
+    "R29": {
+      "board_site_c": 0.0005770025521840694,
+      "source_peak_c": 0.00020938098291622964
+    },
+    "R3": {
+      "board_site_c": 0.00018030240060085134,
+      "source_peak_c": 8.045908695564208e-05
+    },
+    "R30": {
+      "board_site_c": 0.0008167236081533247,
+      "source_peak_c": 0.001293240770408488
+    },
+    "R31": {
+      "board_site_c": 0.0007718858139647011,
+      "source_peak_c": 0.0011699612277098481
+    },
+    "R32": {
+      "board_site_c": 0.0008381038308904465,
+      "source_peak_c": 0.001191929136460601
+    },
+    "R33": {
+      "board_site_c": 0.0007114340138052455,
+      "source_peak_c": 0.0001949311036426593
+    },
+    "R34": {
+      "board_site_c": 0.0007199659187442364,
+      "source_peak_c": 0.0007516611690654429
+    },
+    "R35": {
+      "board_site_c": 0.0014673775134959044,
+      "source_peak_c": 0.0019486461908790886
+    },
+    "R36": {
+      "board_site_c": 0.0008983970747031833,
+      "source_peak_c": 0.0011710465393548475
+    },
+    "R37": {
+      "board_site_c": 5.8400911282063817e-05,
+      "source_peak_c": 0.0003828923193118783
+    },
+    "R38": {
+      "board_site_c": 0.0001047414928692092,
+      "source_peak_c": 0.00024045716182641286
+    },
+    "R39": {
+      "board_site_c": 0.00033312830194631715,
+      "source_peak_c": 0.0004397695422788672
+    },
+    "R4": {
+      "board_site_c": 0.00019430724772107055,
+      "source_peak_c": 0.001174637361298636
+    },
+    "R40": {
+      "board_site_c": 0.0005537217292328478,
+      "source_peak_c": 0.0006490223898119041
+    },
+    "R41": {
+      "board_site_c": 0.0005390493081520731,
+      "source_peak_c": 0.0004227860450143339
+    },
+    "R42": {
+      "board_site_c": 0.001293017830867882,
+      "source_peak_c": 0.001381653355828405
+    },
+    "R43": {
+      "board_site_c": 0.0016042012893251467,
+      "source_peak_c": 0.0018211656196811532
+    },
+    "R44": {
+      "board_site_c": 0.000843631898280961,
+      "source_peak_c": 0.0007759679329488733
+    },
+    "R45": {
+      "board_site_c": 0.00022618998040613292,
+      "source_peak_c": 0.00021254902346967697
+    },
+    "R46": {
+      "board_site_c": 5.1474406657092686e-05,
+      "source_peak_c": 6.215166903800196e-05
+    },
+    "R47": {
+      "board_site_c": 1.3645565967834727e-05,
+      "source_peak_c": 0.0001736267166201344
+    },
+    "R48": {
+      "board_site_c": 0.0005030376371699674,
+      "source_peak_c": 0.000523390630853271
+    },
+    "R49": {
+      "board_site_c": 8.385597081428386e-05,
+      "source_peak_c": 6.226390050656505e-05
+    },
+    "R5": {
+      "board_site_c": 4.0587122921209584e-05,
+      "source_peak_c": 0.0008803782300539353
+    },
+    "R50": {
+      "board_site_c": 0.00019320249990073535,
+      "source_peak_c": 0.00010811873369931391
+    },
+    "R51": {
+      "board_site_c": 0.0003196048261031592,
+      "source_peak_c": 0.00019809277313953544
+    },
+    "R52": {
+      "board_site_c": 0.0003074977964487857,
+      "source_peak_c": 4.8324066593607995e-05
+    },
+    "R53": {
+      "board_site_c": 0.0001285866960678561,
+      "source_peak_c": 0.0003678489846663524
+    },
+    "R54": {
+      "board_site_c": 0.00022406003661856744,
+      "source_peak_c": 0.0007498002855435004
+    },
+    "R55": {
+      "board_site_c": 0.0014177640809016623,
+      "source_peak_c": 0.0008219310450421347
+    },
+    "R56": {
+      "board_site_c": 0.0004612648298873978,
+      "source_peak_c": 0.00034711972600121044
+    },
+    "R57": {
+      "board_site_c": 0.0013899130972170326,
+      "source_peak_c": 0.0020589166377362744
+    },
+    "R58": {
+      "board_site_c": 0.004346579697649844,
+      "source_peak_c": 0.00615178754062029
+    },
+    "R59": {
+      "board_site_c": 0.004232169546234843,
+      "source_peak_c": 0.005790349883959323
+    },
+    "R6": {
+      "board_site_c": 0.00017149038251318416,
+      "source_peak_c": 0.0002142674281024881
+    },
+    "R7": {
+      "board_site_c": 0.00013600006353797767,
+      "source_peak_c": 0.00010901945756813802
+    },
+    "R8": {
+      "board_site_c": 0.00023711980944085553,
+      "source_peak_c": 1.6837815259407307e-05
+    },
+    "R9": {
+      "board_site_c": 0.0006060145707635911,
+      "source_peak_c": 0.00022228541371305255
+    },
+    "U1": {
+      "board_site_c": 8.795676772166416e-05,
+      "source_peak_c": 0.00040670137713760823
+    },
+    "U2": {
+      "board_site_c": 0.000550547190119488,
+      "source_peak_c": 0.0013900691923822706
+    },
+    "U3": {
+      "board_site_c": 0.0007556468665725902,
+      "source_peak_c": 0.0008220574625887878
+    }
+  },
+  "maximum_component_change_C": 0.00615178754062029,
+  "convergence_scope": "Two-grid sensitivity comparison; no physical/package qualification or local contact-resolution guarantee.",
+  "capacity_before_GiB": {
+    "C:/": 5.872505187988281,
+    "D:/": 184.46743392944336
+  },
+  "capacity_after_GiB": {
+    "C:/": 5.8724212646484375,
+    "D:/": 184.46449279785156
+  },
+  "limitations": [
+    "Illustrative steady board-temperature screen; no measured thermal calibration or qualification.",
+    "Cycle-average nominal 3 V terminal-measured Xyce losses; not switching or startup temperatures. The TI family macro has explicit applicability limits in the power budget.",
+    "LED electrical power is conservatively deposited as heat; optical output is unknown.",
+    "All selected power enters board contact proxies; package-air cooling is omitted.",
+    "No package RthetaJB or internal component model: all junction temperatures remain unknown.",
+    "Unspecified saved stackup is replaced only in the geometry extraction call by explicit 35 um copper layers within a 1.6 mm span.",
+    "Homogeneous isotropic FR4 k=0.3 W/m/K and copper k=385 W/m/K are illustrative assumptions, not material certification.",
+    "Two exposed faces, natural-convection h=5 W/m2/K, emissivity=0, ambient=25 C; radiation omitted conservatively for heat rejection.",
+    "Cell internal heat, contact resistance and capacitor ESR heat are unknown and excluded. PI copper heat is reported separately; this board-temperature screen deposits the measured-cycle component heat only.",
+    "No enclosure, battery/package shadowing or mechanical heat sinks; contact sources use producer footprint-area proxies.",
+    "Grid comparison establishes numerical sensitivity only; subcell sources and barrel contacts remain approximate."
+  ]
+}

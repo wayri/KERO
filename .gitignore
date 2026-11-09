@@ -8,3 +8,9 @@ __pycache__/
 
 # Owned scientific-tool scratch, excluded from saved studies
 analysis/**/.scratch/
+
+# Owned encoder tool configuration and scratch
+encoder/.scratch/
+
+# Scientific runtime scratch is not an analysis deliverable
+encoder/analysis/**/.scratch/
