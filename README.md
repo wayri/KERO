@@ -13,7 +13,8 @@ Open [encoder/Encoder.kicad_pro](encoder/Encoder.kicad_pro) in **KiCad 10** (sav
 - [Encoder guide](encoder/README.md) · [BoM](encoder/bom.csv) · [Pin/net design intent](encoder/design-intent.json)
 - [Schematic and shared variables](encoder/SCHEMATIC.md) · [Timing architecture and R/C values](encoded-model/architecture.md)
 - [Front copper](encoder/previews/board-front.svg) · [Back copper](encoder/previews/board-back.svg)
-- [Power, PI and thermal analysis files](encoder/analysis/README.md)
+- [Curved-routing evidence](encoder/evidence/curved-routing.json): native tangent arcs are the default; 678 staircase segments removed and 685 arc bends added.
+- [Power, PI and thermal analysis files](encoder/analysis/README.md) — saved for the preceding straight-track board; copper overlays have not been rerun after smoothing.
 
 ![Encoder bottom assembly with CR2032 holder](encoder/previews/board-3d-bottom.png)
 
@@ -59,6 +60,8 @@ A receiver must recognize the long gap and decode the high pulse widths using th
 Five pre-existing default ignored DRC checks remain disclosed in the reports; no rule severity was relaxed. These are saved native checks and simulation evidence, not fabrication or bench qualification. Component sourcing, tolerances, leakage, startup and useful battery life still require hardware assessment.
 
 ## Coin-cell draw, losses and thermal analysis
+
+These saved studies describe the preceding straight-track board revision. The circuit is unchanged, but PI and thermal copper overlays have not been rerun after smoothing.
 
 | Saved model result | Value |
 |---|---|

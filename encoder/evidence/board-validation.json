@@ -6,7 +6,7 @@
     "encoder/bank2.kicad_sch": "66709dfe3f674b9388b96f932c32dd997e28426cfd0d431340ae855de3da0600",
     "encoder/bank3.kicad_sch": "00372ade10aaf8aa68b33aee8660868a83b4fb1656f6b0bbce3c37fdfc097056",
     "encoder/decoder.kicad_sch": "cee1e80dc3f17177ef4850e5dcf0f244e89684c27955da5f65a9f9c8457737c9",
-    "encoder/Encoder.kicad_pcb": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+    "encoder/Encoder.kicad_pcb": "8d8949f170cca1f9030f9c20379f2b27ebe0634a66362e7194f6f6299c876a54",
     "encoder/Encoder.kicad_pro": "c96b309cf244bcbdaa540fb43f93ef31a521204d19c428e4547de6a6f989e049",
     "encoder/Encoder.kicad_sch": "c8170889000416e7d5da67348e48b579efc1122663ecbd89017244313ada52bb",
     "encoder/Encoder.kicad_sym": "7af727b99fe1340c29f0d02ef1394e6754ae41907e3005fbab4b3c1e6219d5e8",
@@ -913,7 +913,5 @@
     "Package models are standard KiCad envelopes; nominal coin model is illustrative.",
     "No copper zones are present; tracks and vias provide all connections.",
     "Native CLI registry-access warnings are retained in the command receipt."
-  ],
-  "producer_sha256": "5db7875a9610040396cc885daca03edad81a176572e27a20dece97a6a14b38b8",
-  "repair_producer_sha256": "b0f71717cdf4f493c7898902f32b755d4188de74aac0fb8bb84704bbdfcdb910"
+  ]
 }
