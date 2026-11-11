@@ -2,7 +2,7 @@
 
 > **AI hardware-design experiment:** KERO is an experiment to evaluate how well AI can generate and refine electronic schematics and PCB layouts. The designs are experimental candidates for engineering review and validation.
 
-Executed [encoder cell-draw, PI and QuickTherm studies](analysis/README.md) are saved with native WayriCAD and Pocket KiView files.
+Saved [encoder cell-draw, PI and QuickTherm studies](analysis/README.md) describe the preceding straight-track board revision; the copper fields have not been rerun for the curved routing.
 
 Open [Encoder.kicad_pro](Encoder.kicad_pro) in KiCad 10. The [six-sheet schematic](Encoder.kicad_sch) implements an RC-programmed `hello world` PWM sequence using three TLV9044IPWR quad op amps, one CR2032 cell, and alternating red/green indication. See [circuit operation and timing](../encoded-model/architecture.md), [executed SPICE evidence](../encoded-model/spice/README.md), and [schematic/variables guide](SCHEMATIC.md).
 
@@ -15,6 +15,8 @@ Open [Encoder.kicad_pro](Encoder.kicad_pro) in KiCad 10. The [six-sheet schemati
 | Native routing status | **Complete: 0 open connections; all 40 nets connected** |
 | Native DRC / schematic parity | 0 reported findings / 0 mismatches |
 | Models | All 79 fitted parts resolve local standard package models; nominal cell is illustrative |
+
+The default routing style is **native tangent circular arcs at bends**, with straight runs and fixed pad/via/branch landings. The [curved-routing receipt](evidence/curved-routing.json) records 678 redundant staircase segments removed and 685 native arc bends. One clearance-constrained GND path keeps its original corridor. [Routing guidance](AGENTS.md) defines the convention for future edits.
 
 The routing repair removed dangling terminal stubs and negotiated alternate copper paths without moving components or changing the circuit or rules. [Revision comparison](evidence/routing-change.json) records only track/via changes; [circuit equivalence](evidence/circuit-equivalence.json) independently checks all 79 parts and 194 assignments against the simulated design. The native ERC, DRC, parity and connectivity checks pass. Five pre-existing default ignored DRC checks remain listed in the report; no severities or exclusions were changed.
 
