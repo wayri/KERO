@@ -17,6 +17,16 @@ Use the signal checkboxes to show OUT, the divider and summing node, or any of t
 
 The top panel labels the pulse widths that decode to **hello world**. The middle panels show the eleven stage outputs thresholded at half the 3 V supply for readability, and the decoder's SUM minus MID voltage. The bottom panel shows positive source draw. All plotted panels use the same nominal frame timebase.
 
+## Probe the schematic
+
+1. Open the Encoder schematic. Use **Simulation → Saved KiCad / wayriCAD results**, then use **Link net plots** beside the CSV for the supply case you want.
+2. Choose a voltage in the new **Saved waveform signal** list to jump to the exact sheet and highlight the wire. Or close the reports panel and click the net in the schematic to open its waveform.
+3. Click the inset plot or move its **Saved sample** slider to inspect voltage and time. Use **Open full graph** for a larger plot.
+
+For example, **ST01_OUT** probes the same waveform on the root schematic, bank 1, and the decoder. **VBAT** is probeable on all six sheets. **ENCODED_OUT**, **MAJORITY_SUM**, and **MIDREF** resolve to the decoder. Each connected sheet occurrence has its own qualified voltage column with the same saved sample values. The workbook selects one column per signal by default. [Recorded net mappings](results.json)
+
+![Bank 1 with ST02_OUT highlighted beside the saved waveform and sample slider](schematic-net-probe.jpg)
+
 ## Reproduction and limits
 
 At the published schematic revision all six fresh Xyce 7.8 runs completed and reproduced the original full-waveform hashes. Ten complete frames decoded correctly. At nominal supply the last complete frame measured about 3.666 s, with approximately 279 µA mean simulated source draw. [Run results and hashes](results.json) · [Original full waveforms and reproduction instructions](../../encoded-model/spice/README.md)

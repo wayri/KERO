@@ -11,7 +11,7 @@
       "measurements": [],
       "traces": [
         {
-          "signal": "V(OUT)",
+          "signal": "V(/decoder/ENCODED_OUT)",
           "trace_type": 257,
           "color": "#176eae",
           "cursor1": {
@@ -26,17 +26,17 @@
           }
         },
         {
-          "signal": "V(VBAT)",
+          "signal": "V(/VBAT)",
           "trace_type": 257,
           "color": "#be4a21"
         },
         {
-          "signal": "V(SUM)",
+          "signal": "V(/decoder/MAJORITY_SUM)",
           "trace_type": 257,
           "color": "#07846d"
         },
         {
-          "signal": "V(MID)",
+          "signal": "V(/decoder/MIDREF)",
           "trace_type": 257,
           "color": "#7555a5"
         }
@@ -52,57 +52,57 @@
       "measurements": [],
       "traces": [
         {
-          "signal": "V(ST01_OUT)",
+          "signal": "V(/ST01_OUT)",
           "trace_type": 257,
           "color": "#176eae"
         },
         {
-          "signal": "V(ST02_OUT)",
+          "signal": "V(/ST02_OUT)",
           "trace_type": 257,
           "color": "#be4a21"
         },
         {
-          "signal": "V(ST03_OUT)",
+          "signal": "V(/ST03_OUT)",
           "trace_type": 257,
           "color": "#07846d"
         },
         {
-          "signal": "V(ST04_OUT)",
+          "signal": "V(/ST04_OUT)",
           "trace_type": 257,
           "color": "#7555a5"
         },
         {
-          "signal": "V(ST05_OUT)",
+          "signal": "V(/ST05_OUT)",
           "trace_type": 257,
           "color": "#8b5700"
         },
         {
-          "signal": "V(ST06_OUT)",
+          "signal": "V(/ST06_OUT)",
           "trace_type": 257,
           "color": "#006c7a"
         },
         {
-          "signal": "V(ST07_OUT)",
+          "signal": "V(/ST07_OUT)",
           "trace_type": 257,
           "color": "#176eae"
         },
         {
-          "signal": "V(ST08_OUT)",
+          "signal": "V(/ST08_OUT)",
           "trace_type": 257,
           "color": "#be4a21"
         },
         {
-          "signal": "V(ST09_OUT)",
+          "signal": "V(/ST09_OUT)",
           "trace_type": 257,
           "color": "#07846d"
         },
         {
-          "signal": "V(ST10_OUT)",
+          "signal": "V(/ST10_OUT)",
           "trace_type": 257,
           "color": "#7555a5"
         },
         {
-          "signal": "V(ST11_OUT)",
+          "signal": "V(/ST11_OUT)",
           "trace_type": 257,
           "color": "#8b5700"
         }
@@ -170,7 +170,7 @@
       "measurements": [],
       "traces": [
         {
-          "signal": "V(OUT)",
+          "signal": "V(/decoder/ENCODED_OUT)",
           "trace_type": 257,
           "color": "#176eae",
           "cursor1": {
@@ -185,17 +185,17 @@
           }
         },
         {
-          "signal": "V(VBAT)",
+          "signal": "V(/VBAT)",
           "trace_type": 257,
           "color": "#be4a21"
         },
         {
-          "signal": "V(SUM)",
+          "signal": "V(/decoder/MAJORITY_SUM)",
           "trace_type": 257,
           "color": "#07846d"
         },
         {
-          "signal": "V(MID)",
+          "signal": "V(/decoder/MIDREF)",
           "trace_type": 257,
           "color": "#7555a5"
         }
@@ -211,7 +211,7 @@
       "measurements": [],
       "traces": [
         {
-          "signal": "V(OUT)",
+          "signal": "V(/decoder/ENCODED_OUT)",
           "trace_type": 257,
           "color": "#176eae",
           "cursor1": {
@@ -226,17 +226,17 @@
           }
         },
         {
-          "signal": "V(VBAT)",
+          "signal": "V(/VBAT)",
           "trace_type": 257,
           "color": "#be4a21"
         },
         {
-          "signal": "V(SUM)",
+          "signal": "V(/decoder/MAJORITY_SUM)",
           "trace_type": 257,
           "color": "#07846d"
         },
         {
-          "signal": "V(MID)",
+          "signal": "V(/decoder/MIDREF)",
           "trace_type": 257,
           "color": "#7555a5"
         }
@@ -252,7 +252,7 @@
       "measurements": [],
       "traces": [
         {
-          "signal": "V(OUT)",
+          "signal": "V(/decoder/ENCODED_OUT)",
           "trace_type": 257,
           "color": "#176eae",
           "cursor1": {
@@ -267,17 +267,17 @@
           }
         },
         {
-          "signal": "V(VBAT)",
+          "signal": "V(/VBAT)",
           "trace_type": 257,
           "color": "#be4a21"
         },
         {
-          "signal": "V(SUM)",
+          "signal": "V(/decoder/MAJORITY_SUM)",
           "trace_type": 257,
           "color": "#07846d"
         },
         {
-          "signal": "V(MID)",
+          "signal": "V(/decoder/MIDREF)",
           "trace_type": 257,
           "color": "#7555a5"
         }
@@ -293,7 +293,7 @@
       "measurements": [],
       "traces": [
         {
-          "signal": "V(OUT)",
+          "signal": "V(/decoder/ENCODED_OUT)",
           "trace_type": 257,
           "color": "#176eae",
           "cursor1": {
@@ -308,17 +308,17 @@
           }
         },
         {
-          "signal": "V(VBAT)",
+          "signal": "V(/VBAT)",
           "trace_type": 257,
           "color": "#be4a21"
         },
         {
-          "signal": "V(SUM)",
+          "signal": "V(/decoder/MAJORITY_SUM)",
           "trace_type": 257,
           "color": "#07846d"
         },
         {
-          "signal": "V(MID)",
+          "signal": "V(/decoder/MIDREF)",
           "trace_type": 257,
           "color": "#7555a5"
         }
@@ -334,7 +334,7 @@
       "measurements": [],
       "traces": [
         {
-          "signal": "V(OUT)",
+          "signal": "V(/decoder/ENCODED_OUT)",
           "trace_type": 257,
           "color": "#176eae",
           "cursor1": {
@@ -349,17 +349,17 @@
           }
         },
         {
-          "signal": "V(VBAT)",
+          "signal": "V(/VBAT)",
           "trace_type": 257,
           "color": "#be4a21"
         },
         {
-          "signal": "V(SUM)",
+          "signal": "V(/decoder/MAJORITY_SUM)",
           "trace_type": 257,
           "color": "#07846d"
         },
         {
-          "signal": "V(MID)",
+          "signal": "V(/decoder/MIDREF)",
           "trace_type": 257,
           "color": "#7555a5"
         }

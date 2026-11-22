@@ -8,6 +8,10 @@ The 3 V transient produced 8,001 saved samples. The modeled period is 0.976 s an
 
 The saved schematic supplies the R/C netlist and the recorded pin map supplies the two op-amp and LED connections. The as-saved KiCad netlist has no SPICE assignments for those components. The companion [ngspice deck](legacy-blinker.cir) uses two behavioral amplifiers, generic LED diodes, and an ideal 3 V supply with a 1 ms ramp. It leaves the KiCad schematic and PCB untouched. This is a functional oscillator model. It excludes the LMV358’s detailed behavior, battery losses, and measured LED output.
 
+## Probe the schematic
+
+In the root KERO schematic, open **Simulation → Saved KiCad / wayriCAD results** and choose **Link net plots** next to **legacy-blinker.csv**. Select a voltage from **Saved waveform signal** to find its schematic wire, or click **OUT**, **TIMING**, **SCHMITT**, **VREF**, or **VBAT** directly on the drawing. Use the plot or **Saved sample** slider to probe the saved time and voltage. The LED current traces remain in the workbook. [Recorded net mappings](results.json)
+
 To reproduce, load the deck in ngspice and run the following in its console. The saved viewing data uses the linearized 1 ms grid.
 
 ~~~text

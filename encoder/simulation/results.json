@@ -20,7 +20,7 @@
       "solver_samples": 34194,
       "plot_samples": 3927,
       "full_waveform_sha256": "0eb49d5179df00200aecc35c61484b08c55b46aabe736e01986252353cb6b9cc",
-      "plot_csv_sha256": "fa2df6d30f7b22a6d8bbbd7e5472dddd6f06acee19d9374f18859ce79d6f8549",
+      "plot_csv_sha256": "104542c3595c9b18d1098fc5c9adfcf2094e52afadbfd46ae2fd538d156fc717",
       "frames": [
         {
           "start_s": 4.657021190759174,
@@ -117,7 +117,7 @@
       "solver_samples": 33945,
       "plot_samples": 3892,
       "full_waveform_sha256": "16db0e538972deeeec00d18f6e59ab07e0be750da21cc9c7b674f7f777f4f50b",
-      "plot_csv_sha256": "7cc18af4ca78c6ed057a3176f97943f9bb42ffb9a9384d76a43dda23699b247b",
+      "plot_csv_sha256": "3b69c4a118ea7cceca952dcf760caaf47e1a431bed933ab250700d346165d13d",
       "frames": [
         {
           "start_s": 4.652540746356431,
@@ -214,7 +214,7 @@
       "solver_samples": 34196,
       "plot_samples": 3920,
       "full_waveform_sha256": "bc384692af5a9ac40c1582d59d568d4c2115643db97e783e8c4da6fd30250689",
-      "plot_csv_sha256": "c08484f4842594436ec33c812d7563fb6fc60051eb0b7ae703ce3cecc3c89e9d",
+      "plot_csv_sha256": "0cba7b0e2eaf4a24238038dd6aff459c2a8a282bc8c18836565fc774fcbfd318",
       "frames": [
         {
           "start_s": 4.658742317241562,
@@ -311,7 +311,7 @@
       "solver_samples": 34028,
       "plot_samples": 3898,
       "full_waveform_sha256": "dc57517daf1207d7cc947e6e64e5d58f538b8ad8c80120386c1397e6b1854e24",
-      "plot_csv_sha256": "67dda3c0c1bc0f6e9247a9e3873c19d77c06f062172207edc66a5d31d5367e82",
+      "plot_csv_sha256": "a6f88badddf3b1a57abcc9c7af79c3f5e3abca76c6027db9d80dbf8c5ba1eaab",
       "frames": [
         {
           "start_s": 4.7075360361896195,
@@ -365,7 +365,7 @@
       "solver_samples": 34098,
       "plot_samples": 3908,
       "full_waveform_sha256": "c667f3c6bcc0690eb31ffb7cd9da79f5a8cd57ce99d860afb801ea165f20510c",
-      "plot_csv_sha256": "b831c051249101fc382fd33ee1928e5c5f8b6aa1f1e361cd722128d2843933e0",
+      "plot_csv_sha256": "14e62ea51346638bc524f1cc4eb2e244420cf3372a05a7a5f38236f0114d6638",
       "frames": [
         {
           "start_s": 5.274099441446819,
@@ -419,7 +419,7 @@
       "solver_samples": 58138,
       "plot_samples": 4001,
       "full_waveform_sha256": "312817274ff280f406b82e32a0e0b001d08da42aec2bc181ea55f29326aa3df4",
-      "plot_csv_sha256": "4555a17a333f2cb2186c4f0ee544c92288c4d7ca7853171a4bc13cda6d00e7ee",
+      "plot_csv_sha256": "afd393391d84e0cceeccba1276d17f67f31014174709d36067c38f5089450d6f",
       "frames": [
         {
           "start_s": 4.656800292431292,
@@ -509,5 +509,217 @@
         }
       ]
     }
+  },
+  "schematic_probe_links": {
+    "V(OUT)": [
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ENCODED_OUT"
+      }
+    ],
+    "V(VBAT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/VBAT"
+      },
+      {
+        "path": "encoder/bank1.kicad_sch",
+        "net": "/bank1/VBAT"
+      },
+      {
+        "path": "encoder/bank2.kicad_sch",
+        "net": "/bank2/VBAT"
+      },
+      {
+        "path": "encoder/bank3.kicad_sch",
+        "net": "/bank3/VBAT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/VBAT"
+      },
+      {
+        "path": "encoder/power.kicad_sch",
+        "net": "/power/VBAT"
+      }
+    ],
+    "V(SUM)": [
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/MAJORITY_SUM"
+      }
+    ],
+    "V(MID)": [
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/MIDREF"
+      }
+    ],
+    "V(ST01_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST01_OUT"
+      },
+      {
+        "path": "encoder/bank1.kicad_sch",
+        "net": "/bank1/ST01_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST01_OUT"
+      }
+    ],
+    "V(ST02_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST02_OUT"
+      },
+      {
+        "path": "encoder/bank1.kicad_sch",
+        "net": "/bank1/ST02_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST02_OUT"
+      }
+    ],
+    "V(ST03_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST03_OUT"
+      },
+      {
+        "path": "encoder/bank1.kicad_sch",
+        "net": "/bank1/ST03_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST03_OUT"
+      }
+    ],
+    "V(ST04_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST04_OUT"
+      },
+      {
+        "path": "encoder/bank1.kicad_sch",
+        "net": "/bank1/ST04_OUT"
+      },
+      {
+        "path": "encoder/bank2.kicad_sch",
+        "net": "/bank2/ST04_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST04_OUT"
+      }
+    ],
+    "V(ST05_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST05_OUT"
+      },
+      {
+        "path": "encoder/bank2.kicad_sch",
+        "net": "/bank2/ST05_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST05_OUT"
+      }
+    ],
+    "V(ST06_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST06_OUT"
+      },
+      {
+        "path": "encoder/bank2.kicad_sch",
+        "net": "/bank2/ST06_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST06_OUT"
+      }
+    ],
+    "V(ST07_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST07_OUT"
+      },
+      {
+        "path": "encoder/bank2.kicad_sch",
+        "net": "/bank2/ST07_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST07_OUT"
+      }
+    ],
+    "V(ST08_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST08_OUT"
+      },
+      {
+        "path": "encoder/bank2.kicad_sch",
+        "net": "/bank2/ST08_OUT"
+      },
+      {
+        "path": "encoder/bank3.kicad_sch",
+        "net": "/bank3/ST08_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST08_OUT"
+      }
+    ],
+    "V(ST09_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST09_OUT"
+      },
+      {
+        "path": "encoder/bank3.kicad_sch",
+        "net": "/bank3/ST09_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST09_OUT"
+      }
+    ],
+    "V(ST10_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST10_OUT"
+      },
+      {
+        "path": "encoder/bank3.kicad_sch",
+        "net": "/bank3/ST10_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST10_OUT"
+      }
+    ],
+    "V(ST11_OUT)": [
+      {
+        "path": "encoder/Encoder.kicad_sch",
+        "net": "/ST11_OUT"
+      },
+      {
+        "path": "encoder/bank1.kicad_sch",
+        "net": "/bank1/ST11_OUT"
+      },
+      {
+        "path": "encoder/bank3.kicad_sch",
+        "net": "/bank3/ST11_OUT"
+      },
+      {
+        "path": "encoder/decoder.kicad_sch",
+        "net": "/decoder/ST11_OUT"
+      }
+    ]
   }
 }

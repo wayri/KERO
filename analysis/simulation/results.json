@@ -7,5 +7,38 @@
   "period_s": 0.9756666666667854,
   "reference_V": 0.7500137316881011,
   "red_peak_A": 0.0002442372148451868,
-  "green_peak_A": 0.00020378893174375615
+  "green_peak_A": 0.00020378893174375615,
+  "schematic_probe_links": {
+    "v(/vbat)": [
+      {
+        "path": "KERO.kicad_sch",
+        "net": "/VBAT"
+      }
+    ],
+    "v(/out)": [
+      {
+        "path": "KERO.kicad_sch",
+        "net": "/OUT"
+      }
+    ],
+    "v(/timing)": [
+      {
+        "path": "KERO.kicad_sch",
+        "net": "/TIMING"
+      }
+    ],
+    "v(/schmitt)": [
+      {
+        "path": "KERO.kicad_sch",
+        "net": "/SCHMITT"
+      }
+    ],
+    "v(/vref)": [
+      {
+        "path": "KERO.kicad_sch",
+        "net": "/VREF"
+      }
+    ]
+  },
+  "plot_csv_sha256": "f3d2f956ab2c3ee56d9251667a0f151e351223c5ad0c14a392e676d19f33599c"
 }
