@@ -1,5 +1,7 @@
 # KERO hello world encoder — draft hardware
 
+[Open the simulation workbook and saved plots](simulation/README.md) to inspect pulse widths, timing stages, supply cases and cell draw.
+
 > **AI hardware-design experiment:** KERO is an experiment to evaluate how well AI can generate and refine electronic schematics and PCB layouts. The designs are experimental candidates for engineering review and validation.
 
 Executed [encoder cell-draw, PI and QuickTherm studies](analysis/README.md) are saved with native WayriCAD and Pocket KiView files.

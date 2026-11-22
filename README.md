@@ -12,6 +12,7 @@ Open [encoder/Encoder.kicad_pro](encoder/Encoder.kicad_pro) in **KiCad 10** (sav
 
 - [Encoder guide](encoder/README.md) · [BoM](encoder/bom.csv) · [Pin/net design intent](encoder/design-intent.json)
 - [Schematic and shared variables](encoder/SCHEMATIC.md) · [Timing architecture and R/C values](encoded-model/architecture.md)
+- [Interactive encoder plots](encoder/simulation/README.md) · [Legacy blinker scope and LED plots](analysis/simulation/README.md)
 - [Front copper](encoder/previews/board-front.svg) · [Back copper](encoder/previews/board-back.svg)
 - [Power, PI and thermal analysis files](encoder/analysis/README.md)
 

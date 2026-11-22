@@ -1,0 +1,11 @@
+{
+  "simulator": "ngspice-46",
+  "model": "Behavioral high-gain op amps with 20 ohm output resistance and 5 nF output capacitance, generic LED diodes, ideal 3 V supply with 1 ms ramp",
+  "schematic_sha256": "1b7049141da6ba6fa7413dc043ed129c30528bff330965dc43b04ea2e6a74372",
+  "design_intent_sha256": "66c0d986cf0ee62a9a9233014411e701b8cb12aeb076a4fffd1f7cb072635a14",
+  "samples": 8001,
+  "period_s": 0.9756666666667854,
+  "reference_V": 0.7500137316881011,
+  "red_peak_A": 0.0002442372148451868,
+  "green_peak_A": 0.00020378893174375615
+}

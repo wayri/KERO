@@ -1,0 +1,23 @@
+KERO legacy oscillator - behavioral op-amp and generic LEDs
+R4 /VBAT /DIVIDER 300k
+R5 /DIVIDER 0 100k
+C2 /VBAT 0 100n
+C3 /TIMING 0 1u
+R3 /VREF /SCHMITT 100k
+R2 /SCHMITT /OUT 402k
+R6 /OUT /RED_A 4.7k
+R1 /TIMING /OUT 1Meg
+R7 /VBAT /GREEN_A 4.7k
+Vcell /VBAT 0 PWL(0 0 1m 3)
+Bmain drvmain 0 V=V(/VBAT)*(0.5+0.5*tanh(40000*(V(/SCHMITT)-V(/TIMING))))
+Rmain drvmain /OUT 20
+Cmain /OUT 0 5n
+Bref drvref 0 V=V(/VBAT)*(0.5+0.5*tanh(40000*(V(/DIVIDER)-V(/VREF))))
+Rref drvref /VREF 20
+Cref /VREF 0 5n
+D1 /RED_A 0 red
+D2 /GREEN_A /OUT green
+.model red D(IS=7.6e-20 N=2)
+.model green D(IS=1.58e-21 N=2)
+.options method=gear reltol=1e-4
+.end

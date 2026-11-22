@@ -1,5 +1,7 @@
 # Actual Xyce transient evidence
 
+[Open these cases in the KiCad Online workbook](../../encoder/simulation/README.md) for saved traces, A/B cursors and the full encoder frame chart.
+
 The six 12-second simulations completed successfully with Xyce 7.8.0. Every detected complete frame decoded `hello world` (10 complete frames total). The supply ramp and timestep cases are finite checks, not general startup or component qualification.
 
 | Case | Complete frames | Last-frame mean current (uA) | RMS (uA) | Maximum sampled whole-transient current (mA) |
