@@ -1,23 +1,32 @@
 {
   "schema": "kero.encoder-board-visual-review/v1",
-  "board_sha256": "08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109",
+  "board_sha256": "8d8949f170cca1f9030f9c20379f2b27ebe0634a66362e7194f6f6299c876a54",
   "previews": [
     {
+      "path": "previews/board-front.svg",
+      "sha256": "32c7def8de94378113c83faca660bd314c41b7cef621d20ef305b8ce9ba7e2fb"
+    },
+    {
+      "path": "previews/board-back.svg",
+      "sha256": "c029ca3d0ff2f7c5793183dd7025d84950cc9edae3cfec5099051e0f8f6d0ef2"
+    },
+    {
       "path": "previews/board-3d.png",
-      "sha256": "57952f8d8fd2a9e1699c942e3ab3f090cbf769bdff84bf4a80eb74c7f8da465a"
+      "sha256": "31a08723e1be80a31f03be42cb76fa7b36f9635b51e34fa4f85a2a82bdb21b64"
     },
     {
       "path": "previews/board-3d-bottom.png",
-      "sha256": "123def2cc12a88b397b1a029291eb113ae5d8b31a8ff7618c8e6633cb0e705af"
+      "sha256": "3fb42c0446684712aedd9d8751ec434c986fb4c4173b2d1edaac60f4a9c11e78"
     }
   ],
   "observations": [
-    "Native top and bottom 3D renders inspected after routing closure. All 79 fitted components resolve local package models; the holder and nominal CR2032 remain on the bottom inside the 40 mm outline.",
-    "No component placement or body geometry changed during routing repair. The front RC banks and decoder array remain readable in the assembly view.",
-    "Part references are on fabrication layers. Product identification and polarity are on silkscreen.",
-    "The saved-source native gate reports zero DRC findings, zero unconnected items and zero schematic parity findings. All 40 nets have one connected pad partition.",
-    "Mechanical views remain package-envelope evidence; vendor dimensional tolerances, sourcing, fabrication and bench qualification remain open.",
-    "Final native F.Cu preview and top/bottom 3D renders inspected after routing closure; frame includes the complete board.",
-    "Native DRC, schematic parity and all 40 connected-pad partitions pass separately; images do not establish electrical correctness."
+    "Native front and back copper plots inspected after arc conversion: staircase paths simplified and bends use native circular arcs.",
+    "Native top and bottom 3D renders inspected; footprint placement, all 79 package models, holder and nominal coin envelope remain unchanged.",
+    "Pad and via landings and branch junctions are protected. One GND path retains its original clearance-constrained corridor with rounded bends.",
+    "Native DRC, schematic parity and all 40 connected-pad partitions pass independently of the images.",
+    "Mechanical fit, fabrication and bench qualification remain open."
+  ],
+  "limits": [
+    "Saved PI/thermal overlays describe the prior PCB hash; they were not rerun for changed copper."
   ]
 }

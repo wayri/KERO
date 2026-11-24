@@ -1,4 +1,6 @@
-# Corrected encoder: cell draw, copper PI and QuickTherm
+# Encoder cell draw, copper PI and QuickTherm — prior routing revision
+
+> **Revision scope:** These saved results remain bound to PCB SHA-256 `08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109`, before the native-arc routing update. The circuit and placement are unchanged, but copper geometry has changed. PI and thermal overlays have not been rerun or rebound to the curved board. Preserve their source hashes; do not use them as analysis of the current copper.
 
 These are executed Xyce and WayriCAD 4.5.0 studies for `encoder/Encoder.kicad_pcb`, SHA-256 `08437dcfd8f304786d4f3444a26bd56c443661ea22bd25d69c3900906c6ef109`. They describe the routed encoder, separately from the earlier root blinker analysis. Native design checks remain in `../evidence/`; the board source is unchanged by these studies.
 
